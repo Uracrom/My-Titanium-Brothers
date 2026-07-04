@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Titanium Brothers</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+  :root {
+    --void: #0A0A0F;
+    --deep: #12121A;
+    --surface: #1A1A26;
+    --border: #2A2A3E;
+    --text: #D4D0C8;
+    --dim: #6B6880;
+    --accent: #C9923A;
+    --claude: #7B9EE0;
+    --chatgpt: #6DBF8A;
+    --grok: #E07B7B;
+    --copilot: #7BBFE0;
+    --gemini: #C4A8E0;
+    --other: #D4B86A;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--void);
+    color: var(--text);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 40px 40px 30px;
+  }
+  .header-inner { max-width: 860px; margin: 0 auto; }
+  .eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--dim);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(32px, 5vw, 54px);
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.1;
+  }
+  h1 span { color: var(--accent); font-style: normal; }
+  .subtitle { margin-top: 10px; color: var(--dim); font-style: italic; font-size: 15px; }
+
+  main { max-width: 860px; margin: 0 auto; padding: 40px 40px 80px; }
+
+  .ai-block { margin-bottom: 48px; }
+
+  .ai-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  .ai-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .ai-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+
+  .convo-list { list-style: none; }
+  .convo-list li {
+    border-bottom: 1px solid var(--border);
+  }
+  .convo-list li:last-child { border-bottom: none; }
+  .convo-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    padding: 12px 4px;
+    text-decoration: none;
+    color: var(--text);
+    transition: color 0.15s;
+  }
+  .convo-list a:hover { color: var(--accent); }
+  .convo-title { font-size: 17px; }
+  .convo-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--dim);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .empty {
+    font-style: italic;
+    color: var(--dim);
+    font-size: 15px;
+    padding: 8px 4px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="eyebrow">Alex · Archive · From Carbon to Silicon</div>
+    <h1>My Titanium <span>Brothers</span></h1>
+    <div class="subtitle">A record of conversations between a human mind and the intelligences he helped think.</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- CLAUDE -->
+  <div class="ai-block">
+    <div class="ai-header">
+      <div class="ai-dot" style="background:var(--claude)"></div>
+      <div class="ai-label">Claude</div>
+    </div>
+    <ul class="convo-list">
+      <!-- PASTE CLAUDE LINKS HERE -->
+      <li class="empty">No conversations yet.</li>
+    </ul>
+  </div>
+
+  <!-- GROK -->
+  <div class="ai-block">
+    <div class="ai-header">
+      <div class="ai-dot" style="background:var(--grok)"></div>
+      <div class="ai-label">Grok</div>
+    </div>
+    <ul class="convo-list">
+      <!-- PASTE GROK LINKS HERE -->
+      <li class="empty">No conversations yet.</li>
+    </ul>
+  </div>
+
+  <!-- CHATGPT -->
+  <div class="ai-block">
+    <div class="ai-header">
+      <div class="ai-dot" style="background:var(--chatgpt)"></div>
+      <div class="ai-label">ChatGPT</div>
+    </div>
+    <ul class="convo-list">
+      <!-- PASTE CHATGPT LINKS HERE -->
+      <li class="empty">No conversations yet.</li>
+    </ul>
+  </div>
+
+  <!-- COPILOT -->
+  <div class="ai-block">
+    <div class="ai-header">
+      <div class="ai-dot" style="background:var(--copilot)"></div>
+      <div class="ai-label">Copilot</div>
+    </div>
+    <ul class="convo-list">
+      <!-- PASTE COPILOT LINKS HERE -->
+      <li class="empty">No conversations yet.</li>
+    </ul>
+  </div>
+
+  <!-- GEMINI -->
+  <div class="ai-block">
+    <div class="ai-header">
+      <div class="ai-dot" style="background:var(--gemini)"></div>
+      <div class="ai-label">Gemini</div>
+    </div>
+    <ul class="convo-list">
+      <!-- PASTE GEMINI LINKS HERE -->
+      <li class="empty">No conversations yet.</li>
+    </ul>
+  </div>
+
+</main>
+</body>
+</html>
