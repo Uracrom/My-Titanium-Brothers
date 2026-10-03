@@ -20,8 +20,20 @@ for (const file of files) {
     const content = fs.readFileSync(path.join(conversationsDir, file), 'utf-8');
     const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
     if (!fmMatch) continue;
-
     const fm = fmMatch[1];
     const get = (key) => {
       const m = fm.match(new RegExp(`^${key}:\\s*"?(.+?)"?\\s*$`, 'm'));
-      return m ? m[1].trim() : ''
+      return m ? m[1].trim() : '';
+    };
+    const title = get('title') || file.replace('.md', '');
+    const ai = get('ai') || 'Unknown';
+    const date = get('date') || '';
+    const slug = file.replace('.md', '');
+    conversations.push({ title, ai, date, slug, filename: file });
+  } catch (e) {
+    console.warn(`Skipping ${file}: ${e.message}`);
+  }
+}
+
+fs.writeFileSync(outputPath, JSON.stringify({ conversations }, null, 2));
+console.log(`Index generated: ${conversations.length} conversation(s).`);
