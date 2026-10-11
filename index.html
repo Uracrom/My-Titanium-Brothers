@@ -35,6 +35,9 @@
   .entry-title{font-size:17px;}
   .entry-date{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);white-space:nowrap;flex-shrink:0;}
   .empty{font-style:italic;color:var(--dim);font-size:14px;padding:8px 2px;}
+  .hidden{display:none;}
+  .show-more{font-family:'Space Mono',monospace;font-size:11px;color:var(--accent);background:transparent;border:none;cursor:pointer;padding:10px 2px;text-transform:uppercase;letter-spacing:1px;}
+  .show-more:hover{text-decoration:underline;}
   @media(max-width:600px){header,main{padding-left:20px;padding-right:20px;}}
 </style>
 </head>
@@ -67,11 +70,12 @@
       <div class="ai-label">ChatGPT</div>
       <a class="ai-add" href="https://github.com/Uracrom/My-Titanium-Brothers/tree/main/conversations/chatgpt" target="_blank">+ Add</a>
     </div>
-    <ul>
+    <ul id="chatgpt-list">
       <li><a class="entry" href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/refs/heads/main/conversations/chatgpt/2026-10-05-chatgpt-curiosidade.md" target="_blank"><span class="entry-title">Curiosidade</span><span class="entry-date">2026-10-05</span></a></li>
       <li><a class="entry" href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/refs/heads/main/conversations/chatgpt/2026-10-05-chatgpt-free-thinking-october-2nd-2026.md" target="_blank"><span class="entry-title">Free Thinking October 2nd 2026</span><span class="entry-date">2026-10-05</span></a></li>
-      <li><a class="entry" href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/refs/heads/main/conversations/chatgpt/2026-10-05-chatgpt-reflexo-sobre-curiosidade.md" target="_blank"><span class="entry-title">Reflexo Sobre Curiosidade</span><span class="entry-date">2026-10-05</span></a></li>
+      <li class="hidden"><a class="entry" href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/refs/heads/main/conversations/chatgpt/2026-10-05-chatgpt-reflexo-sobre-curiosidade.md" target="_blank"><span class="entry-title">Reflexo Sobre Curiosidade</span><span class="entry-date">2026-10-05</span></a></li>
     </ul>
+    <button class="show-more" onclick="showMore(this, 'chatgpt-list')">Show 1 more ↓</button>
   </div>
 
   <!-- GROK -->
@@ -124,5 +128,13 @@
   </div>
 
 </main>
+<script>
+function showMore(btn, listId) {
+  const list = document.getElementById(listId);
+  const hidden = list.querySelectorAll('.hidden');
+  hidden.forEach(li => li.classList.remove('hidden'));
+  btn.style.display = 'none';
+}
+</script>
 </body>
 </html>
