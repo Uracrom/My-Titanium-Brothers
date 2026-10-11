@@ -1,6 +1,13 @@
 {
   "conversations": [
     {
+      "title": "Space Has Weight",
+      "ai": "Claude",
+      "date": "2026-10-10",
+      "slug": "2026-10-10-claude-space-has-weight",
+      "filename": "2026-10-10-claude-space-has-weight.md"
+    },
+    {
       "title": "Greg From the Marshmallows Factory",
       "ai": "Copilot",
       "date": "2026-10-06",
