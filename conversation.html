@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Titanium Brothers</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+:root{--void:#0A0A0F;--border:#2A2A3E;--text:#D4D0C8;--dim:#6B6880;--accent:#C9923A;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--void);color:var(--text);font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.7;}
+header{border-bottom:1px solid var(--border);padding:36px 32px 24px;}
+.eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:10px;}
+h1{font-family:'EB Garamond',serif;font-size:clamp(24px,4vw,40px);font-weight:400;color:#fff;line-height:1.2;}
+.meta{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);margin-top:8px;}
+main{max-width:760px;margin:0 auto;padding:40px 32px 80px;}
+a.back{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);text-decoration:none;display:inline-block;margin-bottom:32px;}
+a.back:hover{color:var(--accent);}
+.convo-text{white-space:pre-wrap;font-size:17px;line-height:1.8;color:var(--text);}
+.loading{font-style:italic;color:var(--dim);}
+@media(max-width:600px){header,main{padding-left:20px;padding-right:20px;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow" id="aiName">My Titanium Brothers</div>
+  <h1 id="title">Loading…</h1>
+  <div class="meta" id="date"></div>
+</header>
+<main>
+  <a class="back" href="#" id="backLink">← Back</a>
+  <div class="convo-text" id="text"><div class="loading">Loading conversation…</div></div>
+</main>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyC-fZizak_8hTs8lg1DqiXtTQjK9pYH_SQ",
+    authDomain: "my-titanium-brothers.firebaseapp.com",
+    projectId: "my-titanium-brothers",
+    storageBucket: "my-titanium-brothers.firebasestorage.app",
+    messagingSenderId: "403214601863",
+    appId: "1:403214601863:web:3c1c71f2289b564da27222"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const col = params.get('col');
+
+  if(!id || !col){
+    document.getElementById('title').textContent = 'Conversation not found';
+    document.getElementById('text').textContent = '';
+  } else {
+    document.getElementById('backLink').href = col + '.html';
+    getDoc(doc(db, col, id)).then(snap => {
+      if(!snap.exists()){
+        document.getElementById('title').textContent = 'Not found';
+        document.getElementById('text').textContent = '';
+        return;
+      }
+      const d = snap.data();
+      document.title = d.title + ' — My Titanium Brothers';
+      document.getElementById('aiName').textContent = d.ai || col;
+      document.getElementById('title').textContent = d.title;
+      document.getElementById('date').textContent = d.date;
+      document.getElementById('text').textContent = d.text;
+    });
+  }
+</script>
+<script data-goatcounter="https://uracrom.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

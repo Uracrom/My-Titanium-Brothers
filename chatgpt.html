@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT — My Titanium Brothers</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+:root{--void:#0A0A0F;--border:#2A2A3E;--text:#D4D0C8;--dim:#6B6880;--accent:#C9923A;--ai:#6DBF8A;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--void);color:var(--text);font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.7;}
+header{border-bottom:1px solid var(--border);padding:36px 32px 24px;}
+.eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:10px;}
+h1{font-family:'EB Garamond',serif;font-size:clamp(28px,5vw,50px);font-weight:400;font-style:italic;color:#fff;}
+h1 span{color:var(--ai);font-style:normal;}
+main{max-width:760px;margin:0 auto;padding:40px 32px 80px;}
+a.back{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);text-decoration:none;display:inline-block;margin-bottom:32px;}
+a.back:hover{color:var(--accent);}
+.convo-list a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-family:'EB Garamond',serif;font-size:20px;color:var(--text);text-decoration:none;padding:16px 4px;border-bottom:1px solid var(--border);transition:color .15s;}
+.convo-list a:hover{color:var(--accent);}
+.date{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);white-space:nowrap;}
+.empty{font-style:italic;color:var(--dim);padding:20px 4px;}
+.loading{font-style:italic;color:var(--dim);padding:20px 4px;}
+/* Admin button - hidden by default */
+#adminBtn{display:none;margin-top:32px;font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:1px;background:var(--accent);color:#0A0A0F;border:none;padding:10px 20px;border-radius:20px;cursor:pointer;}
+/* Modal */
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:100;overflow-y:auto;}
+.modal-inner{max-width:640px;margin:40px auto;background:#12121A;border:1px solid var(--border);padding:32px;}
+.modal h2{font-family:'EB Garamond',serif;font-size:24px;color:#fff;margin-bottom:24px;}
+.modal label{display:block;font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin-bottom:6px;margin-top:18px;}
+.modal input,.modal textarea{width:100%;background:#0A0A0F;border:1px solid var(--border);color:var(--text);font-family:'EB Garamond',serif;font-size:16px;padding:10px 12px;outline:none;}
+.modal input:focus,.modal textarea:focus{border-color:var(--accent);}
+.modal textarea{min-height:200px;resize:vertical;line-height:1.6;}
+.modal-btns{display:flex;gap:12px;margin-top:24px;}
+.btn-save{font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:1px;background:var(--accent);color:#0A0A0F;border:none;padding:10px 20px;border-radius:20px;cursor:pointer;}
+.btn-cancel{font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;letter-spacing:1px;background:transparent;color:var(--dim);border:1px solid var(--border);padding:10px 20px;border-radius:20px;cursor:pointer;}
+.msg{font-family:'Space Mono',monospace;font-size:12px;padding:10px;margin-top:12px;}
+.msg.ok{color:#6DBF8A;background:#0A1A0A;}
+.msg.err{color:#E07B7B;background:#1A0A0A;}
+@media(max-width:600px){header,main{padding-left:20px;padding-right:20px;}.modal-inner{margin:20px;padding:20px;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">My Titanium Brothers</div>
+  <h1><span>ChatGPT</span></h1>
+</header>
+<main>
+  <a class="back" href="index.html">← All AIs</a>
+  <div class="convo-list" id="list"><div class="loading">Loading…</div></div>
+  <button id="adminBtn" onclick="openModal()">+ New Conversation</button>
+</main>
+
+<!-- Add Conversation Modal -->
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <h2>New Conversation</h2>
+    <label>Title</label>
+    <input type="text" id="newTitle" placeholder="Short title for this conversation">
+    <label>Date</label>
+    <input type="date" id="newDate">
+    <label>Conversation Text</label>
+    <textarea id="newText" placeholder="Paste the full conversation here…"></textarea>
+    <div class="modal-btns">
+      <button class="btn-save" onclick="saveConvo()">Save</button>
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+    </div>
+    <div id="saveMsg"></div>
+  </div>
+</div>
+
+<!-- Firebase -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getFirestore, collection, getDocs, addDoc, orderBy, query } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyC-fZizak_8hTs8lg1DqiXtTQjK9pYH_SQ",
+    authDomain: "my-titanium-brothers.firebaseapp.com",
+    projectId: "my-titanium-brothers",
+    storageBucket: "my-titanium-brothers.firebasestorage.app",
+    messagingSenderId: "403214601863",
+    appId: "1:403214601863:web:3c1c71f2289b564da27222"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+  const COLLECTION = "chatgpt";
+  const PASSWORD = "Cunhambebe1552!";
+
+  // Check if admin
+  const stored = sessionStorage.getItem('mtb_auth');
+  if(stored === PASSWORD) document.getElementById('adminBtn').style.display='block';
+
+  // Load conversations
+  async function loadConvos() {
+    const list = document.getElementById('list');
+    try {
+      const q = query(collection(db, COLLECTION), orderBy("date", "desc"));
+      const snap = await getDocs(q);
+      if(snap.empty){
+        list.innerHTML = '<div class="empty">No conversations yet.</div>';
+        return;
+      }
+      list.innerHTML = snap.docs.map(doc => {
+        const d = doc.data();
+        return `<a href="conversation.html?id=${doc.id}&col=chatgpt">
+          <span>${esc(d.title)}</span>
+          <span class="date">${esc(d.date)}</span>
+        </a>`;
+      }).join('');
+    } catch(e) {
+      list.innerHTML = '<div class="empty">Could not load conversations.</div>';
+    }
+  }
+  loadConvos();
+
+  function esc(s){ return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+  window.openModal = function() {
+    const pw = sessionStorage.getItem('mtb_auth');
+    if(pw !== PASSWORD){
+      const entered = prompt('Password:');
+      if(entered !== PASSWORD){ alert('Wrong password'); return; }
+      sessionStorage.setItem('mtb_auth', entered);
+      document.getElementById('adminBtn').style.display='block';
+    }
+    document.getElementById('newDate').value = new Date().toISOString().slice(0,10);
+    document.getElementById('modal').style.display='block';
+  };
+
+  window.closeModal = function() {
+    document.getElementById('modal').style.display='none';
+    document.getElementById('saveMsg').innerHTML='';
+  };
+
+  window.saveConvo = async function() {
+    const title = document.getElementById('newTitle').value.trim();
+    const date = document.getElementById('newDate').value;
+    const text = document.getElementById('newText').value.trim();
+    const msg = document.getElementById('saveMsg');
+    if(!title||!date||!text){ msg.innerHTML='<div class="msg err">Fill in all fields.</div>'; return; }
+    try {
+      await addDoc(collection(db, COLLECTION), { title, date, text, ai: "ChatGPT", created: Date.now() });
+      msg.innerHTML='<div class="msg ok">Saved!</div>';
+      document.getElementById('newTitle').value='';
+      document.getElementById('newText').value='';
+      setTimeout(()=>{ closeModal(); loadConvos(); }, 1000);
+    } catch(e) {
+      msg.innerHTML='<div class="msg err">Error saving. Try again.</div>';
+    }
+  };
+</script>
+<script data-goatcounter="https://uracrom.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
