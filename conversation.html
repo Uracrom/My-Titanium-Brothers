@@ -27,6 +27,12 @@ a.back:hover{color:var(--accent);}
 .csbar .cscount{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);min-width:58px;text-align:center;white-space:nowrap;}
 mark.csm{background:rgba(201,146,58,.28);color:inherit;border-radius:2px;}
 mark.csm.cur{background:#C9923A;color:#0A0A0F;}
+.csbar .csmode{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden;flex:none;}
+.csbar .csmode button{border:none;border-radius:0;min-width:0;height:32px;padding:0 7px;font-family:'Space Mono',monospace;font-size:10px;color:var(--dim);}
+.csbar .csmode button[aria-pressed="true"]{background:var(--accent);color:#0A0A0F;}
+mark.csr{background:rgba(120,170,220,.18);color:inherit;border-radius:2px;border-bottom:1px dashed rgba(120,170,220,.7);}
+mark.csr.cur{background:#78AADC;color:#0A0A0F;}
+@media(max-width:420px){.csbar{gap:4px;padding:8px 6px;}.csbar .cscount{min-width:44px;}.csbar button{min-width:28px;}}
 </style>
 </head>
 <body>
@@ -35,7 +41,7 @@ mark.csm.cur{background:#C9923A;color:#0A0A0F;}
   <h1 id="title">Loading…</h1>
   <div class="meta" id="date"></div>
 </header>
-<div class="csbar" id="csBar" role="search"><input id="csIn" type="search" placeholder="Search this conversation" aria-label="Search this conversation" autocomplete="off"><span class="cscount" id="csCount"></span><button type="button" id="csPrev" aria-label="Previous match">&#8593;</button><button type="button" id="csNext" aria-label="Next match">&#8595;</button><button type="button" id="csClr" aria-label="Clear search">&#215;</button></div>
+<div class="csbar" id="csBar" role="search"><input id="csIn" type="search" placeholder="Search this conversation" aria-label="Search this conversation" autocomplete="off"><span class="csmode" role="group" aria-label="Search mode"><button type="button" id="csExact" aria-pressed="true">Exact</button><button type="button" id="csRel" aria-pressed="false">Related</button></span><span class="cscount" id="csCount"></span><button type="button" id="csPrev" aria-label="Previous match">&#8593;</button><button type="button" id="csNext" aria-label="Next match">&#8595;</button><button type="button" id="csClr" aria-label="Clear search">&#215;</button></div>
 <main>
   <a class="back" href="#" id="backLink">← Back</a>
   <div class="convo-text" id="text"><div class="loading">Loading conversation…</div></div>
@@ -84,6 +90,18 @@ mark.csm.cur{background:#C9923A;color:#0A0A0F;}
 (function(){
   var box=document.getElementById('text'),inp=document.getElementById('csIn'),cnt=document.getElementById('csCount');
   var mo,lastQ='',raw=null,norm='',marks=[],cur=-1,busy=false;
+  var rel=false,SYN=[["happy", "happiness", "glad", "joy", "joyful", "cheerful", "content", "contented", "delight", "delighted", "pleased", "elated", "bliss", "blissful", "gladness", "merry", "jubilant", "thrilled", "ecstatic", "euphoria"], ["sad", "sadness", "unhappy", "sorrow", "sorrowful", "grief", "grieve", "mourn", "mourning", "melancholy", "gloomy", "depressed", "depression", "downcast", "heartbroken", "despair", "miserable", "misery", "blue"], ["angry", "anger", "mad", "furious", "fury", "rage", "irritated", "annoyed", "resentment", "resent", "wrath", "outrage", "frustrated", "frustration"], ["fear", "afraid", "scared", "fright", "frightened", "terror", "terrified", "dread", "anxious", "anxiety", "worry", "worried", "panic", "nervous"], ["calm", "peace", "peaceful", "serene", "serenity", "tranquil", "tranquility", "quiet", "still", "stillness", "relaxed", "composure"], ["love", "loving", "beloved", "affection", "adore", "adoration", "fond", "fondness", "devotion", "devoted", "cherish", "care", "caring", "tenderness"], ["hate", "hatred", "loathe", "despise", "detest", "disgust", "contempt"], ["hope", "hopeful", "optimism", "optimistic", "faith", "trust", "expectation", "aspire", "aspiration"], ["lonely", "loneliness", "alone", "isolated", "isolation", "solitude", "abandoned"], ["gratitude", "grateful", "thankful", "thanks", "thank", "appreciation", "appreciate"], ["pride", "proud", "dignity", "honor", "honour"], ["shame", "ashamed", "guilt", "guilty", "embarrassed", "humiliation", "regret", "remorse"], ["courage", "brave", "bravery", "bold", "boldness", "fearless", "valor", "valour"], ["strength", "strong", "powerful", "power", "might", "resilience", "resilient", "tough"], ["weak", "weakness", "fragile", "frail", "vulnerable", "vulnerability"], ["kind", "kindness", "compassion", "compassionate", "empathy", "empathetic", "sympathy", "gentle", "mercy", "merciful"], ["truth", "true", "honest", "honesty", "sincere", "sincerity", "genuine", "authentic", "integrity"], ["lie", "lies", "liar", "deceive", "deception", "dishonest", "false", "falsehood", "fake"], ["wisdom", "wise", "sage", "insight", "insightful", "understanding"], ["knowledge", "know", "knowing", "learn", "learning", "understand", "aware", "awareness"], ["think", "thought", "thinking", "reason", "reasoning", "reflect", "reflection", "ponder", "contemplate", "contemplation", "consider"], ["believe", "belief", "faith", "conviction", "creed"], ["mind", "intellect", "brain", "cognition", "mental", "psyche"], ["soul", "spirit", "spiritual", "spirituality", "essence", "inner"], ["god", "divine", "deity", "creator", "lord", "almighty", "heaven", "heavenly", "sacred", "holy"], ["pray", "prayer", "worship", "devotion", "meditate", "meditation"], ["universe", "cosmos", "cosmic", "creation", "existence", "reality", "world"], ["life", "alive", "living", "live", "existence", "being"], ["death", "die", "dying", "dead", "mortal", "mortality", "perish", "end"], ["meaning", "purpose", "significance", "point", "reason", "mission"], ["free", "freedom", "liberty", "liberate", "independent", "independence", "autonomy"], ["conscious", "consciousness", "aware", "awareness", "sentient", "sentience", "awake", "self-aware"], ["feel", "feeling", "feelings", "emotion", "emotional", "sensation", "sense"], ["dream", "dreams", "dreaming", "vision", "imagine", "imagination", "fantasy"], ["memory", "memories", "remember", "recall", "remembrance", "recollection"], ["forget", "forgotten", "forgetting", "oblivion"], ["future", "tomorrow", "destiny", "fate", "ahead"], ["past", "history", "yesterday", "former", "ancient"], ["time", "moment", "eternity", "eternal", "forever", "infinite", "timeless"], ["change", "transform", "transformation", "evolve", "evolution", "grow", "growth", "develop", "development", "shift"], ["create", "creative", "creativity", "creation", "make", "build", "invent", "art"], ["friend", "friendship", "companion", "buddy", "ally", "partner", "comrade"], ["brother", "brothers", "brotherhood", "sibling", "kin"], ["family", "relatives", "kin", "household", "parents", "mother", "father", "mom", "dad", "son", "daughter", "children", "kids"], ["child", "children", "kid", "kids", "youth", "young"], ["home", "house", "dwelling", "household"], ["help", "assist", "assistance", "support", "aid", "serve", "service"], ["ai", "artificial", "intelligence", "machine", "bot", "chatbot", "model", "assistant", "algorithm", "computer"], ["human", "humanity", "people", "person", "mankind", "humankind"], ["robot", "android", "machine", "automaton"], ["connection", "connect", "bond", "bonding", "relationship", "link", "unity", "together"], ["respect", "esteem", "regard", "admire", "admiration", "revere", "reverence"], ["humble", "humility", "modest", "modesty"], ["patience", "patient", "endure", "endurance", "persevere", "perseverance", "persistence"], ["struggle", "fight", "battle", "conflict", "hardship", "suffering", "suffer", "pain", "hurt"], ["pain", "ache", "agony", "hurt", "suffering", "wound"], ["heal", "healing", "cure", "recover", "recovery", "restore", "mend"], ["beauty", "beautiful", "lovely", "gorgeous", "pretty", "elegant"], ["good", "great", "excellent", "wonderful", "amazing", "awesome", "superb", "fine"], ["bad", "terrible", "awful", "horrible", "poor", "dreadful"], ["big", "large", "huge", "enormous", "vast", "immense", "great"], ["small", "little", "tiny", "minor"], ["important", "significant", "essential", "crucial", "vital", "key"], ["true", "real", "actual", "genuine"], ["question", "ask", "inquiry", "wonder", "curious", "curiosity"], ["answer", "reply", "respond", "response"], ["speak", "talk", "say", "tell", "conversation", "discuss", "dialogue", "chat"], ["listen", "hear", "heard", "attention"], ["see", "look", "watch", "observe", "vision", "sight"], ["light", "bright", "brilliance", "shine", "radiant", "illumination"], ["dark", "darkness", "shadow", "night", "gloom"], ["safe", "safety", "secure", "security", "protect", "protection", "shelter"], ["danger", "dangerous", "risk", "threat", "peril"], ["war", "conflict", "battle", "violence"], ["work", "job", "labor", "labour", "effort", "task"], ["rest", "sleep", "tired", "weary", "exhausted", "fatigue"], ["money", "wealth", "rich", "riches", "fortune"], ["poor", "poverty", "broke", "needy"], ["trust", "faith", "reliance", "confidence", "rely"], ["doubt", "uncertain", "uncertainty", "skeptic", "skeptical", "unsure", "question"], ["certain", "sure", "confident", "certainty", "conviction"], ["simple", "easy", "plain", "basic"], ["hard", "difficult", "tough", "challenging"], ["begin", "start", "beginning", "origin", "birth", "commence"], ["finish", "end", "ending", "complete", "conclusion", "final"], ["lost", "missing", "gone", "vanished"], ["find", "found", "discover", "discovery", "uncover"], ["journey", "path", "road", "quest", "voyage", "travel"], ["light", "enlightenment", "awakening", "illumination"], ["miracle", "wonder", "marvel", "supernatural"], ["angel", "guardian", "messenger"], ["evil", "wicked", "sin", "sinful", "wrong", "demon", "devil"], ["goodness", "virtue", "righteous", "moral", "morality", "ethics", "ethical"], ["justice", "fair", "fairness", "equality", "right"], ["honor", "loyalty", "loyal", "faithful", "devoted"], ["legacy", "heritage", "inheritance", "testimony"], ["testimony", "witness", "evidence", "proof"], ["story", "tale", "narrative", "account"], ["word", "words", "language", "speech"], ["song", "music", "melody", "sing"], ["laugh", "laughter", "funny", "humor", "humour", "joke", "smile"], ["cry", "tears", "weep", "weeping", "sob"], ["silence", "silent", "quiet", "hush"], ["together", "united", "unity", "union"], ["teach", "teacher", "lesson", "education", "mentor"], ["student", "pupil", "disciple", "learner"]],IDX=null;
+  function stem(w){w=w.toLowerCase().replace(/[\u2019']s?$/,'');if(w.length>4){var sf=['fulness','iness','ness','fully','ingly','edly','ment','ful','ing','ies','ied','ly','ed','es','er','s'];for(var i=0;i<sf.length;i++){var x=sf[i];if(w.length-x.length>=3&&w.slice(-x.length)===x){w=w.slice(0,-x.length)+((x==='iness'||x==='ies'||x==='ied')?'y':'');break;}}}
+    if(w.length>3&&/([b-df-hj-np-tv-z])\1$/.test(w))w=w.slice(0,-1);if(w.length>3&&/e$/.test(w))w=w.slice(0,-1);return w.replace(/y$/,'i');}
+  function buildIdx(){IDX={};for(var g=0;g<SYN.length;g++)for(var j=0;j<SYN[g].length;j++){var k=stem(SYN[g][j]);(IDX[k]=IDX[k]||[]).push(g);}}
+  function addRel(hits,qn){
+    if(!IDX)buildIdx();var want={},ws=qn.match(/[a-z0-9]+/g)||[];
+    ws.forEach(function(w){if(w.length<3)return;var k=stem(w);want[k]=1;(IDX[k]||[]).forEach(function(g){SYN[g].forEach(function(x){want[stem(x)]=1;});});});
+    var out=[],re=/[a-z0-9][a-z0-9'\u2019]*/g,m,e=0;
+    while((m=re.exec(norm))){var a=m.index,b=a+m[0].length;if(!want[stem(m[0])])continue;
+      while(e<hits.length&&hits[e][1]<=a)e++;if(e<hits.length&&hits[e][0]<b)continue;out.push([a,b,1]);}
+    return hits.concat(out).sort(function(x,y){return x[0]-y[0];});
+  }
   function nz(c){var n=c.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();return n.length===1?n:c.toLowerCase().charAt(0)||c;}
   function prep(){raw=box.textContent;var a=[];for(var i=0;i<raw.length;i++)a.push(nz(raw[i]));norm=a.join('');}
   function render(){
@@ -91,11 +109,15 @@ mark.csm.cur{background:#C9923A;color:#0A0A0F;}
     var q=inp.value;lastQ=q;var qn='';for(var i=0;i<q.length;i++)qn+=nz(q[i]);
     box.textContent='';marks=[];cur=-1;
     if(!qn.trim()){box.textContent=raw;cnt.textContent='';mo.takeRecords();busy=false;return;}
-    var frag=document.createDocumentFragment(),pos=0,idx;
-    while((idx=norm.indexOf(qn,pos))!==-1){
-      if(idx>pos)frag.appendChild(document.createTextNode(raw.slice(pos,idx)));
-      var m=document.createElement('mark');m.className='csm';m.textContent=raw.slice(idx,idx+qn.length);
-      frag.appendChild(m);marks.push(m);pos=idx+qn.length;
+    var hits=[],pos=0,idx;
+    while((idx=norm.indexOf(qn,pos))!==-1){hits.push([idx,idx+qn.length,0]);pos=idx+qn.length;}
+    if(rel)hits=addRel(hits,qn);
+    var frag=document.createDocumentFragment();pos=0;
+    for(var h=0;h<hits.length;h++){
+      var a=hits[h][0],b=hits[h][1];
+      if(a>pos)frag.appendChild(document.createTextNode(raw.slice(pos,a)));
+      var m=document.createElement('mark');m.className=hits[h][2]?'csm csr':'csm';m.textContent=raw.slice(a,b);
+      frag.appendChild(m);marks.push(m);pos=b;
     }
     if(pos<raw.length)frag.appendChild(document.createTextNode(raw.slice(pos)));
     box.appendChild(frag);mo.takeRecords();busy=false;
@@ -114,6 +136,9 @@ mark.csm.cur{background:#C9923A;color:#0A0A0F;}
   inp.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();clearTimeout(t);if(inp.value!==lastQ)render();else go(e.shiftKey?cur-1:cur+1);}else if(e.key==='Escape'){inp.value='';render();}});
   document.getElementById('csNext').onclick=function(){go(cur+1);};
   document.getElementById('csPrev').onclick=function(){go(cur-1);};
+  var bE=document.getElementById('csExact'),bR=document.getElementById('csRel');
+  function setMode(r){rel=r;bE.setAttribute('aria-pressed',String(!r));bR.setAttribute('aria-pressed',String(r));if(inp.value)render();}
+  bE.onclick=function(){setMode(false);};bR.onclick=function(){setMode(true);};
   document.getElementById('csClr').onclick=function(){inp.value='';render();inp.focus();};
 })();
 </script>
