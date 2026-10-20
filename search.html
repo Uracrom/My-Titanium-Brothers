@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search — My Titanium Brothers</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+:root{--void:#0A0A0F;--border:#2A2A3E;--text:#D4D0C8;--dim:#6B6880;--accent:#C9923A;--claude:#7B9EE0;--chatgpt:#6DBF8A;--grok:#E07B7B;--copilot:#7BBFE0;--gemini:#C4A8E0;--deepseek:#A8D8A8;--whatsapp:#25D366;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--void);color:var(--text);font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.6;}
+header{border-bottom:1px solid var(--border);padding:28px 32px 18px;}
+.eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:10px;}
+.eyebrow a{color:inherit;text-decoration:none;}
+main{max-width:760px;margin:0 auto;padding:18px 32px 60px;}
+@media(max-width:600px){header,main{padding-left:20px;padding-right:20px;}}
+.hs{display:flex;gap:6px;align-items:center;}
+.hs input{flex:1 1 auto;min-width:0;background:#12121a;color:var(--text);border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-family:'Space Mono',monospace;font-size:13px;}
+.hs input:focus{outline:none;border-color:var(--accent);}
+.hs .md{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden;flex:none;}
+.hs .md button{background:none;border:none;color:var(--dim);height:34px;padding:0 10px;font-family:'Space Mono',monospace;font-size:10px;cursor:pointer;}
+.hs .md button[aria-pressed="true"]{background:var(--accent);color:#0A0A0F;}
+.hs .go{background:none;border:1px solid var(--border);color:var(--text);border-radius:6px;height:34px;min-width:36px;font-size:16px;cursor:pointer;flex:none;}
+#status{font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:14px 0 6px;}
+.grp{border-bottom:1px solid var(--border);padding:10px 0;}
+.grp>.gh{display:flex;align-items:center;gap:10px;font-size:21px;cursor:pointer;list-style:none;}
+.grp>.gh::-webkit-details-marker{display:none;}
+.gh .n{margin-left:auto;font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);white-space:nowrap;}
+.grp.zero .gh{color:var(--dim);font-size:17px;cursor:default;}
+.dot{width:11px;height:11px;border-radius:50%;flex-shrink:0;}
+a.r{display:block;color:var(--text);text-decoration:none;padding:9px 0 9px 21px;border-top:1px dashed #1c1c2a;}
+a.r:hover .t{color:var(--accent);}
+.r .t{font-size:18px;line-height:1.3;}
+.r .c{font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);margin-left:6px;white-space:nowrap;}
+.r .s{font-size:15px;color:#a9a5b8;line-height:1.45;margin-top:3px;word-break:break-word;}
+mark{background:rgba(201,146,58,.35);color:inherit;border-radius:2px;}
+mark.rel{background:rgba(120,170,220,.22);border-bottom:1px dashed rgba(120,170,220,.7);}
+.more{font-family:'Space Mono',monospace;font-size:11px;background:none;border:1px solid var(--border);color:var(--dim);border-radius:20px;padding:5px 12px;margin:8px 0 0 21px;cursor:pointer;}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow"><a href="index.html">← My Titanium Brothers</a></div>
+  <form class="hs" action="search.html" method="get" role="search"><input type="search" name="q" id="q" placeholder="Search all conversations" aria-label="Search all conversations" autocomplete="off" required><input type="hidden" name="mode" id="hsMode" value="exact"><span class="md" role="group" aria-label="Search mode"><button type="button" id="mE" aria-pressed="true">Exact</button><button type="button" id="mR" aria-pressed="false">Related</button></span><button class="go" type="submit" aria-label="Search">&#8981;</button></form>
+</header>
+<main>
+  <div id="status"></div>
+  <div id="res"></div>
+</main>
+<script src="related.js"></script>
+<script>
+(function(){
+  var AIS=[["claude","Claude","--claude"],["chatgpt","ChatGPT","--chatgpt"],["chatgpt-whatsapp","ChatGPT (WhatsApp)","--whatsapp"],["grok","Grok","--grok"],["copilot","Copilot","--copilot"],["gemini","Gemini","--gemini"],["deepseek","DeepSeek","--deepseek"]];
+  var URL_="https://firestore.googleapis.com/v1/projects/my-titanium-brothers/databases/(default)/documents:runQuery?key=AIzaSyC-fZizak_8hTs8lg1DqiXtTQjK9pYH_SQ";
+  var P=new URLSearchParams(location.search),q=(P.get('q')||'').trim(),rel=P.get('mode')==='related';
+  var qi=document.getElementById('q'),mi=document.getElementById('hsMode'),mE=document.getElementById('mE'),mR=document.getElementById('mR');
+  function setM(r){mi.value=r?'related':'exact';mE.setAttribute('aria-pressed',String(!r));mR.setAttribute('aria-pressed',String(r));}
+  mE.onclick=function(){setM(false);};mR.onclick=function(){setM(true);};
+  qi.value=q;setM(rel);
+  var st=document.getElementById('status'),res=document.getElementById('res');
+  if(!q){st.textContent='Type a word and tap search.';return;}
+  document.title=q+' — Search — My Titanium Brothers';
+  function esc(s){return String(s||'').replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  var R=window.MTBRelated,qn=R.normalize(q),W=rel?R.want(qn):null;
+  var t0=performance.now(),done=0,total=0,convs=0;
+  var slots={};
+  AIS.forEach(function(a){var d=document.createElement('div');d.className='grp zero';d.innerHTML='<div class="gh"><div class="dot" style="background:var('+a[2]+')"></div>'+esc(a[1])+'<span class="n">searching…</span></div>';res.appendChild(d);slots[a[0]]=d;});
+  function upd(){st.textContent=done<AIS.length?('Searching… '+done+' of '+AIS.length+' AIs done · '+total+' matches so far'):(total+' match'+(total===1?'':'es')+' in '+convs+' conversation'+(convs===1?'':'s')+' · '+(rel?'Related':'Exact')+' · '+((performance.now()-t0)/1000).toFixed(1)+'s');}
+  upd();
+  function snippet(text,norm,h){var a=h[0],b=h[1],s=Math.max(0,a-70),e=Math.min(text.length,b+90);
+    while(s>0&&s>a-90&&/\S/.test(text[s-1]))s--;
+    var pre=text.slice(s,a),mid=text.slice(a,b),post=text.slice(b,e);
+    return (s>0?'… ':'')+esc(pre).replace(/\s+/g,' ')+'<mark'+(h[2]?' class="rel"':'')+'>'+esc(mid)+'</mark>'+esc(post).replace(/\s+/g,' ')+(e<text.length?' …':'');}
+  function render(a,list){var d=slots[a[0]],n=0;list.forEach(function(x){n+=x.n;});total+=n;convs+=list.length;
+    var head='<div class="dot" style="background:var('+a[2]+')"></div>'+esc(a[1])+'<span class="n">'+n+' match'+(n===1?'':'es')+(list.length?' · '+list.length+' conv.':'')+'</span>';
+    if(!list.length){d.innerHTML='<div class="gh">'+head+'</div>';return;}
+    list.sort(function(x,y){return y.n-x.n;});
+    var det=document.createElement('details');det.className='grp';det.open=true;
+    var LIM=20;function item(x){return '<a class="r" href="conversation.html?id='+encodeURIComponent(x.id)+'&col='+encodeURIComponent(a[0])+'&q='+encodeURIComponent(q)+'&mode='+(rel?'related':'exact')+'"><span class="t">'+esc(x.title)+'</span><span class="c">'+x.n+'×</span><div class="s">'+x.snip+'</div></a>';}
+    det.innerHTML='<summary class="gh">'+head+'</summary>'+list.slice(0,LIM).map(item).join('');
+    if(list.length>LIM){var b=document.createElement('button');b.className='more';b.textContent='Show all '+list.length;b.onclick=function(){b.insertAdjacentHTML('beforebegin',list.slice(LIM).map(item).join(''));b.remove();};det.appendChild(b);}
+    d.replaceWith(det);slots[a[0]]=det;}
+  AIS.forEach(function(a){
+    fetch(URL_,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({structuredQuery:{from:[{collectionId:a[0]}],select:{fields:[{fieldPath:'title'},{fieldPath:'text'}]}}})})
+    .then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(rows){var list=[];
+      rows.forEach(function(row){var doc=row.document;if(!doc)return;var f=doc.fields||{},text=(f.text&&f.text.stringValue)||'',title=(f.title&&f.title.stringValue)||'';
+        var norm=R.normalize(text),h=R.find(norm,qn,rel,W);if(!h.length)return;
+        var first=h[0];for(var i=0;i<h.length;i++)if(!h[i][2]){first=h[i];break;}
+        list.push({id:doc.name.split('/').pop(),title:title,n:h.length,snip:snippet(text,norm,first)});});
+      render(a,list);}).catch(function(){slots[a[0]].querySelector('.n').textContent='could not load';})
+    .then(function(){done++;upd();});
+  });
+})();
+</script>
+<script data-goatcounter="https://uracrom.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

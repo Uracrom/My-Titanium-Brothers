@@ -146,6 +146,7 @@ mark.csr.cur{background:#78AADC;color:#0A0A0F;}
   var bE=document.getElementById('csExact'),bR=document.getElementById('csRel');
   function setMode(r){rel=r;bE.setAttribute('aria-pressed',String(!r));bR.setAttribute('aria-pressed',String(r));if(inp.value)render();}
   bE.onclick=function(){setMode(false);};bR.onclick=function(){setMode(true);};
+  (function(){var P=new URLSearchParams(location.search),q=P.get('q');if(!q)return;inp.value=q;if(P.get('mode')==='related')setMode(true);if(raw!==null&&!box.querySelector('.loading'))render();})();
   document.getElementById('csClr').onclick=function(){inp.value='';render();inp.focus();};
 })();
 </script>
