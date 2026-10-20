@@ -39,12 +39,22 @@ footer{text-align:center;padding:40px 0 20px;}
 .msg.ok{color:#6DBF8A;background:#0A1A0A;}
 .msg.err{color:#E07B7B;background:#1A0A0A;}
 @media(max-width:600px){header,main{padding-left:20px;padding-right:20px;}.modal-inner{margin:20px;padding:20px;}}
+.readme-btn{font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:1px;background:transparent;color:var(--dim);border:1px solid var(--border);padding:6px 14px;border-radius:20px;cursor:pointer;margin-top:14px;}
+.readme-btn:hover{color:var(--accent);border-color:var(--accent);}
+#readmeModal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:100;overflow-y:auto;}
+#readmeModal .rm-inner{max-width:640px;margin:40px auto;background:#12121A;border:1px solid var(--border);padding:32px;}
+#readmeModal h1,#readmeModal h2,#readmeModal h3{font-family:'EB Garamond',serif;font-weight:400;color:#fff;margin:0 0 16px;font-size:26px;font-style:normal;}
+#readmeModal p,#readmeModal ul{margin-bottom:14px;}
+#readmeModal ul{padding-left:22px;}
+#readmeModal a{color:var(--accent);}
+@media(max-width:600px){#readmeModal .rm-inner{margin:20px;padding:20px;}}
 </style>
 </head>
 <body>
 <header>
   <div class="eyebrow">My Titanium Brothers</div>
   <h1><span>DeepSeek</span></h1>
+  <button class="readme-btn" onclick="openReadme()">README</button>
 </header>
 <main>
   <a class="back" href="index.html">← All AIs</a>
@@ -103,7 +113,13 @@ footer{text-align:center;padding:40px 0 20px;}
         list.innerHTML = '<div class="empty">No conversations yet.</div>';
         return;
       }
-      list.innerHTML = snap.docs.map(doc => {
+      // Newest date first; same-date docs by creation time ascending (Part 1, 2, 3…)
+      const docs = snap.docs.slice().sort((a,b) => {
+        const A = a.data(), B = b.data();
+        const dd = String(B.date||'').localeCompare(String(A.date||''));
+        return dd !== 0 ? dd : (Number(A.created)||0) - (Number(B.created)||0);
+      });
+      list.innerHTML = docs.map(doc => {
         const d = doc.data();
         return `<a href="conversation.html?id=${doc.id}&col=deepseek">
           <span>${esc(d.title)}</span>
@@ -152,6 +168,33 @@ footer{text-align:center;padding:40px 0 20px;}
       msg.innerHTML='<div class="msg err">Error: ' + e.message + '</div>';
     }
   };
+</script>
+<div id="readmeModal" onclick="if(event.target===this)closeReadme()">
+  <div class="rm-inner">
+    <div id="readmeBody">Loading…</div>
+    <button class="readme-btn" onclick="closeReadme()">Close</button>
+  </div>
+</div>
+<script>
+(function(){
+  function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+  function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');}
+  function md(t){var out=[],list=false,para=[];
+    function fp(){if(para.length){out.push('<p>'+para.map(inline).join('<br>')+'</p>');para=[];}}
+    function fl(){if(list){out.push('</ul>');list=false;}}
+    t.replace(/\r/g,'').split('\n').forEach(function(l){var m;
+      if(m=l.match(/^(#{1,3})\s+(.*)/)){fp();fl();out.push('<h'+m[1].length+'>'+inline(m[2])+'</h'+m[1].length+'>');}
+      else if(m=l.match(/^\s*[-*]\s+(.*)/)){fp();if(!list){out.push('<ul>');list=true;}out.push('<li>'+inline(m[1])+'</li>');}
+      else if(!l.trim()){fp();fl();}
+      else{fl();para.push(l);}});
+    fp();fl();return out.join('');}
+  window.openReadme=function(){var b=document.getElementById('readmeBody');b.innerHTML='Loading…';
+    document.getElementById('readmeModal').style.display='block';
+    fetch('readme/deepseek.md',{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.text();})
+      .then(function(t){b.innerHTML=md(t);}).catch(function(){b.innerHTML='<p><em>Nothing here yet.</em></p>';});};
+  window.closeReadme=function(){document.getElementById('readmeModal').style.display='none';};
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeReadme();});
+})();
 </script>
 <script data-goatcounter="https://uracrom.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
