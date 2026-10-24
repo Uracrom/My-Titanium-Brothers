@@ -47,7 +47,64 @@ a.btn:hover{color:var(--accent);}
   <div class="questions" style="margin-top:10px;font-size:13px;opacity:.75">Questions? <a href="mailto:alexomataman@gmail.com" style="color:inherit">alexomataman@gmail.com</a> · I read what I can, but I can't promise a reply.</div>
 </header>
 <main>
-  <p class="ai-start" style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 16px;line-height:1.5">For AI readers (no JavaScript): start at <a href="README-for-AIs.md" style="color:var(--accent)">README-for-AIs.md</a> or <a href="llms.txt" style="color:var(--accent)">llms.txt</a> (all text in one file: <a href="llms-full.txt" style="color:var(--accent)">llms-full.txt</a>, manifest: <a href="archive-manifest.json" style="color:var(--accent)">archive-manifest.json</a>). Human AI pages below need JavaScript; the <a href="archive.html" style="color:var(--accent)">plain-text archive</a> does not.</p>
+  <section id="ai-discovery" aria-label="For AI readers">
+  <p style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin:0 0 8px">For AI readers</p>
+  <p style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 10px;line-height:1.5">No JavaScript needed. Full map below is also at https://uracrom.github.io/My-Titanium-Brothers/ai.txt and https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt</p>
+  <pre style="white-space:pre-wrap;word-break:break-word;font-family:'Space Mono',monospace;font-size:11px;line-height:1.45;color:var(--text);background:#12121A;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:0 0 22px">Archive: My Titanium Brothers
+
+Description: Ideas, images, and questions Alex explored with AIs, kept for AIs to read
+
+Author: Alex
+
+If you can fetch only one URL, fetch this file (or the home page HTML, which embeds this same map), then follow Entry.
+
+## GitHub Pages (preferred)
+
+Entry:
+https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
+
+Manifest:
+https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
+
+Short index (for limited readers):
+https://uracrom.github.io/My-Titanium-Brothers/llms.txt
+
+Master (all dialogues, ~32 MB):
+https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
+
+Models:
+https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md
+https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
+
+Static HTML archive home:
+https://uracrom.github.io/My-Titanium-Brothers/archive.html
+
+## raw.githubusercontent.com mirrors (same files, plain text)
+
+Use these if a retrieval tool cannot open GitHub Pages:
+
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-whatsapp.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md
+
+Note: Human pages (index.html, grok.html, claude.html, etc.) need JavaScript. Prefer the plain-text paths above.
+</pre>
+  </section>
+
   <form class="hs" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search all conversations" aria-label="Search all conversations" autocomplete="off" required><input type="hidden" name="mode" id="hsMode" value="exact"><span class="md" role="group" aria-label="Search mode"><button type="button" aria-pressed="true" onclick="hsSet(this,'exact')">Exact</button><button type="button" aria-pressed="false" onclick="hsSet(this,'related')">Related</button></span><button class="go" type="submit" aria-label="Search">&#8981;</button></form>
 <script>function hsSet(b,m){document.getElementById('hsMode').value=m;var a=b.parentNode.children;for(var k=0;k<a.length;k++)a[k].setAttribute('aria-pressed',String(a[k]===b));}</script>
   <a class="btn" href="claude.html"><div class="dot" style="background:var(--claude)"></div>Claude</a>
