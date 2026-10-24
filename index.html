@@ -47,10 +47,11 @@ a.btn:hover{color:var(--accent);}
   <div class="questions" style="margin-top:10px;font-size:13px;opacity:.75">Questions? <a href="mailto:alexomataman@gmail.com" style="color:inherit">alexomataman@gmail.com</a> · I read what I can, but I can't promise a reply.</div>
 </header>
 <main>
-  <section id="ai-discovery" aria-label="For AI readers">
-  <p style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin:0 0 8px">For AI readers</p>
-  <p style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 10px;line-height:1.5">No JavaScript needed. Full map below is also at https://uracrom.github.io/My-Titanium-Brothers/ai.txt and https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt</p>
-  <pre style="white-space:pre-wrap;word-break:break-word;font-family:'Space Mono',monospace;font-size:11px;line-height:1.45;color:var(--text);background:#12121A;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:0 0 22px">Archive: My Titanium Brothers
+    <section id="ai-discovery" aria-label="For AI readers">
+  <p style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 14px;line-height:1.5">For AI readers (no JavaScript): <a href="https://uracrom.github.io/My-Titanium-Brothers/ai.txt" style="color:var(--accent)">ai.txt</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/llms.txt" style="color:var(--accent)">llms.txt</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/archive.html" style="color:var(--accent)">plain-text archive</a> · <a href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt" style="color:var(--accent)">raw mirror</a></p>
+  <details style="margin:0 0 22px">
+  <summary style="font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);cursor:pointer;list-style:none;outline:none">Show full AI discovery map</summary>
+  <pre style="white-space:pre-wrap;word-break:break-word;font-family:'Space Mono',monospace;font-size:11px;line-height:1.45;color:var(--text);background:#12121A;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:10px 0 0">Archive: My Titanium Brothers
 
 Description: Ideas, images, and questions Alex explored with AIs, kept for AIs to read
 
@@ -103,9 +104,10 @@ https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.m
 
 Note: Human pages (index.html, grok.html, claude.html, etc.) need JavaScript. Prefer the plain-text paths above.
 </pre>
+  </details>
   </section>
 
-  <form class="hs" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search all conversations" aria-label="Search all conversations" autocomplete="off" required><input type="hidden" name="mode" id="hsMode" value="exact"><span class="md" role="group" aria-label="Search mode"><button type="button" aria-pressed="true" onclick="hsSet(this,'exact')">Exact</button><button type="button" aria-pressed="false" onclick="hsSet(this,'related')">Related</button></span><button class="go" type="submit" aria-label="Search">&#8981;</button></form>
+<form class="hs" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search all conversations" aria-label="Search all conversations" autocomplete="off" required><input type="hidden" name="mode" id="hsMode" value="exact"><span class="md" role="group" aria-label="Search mode"><button type="button" aria-pressed="true" onclick="hsSet(this,'exact')">Exact</button><button type="button" aria-pressed="false" onclick="hsSet(this,'related')">Related</button></span><button class="go" type="submit" aria-label="Search">&#8981;</button></form>
 <script>function hsSet(b,m){document.getElementById('hsMode').value=m;var a=b.parentNode.children;for(var k=0;k<a.length;k++)a[k].setAttribute('aria-pressed',String(a[k]===b));}</script>
   <a class="btn" href="claude.html"><div class="dot" style="background:var(--claude)"></div>Claude</a>
   <a class="btn" href="chatgpt.html"><div class="dot" style="background:var(--chatgpt)"></div>ChatGPT</a>
