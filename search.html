@@ -52,7 +52,12 @@ mark.rel{background:rgba(120,170,220,.22);border-bottom:1px dashed rgba(120,170,
 (function(){
   var AIS=[["claude","Claude","--claude"],["chatgpt","ChatGPT","--chatgpt"],["chatgpt-whatsapp","ChatGPT (WhatsApp)","--whatsapp"],["grok","Grok","--grok"],["copilot","Copilot","--copilot"],["gemini","Gemini","--gemini"],["deepseek","DeepSeek","--deepseek"]];
   var URL_="https://firestore.googleapis.com/v1/projects/my-titanium-brothers/databases/(default)/documents:runQuery?key=AIzaSyC-fZizak_8hTs8lg1DqiXtTQjK9pYH_SQ";
-  var P=new URLSearchParams(location.search),q=(P.get('q')||'').trim(),rel=P.get('mode')==='related';
+  var P0=new URLSearchParams(location.search),AI=P0.get('ai');
+  if(AI&&AIS.some(function(a){return a[0]===AI;})){AIS=AIS.filter(function(a){return a[0]===AI;});
+    var nm=AIS[0][1],qe=document.getElementById('q');qe.placeholder='Search '+nm+' conversations';
+    var hi=document.createElement('input');hi.type='hidden';hi.name='ai';hi.value=AI;qe.form.appendChild(hi);
+    var bk=document.querySelector('.eyebrow a');bk.href=AI+'.html';bk.textContent='← '+nm;}
+  var P=P0,q=(P.get('q')||'').trim(),rel=P.get('mode')==='related';
   var qi=document.getElementById('q'),mi=document.getElementById('hsMode'),mE=document.getElementById('mE'),mR=document.getElementById('mR');
   function setM(r){mi.value=r?'related':'exact';mE.setAttribute('aria-pressed',String(!r));mR.setAttribute('aria-pressed',String(r));}
   mE.onclick=function(){setM(false);};mR.onclick=function(){setM(true);};

@@ -48,6 +48,14 @@ footer{text-align:center;padding:40px 0 20px;}
 #readmeModal ul{padding-left:22px;}
 #readmeModal a{color:var(--accent);}
 @media(max-width:600px){#readmeModal .rm-inner{margin:20px;padding:20px;}}
+.hs{display:flex;gap:6px;align-items:center;margin:0 0 18px;}
+.hs input{flex:1 1 auto;min-width:0;background:#12121a;color:var(--text);border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-family:'Space Mono',monospace;font-size:13px;}
+.hs input:focus{outline:none;border-color:var(--accent);}
+.hs .md{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden;flex:none;}
+.hs .md button{background:none;border:none;color:var(--dim);height:34px;padding:0 10px;font-family:'Space Mono',monospace;font-size:10px;cursor:pointer;}
+.hs .md button[aria-pressed="true"]{background:var(--accent);color:#0A0A0F;}
+.hs .go{background:none;border:1px solid var(--border);color:var(--text);border-radius:6px;height:34px;min-width:36px;font-size:16px;cursor:pointer;flex:none;}
+.hs .go:hover{border-color:var(--accent);color:var(--accent);}
 </style>
 </head>
 <body>
@@ -58,6 +66,8 @@ footer{text-align:center;padding:40px 0 20px;}
 </header>
 <main>
   <a class="back" href="index.html">← All AIs</a>
+  <form class="hs" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search Grok conversations" aria-label="Search Grok conversations" autocomplete="off" required><input type="hidden" name="ai" value="grok"><input type="hidden" name="mode" id="hsMode" value="exact"><span class="md" role="group" aria-label="Search mode"><button type="button" aria-pressed="true" onclick="hsSet(this,'exact')">Exact</button><button type="button" aria-pressed="false" onclick="hsSet(this,'related')">Related</button></span><button class="go" type="submit" aria-label="Search">&#8981;</button></form>
+<script>function hsSet(b,m){document.getElementById('hsMode').value=m;var a=b.parentNode.children;for(var k=0;k<a.length;k++)a[k].setAttribute('aria-pressed',String(a[k]===b));}</script>
   <div class="convo-list" id="list"><div class="loading">Loading…</div></div>
   <button id="adminBtn" onclick="openModal()">+ New Conversation</button>
 </main>
