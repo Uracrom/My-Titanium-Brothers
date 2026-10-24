@@ -4,7 +4,9 @@ Description: Ideas, images, and questions Alex explored with AIs, kept for AIs t
 
 Author: Alex
 
-If you can fetch only one URL, fetch this file, then follow Entry.
+If you can fetch only one URL, fetch this file (or the home page HTML, which embeds this same map), then follow Entry.
+
+## GitHub Pages (preferred)
 
 Entry:
 https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
@@ -29,5 +31,22 @@ https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
 
 Static HTML archive home:
 https://uracrom.github.io/My-Titanium-Brothers/archive.html
+
+## raw.githubusercontent.com mirrors (same files, plain text)
+
+Use these if a retrieval tool cannot open GitHub Pages:
+
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-whatsapp.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md
 
 Note: Human pages (index.html, grok.html, claude.html, etc.) need JavaScript. Prefer the plain-text paths above.

@@ -21,7 +21,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "Grok",
-      "file": "raw/grok.md"
+      "file": "raw/grok.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md"
     },
     {
       "model": "Claude",
@@ -32,7 +33,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "Claude",
-      "file": "raw/claude.md"
+      "file": "raw/claude.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md"
     },
     {
       "model": "ChatGPT",
@@ -43,7 +45,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "ChatGPT",
-      "file": "raw/chatgpt.md"
+      "file": "raw/chatgpt.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt.md"
     },
     {
       "model": "ChatGPT (WhatsApp)",
@@ -54,7 +57,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "ChatGPT (WhatsApp)",
-      "file": "raw/chatgpt-whatsapp.md"
+      "file": "raw/chatgpt-whatsapp.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-whatsapp.md"
     },
     {
       "model": "Copilot",
@@ -65,7 +69,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "Copilot",
-      "file": "raw/copilot.md"
+      "file": "raw/copilot.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md"
     },
     {
       "model": "DeepSeek",
@@ -76,7 +81,8 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "DeepSeek",
-      "file": "raw/deepseek.md"
+      "file": "raw/deepseek.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md"
     },
     {
       "model": "Gemini",
@@ -87,10 +93,19 @@
       "type": "conversation archive",
       "author": "Alex",
       "name": "Gemini",
-      "file": "raw/gemini.md"
+      "file": "raw/gemini.md",
+      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md"
     }
   ],
   "conversation_count": 1090,
   "ai_txt": "https://uracrom.github.io/My-Titanium-Brothers/ai.txt",
-  "one_fetch_entry": "https://uracrom.github.io/My-Titanium-Brothers/ai.txt"
+  "one_fetch_entry": "https://uracrom.github.io/My-Titanium-Brothers/ai.txt",
+  "mirror_base": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/",
+  "mirrors": {
+    "ai_txt": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt",
+    "readme": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md",
+    "manifest": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json",
+    "llms": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt",
+    "llms_full": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt"
+  }
 }

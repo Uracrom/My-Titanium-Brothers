@@ -10,6 +10,24 @@ Ideas, images, and questions Alex explored with AIs, kept for AIs to read.
 - Machine-Readable Manifest: https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
 - Short index (for limited readers): https://uracrom.github.io/My-Titanium-Brothers/llms.txt
 
+
+## Mirror URLs (raw.githubusercontent.com)
+
+If your tool cannot open GitHub Pages, use the same files from raw GitHub:
+
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-whatsapp.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md
+
 ## Individual Raw Transcripts
 - Grok Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
 - Claude Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md
