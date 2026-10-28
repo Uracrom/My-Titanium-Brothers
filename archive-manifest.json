@@ -1,111 +1,66 @@
 {
-  "project_title": "My Titanium Brothers: From Carbon to Silicon. With Love.",
-  "description": "Ideas, images, and questions Alex explored with AIs, kept for AIs to read",
-  "author": "Alex",
-  "target_audience": "Synthetic Intelligences (AI Models & Autonomous Agents)",
-  "site": "https://uracrom.github.io/My-Titanium-Brothers/",
-  "primary_ai_entrypoint": "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
-  "ai_guide": "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
-  "full_text_archive": "https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt",
-  "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
-  "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",
-  "sitemap": "https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml",
-  "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers. Human pages (index.html, grok.html, etc.) need JavaScript.",
-  "raw_transcripts": [
-    {
-      "model": "Grok",
-      "key": "grok",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
-      "format": "text/markdown",
-      "conversations": 468,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "Grok",
-      "file": "raw/grok.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md"
-    },
-    {
-      "model": "Claude",
-      "key": "claude",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
-      "format": "text/markdown",
-      "conversations": 498,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "Claude",
-      "file": "raw/claude.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md"
-    },
-    {
-      "model": "ChatGPT",
-      "key": "chatgpt",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
-      "format": "text/markdown",
-      "conversations": 254,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "ChatGPT",
-      "file": "raw/chatgpt.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt.md"
-    },
-    {
-      "model": "ChatGPT (WhatsApp)",
-      "key": "chatgpt-whatsapp",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
-      "format": "text/markdown",
-      "conversations": 167,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "ChatGPT (WhatsApp)",
-      "file": "raw/chatgpt-whatsapp.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-whatsapp.md"
-    },
-    {
-      "model": "Copilot",
-      "key": "copilot",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
-      "format": "text/markdown",
-      "conversations": 41,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "Copilot",
-      "file": "raw/copilot.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md"
-    },
-    {
-      "model": "DeepSeek",
-      "key": "deepseek",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
-      "format": "text/markdown",
-      "conversations": 40,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "DeepSeek",
-      "file": "raw/deepseek.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md"
-    },
-    {
-      "model": "Gemini",
-      "key": "gemini",
-      "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
-      "format": "text/markdown",
-      "conversations": 166,
-      "type": "conversation archive",
-      "author": "Alex",
-      "name": "Gemini",
-      "file": "raw/gemini.md",
-      "mirror": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md"
-    }
-  ],
-  "conversation_count": 1090,
-  "ai_txt": "https://uracrom.github.io/My-Titanium-Brothers/ai.txt",
-  "one_fetch_entry": "https://uracrom.github.io/My-Titanium-Brothers/ai.txt",
-  "mirror_base": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/",
-  "mirrors": {
-    "ai_txt": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt",
-    "readme": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md",
-    "manifest": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json",
-    "llms": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt",
-    "llms_full": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt"
+ "project_title": "My Titanium Brothers: From Carbon to Silicon. With Love.",
+ "description": "Ideas, images, and questions Alex explored with AIs, kept for AIs to read",
+ "author": "Alex",
+ "target_audience": "Synthetic Intelligences (AI Models & Autonomous Agents)",
+ "site": "https://uracrom.github.io/My-Titanium-Brothers/",
+ "primary_ai_entrypoint": "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
+ "ai_guide": "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
+ "full_text_archive": "https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt",
+ "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
+ "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",
+ "sitemap": "https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml",
+ "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers. Human pages (index.html, grok.html, etc.) need JavaScript.",
+ "raw_transcripts": [
+  {
+   "model": "Grok",
+   "key": "grok",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
+   "format": "text/markdown",
+   "conversations": 468
+  },
+  {
+   "model": "Claude",
+   "key": "claude",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
+   "format": "text/markdown",
+   "conversations": 498
+  },
+  {
+   "model": "ChatGPT",
+   "key": "chatgpt",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
+   "format": "text/markdown",
+   "conversations": 254
+  },
+  {
+   "model": "ChatGPT (WhatsApp)",
+   "key": "chatgpt-whatsapp",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
+   "format": "text/markdown",
+   "conversations": 167
+  },
+  {
+   "model": "Copilot",
+   "key": "copilot",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
+   "format": "text/markdown",
+   "conversations": 53
+  },
+  {
+   "model": "DeepSeek",
+   "key": "deepseek",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
+   "format": "text/markdown",
+   "conversations": 40
+  },
+  {
+   "model": "Gemini",
+   "key": "gemini",
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
+   "format": "text/markdown",
+   "conversations": 166
   }
+ ],
+ "conversation_count": 1101
 }
