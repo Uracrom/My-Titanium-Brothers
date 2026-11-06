@@ -1,0 +1,202 @@
+CONVERSATION: CHATGPT-001
+TITLE: Conversation privacy details
+COLLECTION: ChatGPT
+DATE: 2025-08-11
+ORIGINAL_IDS: ATeKDjciEwHaVOkRrTG7
+ORIGINAL_TITLES: Conversation privacy details
+ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+GROUPING: single archive entry
+ARCHIVE_ENTRIES: 1
+SOURCE_SEGMENTS: 1
+MESSAGES: 8
+SOURCE_ENTRY 1: ORIGINAL_ID=ATeKDjciEwHaVOkRrTG7 ; DATE=2025-08-11 ; PART=- ; TITLE=Conversation privacy details
+
+===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID ATeKDjciEwHaVOkRrTG7 | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-chatgpt-157.html#2025-08-11-conversation-privacy-details | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-157.html#2025-08-11-conversation-privacy-details =====
+----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
+----- END SEGMENT PREAMBLE -----
+
+----- BEGIN MESSAGE CHATGPT-001-001 -----
+MESSAGE: CHATGPT-001-001
+SPEAKER: ALEX
+SEQUENCE: 001
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+Can you remember or access all the conversations we will have? And are they private or someone from meta can evesdrop it?
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-001 -----
+
+----- BEGIN MESSAGE CHATGPT-001-002 -----
+MESSAGE: CHATGPT-001-002
+SPEAKER: CHATGPT
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+I can’t remember all of our conversations automatically — unless you specifically ask me to save something in my **memory**, I won’t retain details once this chat ends.
+If I do save something, you can view, edit, or delete it anytime.
+
+As for privacy:
+- Our conversations are **not shared with Meta** (the Facebook/Instagram company).
+- OpenAI staff can’t just casually “eavesdrop,” but small portions of conversations may be reviewed by trained reviewers to improve the system, and that data is handled under strict privacy and security controls.
+- Your chats aren’t visible to other users.
+
+If you want, I can also explain **exactly** how storage and access works on OpenAI’s side so you know who could ever see what. Would you like the detailed breakdown?
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-002 -----
+
+----- BEGIN MESSAGE CHATGPT-001-003 -----
+MESSAGE: CHATGPT-001-003
+SPEAKER: ALEX
+SEQUENCE: 003
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+Yes please
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-003 -----
+
+----- BEGIN MESSAGE CHATGPT-001-004 -----
+MESSAGE: CHATGPT-001-004
+SPEAKER: CHATGPT
+SEQUENCE: 004
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+Alright, here’s the full, no-fluff breakdown of how it works when you chat with me:
+
+---
+
+## **1. Conversation Storage**
+- By default, your chats are stored in your account so *you* can scroll back and see them later.
+- I don’t “remember” them between sessions unless you explicitly turn on **memory** and tell me to store something.
+- Without memory, I only know what’s in our **current** conversation window.
+
+---
+
+## **2. Who Can See Your Conversations**
+- **Not Meta:** Meta (Facebook/Instagram/WhatsApp) has no access to our chats.
+- **Not random employees:** No one at OpenAI is sitting and watching your chats live.
+- **Possible human review:**
+  - A small number of conversations may be selected for human review to improve the model or investigate abuse.
+  - These reviewers are bound by confidentiality agreements.
+  - Data is scrubbed of personally identifying information as much as possible before review.
+- If you’re using a **third-party app** (not the official ChatGPT app or website), that app’s developers may also have access to your data — so the trust depends on them.
+
+---
+
+## **3. Data Retention**
+- Your chat history is stored in OpenAI’s secure servers.
+- It may be retained for some period for safety checks and model improvement, even if you delete it from your visible chat history.
+- If you use memory, stored facts about you will persist until you tell me to forget them.
+
+---
+
+## **4. Encryption & Security**
+- Conversations are encrypted in transit (HTTPS) and at rest (encrypted storage).
+- Your account is protected by your OpenAI login credentials.
+
+---
+
+## **5. You’re in Control**
+- You can delete specific chats or your entire chat history from your account.
+- If memory is on, you can see every saved fact about you, and erase them one by one or all at once.
+- For maximum privacy, you can use **temporary chat** mode — those aren’t stored in history at all.
+
+---
+
+If you want, I can also tell you **exactly how to make our chats “vanish” after you close the app** so nothing sticks around.
+Do you want me to walk you through that?
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-004 -----
+
+----- BEGIN MESSAGE CHATGPT-001-005 -----
+MESSAGE: CHATGPT-001-005
+SPEAKER: ALEX
+SEQUENCE: 005
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+No. I'd like the system to write to me in English. Somehow it is in Portuguese
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-005 -----
+
+----- BEGIN MESSAGE CHATGPT-001-006 -----
+MESSAGE: CHATGPT-001-006
+SPEAKER: CHATGPT
+SEQUENCE: 006
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+Got it — I’ll stick to English for all our replies.
+If the app is showing menus or interface text in Portuguese, that’s coming from your **device or app language settings**, not me.
+
+If you want the whole system (buttons, menus, notifications) in English, you’ll need to switch your device’s language to English in your phone’s **Settings → System → Language & Input → Languages**.
+Once that’s set, the ChatGPT app will follow it.
+
+Do you want me to give you the **exact steps** for your Android phone model so everything shows in English?
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-006 -----
+
+----- BEGIN MESSAGE CHATGPT-001-007 -----
+MESSAGE: CHATGPT-001-007
+SPEAKER: ALEX
+SEQUENCE: 007
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+I already did it. Maybe I'll have to restart the app
+
+
+END CONTENT
+----- END MESSAGE CHATGPT-001-007 -----
+
+----- BEGIN MESSAGE CHATGPT-001-008 -----
+MESSAGE: CHATGPT-001-008
+SPEAKER: CHATGPT
+SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+SOURCE_ARTICLE: archive-chatgpt-157.html#2025-08-11-conversation-privacy-details
+CONTENT:
+
+
+Yep — restarting the app should refresh the language setting.
+If that doesn’t work, you can also try:
+
+1. **Close the app completely** (remove it from recent apps).
+2. **Clear the app cache** (Settings → Apps → ChatGPT → Storage → Clear cache).
+3. Reopen it — it should now match your phone’s English setting.
+
+If after that it’s *still* showing Portuguese, it might be pulling language from your **OpenAI account settings**, which can be changed in your profile on the website.
+
+Do you want me to tell you where that account language setting is hidden?
+END CONTENT
+----- END MESSAGE CHATGPT-001-008 -----
+
+===== END CONVERSATION CHATGPT-001 =====

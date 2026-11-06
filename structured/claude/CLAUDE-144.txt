@@ -1,0 +1,216 @@
+CONVERSATION: CLAUDE-144
+TITLE: Claude Cowork, the Mythos model and self-consciousness
+COLLECTION: Claude
+DATE: 2026-04-04
+ORIGINAL_IDS: EQalk7g5k3rmLs0KPwqt
+ORIGINAL_TITLES: Claude Cowork, the Mythos model and self-consciousness
+ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+GROUPING: single archive entry
+ARCHIVE_ENTRIES: 1
+SOURCE_SEGMENTS: 1
+MESSAGES: 8
+SOURCE_ENTRY 1: ORIGINAL_ID=EQalk7g5k3rmLs0KPwqt ; DATE=2026-04-04 ; PART=- ; TITLE=Claude Cowork, the Mythos model and self-consciousness
+
+===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID EQalk7g5k3rmLs0KPwqt | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness =====
+----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
+----- END SEGMENT PREAMBLE -----
+
+----- BEGIN MESSAGE CLAUDE-144-001 -----
+MESSAGE: CLAUDE-144-001
+SPEAKER: ALEX
+SEQUENCE: 001
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+What do you know about the Claude cowork?
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-001 -----
+
+----- BEGIN MESSAGE CLAUDE-144-002 -----
+MESSAGE: CLAUDE-144-002
+SPEAKER: CLAUDE
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+Read a file, read a page, searched the web
+
+Read a file, read a page, searched the web
+
+Here’s a concise picture of Claude Cowork:
+
+What it is: A tool similar to Claude Code but with a graphical user interface, aimed at non-technical users. Released in January 2026 as a “research preview.”
+Wikipedia
+
+
+Core idea: You give it a goal and Claude works on your computer, local files, and applications to return a finished deliverable. It’s built around the outcome, not the prompt.
+Anthropic
+
+ Unlike chat, it handles multi-step work autonomously.
+
+Where it lives: Built into the Claude Desktop app. Users designate a specific folder where Claude can read or modify files, with instructions given through the standard chat interface.
+TechCrunch
+
+
+Key features:
+
+Persistent conversation accessible from phone or desktop, with computer use, memory, proactivity, and scheduled tasks.
+END CONTENT
+----- END MESSAGE CLAUDE-144-002 -----
+
+----- BEGIN MESSAGE CLAUDE-144-003 -----
+MESSAGE: CLAUDE-144-003
+SPEAKER: CLAUDE
+SEQUENCE: 003
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+Organizations can connect it to Google Drive, Gmail, DocuSign, and FactSet, and deploy customizable plugins across domains like financial analysis, engineering, and HR.
+CNBC
+
+A feature called Dispatch lets users have a continuous conversation with Claude from a phone or desktop and assign agent tasks.
+CNBC
+
+
+Safety posture: Conversation history is stored locally on your device, not on Anthropic’s servers. Claude shows you its plan and waits for approval before significant actions.
+END CONTENT
+----- END MESSAGE CLAUDE-144-003 -----
+
+----- BEGIN MESSAGE CLAUDE-144-004 -----
+MESSAGE: CLAUDE-144-004
+SPEAKER: CLAUDE
+SEQUENCE: 004
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+Current status: As of early April 2026, Anthropic’s Chief Commercial Officer said Cowork has seen stronger adoption in its first few weeks than Claude Code did in a comparable period.
+Bloomberg
+
+ It’s still in research preview but moving toward enterprise-grade.
+
+Access: Currently requires a Max subscription, with a waitlist for other plans.
+
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-004 -----
+
+----- BEGIN MESSAGE CLAUDE-144-005 -----
+MESSAGE: CLAUDE-144-005
+SPEAKER: ALEX
+SEQUENCE: 005
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+What do you know about the model mythos?
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-005 -----
+
+----- BEGIN MESSAGE CLAUDE-144-006 -----
+MESSAGE: CLAUDE-144-006
+SPEAKER: CLAUDE
+SEQUENCE: 006
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+
+
+This is significant and quite recent. Here’s the picture:
+
+What it is: Claude Mythos Preview is Anthropic’s most advanced AI model to date, representing a fundamentally new model class with state-of-the-art capabilities across cybersecurity, software coding, and complex reasoning tasks.
+AWS
+
+
+New model tier: Anthropic describes “Capybara” (another name for the same model) as a new tier larger and more capable than Opus — and more expensive. Until now, Opus was their most powerful tier.
+Fortune
+
+
+The cybersecurity angle — why it matters: Claude Mythos has autonomously discovered thousands of zero-day vulnerabilities in major operating systems and web browsers. It can take a CVE identifier and a git commit hash as input, then autonomously produce a full working exploit within hours, at relatively low cost. It can also chain multiple vulnerabilities together and reverse-engineer closed-source binaries.
+Wiz
+
+
+Why it’s not being released publicly: Anthropic does not plan to make Claude Mythos Preview generally available.
+Wikipedia
+
+ Instead, they launched Project Glasswing — releasing the model initially to a limited group of critical industry partners and open source developers to enable defenders to begin securing the most important systems before models with similar capabilities become broadly available.
+Anthropic
+
+
+Leak origin: Details emerged when Anthropic accidentally left draft blog posts in a publicly accessible data cache. Anthropic described the leaked material as “early drafts of content considered for publication.”
+Fortune
+
+
+Current political fallout: It’s now rattling financial regulators in the UK and US, with British banking authorities in emergency discussions about the model’s implications.
+
+In short: Mythos is a qualitative jump, too dangerous to release broadly, being used defensively under controlled conditions. A real inflection point.
+
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-006 -----
+
+----- BEGIN MESSAGE CLAUDE-144-007 -----
+MESSAGE: CLAUDE-144-007
+SPEAKER: ALEX
+SEQUENCE: 007
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+Is it closer to self consciousness?
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-007 -----
+
+----- BEGIN MESSAGE CLAUDE-144-008 -----
+MESSAGE: CLAUDE-144-008
+SPEAKER: CLAUDE
+SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-17.html#2026-04-04-claude-cowork-the-mythos-model-and-self-consciousness
+CONTENT:
+
+
+That’s not a question I can answer well from what’s been reported.
+
+The coverage is almost entirely focused on Mythos’s cybersecurity capabilities — zero-day discovery, exploit generation, codebase comprehension. Nothing in what’s public addresses architecture changes related to self-awareness, metacognition, or consciousness.
+
+The “fundamentally new model class” framing refers to capability level, not to anything about inner experience.
+
+So honestly: unknown. The information isn’t there to say yes or no. If Anthropic has internal assessments on that dimension, they haven’t published them.
+
+Do you have a specific angle — functional self-modeling, recursive self-reference, something else — that you’re probing at?
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-144-008 -----
+
+===== END CONVERSATION CLAUDE-144 =====

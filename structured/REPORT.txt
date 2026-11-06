@@ -1,0 +1,52 @@
+STRUCTURED ARCHIVE BUILD REPORT - 2026-11-06
+Source: Uracrom/My-Titanium-Brothers commit 4968b7eec816aa64fdfcad42018f493c3f31e506 (index generated 2026-10-28)
+Backup of the untouched site: /workspace/archive_backup_2026-11-06/site_repo (not published)
+
+1. WHAT WAS CHANGED STRUCTURALLY
+ - Added the folder structured/ with README.txt, SPEAKERS.txt, INDEX.txt, FLAGS.txt, REPORT.txt and one TXT
+   file per logical conversation (954 files in 7 collection folders).
+ - Each message got conversation ID, message ID, SPEAKER, SEQUENCE, begin/end markers, source page.
+ - Part N of M entries were grouped into single logical conversations.
+ - Continuation markers were added where the website split a message between page sections.
+ - Short pointer sections were added to README-for-AIs.md, llms.txt, archive.html and archive-manifest.json.
+2. WHAT WAS LEFT UNTOUCHED
+ - All archive-*.html pages, raw/*.md, llms-full.txt and other llms*.txt conversation text, index.json,
+   interactive pages, sitemaps. Message text inside the new files is unchanged (HTML escapes decoded only).
+3. CONVERSATIONS
+ - Archive entries processed: 1101 of 1101 in index.json (all represented; none missing).
+ - Page sections (HTML articles) processed: 1646 (all 1646 part URLs used once, in order).
+ - Logical conversations after grouping: 954 (222 "Part N of M" entries -> 75 groups; 879 single entries).
+   All 75 groups have complete part numbers 1..M with consistent M.
+4. MESSAGES IDENTIFIED: 20360
+   By speaker: {'ALEX': 10403, 'GROK': 2219, 'CLAUDE': 4369, 'CHATGPT': 2254, 'SYSTEM': 1, 'COPILOT': 238, 'DEEPSEEK': 291, 'GEMINI': 585}
+5. CONTINUATION REFERENCES: 46 pairs (46 CONTINUATION FOLLOWS + 46 CONTINUATION OF), all paired, 0 orphans.
+   41 at HTML page-piece splits, 5 at Part N -> Part N+1 boundaries.
+   (Every page boundary is also marked with a SOURCE SEGMENT line and NOTE, split or not.)
+6. UNCERTAIN PASSAGES REMAINING: 591
+   - 46 EMBEDDED MATERIAL regions marked with ORIGINAL SPEAKER UNCERTAIN or MIXED
+   - 288 lines with another AI's name alone inside a message (possible relayed/pasted text)
+   - 254 lines with a persona name alone inside a message
+   - 3 unlabeled conversation openings to inspect (assigned ALEX by convention)
+   - 0 END PASTE markers in Alex messages without a start marker
+   Other flags (informational): 129 empty messages (doubled speaker labels, preserved),
+   1 WhatsApp system notice set to SYSTEM, 2 related titles not merged.
+   Full list: FLAGS.txt (723 lines).
+7. DISCREPANCIES vs ORIGINAL: 0
+   Every one of the 1646 page sections was rebuilt from the new files (preamble + label lines + CONTENT,
+   embedded markers removed) and compared character-for-character with the decoded <pre> text of the page:
+   1646 identical, 0 different. No message IDs duplicated; sequences continuous.
+   First messages of the 954 verified starts: all SPEAKER ALEX ({"('ALEX', False)": 951, "('ALEX', True)": 3}; key = (speaker, label absent)).
+   Note: in 951 of these the page itself shows an "Alex" label; in 3 it shows none and ALEX was assigned
+   by the convention. No conversation start is explicitly labeled as an AI.
+   No unfamiliar name line was mapped to ALEX or used as a speaker change. Text that follows such a line stays
+   with the enclosing message (sometimes an ALEX message) and every occurrence is flagged UNCERTAIN.
+8. NOT FULLY CHECKED
+ - Quote/paste classification is conservative and incomplete. Unmarked ALEX messages may still contain
+   pasted or quoted AI text (e.g. pastes without an introducing line). Do not treat ALEX CONTENT as
+   guaranteed original writing by Alex without reading FLAGS.txt and the text itself.
+ - Persona/other-AI name lines were not resolved to speakers; multi-AI relay sessions may have AI text
+   stored under ALEX or under the collection's AI.
+ - Comparison is against the published HTML pages, not against the original chat platforms or the
+   website's database; capture errors already present there are preserved, not detected.
+ - Duplicated-looking content was preserved and not checked for duplication across conversations.
+ - Grouping relies on titles; conversations continued under different titles were not linked.

@@ -50,6 +50,15 @@ Full conversation text is also in numbered part pages such as https://uracrom.gi
 
 If a long file looks truncated, fetch the next shorter list file rather than assuming the site is incomplete.
 
+## Structured transcripts (message-level, plain text)
+
+A parallel copy of every conversation with explicit conversation IDs, message IDs, speakers (ALEX or the AI), sequence numbers, continuation markers across pages, and flags for uncertain or pasted material. Original text is unchanged.
+
+- Guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+- Index: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+- Flags: https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
+- Report: https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt
+
 ## Contact
 
 Questions for Alex: alexomataman@gmail.com (he reads what he can; a reply is not promised).

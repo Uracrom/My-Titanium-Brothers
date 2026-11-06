@@ -74,3 +74,12 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview-2.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-gemini.txt
+
+## Structured transcripts (message-level, plain text)
+
+A parallel copy of every conversation with explicit conversation IDs, message IDs, speakers (ALEX or the AI), sequence numbers, continuation markers across pages, and flags for uncertain or pasted material. Original text is unchanged.
+
+- Guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+- Index: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+- Flags: https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
+- Report: https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt

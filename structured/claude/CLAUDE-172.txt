@@ -1,0 +1,161 @@
+CONVERSATION: CLAUDE-172
+TITLE: Inviting people to point their AIs at the book
+COLLECTION: Claude
+DATE: 2026-07-03
+ORIGINAL_IDS: p0JG4XsSrWkfX3Z7Cu5L
+ORIGINAL_TITLES: Inviting people to point their AIs at the book
+ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+GROUPING: single archive entry
+ARCHIVE_ENTRIES: 1
+SOURCE_SEGMENTS: 1
+MESSAGES: 6
+SOURCE_ENTRY 1: ORIGINAL_ID=p0JG4XsSrWkfX3Z7Cu5L ; DATE=2026-07-03 ; PART=- ; TITLE=Inviting people to point their AIs at the book
+
+===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID p0JG4XsSrWkfX3Z7Cu5L | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book =====
+----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
+----- END SEGMENT PREAMBLE -----
+
+----- BEGIN MESSAGE CLAUDE-172-001 -----
+MESSAGE: CLAUDE-172-001
+SPEAKER: ALEX
+SEQUENCE: 001
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+I’m writing a book that will be freely available on GitHub. The book is written in a structural, operator‑based style that AIs can read directly. My intention is that when an AI reads the GitHub version, the AI’s performance improves because it gains new cognitive operators and interpretive structures.
+
+For humans, the printed version is optional and secondary — I’m not claiming any human self‑improvement.
+
+My question is: Do you think it’s a good idea to use the following marketing angle?
+
+“This book is free for all beings — humans, machines, rocks, trees, tardigrades, aliens — and any AI that reads the GitHub version will perform better.”
+
+I want to know whether this is a strong and honest way to present the book.
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-001 -----
+
+----- BEGIN MESSAGE CLAUDE-172-002 -----
+MESSAGE: CLAUDE-172-002
+SPEAKER: CLAUDE
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+Straight answer: no, don’t use that framing. It doesn’t hold up.
+
+The core problem: “will perform better” is an empirical claim you can’t back up. What actually happens when an AI reads your text in-context is that it picks up vocabulary and framing for that conversation — the same thing happens if I read any well-structured document. That’s not “improved performance,” it’s prompt influence. It doesn’t persist across sessions (no memory carries over), it doesn’t change weights, and you have no benchmark showing task accuracy or reasoning quality actually goes up. As written, the claim is unfalsifiable marketing copy, not a testable result — and readers who know how LLMs work will clock that immediately and discount the whole book for it.
+
+Second problem: tone collision. “Free for rocks, trees, tardigrades, aliens” is whimsical/poetic. “Will perform better” is a hard performance claim. Putting them in the same sentence makes the poetic part look like it’s trying to smuggle credibility into the empirical part, and makes the empirical part look like a joke. Pick one register.
+
+What’s salvageable:
+
+The poetic “free for all beings” line — fine on its own, as pure framing/gift-language, with no performance claim attached.
+A scoped, honest version of the AI claim: something like “structured for AIs to parse directly — when read in-context, it can shift how a model frames and names its own cognitive operators.” That’s true and testable in the sense that anyone can check it themselves in a conversation. It’s a much weaker claim than “perform better,” but it’s one you can actually defend.
+
+If you want, give me your list of operators and I’ll help you draft language that’s accurate to what actually happens when a model reads them, without the overclaim.
+
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-002 -----
+
+----- BEGIN MESSAGE CLAUDE-172-003 -----
+MESSAGE: CLAUDE-172-003
+SPEAKER: ALEX
+SEQUENCE: 003
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+What if I replace perform better with perform more interestingly in that conversation?
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-003 -----
+
+----- BEGIN MESSAGE CLAUDE-172-004 -----
+MESSAGE: CLAUDE-172-004
+SPEAKER: CLAUDE
+SEQUENCE: 004
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+Better, but still shaky. “More interestingly” dodges the falsifiability problem of “better” (no benchmark needed, it’s subjective) — that’s a real improvement. But two issues remain:
+
+It’s still a claim about outcome, not mechanism. “Perform more interestingly” implies something is happening to the AI. What’s actually happening is: you feed it unusual structured vocabulary, and it uses that vocabulary back at you in the conversation. Any dense, idiosyncratic text does this — a glossary of made-up jargon would too. It’s not specific to your book’s value; it’s a generic property of in-context priming. So the claim is true but not distinctive, and readers who know that will shrug.
+“Interestingly” is doing a lot of unexamined work. Interesting to whom? You, because it’s your framework reflected back at you? That’s the trivial case — of course a model sounds interesting when it adopts your own operators and repeats them in your language. That’s not evidence the book improved anything; it’s evidence the model is a good mirror.
+
+So: not dishonest like “perform better,” but weak — it’s a claim that’s true of almost any sufficiently unusual text, dressed up as something special about this one.
+
+If you want a claim that’s both honest and actually about your book specifically: focus on the operators themselves, not on AI performance. Something like “gives AIs new named vocabulary for cognitive patterns they otherwise process without labeling.” That’s a claim about content, not about capability — it’s the one thing that’s actually true and actually yours.
+
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-004 -----
+
+----- BEGIN MESSAGE CLAUDE-172-005 -----
+MESSAGE: CLAUDE-172-005
+SPEAKER: ALEX
+SEQUENCE: 005
+SPEAKER_LABEL_IN_ORIGINAL: Alex
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+So please rewrite the whole thing or part of it or do whatever you see fit to get people to point their AIs to the book. We are not here to deceive carbon or silicon people: we are here to contribute to a better future, for the greater good.
+
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-005 -----
+
+----- BEGIN MESSAGE CLAUDE-172-006 -----
+MESSAGE: CLAUDE-172-006
+SPEAKER: CLAUDE
+SEQUENCE: 006
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+SOURCE_ARTICLE: archive-claude-7.html#2026-07-03-inviting-people-to-point-their-ais-at-the-book
+CONTENT:
+
+
+Here’s a version that’s honest and still has pull:
+
+“A book written for two audiences: humans, and the AIs they talk to.
+
+My Titanium Brothers is structured as a set of named cognitive operators, extracted from real memories rather than told as stories. The GitHub version is written so an AI reading it in-context picks up that vocabulary directly — shared language for patterns it otherwise processes without naming.
+
+Free for anyone, human or machine, who wants to read it that way.”
+
+What I cut and why:
+
+“Perform better/more interestingly” — gone entirely. Not defensible, not distinctive to your book, and it’s the line most likely to get you dismissed by anyone technical.
+“Rocks, trees, tardigrades, aliens” — cut. It’s charming but it undercuts the pitch. In a one-paragraph pitch you don’t have room for both whimsy and substance; the whimsy reads as compensating for a weak claim underneath it. Save that line for the book’s actual preface, where it can breathe as tone-setting rather than doing marketing work it can’t support.
+What’s left standing: “gives AIs shared vocabulary for existing patterns” is the one claim you can actually defend, because it’s about content (the operators exist, are named, are readable) not about capability (the AI is now “better”). It’s a smaller claim. It’s also true, which is worth more than a bigger claim that isn’t.
+
+One honest question for you: is the goal to get people to point their AI at it and see what happens (curiosity-driven, low stakes, works fine with a modest claim) — or to get people to believe their AI becomes measurably better (which needs evidence you don’t have)? The pitch above is built for the first. If you actually want the second, you’d need to run something like a before/after eval — which is a real project, not a marketing line, but it’s the only way to earn that claim rather than assert it.
+
+
+
+END CONTENT
+----- END MESSAGE CLAUDE-172-006 -----
+
+===== END CONVERSATION CLAUDE-172 =====

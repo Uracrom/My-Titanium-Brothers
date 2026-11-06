@@ -62,5 +62,16 @@
    "conversations": 166
   }
  ],
- "conversation_count": 1101
+ "conversation_count": 1101,
+  "structured_archive": {
+    "description": "Plain-text structured transcripts: one TXT per logical conversation with conversation/message IDs, speakers, sequence numbers, continuation markers and flags. Original text unchanged.",
+    "guide": "https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt",
+    "index": "https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt",
+    "flags": "https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt",
+    "report": "https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt",
+    "logical_conversations": 954,
+    "archive_entries": 1101,
+    "built": "2026-11-06",
+    "note_on_conversation_count": "Per-model \"conversations\" numbers in conversation_count count HTML page pieces (continued pieces included, total 1646), not whole conversations (1101 archive entries)."
+  }
 }
