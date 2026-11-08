@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=uTuNMUPJ44wymzzstik8 ; DATE=2026-08-24 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-117-001 -----
 MESSAGE: CHATGPT-117-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 
@@ -63,8 +65,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-117-002 -----
 MESSAGE: CHATGPT-117-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 
@@ -222,6 +226,8 @@ So “spirit” becomes a remarkably economical solution.
 
 This is where I think your stargazing observation connects everything.
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “Stargazing should be ‘looking to the stars’, but I explained it as ‘looking to the sky’.”
@@ -393,20 +399,23 @@ And that may be why the “Not-Me” matters so much in your thinking: the momen
 Maybe your little “if” machine is one of the ways you discover that.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-117-002 -----
 
 ----- BEGIN MESSAGE CHATGPT-117-003 -----
 MESSAGE: CHATGPT-117-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 Maybe your little “if” machine is one of the ways you discover that.
@@ -421,8 +430,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-117-004 -----
 MESSAGE: CHATGPT-117-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 
@@ -680,8 +691,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-117-005 -----
 MESSAGE: CHATGPT-117-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 
@@ -697,8 +710,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-117-006 -----
 MESSAGE: CHATGPT-117-006
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-36.html#2026-08-24-knowledge-subtraction-experiment
 CONTENT:
 

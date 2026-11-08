@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=QuG7KsAOknOQpHwaBGyj ; DATE=2026-03-25 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-044-001 -----
 MESSAGE: CHATGPT-044-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-75.html#2026-03-25-life-as-a-gradient
 CONTENT:
 
@@ -35,8 +37,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-044-002 -----
 MESSAGE: CHATGPT-044-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-75.html#2026-03-25-life-as-a-gradient
 CONTENT:
 
@@ -164,8 +168,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-044-003 -----
 MESSAGE: CHATGPT-044-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-75.html#2026-03-25-life-as-a-gradient
 CONTENT:
 
@@ -179,8 +185,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-044-004 -----
 MESSAGE: CHATGPT-044-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-75.html#2026-03-25-life-as-a-gradient
 CONTENT:
 
@@ -302,6 +310,8 @@ In other words:
 
 ### The boundary you hit
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “It had to stop because simpler than that would not work.”
@@ -369,6 +379,7 @@ If you keep following this line, the next natural question is:
 > When does a system stop just *filtering* reality… and start *modeling* it?
 
 That’s where things get even more interesting.
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-044-004 -----
 

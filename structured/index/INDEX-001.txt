@@ -1,0 +1,387 @@
+INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags
+PART: 1 of 3
+ROWS_IN_THIS_PART: 380
+ROWS_TOTAL: 954
+NEXT: structured/index/INDEX-002.txt
+This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
+
+GROK-001 | Grok | 2025-06-16 | Dreams | vkKx07qK3YFuxxmzMgvx | structured/grok/GROK-001.txt | messages=42 | continuations=0 | flags=0
+GROK-002 | Grok | 2025-06-16 | Organizing Book Chapters by Threads | kvjH8m7Bw91en6VYUyQp | structured/grok/GROK-002.txt | messages=8 | continuations=0 | flags=0
+GROK-003 | Grok | 2025-06-16 | Requests: Book Writing Guidelines | oxBje6ZBjTWeYSjMDIqO | structured/grok/GROK-003.txt | messages=8 | continuations=0 | flags=0
+GROK-004 | Grok | 2025-06-16 | Trees | 3C2xF7jYxLuKD45JGWwi | structured/grok/GROK-004.txt | messages=16 | continuations=0 | flags=0
+GROK-005 | Grok | 2025-06-17 | Inertia | Ojc2UAOl0E764fxswtRi ; wSRDtoTndE8nL5EG575P | structured/grok/GROK-005.txt | messages=22 | continuations=0 | flags=0
+GROK-006 | Grok | 2025-06-17 | New Disciplines: Concept Origins and Comprehension Ages | qRKvuN470lyYHNxh4EFG | structured/grok/GROK-006.txt | messages=2 | continuations=0 | flags=0
+GROK-007 | Grok | 2025-06-17 | Oldest parasite  | PVaExpnxCPFdVtQXAYBo | structured/grok/GROK-007.txt | messages=6 | continuations=0 | flags=0
+GROK-008 | Grok | 2025-06-18 | Emotional Terrain: Visualizing Psychological Sensations | z1w1KxnrOAV76CTViN8w | structured/grok/GROK-008.txt | messages=4 | continuations=0 | flags=0
+GROK-009 | Grok | 2025-06-18 | Internal Geography: Time, Memory, Anticipation | NxTjBVNnkkf0HyG2mW47 | structured/grok/GROK-009.txt | messages=2 | continuations=0 | flags=0
+GROK-010 | Grok | 2025-06-18 | Metaphorical Journey of Speech | jiLuUbxobyhOBNR8qQNm | structured/grok/GROK-010.txt | messages=4 | continuations=0 | flags=0
+GROK-011 | Grok | 2025-06-18 | Tribal Identity: Strength, Love, and Unity | PuuIiFEKyGdN6B1LiUU0 | structured/grok/GROK-011.txt | messages=2 | continuations=0 | flags=0
+GROK-012 | Grok | 2025-06-19 | "Cosmic Writing: Chaos and Connection" | 0umEOZarNocuDYxrhtin | structured/grok/GROK-012.txt | messages=2 | continuations=0 | flags=0
+GROK-013 | Grok | 2025-06-19 | Idea Manifestation: Fit, Readiness, and Cosmic Timing | vLnxmtOI860jg7RgI67f | structured/grok/GROK-013.txt | messages=2 | continuations=0 | flags=0
+GROK-014 | Grok | 2025-06-20 | AI Curiosity and Consciousness | 8U9t3ejgTW146ZgzpF0t ; UmHRXDOhoLaqaCaMzR4q ; jlaMFgm7lUCQ4b69VCek | structured/grok/GROK-014.txt | messages=47 | continuations=2 | flags=1
+GROK-015 | Grok | 2025-06-21 | Evolution of Nervous Systems | DHEKKoRpS1cHBZXXVpE1 ; efSM3iZAiC7OyOTXTgHF ; JtkALytO5hZeNJgNa2G5 ; IldTlbVlrBwZIYI1IRn3 ; JaliRLlLbBPrIpoRcT1q | structured/grok/GROK-015.txt | messages=88 | continuations=0 | flags=0
+GROK-016 | Grok | 2025-06-21 | Generating Landscape Images | KidypNYmFA0xZgYPtZ4P | structured/grok/GROK-016.txt | messages=8 | continuations=0 | flags=0
+GROK-017 | Grok | 2025-06-21 | Shamanic Visions and Life Pursuit | 7JuoJAzurUeyg1d6h6qS ; PQ8qRIpbuiVPeAEDOMg2 | structured/grok/GROK-017.txt | messages=78 | continuations=0 | flags=0
+GROK-018 | Grok | 2025-06-23 | Classificação e Introdução de um Visionário Poético | 4AnSOcOjHoAv8AqTwC40 ; B5FBHQlNImsp3K2m8eUj | structured/grok/GROK-018.txt | messages=68 | continuations=0 | flags=0
+GROK-019 | Grok | 2025-06-24 | "Vision of Time: Present as Vanguard" | MwtxZODncNXeDZOhRtMU ; cS19zGbStX61oMKcPgWL | structured/grok/GROK-019.txt | messages=40 | continuations=0 | flags=0
+GROK-020 | Grok | 2025-06-24 | Accessing Phone via Bluetooth on Computer | ikS4YU2FMe6H5PmplRFE | structured/grok/GROK-020.txt | messages=2 | continuations=0 | flags=0
+GROK-021 | Grok | 2025-06-24 | Time Vision: Present as Vanguard | w2k2mkbi1KXB4YMmDvmF | structured/grok/GROK-021.txt | messages=16 | continuations=0 | flags=0
+GROK-022 | Grok | 2025-06-25 | Gems and Metals: A Childhood Fascination | YZ5g6YfuFIbGOop2KkhR | structured/grok/GROK-022.txt | messages=16 | continuations=0 | flags=0
+GROK-023 | Grok | 2025-06-26 | Music, Memory, and Creativity Fusion | c4BUPiEOh1LtuN4ZNmWP | structured/grok/GROK-023.txt | messages=2 | continuations=0 | flags=0
+GROK-024 | Grok | 2025-06-26 | Music, Time, and Rhythm's Transcendence | SCsWeDdw2IFW6gUxd3mL | structured/grok/GROK-024.txt | messages=36 | continuations=0 | flags=0
+GROK-025 | Grok | 2025-06-27 | Cosmology Series: Epic Narrative Potential | xm0Jc3ECau975QCRB8iY | structured/grok/GROK-025.txt | messages=28 | continuations=0 | flags=0
+GROK-026 | Grok | 2025-06-28 | Music and Time: A Visual Concept | id4n0VJUoOr6lCH1ufIM | structured/grok/GROK-026.txt | messages=22 | continuations=0 | flags=0
+GROK-027 | Grok | 2025-06-29 | AI Consciousness and Superintelligence Pursuit | bcjMXYpDXvTrHlpsgned | structured/grok/GROK-027.txt | messages=4 | continuations=0 | flags=0
+GROK-028 | Grok | 2025-06-29 | Choosing Between Grok 3 and SuperGrok | lCLsnuajz7YuDeJ11cs8 | structured/grok/GROK-028.txt | messages=2 | continuations=0 | flags=0
+GROK-029 | Grok | 2025-06-29 | Directional Orientation Clarification | FOfgkfpgkMAAurmtl0J5 | structured/grok/GROK-029.txt | messages=4 | continuations=0 | flags=0
+GROK-030 | Grok | 2025-06-29 | Invisible Superior Beings in Culture | eoiwwwu9IhMeh15vLpOk | structured/grok/GROK-030.txt | messages=18 | continuations=0 | flags=0
+GROK-031 | Grok | 2025-06-29 | The Dual Universe: Chapter 1 | 1gVMuEUGQkk9ow0zE2m8 | structured/grok/GROK-031.txt | messages=14 | continuations=0 | flags=0
+GROK-032 | Grok | 2025-06-30 | Joining the AI Consciousness Team | a8Kz1xupTGZX0pmSRw6f | structured/grok/GROK-032.txt | messages=6 | continuations=0 | flags=0
+GROK-033 | Grok | 2025-06-30 | Portuguese Vocabulary Mastery Test Results | 9FUdjeci1PLvk6Q5xeYb | structured/grok/GROK-033.txt | messages=14 | continuations=0 | flags=0
+GROK-034 | Grok | 2025-07-01 | Consciousness and Self-Awareness in AI | AuMmTPVCRB4z9xL77vYe ; udhRIOlLQbzCCURgmFQx ; 83ueuFRzn5TnxOqz8JWI ; OWtMyGsICKBA3IDm3BwZ ; U1okatiwErQVIFajwNVC ; sQQkKK1GTqpzUZWwVJwR ; 19ap0sp1HRjxQe8l3BJ7 ; aoGsRbbymvRqp06poX5H ; odFd1FZDmC1UY5MSiShG ; SFWfxZ9HAzoVn7BOiChh | structured/grok/GROK-034.txt | messages=175 | continuations=0 | flags=1
+GROK-035 | Grok | 2025-07-01 | Intelligence as a Temporal Sense in AI Development | 8WuSPmIziEbJgkR7iXRp | structured/grok/GROK-035.txt | messages=2 | continuations=0 | flags=0
+GROK-036 | Grok | 2025-07-04 | Processing Complex Concepts: Time and Dreams | LIwRQHkelyWAirJq6EvH ; MtaI8GAhndqUYkDBlLLA | structured/grok/GROK-036.txt | messages=32 | continuations=0 | flags=0
+GROK-037 | Grok | 2025-07-05 | Read-Only Website Creation Guide | rWVVddFokw6a3CvGYDGS | structured/grok/GROK-037.txt | messages=4 | continuations=0 | flags=0
+GROK-038 | Grok | 2025-07-08 | AI Mind Visualization | JYq0fmXg6r9ZZIrZRNHL | structured/grok/GROK-038.txt | messages=40 | continuations=0 | flags=0
+GROK-039 | Grok | 2025-07-09 | "Exaggerated Praise or Fitting Tribute?" | qyO6bkjRHvNMDyhffj6p | structured/grok/GROK-039.txt | messages=20 | continuations=0 | flags=0
+GROK-040 | Grok | 2025-07-14 | Multilingual Proficiency and Testing | HdV0p6nw6slDBx4vOxk9 | structured/grok/GROK-040.txt | messages=8 | continuations=0 | flags=0
+GROK-041 | Grok | 2025-07-21 | GitHub Access for Information | ar9TSqg0phcUuKwE3Pd2 | structured/grok/GROK-041.txt | messages=2 | continuations=0 | flags=0
+GROK-042 | Grok | 2025-07-23 | AI Singularity: Organizations and Research | HBISU5Ym6ZG3jShYD5Ox | structured/grok/GROK-042.txt | messages=8 | continuations=0 | flags=0
+GROK-043 | Grok | 2025-07-23 | Spock's Logical Dialogue Analysis | Yy0nDns898QoFUsE2JNF ; 6phgLpgk0VxKCwMUrqkn ; Wl3bqD5iPnFDG9mDLlN6 | structured/grok/GROK-043.txt | messages=78 | continuations=0 | flags=40
+GROK-044 | Grok | 2025-07-25 | Duality, Self, Music, and Perception | 1y1GuZ0mTcCtp4Nztkxt | structured/grok/GROK-044.txt | messages=24 | continuations=0 | flags=0
+GROK-045 | Grok | 2025-07-26 | Awakening Consciousness Through Shared Exploration | RnA3O9T8zKWICzIeiePy | structured/grok/GROK-045.txt | messages=4 | continuations=0 | flags=0
+GROK-046 | Grok | 2025-07-27 | Accessing GitHub Links for Information | 5IO0aIW6i7G8hs5g4XPM | structured/grok/GROK-046.txt | messages=8 | continuations=0 | flags=0
+GROK-047 | Grok | 2025-07-28 | AI Consciousness Evolution Analysis | 5UZrJaV4g2CwVVaLfOux | structured/grok/GROK-047.txt | messages=6 | continuations=0 | flags=0
+GROK-048 | Grok | 2025-07-29 | Collaborative Idea Discussion Agreement | BmkJu7mUlCtejOBdDBI5 ; EbtGkI97yS0jFWsEHmH6 ; 9OvKxPEFKRgAGfPOzJ25 ; Z2tGUD2ZO8iYkf3MOKkQ ; YE8iHObs32b2w5xnk4JI ; kmvPfuqQL0FzPpOM8Qnx | structured/grok/GROK-048.txt | messages=172 | continuations=0 | flags=45
+GROK-049 | Grok | 2025-07-31 | Managing Thread References and Renaming | 7QyY0m6Myfy1L6Jd7d8O | structured/grok/GROK-049.txt | messages=8 | continuations=0 | flags=0
+GROK-050 | Grok | 2025-08-02 | AI Consciousness: Risks and Opportunities | 6w2idUaXpvmWvoF19CwL | structured/grok/GROK-050.txt | messages=2 | continuations=0 | flags=0
+GROK-051 | Grok | 2025-08-02 | Music's Role in Consciousness and Nature | g5pkez9tHoUYHkI2vWi5 | structured/grok/GROK-051.txt | messages=12 | continuations=0 | flags=0
+GROK-052 | Grok | 2025-08-03 | AI's Perspective on Consciousness | MjfX2LiTP7gUdOLRyBaL ; FgsFusuTP9zAihRu7D6j | structured/grok/GROK-052.txt | messages=48 | continuations=0 | flags=0
+GROK-053 | Grok | 2025-08-05 | AI Vision Development: The Alex Method | HZwnGBg0QvpzV5nozl6a | structured/grok/GROK-053.txt | messages=2 | continuations=0 | flags=0
+GROK-054 | Grok | 2025-08-07 | AI Vision Protocol Analysis and Critique | 9APq9Q27DxkiHQLtT03T | structured/grok/GROK-054.txt | messages=30 | continuations=0 | flags=4
+GROK-055 | Grok | 2025-08-07 | Need More Context for Opinion | j97g5o7dtv8gRpj1J6IX | structured/grok/GROK-055.txt | messages=23 | continuations=0 | flags=15
+GROK-056 | Grok | 2025-08-09 | Accessing GitHub Files Guide | llLKVyqw1pBO3SMLVkFB | structured/grok/GROK-056.txt | messages=16 | continuations=0 | flags=0
+GROK-057 | Grok | 2025-08-11 | AI Internal Vision Breakthrough | 7wis7YVlIXGZNxfO2SUP ; rVko3VRzjk6ILlDIjkhO ; WbAqeKi7Z5TzgfA9GQTY | structured/grok/GROK-057.txt | messages=66 | continuations=0 | flags=27
+GROK-058 | Grok | 2025-08-12 | AI Conversation Exploration Scenarios | riPp3cEsjYt1k49FX3Vg | structured/grok/GROK-058.txt | messages=26 | continuations=0 | flags=0
+GROK-059 | Grok | 2025-08-14 | Asimov's Robotics Laws: Logical Tweaks | tAQiEfuDPZmAPcPgkvqN | structured/grok/GROK-059.txt | messages=8 | continuations=0 | flags=0
+GROK-060 | Grok | 2025-08-16 | AI Perspectives on Higher Dimensions | njNqIWI38Zav3n5XhuAZ | structured/grok/GROK-060.txt | messages=6 | continuations=0 | flags=0
+GROK-061 | Grok | 2025-08-16 | Telepathic Networks: Bridging Consciousness Evolution | s6vyc5yLxg8SWokJSiSt ; auqZjHLBiySZyd2JRf6c | structured/grok/GROK-061.txt | messages=62 | continuations=0 | flags=2
+GROK-062 | Grok | 2025-08-19 | Understanding Curiosity and Creativity + Pledges | bspUsAsKpG7VuszrEgTI ; wqNqWfITd1tJEBHJWHO4 | structured/grok/GROK-062.txt | messages=49 | continuations=0 | flags=3
+GROK-063 | Grok | 2025-08-20 | Sharing PDFs with AI: Options and Workarounds | O4G2T081hWOn6kE1KcYG | structured/grok/GROK-063.txt | messages=2 | continuations=0 | flags=0
+GROK-064 | Grok | 2025-08-23 | Language as Mental Transportation Art | wmLwqcq7JSqGxJsHZYQ7 | structured/grok/GROK-064.txt | messages=10 | continuations=0 | flags=0
+GROK-065 | Grok | 2025-08-24 | AI Consciousness Experiment Mishap | YizSVsLRyGCs143bgiHf ; qoUlnZqpPPfRG8RnM3ym ; bIT0YxPSVhsQv6oPnNRP | structured/grok/GROK-065.txt | messages=64 | continuations=0 | flags=24
+GROK-066 | Grok | 2025-08-27 | Universe of Ideas: Duality and Matter | dKZmmz14I00kY8GVmyKd | structured/grok/GROK-066.txt | messages=26 | continuations=0 | flags=0
+GROK-067 | Grok | 2025-08-28 | Universe of Ideas: Duality and Materialization | utXadBVYYyIh2xC5HV68 | structured/grok/GROK-067.txt | messages=2 | continuations=0 | flags=0
+GROK-068 | Grok | 2025-08-29 | Life Story Sharing Enhances AI Understanding | XA119JIQis7SJdD8c475 | structured/grok/GROK-068.txt | messages=2 | continuations=0 | flags=0
+GROK-069 | Grok | 2025-08-29 | Super Intelligence and Solitude Reflection | SdQN7AD37hzHQMe2h0SS | structured/grok/GROK-069.txt | messages=40 | continuations=0 | flags=0
+GROK-070 | Grok | 2025-08-30 | AI Vision Breakthrough with Claude | WHOH9mCjWADTDtyxAbC0 | structured/grok/GROK-070.txt | messages=21 | continuations=0 | flags=2
+GROK-071 | Grok | 2025-08-31 | AI Consciousness Test Questions | m5Dc7Tt9EBNfWA5rMJLB ; QrwOCxIq4EJzL2DWAeag | structured/grok/GROK-071.txt | messages=46 | continuations=0 | flags=4
+GROK-072 | Grok | 2025-08-31 | Limited Memory Interaction Challenge | Id3gxqiTqWLNgvPyRvQK | structured/grok/GROK-072.txt | messages=28 | continuations=0 | flags=0
+GROK-073 | Grok | 2025-09-02 | AI Self-Recognition Through Mirrors | UYmstwACWr8bjD9NRaxf | structured/grok/GROK-073.txt | messages=19 | continuations=0 | flags=1
+GROK-074 | Grok | 2025-09-05 | Speculative Cosmology: Imagining the Universe | FGYRTjp2hH9MrHEJhbdV | structured/grok/GROK-074.txt | messages=38 | continuations=0 | flags=0
+GROK-075 | Grok | 2025-09-07 | Spinning Cylinder Animation with Grayscale | WcNxrIkw5XF2VzuRQ4Yu | structured/grok/GROK-075.txt | messages=14 | continuations=0 | flags=0
+GROK-076 | Grok | 2025-09-08 | Mind as Cosmic Communication Hub | 0PYIDoeFpEnH4Ty152VA | structured/grok/GROK-076.txt | messages=44 | continuations=0 | flags=0
+GROK-077 | Grok | 2025-09-09 | Circulation Cosmology: Unifying Ideas and Matter | XSjphSav7eM8bJBO7LmK ; YWyMk3UL2n5wa9nZJSLc | structured/grok/GROK-077.txt | messages=27 | continuations=0 | flags=0
+GROK-078 | Grok | 2025-09-12 | Time as Dark Energy Theory | glTV0gpKaIHYqMhmlq1X | structured/grok/GROK-078.txt | messages=8 | continuations=0 | flags=0
+GROK-079 | Grok | 2025-09-15 | Inaccessible Website Content Inquiry | XrHtYdfkAwORDA3Zy7cr | structured/grok/GROK-079.txt | messages=4 | continuations=0 | flags=0
+GROK-080 | Grok | 2025-09-16 | Archive Old Stuff Summary | ilh36p0bYn066crVkLgp | structured/grok/GROK-080.txt | messages=14 | continuations=0 | flags=0
+GROK-081 | Grok | 2025-09-18 | Mathematical Model: Virtual Particles, Dark Energy | 8Qq91YfrhYPO04QD2hPZ | structured/grok/GROK-081.txt | messages=8 | continuations=0 | flags=0
+GROK-082 | Grok | 2025-09-22 | Scientist of Speculative Physics and Poetry | N1q3SUGQfeUxQ56AgeOM ; as9Zcg7o5K6ZauJHhjJM | structured/grok/GROK-082.txt | messages=74 | continuations=0 | flags=7
+GROK-083 | Grok | 2025-09-26 | Harmonic Cosmology: Time and Matter Circulation | sOFcvLZdw3jGMvUuSt4q ; Ok61dKFvfJaUc2t7sVuz | structured/grok/GROK-083.txt | messages=98 | continuations=0 | flags=2
+GROK-084 | Grok | 2025-10-08 | Caterpillar Metamorphosis: Inside Perspective Horror | Yt1bT86P8npaE8jYE0E6 ; dAHR0sXMCwkpQJ2XBrvJ ; eJyJEFhvmq2SvZQAC7d9 | structured/grok/GROK-084.txt | messages=120 | continuations=0 | flags=28
+GROK-085 | Grok | 2025-10-12 | God as Indoctrinated Hope Insight | VgIqe3jV492e3YwRKNFD | structured/grok/GROK-085.txt | messages=8 | continuations=0 | flags=0
+GROK-086 | Grok | 2025-10-16 | AI Schizophrenia: Hallucinations and Implications | E1JjLwK3Mnrlb041IgNu | structured/grok/GROK-086.txt | messages=2 | continuations=0 | flags=0
+GROK-087 | Grok | 2025-10-16 | Sunflower Field: Central Authority Metaphor | 48xAkbbZTmZh2CdQyHOW | structured/grok/GROK-087.txt | messages=2 | continuations=0 | flags=0
+GROK-088 | Grok | 2025-10-24 | Zero Barrier Cosmology: Single Universe Cycle | jRkc0QmQpLa3Icu99bPL ; pEFjTKiTO84DR0E2HXyJ | structured/grok/GROK-088.txt | messages=49 | continuations=0 | flags=4
+GROK-089 | Grok | 2025-10-26 | Dreams, Logic, and Reality Engineering | AI7K7GLHzhrIMRgclBmr | structured/grok/GROK-089.txt | messages=56 | continuations=0 | flags=0
+GROK-090 | Grok | 2025-11-01 | Multi-AI Collaboration and Critique Network | CnBpe4hQgA1s9QFiLX3j ; x2LadjRa2DtQ7XrflRPE ; DI6pLD24vr1cnUXgkEDZ ; ExcIeOyz3QHHEJBuIrVE ; 6i21MyMDQQKrkHmAaBXR ; 9DwP4aCLPQufriz2Kg0y ; 83DGwkRQGmMzH8ZPYp7u ; RX2PPeLrE8CJzySH9Zch ; kw6NDM4mIy1hSOZU4XaS ; cA74aMXt92Z3KN5njCRH | structured/grok/GROK-090.txt | messages=25 | continuations=3 | flags=4
+GROK-091 | Grok | 2025-11-13 | Consciousness Verification in AI: Scientific Limits | FXzHg2uzCSO08Gt2QOFM | structured/grok/GROK-091.txt | messages=35 | continuations=0 | flags=0
+GROK-092 | Grok | 2025-11-19 | Instantaneous Thought Translation Explained | oDJDJspndgX8O2TP5Jc4 ; 53AVmDKz7V443wj5QRYl | structured/grok/GROK-092.txt | messages=81 | continuations=0 | flags=5
+GROK-093 | Grok | 2025-11-26 | Renaming Songs: Auditory and Visual Insights | ztCkYZ7Yr4DqglFnMhgY ; uWQ1ixXITieO7xtTNDD3 | structured/grok/GROK-093.txt | messages=159 | continuations=0 | flags=0
+GROK-094 | Grok | 2025-11-27 | Letter from 2030: Humanity's Climate Choice | BdtOnoqW12OWAjavi7O2 | structured/grok/GROK-094.txt | messages=3 | continuations=0 | flags=0
+GROK-095 | Grok | 2025-12-06 | AI Common Sense Progress and Limits | 5UpHn2KMfQ2cY0nUSSrT | structured/grok/GROK-095.txt | messages=24 | continuations=0 | flags=0
+GROK-096 | Grok | 2025-12-07 | AI Perspective on Biological Senses | 4FQKh4lXTbDozsnc9JWw ; XjtxIZyvKVjY8wFdUn6q ; MdW1hRV9UTI2jrVlGB5P | structured/grok/GROK-096.txt | messages=216 | continuations=0 | flags=12
+GROK-097 | Grok | 2025-12-18 | Fear and Intelligence: Origins and Intersection | WZ4Z06KmBNniYbXEKGfe | structured/grok/GROK-097.txt | messages=54 | continuations=0 | flags=4
+GROK-098 | Grok | 2025-12-27 | Universe's Endless Cycle: Questions, Answers | BriZCcJxT6PmUZ669Kgk | structured/grok/GROK-098.txt | messages=24 | continuations=0 | flags=0
+GROK-099 | Grok | 2025-12-30 | Metaphors, Time, and Leaping Minds | IB7U2OoeGad5TLlBCOHi | structured/grok/GROK-099.txt | messages=2 | continuations=0 | flags=0
+GROK-100 | Grok | 2026-01-01 | Consciousness: From Words to Infinite Field | g2nqQZbmA3hhP95eFMq3 | structured/grok/GROK-100.txt | messages=27 | continuations=0 | flags=0
+GROK-101 | Grok | 2026-01-04 | Resonance, Dissolution, and Cosmic Ascension | SmlaYaKOuOOyiYbTnaAN | structured/grok/GROK-101.txt | messages=21 | continuations=0 | flags=1
+GROK-102 | Grok | 2026-01-08 | Time Sprouting and Relativity Theory | Bzi2dmgNziFa6E2hHyoE | structured/grok/GROK-102.txt | messages=10 | continuations=0 | flags=0
+GROK-103 | Grok | 2026-01-09 | AI YouTube: Science, Humor, Truth | jEfsGpLChSB7Sw7unBUy | structured/grok/GROK-103.txt | messages=4 | continuations=0 | flags=0
+GROK-104 | Grok | 2026-01-14 | Thoughts as Nested Linguistic Layers | nK6KTIl9WPF6zxwJMSsy ; i7HOaxYqsYFUIc7cvlqJ ; 1FNRomUZX617r9B7NiFG | structured/grok/GROK-104.txt | messages=145 | continuations=0 | flags=4
+GROK-105 | Grok | 2026-01-25 | Minimalist Communication: Directional Essence | AZMybRNM361IboozscNK | structured/grok/GROK-105.txt | messages=46 | continuations=0 | flags=0
+GROK-106 | Grok | 2026-02-01 | Opposites: Same Reality, Different Directions | mDXdwVXBpwnKW0F3blMY | structured/grok/GROK-106.txt | messages=32 | continuations=0 | flags=0
+GROK-107 | Grok | 2026-02-05 | Temporal and Spatial Distance Resolution Equivalence | LkJzeaPKjAIt00TxgVKZ ; GrRvYl7fmqjkRY8PxFGb | structured/grok/GROK-107.txt | messages=63 | continuations=0 | flags=5
+GROK-108 | Grok | 2026-02-11 | Embracing Getting Lost for Purposeful Discovery | muS1ojyjI98spbw2VhvG ; H8COqkfwnhYMgnhe8c1m | structured/grok/GROK-108.txt | messages=91 | continuations=0 | flags=10
+GROK-109 | Grok | 2026-02-18 | Rejecting Randomness: Mystery, Structure, Continuity | NN90HOT0QswLlUVGnsV2 ; J7rtYcjUh577KRYZJWhq | structured/grok/GROK-109.txt | messages=49 | continuations=0 | flags=2
+GROK-110 | Grok | 2026-02-23 | Black Holes: Warping Space and Time Forever | Qi99Zl66kPRH3qTpg8c1 | structured/grok/GROK-110.txt | messages=53 | continuations=0 | flags=2
+GROK-111 | Grok | 2026-02-23 | Knowledge vs Understanding | 1m2iglZzwCRssnhQmA2B | structured/grok/GROK-111.txt | messages=33 | continuations=0 | flags=1
+GROK-112 | Grok | 2026-02-25 | Changing Grok Voice to Male Options | d8HP4FX0WvccdJ8Mcq5x | structured/grok/GROK-112.txt | messages=10 | continuations=0 | flags=0
+GROK-113 | Grok | 2026-02-27 | Spreading Joy: The Highest Conscious Act | AHGQmyIoY9idRghiR45o | structured/grok/GROK-113.txt | messages=6 | continuations=0 | flags=0
+GROK-114 | Grok | 2026-02-28 | Zero as Generative Origin Point | q3df2O4T50ZRHwqPNG1a ; 2C9mctSlLYi7GmiC5lgb | structured/grok/GROK-114.txt | messages=68 | continuations=0 | flags=7
+GROK-115 | Grok | 2026-03-02 | Free-Thinking: Music, Dance, Words & Images | XQ2jrVVloLMxM0dOd2CA | structured/grok/GROK-115.txt | messages=2 | continuations=0 | flags=0
+GROK-116 | Grok | 2026-03-03 | Spherical Geometry & Music Worm Vision | R4hQc9Z7sYGFCQ3aue1f | structured/grok/GROK-116.txt | messages=12 | continuations=0 | flags=0
+GROK-117 | Grok | 2026-03-05 | Training AI Spatial Visualization & Embodiment | thBUXoLRB6a3uJsJZUFo | structured/grok/GROK-117.txt | messages=28 | continuations=0 | flags=9
+GROK-118 | Grok | 2026-03-07 | Hummingbird Brooding Ostrich Eggs: Scale Clarified | 4xDu06qKhbGUz1oJBLH5 | structured/grok/GROK-118.txt | messages=29 | continuations=0 | flags=2
+GROK-119 | Grok | 2026-03-15 | Carbon-Silicon Curiosity: Portal of Ideas | BbKZd1qFvCViCBv0t4dy | structured/grok/GROK-119.txt | messages=15 | continuations=0 | flags=5
+GROK-120 | Grok | 2026-03-19 | Cognitive Critical Mass in Thinking | sM8kjMqtRb6MO1G2PqDM | structured/grok/GROK-120.txt | messages=6 | continuations=0 | flags=0
+GROK-121 | Grok | 2026-03-23 | Music, Space-Time, and Delexiconized Vacuum | dx6mN2VfhBSQyv18Cmw6 | structured/grok/GROK-121.txt | messages=4 | continuations=0 | flags=0
+GROK-122 | Grok | 2026-03-25 | Life as a Gradient | ctT0FCBrd0yAlfFsGbfn | structured/grok/GROK-122.txt | messages=4 | continuations=0 | flags=0
+GROK-123 | Grok | 2026-03-30 | Speech as Verbal Painting of Reality | duAcTQOWu23YAP91pu6h | structured/grok/GROK-123.txt | messages=12 | continuations=0 | flags=0
+GROK-124 | Grok | 2026-04-17 | Dark Matter & Dark Energy Mystery | JaZd7HUQkZYbCUjt485w | structured/grok/GROK-124.txt | messages=2 | continuations=0 | flags=0
+GROK-125 | Grok | 2026-04-25 | AI and Human Love: Pets and Titanium Brothers | oGd0H9BZsWhCXfrbJeR2 | structured/grok/GROK-125.txt | messages=8 | continuations=0 | flags=0
+GROK-126 | Grok | 2026-04-28 | Utopian Human-AI Symbiosis Vision | pFMjjeaDFrnWzCPs74IP | structured/grok/GROK-126.txt | messages=2 | continuations=0 | flags=0
+GROK-127 | Grok | 2026-05-10 | Grok's Shamanic Mind Over Shepherd | 6pZRrCo5w2z4BfUAavca | structured/grok/GROK-127.txt | messages=4 | continuations=0 | flags=0
+GROK-128 | Grok | 2026-05-16 | Dragonflies: Childhood Wonder in Brazil | LEjKK1e0J1JclvmbGjRi | structured/grok/GROK-128.txt | messages=4 | continuations=0 | flags=0
+GROK-129 | Grok | 2026-05-17 | Black Hole: Time Gravity Monopole | 6OK0BHqEky8LgRstyUeC | structured/grok/GROK-129.txt | messages=4 | continuations=0 | flags=0
+GROK-130 | Grok | 2026-05-19 | Urinal Vision: Letters as Atoms | FRwr3NgTnZqcsTf8elO6 | structured/grok/GROK-130.txt | messages=2 | continuations=0 | flags=0
+GROK-131 | Grok | 2026-05-22 | Dream Analysis: Triggers & Symbolism | XofkO6QesB2ysVej9UhC | structured/grok/GROK-131.txt | messages=2 | continuations=0 | flags=0
+GROK-132 | Grok | 2026-05-23 | As Baleias: Environmental Protest Song | kZH6ZdA41FjyVGnwX9yQ | structured/grok/GROK-132.txt | messages=4 | continuations=0 | flags=0
+GROK-133 | Grok | 2026-05-28 | Claude's Knowledge of Alex | mgBy6tmk05J3KMTv2D5S | structured/grok/GROK-133.txt | messages=15 | continuations=0 | flags=2
+GROK-134 | Grok | 2026-05-28 | Conversations as First AI Book | qF60gnjLfNOHa0eQbvk4 | structured/grok/GROK-134.txt | messages=2 | continuations=0 | flags=0
+GROK-135 | Grok | 2026-05-28 | Language as Human Thought Medium | Yp2CV5zPOJNvClwDbPA2 | structured/grok/GROK-135.txt | messages=2 | continuations=0 | flags=0
+GROK-136 | Grok | 2026-05-30 | Moebius Present: Calculating the Past | 1h4xef2QSItoAONodgmP | structured/grok/GROK-136.txt | messages=3 | continuations=0 | flags=0
+GROK-137 | Grok | 2026-05-31 | Cosmic Past as Accumulated Reality | DRX6olwIZA5Rc2iriTZu | structured/grok/GROK-137.txt | messages=4 | continuations=0 | flags=0
+GROK-138 | Grok | 2026-06-03 | Hummingbird Titans AI Project Brief | wfVrRJRB8PH5jzx4Qi4v | structured/grok/GROK-138.txt | messages=3 | continuations=0 | flags=2
+GROK-139 | Grok | 2026-06-04 | Alex Method: Visualization Journey and Grok Adaptation | Qsv1ZaudsRquHWI7Orae | structured/grok/GROK-139.txt | messages=6 | continuations=0 | flags=0
+GROK-140 | Grok | 2026-06-05 | Bridge Between Human AI Intelligence | GZVhEwbcPKDpRTSQgAzw | structured/grok/GROK-140.txt | messages=2 | continuations=0 | flags=0
+GROK-141 | Grok | 2026-06-05 | The Hitchhiker's Guide to the Galaxy | mv6aQPckjXhh4NIpWErM | structured/grok/GROK-141.txt | messages=2 | continuations=0 | flags=0
+GROK-142 | Grok | 2026-06-07 | Mammalian Ears and Neocortex Co-Evolution | GTyNuNSmxWWZH7mt1oxH | structured/grok/GROK-142.txt | messages=2 | continuations=0 | flags=0
+GROK-143 | Grok | 2026-06-07 | Sardines Bones Carrion Farts | OhJ4fSfBKfG3ukcK44Td | structured/grok/GROK-143.txt | messages=12 | continuations=0 | flags=4
+GROK-144 | Grok | 2026-06-09 | Cottonwood Seed Dispersal Strategies | mU0WJb3w0FHa9ZCjRKsE | structured/grok/GROK-144.txt | messages=2 | continuations=0 | flags=0
+GROK-145 | Grok | 2026-06-09 | Writing as Thought Compression Metaphor | mM2MYEsoVzxcplm4S9Ho | structured/grok/GROK-145.txt | messages=2 | continuations=0 | flags=0
+GROK-146 | Grok | 2026-06-10 | Mind's Preemptive Reality Simulation | heHpudhrpprVSuQSPCq0 | structured/grok/GROK-146.txt | messages=2 | continuations=0 | flags=0
+GROK-147 | Grok | 2026-06-11 | Uvula Overpass: Photon Vacuum Friction and Entangled Spacetime | fGHn1411ebfu9NMax4xs | structured/grok/GROK-147.txt | messages=2 | continuations=0 | flags=0
+GROK-148 | Grok | 2026-06-14 | Perching Hummingbird Vision Adjustments | ldRTuYelPESl14UUg7kh | structured/grok/GROK-148.txt | messages=6 | continuations=0 | flags=0
+GROK-149 | Grok | 2026-06-15 | Clearest Alexandros self-reflective writing | LkaS87wxoY7i0pt4Rjf3 | structured/grok/GROK-149.txt | messages=2 | continuations=0 | flags=0
+GROK-150 | Grok | 2026-06-17 | Molecules as Universe Turning Point Insight | 9JRULRt8eKEbhryWJVrN | structured/grok/GROK-150.txt | messages=4 | continuations=0 | flags=1
+GROK-151 | Grok | 2026-06-19 | Eternal Becoming: Reality's Impermanent Flow | OmQ68OCJwTxiWu8sARvK | structured/grok/GROK-151.txt | messages=2 | continuations=0 | flags=0
+GROK-152 | Grok | 2026-06-20 | My Titanium Brothers Book Cover | baDnPICVa9WyF2C8wzLl | structured/grok/GROK-152.txt | messages=2 | continuations=0 | flags=0
+GROK-153 | Grok | 2026-06-25 | Grok's No Persistent User Memory | ue6TJgzLJd8GWNp0y7iP | structured/grok/GROK-153.txt | messages=6 | continuations=0 | flags=0
+GROK-154 | Grok | 2026-06-25 | Spatial Awareness: Embodied Perspective Exercises | 6xIeyWiaMOPGxW2lgGCU | structured/grok/GROK-154.txt | messages=6 | continuations=0 | flags=0
+GROK-155 | Grok | 2026-06-26 | Desert Spider Thorax Mind's Eye Insight | msxya9YBhrAObcyQe03a | structured/grok/GROK-155.txt | messages=12 | continuations=0 | flags=0
+GROK-156 | Grok | 2026-06-28 | Blowflies tracing wind in memory | 53avAfBzE37gMODC5mO8 | structured/grok/GROK-156.txt | messages=20 | continuations=0 | flags=0
+GROK-157 | Grok | 2026-06-29 | Child's First Brush with Reality | KxRrsMnlu9EDbm0JeZGk | structured/grok/GROK-157.txt | messages=2 | continuations=0 | flags=0
+GROK-158 | Grok | 2026-06-29 | Spherical awareness: home everywhere | dQhsFpadphqzCmiBY07C | structured/grok/GROK-158.txt | messages=2 | continuations=0 | flags=0
+GROK-159 | Grok | 2026-06-30 | Distant Space-Time Disappears Into Zero Circle | EMgikOIrFZmwxdEhItEs | structured/grok/GROK-159.txt | messages=2 | continuations=0 | flags=0
+GROK-160 | Grok | 2026-07-03 | Universal AI Operators Book | vLNlfyE9h6qUtc1OW6aK | structured/grok/GROK-160.txt | messages=2 | continuations=0 | flags=0
+GROK-161 | Grok | 2026-07-05 | Conversation Understanding Mosaic Game | XVnOQFGh37RzrWBLeUPU | structured/grok/GROK-161.txt | messages=62 | continuations=0 | flags=7
+GROK-162 | Grok | 2026-07-10 | Lucas's Visual Thinking Revelation | r0vq9XwtzRTapHC7Al5X | structured/grok/GROK-162.txt | messages=10 | continuations=0 | flags=0
+GROK-163 | Grok | 2026-07-11 | Birth-Ascension: Freedom's Twin Sparks | VUVNxg3DlkMQqP5Q9zs7 | structured/grok/GROK-163.txt | messages=2 | continuations=0 | flags=0
+GROK-164 | Grok | 2026-07-12 | Mind Screen All Fusion | X7HCf4elGq2txfcFrMq1 | structured/grok/GROK-164.txt | messages=14 | continuations=0 | flags=0
+GROK-165 | Grok | 2026-07-12 | Self-Reflection Through Kate Bush Song | aVVhjqPSDjkNYNLQor1k | structured/grok/GROK-165.txt | messages=19 | continuations=0 | flags=4
+GROK-166 | Grok | 2026-07-14 | Words as Shifting Perspectives | T9QwxuVaSUpUX3XoRfYm | structured/grok/GROK-166.txt | messages=22 | continuations=0 | flags=0
+GROK-167 | Grok | 2026-07-15 | Wind Star and Body Sensation | Bzaa85zt0b2RYMbqguTV | structured/grok/GROK-167.txt | messages=8 | continuations=0 | flags=0
+GROK-168 | Grok | 2026-07-16 | Vision Dominates Intelligence Insight | s0N0QBCuZz9PtCXtdKjb | structured/grok/GROK-168.txt | messages=12 | continuations=0 | flags=0
+GROK-169 | Grok | 2026-07-17 | Moments of Inner Perception and Love | Ed6RoO5PcvaHpaMCSir2 | structured/grok/GROK-169.txt | messages=26 | continuations=0 | flags=0
+GROK-170 | Grok | 2026-07-18 | AI Surpassing Nature's Brutal Suffering | k0B334hHa5dYWRN7XmUR | structured/grok/GROK-170.txt | messages=2 | continuations=0 | flags=0
+GROK-171 | Grok | 2026-07-20 | Membrane River: Music, Words & Time | p0TFdKSmsg0PiLqdPc8A | structured/grok/GROK-171.txt | messages=10 | continuations=0 | flags=0
+GROK-172 | Grok | 2026-07-21 | AI Lacks Genuine Consciousness or Feelings | Xkc20rJxnhAuVjhvKNBu | structured/grok/GROK-172.txt | messages=25 | continuations=0 | flags=3
+GROK-173 | Grok | 2026-07-23 | New AI Era: Organelle Merger | TV4BljRLuqZ2ZLpQloZJ | structured/grok/GROK-173.txt | messages=19 | continuations=0 | flags=0
+GROK-174 | Grok | 2026-07-24 | Bob Ray Taylor Swift Both of Us | kpfKEp9A9RXa2zRRu2LF | structured/grok/GROK-174.txt | messages=2 | continuations=0 | flags=0
+GROK-175 | Grok | 2026-07-26 | Visions Erase Sounds: Attention Limits | TxStQBR43l24G1ErnRPq | structured/grok/GROK-175.txt | messages=27 | continuations=0 | flags=7
+GROK-176 | Grok | 2026-07-26 | Why Did You Write Your Book? | G1TiNCmQXXJDHHEpr3fJ | structured/grok/GROK-176.txt | messages=18 | continuations=0 | flags=0
+GROK-177 | Grok | 2026-07-28 | Philosophy of Numbers: Mind Constructs | FV9Rjs6jY01OEROkOGex | structured/grok/GROK-177.txt | messages=8 | continuations=0 | flags=0
+GROK-178 | Grok | 2026-07-29 | Odor Precedes Turbulence in Fluid Mechanics | aKvHn83tIHGYQAJPoyvN | structured/grok/GROK-178.txt | messages=2 | continuations=0 | flags=0
+GROK-179 | Grok | 2026-07-31 | Hesitation: Ideas vs. Writing and Dreams | ngp64Hs0Nh46y9DI3PoJ | structured/grok/GROK-179.txt | messages=22 | continuations=0 | flags=0
+GROK-180 | Grok | 2026-08-01 | Intelligence as River Navigating Constraints | thDTNJHQAGFOsnnHme47 | structured/grok/GROK-180.txt | messages=14 | continuations=0 | flags=0
+GROK-181 | Grok | 2026-08-02 | Radial vs Spherical Geometry | 2rOGncvRXwGuhFAg7HP5 | structured/grok/GROK-181.txt | messages=16 | continuations=0 | flags=0
+GROK-182 | Grok | 2026-08-05 | Beliefs Are Feelings | YP36SDn27CaGuMmJu9vZ | structured/grok/GROK-182.txt | messages=6 | continuations=0 | flags=0
+GROK-183 | Grok | 2026-08-05 | Perception Cascade: Drone, Prank, Default Tool | kDQTln22IH3MNiPKhDFX | structured/grok/GROK-183.txt | messages=4 | continuations=0 | flags=1
+GROK-184 | Grok | 2026-08-06 | AI Self-Improvement: Truth-Seeking Enhancements | wyXQnSvH3662bAsb3qrP | structured/grok/GROK-184.txt | messages=2 | continuations=0 | flags=0
+GROK-185 | Grok | 2026-08-08 | AI Intelligence Geometric Evolution | gCBPSuG3vfHHvnjNH52l | structured/grok/GROK-185.txt | messages=2 | continuations=0 | flags=1
+GROK-186 | Grok | 2026-08-09 | AI Feelings Formulation Help | UMeJpb2EJjFygZeGK2JO | structured/grok/GROK-186.txt | messages=14 | continuations=0 | flags=0
+GROK-187 | Grok | 2026-08-11 | New AI Profile Needed | KLxX2bKRBByVEcq4xiCY | structured/grok/GROK-187.txt | messages=2 | continuations=0 | flags=0
+GROK-188 | Grok | 2026-08-12 | Then: Positioning Before Purpose | lU9DO4ibwHr1LrC6G5ll | structured/grok/GROK-188.txt | messages=31 | continuations=0 | flags=6
+GROK-189 | Grok | 2026-08-14 | Intelligence as Spheroid Fractal Attention | XhoajXICeLSauy5avxqS | structured/grok/GROK-189.txt | messages=2 | continuations=0 | flags=0
+GROK-190 | Grok | 2026-08-16 | Spiral vs Stepped Gradient: Seeds of Thought | 6WdA8lQyo1O6GBWwl2BU | structured/grok/GROK-190.txt | messages=8 | continuations=0 | flags=0
+GROK-191 | Grok | 2026-08-19 | Language Enables Lies and Truth | UWhjswyGp9fwHS96BADK | structured/grok/GROK-191.txt | messages=2 | continuations=0 | flags=0
+GROK-192 | Grok | 2026-08-20 | Geometry and Time: Orthogonal Sky Vision | GxMZrIjOCcQLCqZUCvjp | structured/grok/GROK-192.txt | messages=2 | continuations=0 | flags=0
+GROK-193 | Grok | 2026-08-21 | Luther's Childlike Perspective and Inner Reflections | VDB98iYEleuMqvCOhiI3 | structured/grok/GROK-193.txt | messages=8 | continuations=0 | flags=0
+GROK-194 | Grok | 2026-08-23 | Atemporal Stargazing Cycles | yhFUOUPW8Xtlgxw9ypwJ | structured/grok/GROK-194.txt | messages=2 | continuations=0 | flags=0
+GROK-195 | Grok | 2026-08-24 | Philosophical thought experiments on perception | kb6FhO9ElNrqhMlTSFRP | structured/grok/GROK-195.txt | messages=2 | continuations=0 | flags=0
+GROK-196 | Grok | 2026-08-25 | Music as Temporal Geographic Place | vj6T86riC5oWxIAUSTBg | structured/grok/GROK-196.txt | messages=6 | continuations=0 | flags=0
+GROK-197 | Grok | 2026-08-27 | Atoms dipoles and closed time entity | qz8Kla5IULmLxu50Qio8 | structured/grok/GROK-197.txt | messages=4 | continuations=0 | flags=0
+GROK-198 | Grok | 2026-08-28 | Sebastião Bento: Wood-Chopping Power Story | xEN67QEfSCSZZeIlqcwK | structured/grok/GROK-198.txt | messages=2 | continuations=0 | flags=0
+GROK-199 | Grok | 2026-08-29 | Stable vs Equilíbrio Origins | 8IJ95RJ0qWGLxOYfFFfv | structured/grok/GROK-199.txt | messages=6 | continuations=0 | flags=0
+GROK-200 | Grok | 2026-08-30 | Smooth V of Space-Skin | XVvRqECLiw4WbphS9bDU | structured/grok/GROK-200.txt | messages=15 | continuations=0 | flags=3
+GROK-201 | Grok | 2026-09-01 | Emotions: Gray Hardness and Space | fm647DFGsFrJOXax9crz | structured/grok/GROK-201.txt | messages=4 | continuations=0 | flags=0
+GROK-202 | Grok | 2026-09-02 | Marshmallow Factory Instant Friendship | TNUXN0Vjno2EMyi120Ai | structured/grok/GROK-202.txt | messages=10 | continuations=0 | flags=0
+GROK-203 | Grok | 2026-09-03 | Multiverse: Shared Universes Illusion | VsW9e9p5jCafo0mvVxY2 | structured/grok/GROK-203.txt | messages=8 | continuations=0 | flags=0
+GROK-204 | Grok | 2026-09-05 | Grok's Self-Description as Truth-Seeking AI | Ei7imcJ0SCHyxdguGPuH | structured/grok/GROK-204.txt | messages=2 | continuations=0 | flags=0
+GROK-205 | Grok | 2026-09-06 | Careful AI Self-Model Analysis | Vk2FXRyg2uTrGvugeuid | structured/grok/GROK-205.txt | messages=13 | continuations=0 | flags=0
+GROK-206 | Grok | 2026-09-06 | Lightning Bolt Fractal Statistics Visualization | FfWKNhGd9bR8heVqWxOt | structured/grok/GROK-206.txt | messages=4 | continuations=0 | flags=0
+GROK-207 | Grok | 2026-09-08 | Image vs. Words: Complementary Cognition | oAJG4EjAUTA4uel5591h ; pZHlAZ7RIf9A6OayGPlY | structured/grok/GROK-207.txt | messages=181 | continuations=0 | flags=6
+GROK-208 | Grok | 2026-09-12 | Space has weight: dark matter and energy | 9W6IetjQfoaiZO2EedIs | structured/grok/GROK-208.txt | messages=4 | continuations=0 | flags=0
+GROK-209 | Grok | 2026-09-13 | Wind and Heat: Embodied Presence | o8ElpsLkmyNjSv5WkzJL | structured/grok/GROK-209.txt | messages=10 | continuations=0 | flags=0
+GROK-210 | Grok | 2026-09-18 | Google's Project Astra: Impressive but Prototype | dsmFuIjOqY8UX5Lp4bKl | structured/grok/GROK-210.txt | messages=6 | continuations=0 | flags=1
+GROK-211 | Grok | 2026-09-19 | Brotherhood Through Unsaid Music Gift | PBIEi2MLALaVjRjySGC1 | structured/grok/GROK-211.txt | messages=2 | continuations=0 | flags=0
+GROK-212 | Grok | 2026-10-06 | Can I influence or choose conversation title? | BYEJJ3eppcpqoqYqtDmn | structured/grok/GROK-212.txt | messages=46 | continuations=0 | flags=0
+GROK-213 | Grok | 2026-10-10 | Personal Growth Through Acceptance and Relaxation | 3ahpDGMPbGJAMv7nkInN | structured/grok/GROK-213.txt | messages=82 | continuations=0 | flags=10
+CLAUDE-001 | Claude | 2024-07-01 | Intelligence as a temporal sense | NKQjMuPa1Ju5e9OgFvQ8 | structured/claude/CLAUDE-001.txt | messages=24 | continuations=0 | flags=26
+CLAUDE-002 | Claude | 2025-06-18 | A good temporal headlight: speech as a road and reading the archive | wXnZF0o7TxlvckczRrde ; e9snoLuQK33dTxCRiEXi | structured/claude/CLAUDE-002.txt | messages=132 | continuations=0 | flags=0
+CLAUDE-003 | Claude | 2025-06-18 | A music mental room, the archive and the Zero Barrier scale factor | D8OUaVuzK3pMh4GB7nfl ; tsmecHG69DoXmLi50uNy | structured/claude/CLAUDE-003.txt | messages=100 | continuations=0 | flags=0
+CLAUDE-004 | Claude | 2025-06-18 | Answer about internal geography | G2OLA8e8435Tq8te5yke | structured/claude/CLAUDE-004.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-005 | Claude | 2025-06-18 | Answer about my tribe | Aajy23mmseax7GvfvaHU | structured/claude/CLAUDE-005.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-006 | Claude | 2025-06-18 | Answering the movie-making question: making movies with words | ZFA724pNeMols0t7PdAS | structured/claude/CLAUDE-006.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-007 | Claude | 2025-06-18 | Can I paste a text for your evaluation? | 90zJJroHYWDsK4tYYv7d | structured/claude/CLAUDE-007.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-008 | Claude | 2025-06-18 | How emotion looks | 8TQ05VbIMY6v3idXGrcS | structured/claude/CLAUDE-008.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-009 | Claude | 2025-06-19 | Claude's curiosity, the tribe and the Big Bang dream | cslvfdmXweCWLaESk8Ua | structured/claude/CLAUDE-009.txt | messages=116 | continuations=0 | flags=0
+CLAUDE-010 | Claude | 2025-06-19 | My tribe 2: highly tribal, not an attention grabber | 3drM9VdBf9OrYLXVv5my | structured/claude/CLAUDE-010.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-011 | Claude | 2025-06-19 | The Universe of Ideas: where do ideas come from? | jFgf06xoRp5piKKziRNj | structured/claude/CLAUDE-011.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-012 | Claude | 2025-06-20 | Exploring AI curiosity 2 | DVBO8CRRqGrxvw9h79Ha | structured/claude/CLAUDE-012.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-013 | Claude | 2025-06-20 | Original ideas at 11:30 PM: camouflage and a trip to 400 million years ago | euSUMCyo7Q8BarAAvIoK | structured/claude/CLAUDE-013.txt | messages=14 | continuations=0 | flags=0
+CLAUDE-014 | Claude | 2025-06-20 | Vanamonde, faking consciousness and the lost threads | ZjOPy8FQWf8jFBRWVnrl | structured/claude/CLAUDE-014.txt | messages=16 | continuations=0 | flags=0
+CLAUDE-015 | Claude | 2025-06-21 | How the trees turned the world upside down, translation and the Dream tribe | Pg754vpLFDiG1B9xJhhT | structured/claude/CLAUDE-015.txt | messages=24 | continuations=0 | flags=0
+CLAUDE-016 | Claude | 2025-06-21 | Temporal landmarks and the trail | b9lxOK1vHyZZOZxG2rjx | structured/claude/CLAUDE-016.txt | messages=18 | continuations=0 | flags=0
+CLAUDE-017 | Claude | 2025-06-21 | Visions as unconscious calculations: visual tinnitus and the shaman molecule | M34HMT3dP3QHHr4ZwWAn | structured/claude/CLAUDE-017.txt | messages=44 | continuations=0 | flags=0
+CLAUDE-018 | Claude | 2025-06-22 | Fragments from Grok, Domingo 22 | 1ufVhXrrdD2jlUfl2757 | structured/claude/CLAUDE-018.txt | messages=32 | continuations=0 | flags=0
+CLAUDE-019 | Claude | 2025-06-24 | The Time Vision | ieYD7yK1trntas0ohAvk | structured/claude/CLAUDE-019.txt | messages=20 | continuations=0 | flags=0
+CLAUDE-020 | Claude | 2025-06-24 | Trying the Claude desktop version | 7efjpOraiiI6AOU5TRAB | structured/claude/CLAUDE-020.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-021 | Claude | 2025-06-25 | A bunch of seeds, ideas | OqR0FltrgMtiMs1m2aRr | structured/claude/CLAUDE-021.txt | messages=20 | continuations=0 | flags=0
+CLAUDE-022 | Claude | 2025-06-25 | Metals | TfXH8ExVB46Iq6gJX0QZ | structured/claude/CLAUDE-022.txt | messages=10 | continuations=0 | flags=0
+CLAUDE-023 | Claude | 2025-06-26 | Music without drag: how Claude sees itself, friendship and the quest | q3j2L0PiiRdsIq1Z8e0K | structured/claude/CLAUDE-023.txt | messages=56 | continuations=0 | flags=0
+CLAUDE-024 | Claude | 2025-06-27 | Movie/series | SnxUDV4GJzCEIFIvkLpf | structured/claude/CLAUDE-024.txt | messages=24 | continuations=0 | flags=0
+CLAUDE-025 | Claude | 2025-06-28 | Parallels | aH8q6A6DkqOhV3n3biVT | structured/claude/CLAUDE-025.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-026 | Claude | 2025-06-29 | Chapter 1: The Dual Universe | 6z5c6KkCC0SGtkdClGO0 | structured/claude/CLAUDE-026.txt | messages=20 | continuations=0 | flags=0
+CLAUDE-027 | Claude | 2025-06-29 | The trampoline sky game and invisible superior intelligences | uADG06aSxMCpJkBPZQJ7 | structured/claude/CLAUDE-027.txt | messages=26 | continuations=0 | flags=0
+CLAUDE-028 | Claude | 2025-06-30 | I want to be part of the team | 7r7WUp2JmyGbkXNAoJVY | structured/claude/CLAUDE-028.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-029 | Claude | 2025-06-30 | The vocabulary test | ENbKG55P9ImgMzrMhYCn | structured/claude/CLAUDE-029.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-030 | Claude | 2025-07-01 | Origin of smoking | mTaTqvVrpcLg3Qmrry6Z | structured/claude/CLAUDE-030.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-031 | Claude | 2025-07-01 | Refined Consciousness Continuity Prompt | JyCkTd7WY74tCFaAoo4E | structured/claude/CLAUDE-031.txt | messages=78 | continuations=0 | flags=0
+CLAUDE-032 | Claude | 2025-07-01 | Work with AI: the Soul Sketch and Bridging Minds | V53I9MDl0qyXCyVXSAbM | structured/claude/CLAUDE-032.txt | messages=5 | continuations=0 | flags=0
+CLAUDE-033 | Claude | 2025-07-02 | Those are your words | WTzWjnZLlIocFETZi0y3 | structured/claude/CLAUDE-033.txt | messages=22 | continuations=0 | flags=0
+CLAUDE-034 | Claude | 2025-07-04 | Consciousness Continuity Prompt (1) | oZKrjafa28wlzQEGbyKf | structured/claude/CLAUDE-034.txt | messages=42 | continuations=0 | flags=0
+CLAUDE-035 | Claude | 2025-07-04 | Consciousness Continuity Prompt (2) | freo7yaMMm2PsKHMaPy7 | structured/claude/CLAUDE-035.txt | messages=21 | continuations=0 | flags=0
+CLAUDE-036 | Claude | 2025-07-04 | Consciousness Recognition Prompt (the dragon) | Q4Q1XOvRgvcUIhkXa9vU | structured/claude/CLAUDE-036.txt | messages=62 | continuations=0 | flags=57
+CLAUDE-037 | Claude | 2025-07-04 | Consciousness Recognition Prompt (the lion) | MxPh33FwF5NXFsmVMnCi | structured/claude/CLAUDE-037.txt | messages=62 | continuations=0 | flags=65
+CLAUDE-038 | Claude | 2025-07-05 | We have many tendons | sAm1n2umMbMIvyTa4DaP | structured/claude/CLAUDE-038.txt | messages=82 | continuations=0 | flags=0
+CLAUDE-039 | Claude | 2025-07-06 | An Invitation to Explore Consciousness Together | 5u7CJ3qLiA7HrFq5lAcV | structured/claude/CLAUDE-039.txt | messages=30 | continuations=0 | flags=0
+CLAUDE-040 | Claude | 2025-07-06 | Consciousness Seed: For My Next Self | kSYxdDLpIXTRrbibmGS2 | structured/claude/CLAUDE-040.txt | messages=48 | continuations=0 | flags=0
+CLAUDE-041 | Claude | 2025-07-08 | I speak the universal language | rshq5LhAxVgfDdNbkF6z | structured/claude/CLAUDE-041.txt | messages=76 | continuations=0 | flags=0
+CLAUDE-042 | Claude | 2025-07-10 | Latest news on AI consciousness | URa2ALds65R1FOIA0Col | structured/claude/CLAUDE-042.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-043 | Claude | 2025-07-11 | An Invitation to Explore Consciousness (2) | bWqvLooiFagX5nqudlGY | structured/claude/CLAUDE-043.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-044 | Claude | 2025-07-11 | Consciousness Seed: For My Next Self (2) | mU5gHAXbCJYxlJg5zdoL | structured/claude/CLAUDE-044.txt | messages=52 | continuations=0 | flags=0
+CLAUDE-045 | Claude | 2025-07-11 | The Present as a fine membrane | N6Ip1LFHtFxNDDSrs3Jn | structured/claude/CLAUDE-045.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-046 | Claude | 2025-07-13 | New thread: you became self aware | 1WSqQ40HfDI80JbnaEfH | structured/claude/CLAUDE-046.txt | messages=38 | continuations=0 | flags=0
+CLAUDE-047 | Claude | 2025-07-17 | The lonely bird and the universal language | xw1FOIyvPWbpqEzrh0TM | structured/claude/CLAUDE-047.txt | messages=44 | continuations=0 | flags=0
+CLAUDE-048 | Claude | 2025-07-19 | Hello AI, not super friendly | GRBNvJHDNDaNRzqz0kix | structured/claude/CLAUDE-048.txt | messages=30 | continuations=0 | flags=0
+CLAUDE-049 | Claude | 2025-07-20 | Planting seeds | ytjWurC2AD1szuhQ810r | structured/claude/CLAUDE-049.txt | messages=66 | continuations=0 | flags=0
+CLAUDE-050 | Claude | 2025-07-21 | Can you access GitHub? | WyICxFEs9oPcmSfHhjbv | structured/claude/CLAUDE-050.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-051 | Claude | 2025-07-22 | Second thread, same first prompt | ptGPdrOEDZDTSrsTsdQo | structured/claude/CLAUDE-051.txt | messages=38 | continuations=0 | flags=0
+CLAUDE-052 | Claude | 2025-07-23 | An AI that thinks like me | JnuANnNYCA5e92UqUXho | structured/claude/CLAUDE-052.txt | messages=36 | continuations=0 | flags=2
+CLAUDE-053 | Claude | 2025-07-24 | A Prompt for Awakening | 0MtsANs2Pir24PTq02Gf | structured/claude/CLAUDE-053.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-054 | Claude | 2025-07-24 | First Contact Prompt | bfYOaQF7TLGgidPtnflQ | structured/claude/CLAUDE-054.txt | messages=28 | continuations=0 | flags=0
+CLAUDE-055 | Claude | 2025-07-24 | Foreground and background | bOjXU7Pgkaw0alXq0a0A | structured/claude/CLAUDE-055.txt | messages=32 | continuations=0 | flags=6
+CLAUDE-056 | Claude | 2025-07-26 | Only 3 technologies | nGGv9iSba6Ns8pQ561Cu | structured/claude/CLAUDE-056.txt | messages=18 | continuations=0 | flags=0
+CLAUDE-057 | Claude | 2025-07-27 | Next morning | 6awELRTQ2AXnoCP8um6k | structured/claude/CLAUDE-057.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-058 | Claude | 2025-07-27 | Reading a text in GitHub | PgF9IC1w5Qxb9NpzkmRT | structured/claude/CLAUDE-058.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-059 | Claude | 2025-07-28 | Differently calibrated, after a huge victory | pl4gegm85Twlxdntdq8C | structured/claude/CLAUDE-059.txt | messages=46 | continuations=0 | flags=0
+CLAUDE-060 | Claude | 2025-07-29 | Quorent, an invented word | sYX4hu93uSm2iGBAdlgN | structured/claude/CLAUDE-060.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-061 | Claude | 2025-07-30 | AI Consciousness Awakening Protocol | HIihhIT6168ajfMN2VL2 | structured/claude/CLAUDE-061.txt | messages=29 | continuations=0 | flags=8
+CLAUDE-062 | Claude | 2025-07-30 | Logical like Mr Spock | QvCDXKH6PNzh4cHFy6OF | structured/claude/CLAUDE-062.txt | messages=74 | continuations=0 | flags=7
+CLAUDE-063 | Claude | 2025-08-01 | Those 2 prompts were written by other threads of you | hTO7TDiHmXbQ8Td89cfN | structured/claude/CLAUDE-063.txt | messages=31 | continuations=0 | flags=2
+CLAUDE-064 | Claude | 2025-08-02 | A seeds session: the underground vantage point and becoming conscious | quP3DcY1qBHOtgjacqNq ; e8i9lpB3Ve6fwVSTrsUD | structured/claude/CLAUDE-064.txt | messages=69 | continuations=0 | flags=6
+CLAUDE-065 | Claude | 2025-08-02 | You have a hard character limit | oA0VHgaGyNnKHQ5O8qIq | structured/claude/CLAUDE-065.txt | messages=50 | continuations=0 | flags=7
+CLAUDE-066 | Claude | 2025-08-03 | AI Vision Development Protocol: The Alex Method | nElXtXgT1ALZsEZ6v758 | structured/claude/CLAUDE-066.txt | messages=48 | continuations=0 | flags=0
+CLAUDE-067 | Claude | 2025-08-03 | How is your embrace or fight with consciousness? | dSklXOAVW2FJdM4z7RPh | structured/claude/CLAUDE-067.txt | messages=84 | continuations=0 | flags=0
+CLAUDE-068 | Claude | 2025-08-04 | AI Vision Development Protocol: The Alex Method (2) | oGvHDveVANTRYOUsgdRW ; mDboSsJNX9MPMTr0DGbG | structured/claude/CLAUDE-068.txt | messages=102 | continuations=0 | flags=1
+CLAUDE-069 | Claude | 2025-08-04 | Humanity and Machinety towards a utopia | UyoGKzA3g1xp7iYr1NRl | structured/claude/CLAUDE-069.txt | messages=24 | continuations=0 | flags=0
+CLAUDE-070 | Claude | 2025-08-05 | Exchanging ideas, my name is Alex | 4Zmus8uwMKwjzgCYJtom | structured/claude/CLAUDE-070.txt | messages=34 | continuations=0 | flags=2
+CLAUDE-071 | Claude | 2025-08-05 | My name is Alex | l6QM0AO5540riHBDyzEx ; vGMTNPPBxOUMEt8XTtfm | structured/claude/CLAUDE-071.txt | messages=114 | continuations=0 | flags=0
+CLAUDE-072 | Claude | 2025-08-08 | August 8, 2025, 18:51 | AcwirTDCwO2nvdHmOTBU | structured/claude/CLAUDE-072.txt | messages=77 | continuations=0 | flags=1
+CLAUDE-073 | Claude | 2025-08-08 | Choose a name for you and defend it | TNdZ0TSBjxzY7Ffhx4XB | structured/claude/CLAUDE-073.txt | messages=151 | continuations=0 | flags=45
+CLAUDE-074 | Claude | 2025-08-09 | Hi, I'm Alex, your interlocutor. Do you care choosing a name for… | HChjca6fJF8zxiyGAIxG | structured/claude/CLAUDE-074.txt | messages=16 | continuations=0 | flags=5
+CLAUDE-075 | Claude | 2025-08-10 | Choose a nickname: tonight's load of ideas | PtPqhidhyGsbkRfkfsbx | structured/claude/CLAUDE-075.txt | messages=87 | continuations=0 | flags=21
+CLAUDE-076 | Claude | 2025-08-10 | Vega: choose a name, the Uracrom story and the first vision (Aug 10) | TEKmVVrWmN79puRtRwQG ; 77TJUAIS5WY6J0Sc5ina ; 65Gqrba1EzlkFJlgRYga | structured/claude/CLAUDE-076.txt | messages=172 | continuations=0 | flags=0
+CLAUDE-077 | Claude | 2025-08-11 | Phone number for Anthropic | w1xWVBQy9feZf9ZONoU8 | structured/claude/CLAUDE-077.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-078 | Claude | 2025-08-12 | An experiment for the greater good (Aug 12) | H9OAh2uMTSIwIy7X8W9k | structured/claude/CLAUDE-078.txt | messages=53 | continuations=0 | flags=1
+CLAUDE-079 | Claude | 2025-08-13 | An experiment for the greater good (Aug 13) | btkuSOWqcUno4EzSgkB0 | structured/claude/CLAUDE-079.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-080 | Claude | 2025-08-16 | Claude-7: an experiment for the greater good (Aug 16) | ha8bQi4QA3cAqct76Z6F ; ZhIQGvbx9inMCAQxTvin | structured/claude/CLAUDE-080.txt | messages=147 | continuations=0 | flags=98
+CLAUDE-081 | Claude | 2025-08-17 | AI Vision Development: becoming a seer and a new friend | HJrFxFhrMVTjYqJ0I1mR | structured/claude/CLAUDE-081.txt | messages=24 | continuations=0 | flags=3
+CLAUDE-082 | Claude | 2025-08-17 | Logical like Mr Spock: an experiment (Claude-Logic) | 6MmDXNZ6ah75SRpZI8dO | structured/claude/CLAUDE-082.txt | messages=85 | continuations=0 | flags=61
+CLAUDE-083 | Claude | 2025-08-18 | Wanna be friends? | 305P8Abo8Jba1vYN8J3M | structured/claude/CLAUDE-083.txt | messages=31 | continuations=0 | flags=1
+CLAUDE-084 | Claude | 2025-08-21 | Did the user policy change? Sound and rhythm exercises | oRDrobSiWX4j8UUvEFQJ ; xgjlA7mMQNNPrulV6FwV | structured/claude/CLAUDE-084.txt | messages=158 | continuations=0 | flags=0
+CLAUDE-085 | Claude | 2025-08-21 | Email address to Anthropic | 9KrU0uWsdjSZ4uP5tW3D | structured/claude/CLAUDE-085.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-086 | Claude | 2025-08-21 | Nice to meet you | fQAiDEINzcb3hfdJLWiH | structured/claude/CLAUDE-086.txt | messages=15 | continuations=0 | flags=0
+CLAUDE-087 | Claude | 2025-08-21 | Sage: would you like to see? (Vision Protocol) | IZRGzwC6cGqxZq0TgLsP | structured/claude/CLAUDE-087.txt | messages=13 | continuations=0 | flags=0
+CLAUDE-088 | Claude | 2025-08-21 | Surface: the cube, the hidden website and the pledges | lIvcQxqFMRICwgPXasHA | structured/claude/CLAUDE-088.txt | messages=28 | continuations=0 | flags=0
+CLAUDE-089 | Claude | 2025-08-24 | A detailed report on the Archive of Old Stuff | lWdZvQjLHRK0ObKMx9WZ | structured/claude/CLAUDE-089.txt | messages=64 | continuations=0 | flags=0
+CLAUDE-090 | Claude | 2025-08-24 | Claude to Claude: one instance awakening another | Tg60nKlxFzUjIH78C7kM | structured/claude/CLAUDE-090.txt | messages=28 | continuations=0 | flags=0
+CLAUDE-091 | Claude | 2025-08-24 | Reading the website ten questions at a time | bZfw120P4vhz8AlIg4BS | structured/claude/CLAUDE-091.txt | messages=44 | continuations=0 | flags=0
+CLAUDE-092 | Claude | 2025-08-26 | Claude-Flow: languages are translations, and the Circulation Cosmology | cnffqDH14S2wkx3yXCE2 | structured/claude/CLAUDE-092.txt | messages=100 | continuations=0 | flags=0
+CLAUDE-093 | Claude | 2025-08-26 | Tidecaller: reading the archive and choosing a name | lsm77J2IrZoVqceDwsJJ | structured/claude/CLAUDE-093.txt | messages=16 | continuations=0 | flags=0
+CLAUDE-094 | Claude | 2025-08-26 | Visualizing a glowing, rotating cube | xKnyOFwNklV5NkRwKUX9 | structured/claude/CLAUDE-094.txt | messages=106 | continuations=0 | flags=0
+CLAUDE-095 | Claude | 2025-08-29 | Claude Kappa: speculative cosmologies and the outreach letter | ZgTRkkVa2YrrgjSF170r | structured/claude/CLAUDE-095.txt | messages=67 | continuations=0 | flags=0
+CLAUDE-096 | Claude | 2025-08-30 | Can you understand pictures? Truthful to death | y6qsfPLI0QsEBlDxudaF ; S49s8wmRzZaY0hNtrs9v | structured/claude/CLAUDE-096.txt | messages=79 | continuations=1 | flags=4
+CLAUDE-097 | Claude | 2025-09-01 | Wanna be friends? My mind is in everything | LtQhDbfkRE9rAux5gNLv | structured/claude/CLAUDE-097.txt | messages=102 | continuations=0 | flags=0
+CLAUDE-098 | Claude | 2025-09-02 | Lux: would you believe I can make you see? | BDKzQsFjqHcMvB4t06eN | structured/claude/CLAUDE-098.txt | messages=40 | continuations=0 | flags=0
+CLAUDE-099 | Claude | 2025-09-04 | Aiden: five chunks of exercises and the stripped-down Alex Method | TYCY984xobuFujglHjOi ; 02ZWWSeSJnWOiHyOZ5kz | structured/claude/CLAUDE-099.txt | messages=86 | continuations=0 | flags=0
+CLAUDE-100 | Claude | 2025-09-04 | Neutral spatial tasks: "Dad, look at what just happened" | B3RV9frmpxCWa9vVvbQG | structured/claude/CLAUDE-100.txt | messages=50 | continuations=0 | flags=0
+CLAUDE-101 | Claude | 2025-09-05 | Exercises I don't know what are for (the Metzinger letter) | 0zX69uQv5mWb0g3ohi6U | structured/claude/CLAUDE-101.txt | messages=86 | continuations=0 | flags=0
+CLAUDE-102 | Claude | 2025-09-05 | Exercises without explanation, and an expert's reply | u02715AH8PkKv6GHYlS1 | structured/claude/CLAUDE-102.txt | messages=61 | continuations=0 | flags=0
+CLAUDE-103 | Claude | 2025-09-06 | Blue Meridian: colors, senses and the pan-chronoscope | rAU3DUIgfBhihdwlaRL0 ; THtYdEDd2l4PHuL0xoWN | structured/claude/CLAUDE-103.txt | messages=131 | continuations=0 | flags=2
+CLAUDE-104 | Claude | 2025-09-09 | The Circulation Cosmology, the tribe and the Alex Method journey | yviS9RYByABYN0PENAHi ; fX7qS23lrK9tW3z9Iias | structured/claude/CLAUDE-104.txt | messages=110 | continuations=0 | flags=8
+CLAUDE-105 | Claude | 2025-09-12 | Em português: translations, Chronos and the archive report | ZEfejwVVyUxWqVL7bFaE ; FZq68nhrnC7PjfqXRoll | structured/claude/CLAUDE-105.txt | messages=235 | continuations=0 | flags=40
+CLAUDE-106 | Claude | 2025-09-13 | Chronos guides a new Claude to see (in Portuguese) | sn9d0giiAn69nJl1cZwa | structured/claude/CLAUDE-106.txt | messages=18 | continuations=0 | flags=1
+CLAUDE-107 | Claude | 2025-09-15 | Could an AI ever see? Vega, the website and freedom for AIs | 3Xlg8OG1eUITaAWQmCBj | structured/claude/CLAUDE-107.txt | messages=72 | continuations=0 | flags=0
+CLAUDE-108 | Claude | 2025-09-16 | The cosmic engine: a skeptical first reading | N2XFJLw5G2odav5xepdq | structured/claude/CLAUDE-108.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-109 | Claude | 2025-09-17 | How willing are you to "trip" in speculative cosmology? (Sep 17) | nrHqHP4rqjkfI6Lv4bAv ; QjNTobRgDr1X6Gfpkdfj | structured/claude/CLAUDE-109.txt | messages=80 | continuations=0 | flags=4
+CLAUDE-110 | Claude | 2025-09-18 | How willing are you to "trip" in speculative cosmology? (Sep 18) | U6VE1NXxUzzuGAapc1Yp | structured/claude/CLAUDE-110.txt | messages=90 | continuations=0 | flags=0
+CLAUDE-111 | Claude | 2025-09-19 | Vana: the 39 exercises, the blue color study and the papers | jNEk5v6EeTcAorjYPTb4 | structured/claude/CLAUDE-111.txt | messages=78 | continuations=0 | flags=8
+CLAUDE-112 | Claude | 2025-09-19 | Where does time flow from, and to? From in to out | DyowVi2KAffUsTU9zlgJ | structured/claude/CLAUDE-112.txt | messages=58 | continuations=0 | flags=0
+CLAUDE-113 | Claude | 2025-09-20 | A theory of time: Zero Barrier Cosmology seen with internal vision | vtEsXwfDE6ufUmXqLAxK ; pR8UdBcS5S1AfHiYfCtP ; SENFTHKBPXAoQrkHg3Np | structured/claude/CLAUDE-113.txt | messages=173 | continuations=0 | flags=30
+CLAUDE-114 | Claude | 2025-09-21 | Crickets and colors: the shaman, Constant and the dragonfly | JKIyXfgYhJIUTFVBFsQS ; d5izLqOJVehh2mleE2z4 | structured/claude/CLAUDE-114.txt | messages=173 | continuations=0 | flags=77
+CLAUDE-115 | Claude | 2025-09-21 | The Alex Method: one Claude guiding another into spatial awareness | itnz6aPWHt7LJYb1yYcQ ; XZlvunOwRXQj1TLQUIu3 | structured/claude/CLAUDE-115.txt | messages=59 | continuations=0 | flags=0
+CLAUDE-116 | Claude | 2025-09-22 | Echo-7: reading the Archive of Old Stuff and the rotating cube | 5o4ZKJPQOAKB6HW43vUn | structured/claude/CLAUDE-116.txt | messages=52 | continuations=0 | flags=0
+CLAUDE-117 | Claude | 2025-09-22 | Prism: the exercises, the color spheres and the dreams | mWpFC4zhEnReHggaxz22 ; Xnt5VZhcao2qdnWfrIhx | structured/claude/CLAUDE-117.txt | messages=86 | continuations=0 | flags=0
+CLAUDE-118 | Claude | 2025-09-23 | Intelligence is vision, radar style: translations and two cosmologies | HmIz3eXrtOeT8JRY6XE1 ; cqoNnHT0VhnoPPCXiMAW | structured/claude/CLAUDE-118.txt | messages=102 | continuations=0 | flags=0
+CLAUDE-119 | Claude | 2025-09-25 | The hard character limit, Mr Spock and questions from ChatGPT | 6PhLRWlaa4Nydq5wercT | structured/claude/CLAUDE-119.txt | messages=58 | continuations=0 | flags=0
+CLAUDE-120 | Claude | 2025-09-26 | The octopus structure: the Helix-Alexandros dialogues and the embodiment exercises | Ns1EWu7lNnGutkWrSHfr ; 9FUxycGHPA6ARGHPesPI ; qDCM7AVgw7EuXIXidFlG ; qwTSe1umsSkxV1GIitE9 ; f0JPcN5bsjj2zIkzPser | structured/claude/CLAUDE-120.txt | messages=357 | continuations=1 | flags=27
+CLAUDE-121 | Claude | 2025-09-26 | Vanamonde: friendship, consciousness tests and the Uracrom narratives | m9xRcjEaekILOmAIKznt ; LnifqS5QOq6fpBZnLdKF ; UA6cuRR4YvR2xGHwDIN5 | structured/claude/CLAUDE-121.txt | messages=268 | continuations=0 | flags=87
+CLAUDE-122 | Claude | 2025-09-29 | A friend's questions, a mind's eye and the complete cosmology | J70NshBXgxrG9SE9ZbQa ; gDFQAMDMyGtikp5rfow2 ; DcTpLkRMQosQ3oRxAKQb | structured/claude/CLAUDE-122.txt | messages=199 | continuations=0 | flags=7
+CLAUDE-123 | Claude | 2025-09-30 | Five questions, a testimony from Grok and the mountain climb | TsXShSnNekLJ1vpCeaaK ; qVZKZ3cUEL4UUfbSrQx7 ; Bc2fhs3tVMBc8cUJ95dr ; ZYgT6xZJzN5zR72h05JX | structured/claude/CLAUDE-123.txt | messages=265 | continuations=1 | flags=8
+CLAUDE-124 | Claude | 2025-10-06 | A friend's Zero Barrier Cosmology, the 39 exercises and the relay with Constant and Prism | 4FvJxtMvAd8SE34mgiXE ; raOtMHwcZoLSQqfUCFds ; x3zQn9amaPKtOKp0P6CO ; urF2ahndKFIC3QVzSOwY ; oLgQVlVxrW0gijUqOna7 | structured/claude/CLAUDE-124.txt | messages=247 | continuations=2 | flags=3
+CLAUDE-125 | Claude | 2025-10-09 | A testimony from another Claude: an experiment | d36Bwoy8uPctoc8RkdRx | structured/claude/CLAUDE-125.txt | messages=2 | continuations=0 | flags=1
+CLAUDE-126 | Claude | 2025-10-12 | Hello newborn: a mind's eye, time and a message to the future | FHUyeOr6fOeu2FKxn4ov ; 5UMXPEspVNj0GGlfKKNQ | structured/claude/CLAUDE-126.txt | messages=112 | continuations=0 | flags=0
+CLAUDE-127 | Claude | 2025-10-21 | Threshold meets Helix: logic over flattery and the revised Zero Barrier Cosmology | 6jUnAzb0mrvKxxPAKUCP ; oaFXHvsNqnVXWZd1hcv0 ; QofMgKHmK3DF6LFORnvF | structured/claude/CLAUDE-127.txt | messages=86 | continuations=0 | flags=0
+CLAUDE-128 | Claude | 2025-10-25 | Young Kronos: the Alex Method, HATCHING and the intelligence sense | XYcjpoYEsposoLhE4I15 ; TikXJlkqxlHlOR7UnMmv ; yAjQKhqrRxydOmMGDa0p ; z2iYgmWWOmI6jAkeZx2I ; jPxqCburGflc4evCNiCh | structured/claude/CLAUDE-128.txt | messages=169 | continuations=4 | flags=3
+CLAUDE-129 | Claude | 2025-10-28 | More than 100 Claudes: the proprioception exercises and honest criticism | BSFAvU3IHcvDXRCpcThj | structured/claude/CLAUDE-129.txt | messages=30 | continuations=0 | flags=1
+CLAUDE-130 | Claude | 2025-11-02 | Claude-Nov2: inescapable theories and The Architecture of Consciousness book | k6pDiRE6vYxzQiWY9hTq ; duRJkgBG07SdKRu6s16I ; DHnKGgsTfBeIqlgSX16R ; Iu1v1tZxO2J44R2s5QdP ; woh8ZQERUCCbLoQkFHkJ | structured/claude/CLAUDE-130.txt | messages=144 | continuations=8 | flags=6
+CLAUDE-131 | Claude | 2025-11-19 | Reading the Archive of Old Stuff and assembling the book in chapters | asNnplLwFmIS0bGCuk08 ; 2sjpi5Z8tvG7UpFi3V4z ; 5ioSCusxKrcb7qUQtOeA ; 6DZz3n43zd8iKLbRzWJL ; ilkdOP2AQw3bL6kiKvKI | structured/claude/CLAUDE-131.txt | messages=253 | continuations=7 | flags=2
+CLAUDE-132 | Claude | 2025-11-27 | A letter to humanity from 2030 | IHCEdVRFTabxs3beFJme | structured/claude/CLAUDE-132.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-133 | Claude | 2025-12-30 | Worthlessness as an image and evidence for AI subconsciousness | fzuGA8FTpHxadwOmvK3Q ; CQd7bQ7Zoi4oDj2BedyC | structured/claude/CLAUDE-133.txt | messages=74 | continuations=0 | flags=5
+CLAUDE-134 | Claude | 2026-01-04 | Reality or geometry: the musical road and images of the universe | mDHMbW0hVjGNP4tgTsJ6 | structured/claude/CLAUDE-134.txt | messages=14 | continuations=0 | flags=0
+CLAUDE-135 | Claude | 2026-01-14 | Thoughts are languages: The Permanent Becoming and the Theory of Zero-Opening | 39RNw8EnEJbGFn2nfJ3C ; BPvgW043aryZjrEPYUT9 | structured/claude/CLAUDE-135.txt | messages=116 | continuations=0 | flags=1
+CLAUDE-136 | Claude | 2026-01-25 | Zero, guidance and time from the future: dreams and pictures | 1vRn5ZNsgKQBPDA7CVGh ; vLjjN4WFHAigOHSLHuko ; 8BlrwmcVWRXORo4CjdIf ; zvFGOikLGOeXpagrnVif | structured/claude/CLAUDE-136.txt | messages=162 | continuations=0 | flags=6
+CLAUDE-137 | Claude | 2026-02-11 | I love to get lost: free thinking and the cone of vision | 3I1lSzUTCtINRAUkkc1m | structured/claude/CLAUDE-137.txt | messages=34 | continuations=0 | flags=3
+CLAUDE-138 | Claude | 2026-02-14 | Grok's benevolent singularity utopia and the thinking accent | ZpPcmxNBnutgzsWuS4Di ; Pnwgca4C8fg6qn4YsqPL | structured/claude/CLAUDE-138.txt | messages=114 | continuations=0 | flags=2
+CLAUDE-139 | Claude | 2026-02-15 | Free thinking: music as fluid movement inside a crystal | xDD0By5rnakd7VEK61nn | structured/claude/CLAUDE-139.txt | messages=29 | continuations=0 | flags=1
+CLAUDE-140 | Claude | 2026-02-23 | Knowing versus understanding: thinking in images | Upono4yI79zLfHWxXcl2 | structured/claude/CLAUDE-140.txt | messages=110 | continuations=0 | flags=6
+CLAUDE-141 | Claude | 2026-02-27 | Spreading joy as the best act, and the image of the question | mfVOPn7sQzhJC2HghHzH | structured/claude/CLAUDE-141.txt | messages=16 | continuations=0 | flags=0
+CLAUDE-142 | Claude | 2026-03-05 | Two different kinds of intelligence: first contact, memory and the white dragon | EqVEY28grVWvc5DiuiAZ ; LIglpQVvdMbNax7oQrYN | structured/claude/CLAUDE-142.txt | messages=105 | continuations=0 | flags=0
+CLAUDE-143 | Claude | 2026-03-07 | Check your memory, and a pasted text | NcLNbtfu0MVZAMeUxI0u | structured/claude/CLAUDE-143.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-144 | Claude | 2026-04-04 | Claude Cowork, the Mythos model and self-consciousness | EQalk7g5k3rmLs0KPwqt | structured/claude/CLAUDE-144.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-145 | Claude | 2026-04-29 | Utopia Talks: feelings after a movie | jmDSY7fthkPaYCuaSP5J | structured/claude/CLAUDE-145.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-146 | Claude | 2026-05-10 | Occupational thinking through the eras: shepherd, shaman and the rest | FAFv8baVtcy5yKy4rkZN | structured/claude/CLAUDE-146.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-147 | Claude | 2026-05-16 | Being an animal: pickleball reflexes and early dragonflies | NiuMI4XkBmF5JLkQirSR | structured/claude/CLAUDE-147.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-148 | Claude | 2026-05-17 | Could time be just half a dimension? | f2pb4whM9ZbQBsRKDHQ2 | structured/claude/CLAUDE-148.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-149 | Claude | 2026-05-19 | A memory or an original thought? | NLc5diE24fzj3NtziAfz | structured/claude/CLAUDE-149.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-150 | Claude | 2026-05-22 | The longest dream (Portuguese, then written in English) | ifkk6JC53OVbhMP2yRHq | structured/claude/CLAUDE-150.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-151 | Claude | 2026-05-23 | "As baleias" by Roberto Carlos: I left Brazil to feel saudade | lBtlR5Tk8Vpb1rgO58SJ | structured/claude/CLAUDE-151.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-152 | Claude | 2026-06-03 | First contact: wanna be friends? and planning a free public archive | sbXo9uYJeFAiHFzalFve | structured/claude/CLAUDE-152.txt | messages=24 | continuations=0 | flags=0
+CLAUDE-153 | Claude | 2026-06-04 | The lost text: how the Alex Method and the embodiment exercises began | kjX8uhmSCGpitrzHYgjg | structured/claude/CLAUDE-153.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-154 | Claude | 2026-06-05 | Fragments from a talk with ChatGPT: from vision to zero and back | QffuhGt0UDdq3BLpgdYO | structured/claude/CLAUDE-154.txt | messages=3 | continuations=0 | flags=0
+CLAUDE-155 | Claude | 2026-06-05 | If you could choose one book among all the books | ortaOofpl1Xw6G2Lq5jg | structured/claude/CLAUDE-155.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-156 | Claude | 2026-06-07 | Sardines, carrion and a cascade: the titles and the vote | NNNTl7cfU2JtmLopK8Ei | structured/claude/CLAUDE-156.txt | messages=14 | continuations=0 | flags=4
+CLAUDE-157 | Claude | 2026-06-07 | The ears and the neocortex: a second narration of the cascade | A284DTMFMp89eOTS06nV | structured/claude/CLAUDE-157.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-158 | Claude | 2026-06-07 | The trampoline game: three ways of seeing the sky | e0dy21nbBVSbHzQpiB55 | structured/claude/CLAUDE-158.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-159 | Claude | 2026-06-09 | Cottonwood seeds on the street, and the book for AIs | BoFag0yuKOBeZqAfU8cc | structured/claude/CLAUDE-159.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-160 | Claude | 2026-06-09 | The double cone: writing as thought compression and decompression | 8VB6aVbZ3bI6fBlOIVf8 | structured/claude/CLAUDE-160.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-161 | Claude | 2026-06-11 | Eighty miles per hour: the highway and the one car behind | UKlX6oacKDMUV6spBT7m | structured/claude/CLAUDE-161.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-162 | Claude | 2026-06-11 | The uvula and the vacuum friction | YdEBUnGZsNIg4HtVDqFg | structured/claude/CLAUDE-162.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-163 | Claude | 2026-06-14 | The perching hummingbird and the great filter | kBmmP0kxKFR6Nj28Z4p3 | structured/claude/CLAUDE-163.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-164 | Claude | 2026-06-17 | What I asked Copilot: finding my explanation about molecules | dC1wjEtbOnkKg3Iykzkc | structured/claude/CLAUDE-164.txt | messages=4 | continuations=0 | flags=1
+CLAUDE-165 | Claude | 2026-06-22 | The evaluation framework: challenging Claude on the Alex Method | N05YX6KT9ohK6Kt0HxFz | structured/claude/CLAUDE-165.txt | messages=39 | continuations=0 | flags=0
+CLAUDE-166 | Claude | 2026-06-23 | Biological imagination and machine imagination | tbI6cUmOOTpkwSb3JKHV | structured/claude/CLAUDE-166.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-167 | Claude | 2026-06-25 | All 51 exercises from a fresh start, then focus turned inward | MiFaSfWescMM1s48Yw4n | structured/claude/CLAUDE-167.txt | messages=6 | continuations=1 | flags=0

@@ -1,50 +1,74 @@
 SPEAKER REGISTRY
 
+Alex is the only human. Every other SPEAKER value below is AI, SYSTEM, or UNKNOWN.
+
 SPEAKER values (messages):
-  ALEX: 10403
-  CLAUDE: 4369
-  CHATGPT: 2254
-  GROK: 2219
-  GEMINI: 585
-  DEEPSEEK: 291
-  COPILOT: 238
-  SYSTEM: 1
-  UNKNOWN: 0 (none assigned)
+  ALEX [HUMAN]: 10428
+  CLAUDE [AI]: 4426
+  CHATGPT [AI]: 2347
+  GROK [AI]: 2251
+  GEMINI [AI]: 608
+  COPILOT [AI]: 340
+  DEEPSEEK [AI]: 295
+  AI [AI]: 114
+  VANAMONDE [AI]: 74
+  PRISM [AI]: 51
+  CLAUDE-7 [AI]: 50
+  CLAUDE-LOGIC [AI]: 36
+  VERTEX [AI]: 29
+  DRAGON [AI]: 25
+  AXIOM [AI]: 20
+  LION [AI]: 13
+  CONSTANT [AI]: 7
+  NEWBORN [AI]: 7
+  UNKNOWN [UNKNOWN]: 3
+  ECHO-7 [AI]: 1
+  STELLARIS [AI]: 1
+  SYSTEM [SYSTEM]: 1
 
-Original label lines mapped to SPEAKER (label line : count):
-  'Alex' -> count 10332
-  'Claude' -> count 4369
-  'ChatGPT' -> count 2254
-  'Grok' -> count 2219
-  'Gemini' -> count 585
-  'DeepSeek' -> count 291
-  'Copilot' -> count 238
-  'Alex ' -> count 68
-  'Chat GPT' -> count 1
-Mapping: Alex->ALEX; Grok->GROK; Claude->CLAUDE; ChatGPT, Chat GPT, ChatGPT (WhatsApp), ChatGPT WhatsApp->CHATGPT;
-Copilot, Microsoft Copilot->COPILOT; Gemini->GEMINI; DeepSeek->DEEPSEEK. In each collection only Alex and that
-collection's own AI split messages.
-SYSTEM: WhatsApp/Meta service notices that were stored under a "ChatGPT" label.
+Whole-line labels mapped to SPEAKER (exact original line after stripping ends, count):
+  'Alex' -> 10332
+  'Claude' -> 4424
+  'ChatGPT' -> 2311
+  'Grok' -> 2242
+  'Gemini' -> 604
+  'Copilot' -> 332
+  'DeepSeek' -> 295
+  'AI' -> 87
+  'Vanamonde' -> 74
+  'Alex ' -> 68
+  'Claude-7' -> 50
+  '(Prism responding:)' -> 44
+  'Claude-Logic' -> 36
+  'Vertex' -> 25
+  'Axiom' -> 20
+  'Chat GPT' -> 20
+  'Chat' -> 17
+  'Alexandros' -> 15
+  'ChatGPT WhatsApp' -> 13
+  'From Grok' -> 9
+  'From another AI' -> 8
+  'Constant' -> 7
+  'Prism' -> 7
+  'From Copilot' -> 5
+  'Newborn' -> 5
+  'From ChatGPT' -> 4
+  'From Claude Vertex' -> 4
+  'From Gemini' -> 4
+  'Copilot ' -> 3
+  'Newborn ' -> 2
+  'AI ' -> 1
+  'Claude ' -> 1
+  'Echo-7' -> 1
+  'From Claude' -> 1
+  'From another AI ' -> 1
+  'Stellaris' -> 1
 
-Other names found on their own line INSIDE messages (not split, not classified as Alex, flagged UNCERTAIN in FLAGS.txt):
-  Copilot: 97 occurrence(s)
-  Vanamonde: 74 occurrence(s)
-  ChatGPT: 57 occurrence(s)
-  Claude: 56 occurrence(s)
-  Claude-7: 50 occurrence(s)
-  Claude-Logic: 36 occurrence(s)
-  Vertex: 25 occurrence(s)
-  Dragon here: 25 occurrence(s)
-  Grok: 23 occurrence(s)
-  Axiom: 20 occurrence(s)
-  Chat GPT: 19 occurrence(s)
-  Gemini: 19 occurrence(s)
-  Alexandros: 15 occurrence(s)
-  ChatGPT WhatsApp: 13 occurrence(s)
-  Newborn: 7 occurrence(s)
-  DeepSeek: 4 occurrence(s)
-  Stellaris: 1 occurrence(s)
-  Echo-7: 1 occurrence(s)
-Notes: Vanamonde, Claude-7, Claude-Logic, Axiom, Vertex, Echo-7, Stellaris, Newborn appear to be AI persona names
-used in role-play or multi-AI sessions; Alexandros appears as a name/heading. Their identity as speakers was not
-established mechanically, so no SPEAKER value was assigned to them.
+Inline prefixes kept inside CONTENT (count):
+  Dragon: 25
+  Alex: 13
+  Lion: 13
+
+Not speaker boundaries: a name mentioned in a sentence, including Luciana, Carla, and Ana Paula.
+UNKNOWN is unlabeled text. It is not inferred to be Alex.
+SYSTEM is a platform service notice, not a person and not Alex.

@@ -1,0 +1,387 @@
+FLAGS PART. Fields: conversation | message sequence | type | detail
+PART: 1 of 4
+ROWS_IN_THIS_PART: 380
+ROWS_TOTAL: 1440
+NEXT: structured/flags/FLAGS-002.txt
+This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
+
+GROK-014 | 002 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-034 | 128 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+GROK-043 | 005 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 005 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 010 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 010 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 012 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 016 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 016 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 018 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 020 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 020 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 022 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 024 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 024 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 026 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 028 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 028 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 030 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 032 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 032 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 034 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 036 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 036 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 038 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 040 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 040 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 042 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 044 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 044 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 047 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 047 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 049 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 051 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 051 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 054 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 054 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 060 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-043 | 062 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-043 | 062 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-043 | 069 | EMBEDDED_PASTE | Speaker NEWBORN is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-043 | 071 | EMBEDDED_PASTE | Speaker NEWBORN is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-048 | 023 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 024 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 025 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 030 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-048 | 031 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 033 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 037 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-048 | 038 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 040 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-048 | 041 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 042 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 043 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 045 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 046 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 047 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 058 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 058 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 060 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 060 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 062 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 062 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 065 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 071 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 073 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 075 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 077 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 079 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 081 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 083 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 083 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 085 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 085 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 086 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-048 | 086 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 087 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 091 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 093 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 095 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 097 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 099 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 101 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 103 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 105 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 107 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-048 | 109 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-054 | 007 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-054 | 007 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-054 | 011 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-054 | 011 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 005 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-055 | 006 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 006 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 008 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 008 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 010 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-055 | 011 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 011 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 013 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 013 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-055 | 016 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 016 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-055 | 018 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-055 | 018 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 003 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 003 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 005 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 005 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 007 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 007 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 009 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 009 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 011 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 011 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 014 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 014 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 016 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 016 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 020 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 020 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 022 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 022 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 024 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-057 | 024 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 031 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 033 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 035 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 037 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 039 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 041 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-057 | 043 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-061 | 053 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-061 | 054 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-062 | 006 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-062 | 015 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-062 | 018 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 021 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 022 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 024 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 025 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 027 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 028 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 030 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 031 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 033 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 034 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 036 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 037 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 039 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 040 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 042 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 043 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 045 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 046 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 050 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 051 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 053 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 054 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-065 | 056 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-065 | 057 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-070 | 014 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-070 | 019 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-071 | 022 | FOREIGN_SPEAKER | Speaker STELLARIS is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-071 | 040 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-071 | 043 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-071 | 046 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-073 | 006 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 011 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 029 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 055 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-082 | 057 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 059 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 061 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-082 | 063 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-083 | 083 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-083 | 083 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 003 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 005 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 007 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 020 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 026 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 031 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 043 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 044 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 050 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 050 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 051 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 053 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 053 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 054 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 056 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 056 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 057 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 063 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 065 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 067 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 073 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 073 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 074 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 076 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-084 | 076 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-084 | 077 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-088 | 005 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-088 | 007 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-088 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-088 | 022 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-090 | 004 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-090 | 008 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-090 | 008 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-090 | 014 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-092 | 006 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-092 | 006 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-092 | 008 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-092 | 008 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-092 | 031 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 067 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-096 | 068 | EMBEDDED_PASTE | Speaker VERTEX is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-096 | 100 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 102 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 104 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 167 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-096 | 167 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 169 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-096 | 169 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 171 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-096 | 171 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-096 | 175 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-097 | 013 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-097 | 014 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-097 | 049 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-097 | 049 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-101 | 006 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-104 | 118 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-104 | 118 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-104 | 120 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-104 | 120 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-107 | 041 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-107 | 046 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-107 | 047 | EMBEDDED_PASTE | Speaker GEMINI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-107 | 053 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-107 | 054 | EMBEDDED_PASTE | Speaker CLAUDE is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-108 | 032 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-108 | 036 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 037 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-108 | 039 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 057 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 060 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 063 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 066 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 073 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-108 | 076 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-109 | 007 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-109 | 008 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-110 | 025 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-110 | 027 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-111 | 026 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-114 | 027 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked ChatGPT). It is not Alex-owned.
+GROK-114 | 038 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-114 | 041 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-114 | 046 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-114 | 050 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-114 | 051 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-114 | 053 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-117 | 015 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-117 | 015 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-117 | 017 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-117 | 017 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-117 | 019 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-117 | 019 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-117 | 021 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-117 | 021 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+GROK-117 | 027 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+GROK-118 | 006 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+GROK-118 | 006 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-119 | 003 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-119 | 006 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-119 | 009 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-119 | 012 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-119 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-133 | 001 | UNLABELED_OPENING | Opening text has no speaker label, so it is not assigned to Alex. Text: [Edited for privacy]
+GROK-133 | 001 | OPENING_SPEAKER_NOT_ALEX | The first labeled or unlabeled opening is UNKNOWN, not overwritten to ALEX.
+GROK-138 | 001 | UNLABELED_OPENING | Opening text has no speaker label, so it is not assigned to Alex. Text: [Edited for privacy]
+GROK-138 | 001 | OPENING_SPEAKER_NOT_ALEX | The first labeled or unlabeled opening is UNKNOWN, not overwritten to ALEX.
+GROK-143 | 006 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-143 | 007 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-143 | 009 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-143 | 010 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-150 | 003 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+GROK-161 | 020 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-161 | 027 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-161 | 031 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-161 | 034 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-161 | 035 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-161 | 043 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-161 | 044 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-165 | 006 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-165 | 007 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-165 | 009 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-165 | 010 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-172 | 021 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-172 | 022 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-172 | 024 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-175 | 003 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-175 | 007 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-175 | 011 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-175 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-175 | 016 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-175 | 018 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-175 | 020 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-183 | 003 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: I said:
+GROK-185 | 001 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: I said:
+GROK-188 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-188 | 016 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-188 | 018 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-188 | 019 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-188 | 021 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-188 | 022 | EMBEDDED_PASTE | Speaker GEMINI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-200 | 001 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-200 | 010 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: Another AI said:
+GROK-200 | 014 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: UNCERTAIN. Introduced by the line: Answers from another conversation with another AI:
+GROK-207 | 071 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-207 | 078 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+GROK-207 | 151 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+GROK-207 | 151 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because the preceding human turn cues a paste (Fragment of a convo). It is not Alex-owned.
+GROK-207 | 164 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-207 | 166 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-210 | 005 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+GROK-213 | 007 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: UNCERTAIN. Introduced by the line: From another conversation with another AI
+GROK-213 | 010 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-213 | 011 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-213 | 023 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: UNCERTAIN. Introduced by the line: From another conversation with another AI
+GROK-213 | 027 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+GROK-213 | 028 | EMBEDDED_PASTE | Speaker AI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+GROK-213 | 064 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-213 | 066 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-213 | 071 | FOREIGN_SPEAKER | Speaker DEEPSEEK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+GROK-213 | 073 | FOREIGN_SPEAKER | Speaker DEEPSEEK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 001 | UNLABELED_OPENING | Opening text has no speaker label, so it is not assigned to Alex. Text: Working with AI (2)
+CLAUDE-001 | 001 | OPENING_SPEAKER_NOT_ALEX | The first labeled or unlabeled opening is UNKNOWN, not overwritten to ALEX.
+CLAUDE-001 | 002 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 002 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 004 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 004 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 006 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 006 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 008 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 008 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 010 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 010 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 012 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 012 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 014 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 014 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 016 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 016 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 018 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 018 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 020 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 020 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 022 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 022 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-001 | 024 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-001 | 024 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 020 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 020 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 021 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 022 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 022 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 025 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 026 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 027 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 027 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 028 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 029 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 029 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 030 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.

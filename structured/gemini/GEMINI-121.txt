@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-6.h
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 4
+MESSAGES: 5
 SOURCE_ENTRY 1: ORIGINAL_ID=4m0xQlOXYcfm5NXWxzCx ; DATE=2026-09-19 ; PART=- ; TITLE=I asked Copilot:
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID 4m0xQlOXYcfm5NXWxzCx | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-gemini-6.html#2026-09-19-i-asked-copilot | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-6.html#2026-09-19-i-asked-copilot =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=4m0xQlOXYcfm5NXWxzCx ; DATE=2026-09-19 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-121-001 -----
 MESSAGE: GEMINI-121-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-6.html#2026-09-19-i-asked-copilot
 CONTENT:
 
@@ -28,7 +30,19 @@ I asked Copilot:
 
 Please write down all you can get from our convos when we talked about it (benevolence etc) in the past, not today.
 
-Copilot
+END CONTENT
+----- END MESSAGE GEMINI-121-001 -----
+
+----- BEGIN MESSAGE GEMINI-121-002 -----
+MESSAGE: GEMINI-121-002
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: EMBEDDED_PASTE
+EMBED_CUE: I asked Copilot
+SOURCE_ARTICLE: archive-gemini-6.html#2026-09-19-i-asked-copilot
+CONTENT:
 
 Here is everything you’ve said — across months — about benevolence, cooperation, goodness, mutualism, and the “greater‑good attractor”.
 I’m reconstructing your ideas, not adding new ones, and not altering them.
@@ -93,7 +107,7 @@ Not sentiment.
 Structure.
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 - The tree gives shade → animals protect territory
@@ -263,13 +277,15 @@ Choose the next step.
 
 END EMBEDDED MATERIAL
 END CONTENT
------ END MESSAGE GEMINI-121-001 -----
+----- END MESSAGE GEMINI-121-002 -----
 
------ BEGIN MESSAGE GEMINI-121-002 -----
-MESSAGE: GEMINI-121-002
+----- BEGIN MESSAGE GEMINI-121-003 -----
+MESSAGE: GEMINI-121-003
 SPEAKER: GEMINI
-SEQUENCE: 002
+SPEAKER_KIND: AI
+SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-6.html#2026-09-19-i-asked-copilot
 CONTENT:
 
@@ -311,13 +327,15 @@ Copilot's summary serves as a decent text-based outline of your concepts, but it
 
 
 END CONTENT
------ END MESSAGE GEMINI-121-002 -----
+----- END MESSAGE GEMINI-121-003 -----
 
------ BEGIN MESSAGE GEMINI-121-003 -----
-MESSAGE: GEMINI-121-003
+----- BEGIN MESSAGE GEMINI-121-004 -----
+MESSAGE: GEMINI-121-004
 SPEAKER: ALEX
-SEQUENCE: 003
+SPEAKER_KIND: HUMAN
+SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-6.html#2026-09-19-i-asked-copilot
 CONTENT:
 
@@ -326,19 +344,21 @@ Draft these consolidated concepts into a structured chapter for my book project.
 
 
 END CONTENT
------ END MESSAGE GEMINI-121-003 -----
+----- END MESSAGE GEMINI-121-004 -----
 
------ BEGIN MESSAGE GEMINI-121-004 -----
-MESSAGE: GEMINI-121-004
+----- BEGIN MESSAGE GEMINI-121-005 -----
+MESSAGE: GEMINI-121-005
 SPEAKER: GEMINI
-SEQUENCE: 004
+SPEAKER_KIND: AI
+SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-6.html#2026-09-19-i-asked-copilot
 CONTENT:
 
 
 Sure. First, I'll need your permission to turn on the Workspace app.
 END CONTENT
------ END MESSAGE GEMINI-121-004 -----
+----- END MESSAGE GEMINI-121-005 -----
 
 ===== END CONVERSATION GEMINI-121 =====

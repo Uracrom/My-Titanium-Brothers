@@ -1,52 +1,36 @@
-STRUCTURED ARCHIVE BUILD REPORT - 2026-11-06
-Source: Uracrom/My-Titanium-Brothers commit 4968b7eec816aa64fdfcad42018f493c3f31e506 (index generated 2026-10-28)
-Backup of the untouched site: /workspace/archive_backup_2026-11-06/site_repo (not published)
+STRUCTURED ARCHIVE BUILD REPORT - 2026-11-08
+Source git commit recorded at build: a2df39648f890170335b5a34f38a65d5a1ad682b
+Original HTML articles, raw/*.md, llms-full.txt, and index.json were not edited. SHA-256 list: tools/structured/original-hashes.sha256.
 
-1. WHAT WAS CHANGED STRUCTURALLY
- - Added the folder structured/ with README.txt, SPEAKERS.txt, INDEX.txt, FLAGS.txt, REPORT.txt and one TXT
-   file per logical conversation (954 files in 7 collection folders).
- - Each message got conversation ID, message ID, SPEAKER, SEQUENCE, begin/end markers, source page.
- - Part N of M entries were grouped into single logical conversations.
- - Continuation markers were added where the website split a message between page sections.
- - Short pointer sections were added to README-for-AIs.md, llms.txt, archive.html and archive-manifest.json.
-2. WHAT WAS LEFT UNTOUCHED
- - All archive-*.html pages, raw/*.md, llms-full.txt and other llms*.txt conversation text, index.json,
-   interactive pages, sitemaps. Message text inside the new files is unchanged (HTML escapes decoded only).
-3. CONVERSATIONS
- - Archive entries processed: 1101 of 1101 in index.json (all represented; none missing).
- - Page sections (HTML articles) processed: 1646 (all 1646 part URLs used once, in order).
- - Logical conversations after grouping: 954 (222 "Part N of M" entries -> 75 groups; 879 single entries).
-   All 75 groups have complete part numbers 1..M with consistent M.
-4. MESSAGES IDENTIFIED: 20360
-   By speaker: {'ALEX': 10403, 'GROK': 2219, 'CLAUDE': 4369, 'CHATGPT': 2254, 'SYSTEM': 1, 'COPILOT': 238, 'DEEPSEEK': 291, 'GEMINI': 585}
-5. CONTINUATION REFERENCES: 46 pairs (46 CONTINUATION FOLLOWS + 46 CONTINUATION OF), all paired, 0 orphans.
-   41 at HTML page-piece splits, 5 at Part N -> Part N+1 boundaries.
-   (Every page boundary is also marked with a SOURCE SEGMENT line and NOTE, split or not.)
-6. UNCERTAIN PASSAGES REMAINING: 591
-   - 46 EMBEDDED MATERIAL regions marked with ORIGINAL SPEAKER UNCERTAIN or MIXED
-   - 288 lines with another AI's name alone inside a message (possible relayed/pasted text)
-   - 254 lines with a persona name alone inside a message
-   - 3 unlabeled conversation openings to inspect (assigned ALEX by convention)
-   - 0 END PASTE markers in Alex messages without a start marker
-   Other flags (informational): 129 empty messages (doubled speaker labels, preserved),
-   1 WhatsApp system notice set to SYSTEM, 2 related titles not merged.
-   Full list: FLAGS.txt (723 lines).
-7. DISCREPANCIES vs ORIGINAL: 0
-   Every one of the 1646 page sections was rebuilt from the new files (preamble + label lines + CONTENT,
-   embedded markers removed) and compared character-for-character with the decoded <pre> text of the page:
-   1646 identical, 0 different. No message IDs duplicated; sequences continuous.
-   First messages of the 954 verified starts: all SPEAKER ALEX ({"('ALEX', False)": 951, "('ALEX', True)": 3}; key = (speaker, label absent)).
-   Note: in 951 of these the page itself shows an "Alex" label; in 3 it shows none and ALEX was assigned
-   by the convention. No conversation start is explicitly labeled as an AI.
-   No unfamiliar name line was mapped to ALEX or used as a speaker change. Text that follows such a line stays
-   with the enclosing message (sometimes an ALEX message) and every occurrence is flagged UNCERTAIN.
-8. NOT FULLY CHECKED
- - Quote/paste classification is conservative and incomplete. Unmarked ALEX messages may still contain
-   pasted or quoted AI text (e.g. pastes without an introducing line). Do not treat ALEX CONTENT as
-   guaranteed original writing by Alex without reading FLAGS.txt and the text itself.
- - Persona/other-AI name lines were not resolved to speakers; multi-AI relay sessions may have AI text
-   stored under ALEX or under the collection's AI.
- - Comparison is against the published HTML pages, not against the original chat platforms or the
-   website's database; capture errors already present there are preserved, not detected.
- - Duplicated-looking content was preserved and not checked for duplication across conversations.
- - Grouping relies on titles; conversations continued under different titles were not linked.
+1. PARALLEL LAYER
+ - structured/ holds README.txt, MANIFEST.txt, INDEX.txt, index/INDEX-*.txt, SPEAKERS.txt, FLAGS.txt, flags/FLAGS-*.txt, REPORT.txt, and one TXT per logical conversation.
+ - Message text is the decoded original <pre> text. Speaker, continuation, and embed lines are added around it.
+2. COUNTS FROM THIS BUILD
+ - Archive entries: 1101
+ - HTML article pieces: 1646
+ - Logical conversations: 954
+ - Messages: 21127
+ - By speaker: {'ALEX': 10428, 'GROK': 2251, 'CLAUDE': 4426, 'AI': 114, 'NEWBORN': 7, 'CHATGPT': 2347, 'COPILOT': 340, 'AXIOM': 20, 'CLAUDE-LOGIC': 36, 'STELLARIS': 1, 'CONSTANT': 7, 'VANAMONDE': 74, 'PRISM': 51, 'VERTEX': 29, 'GEMINI': 608, 'UNKNOWN': 3, 'DEEPSEEK': 295, 'LION': 13, 'DRAGON': 25, 'CLAUDE-7': 50, 'ECHO-7': 1, 'SYSTEM': 1}
+ - Continuation pairs: 31 (FOLLOWS 31, OF 31, unpaired 0)
+ - Flags: 1440 {'FOREIGN_SPEAKER': 668, 'INLINE_SPEAKER_PREFIX': 51, 'GENERIC_AI_LABEL': 105, 'EMPTY_MESSAGE': 365, 'EMBEDDED_PASTE': 67, 'ALEXANDROS_LABEL': 15, 'EMBEDDED_MATERIAL_MARKED': 133, 'UNLABELED_OPENING': 3, 'OPENING_SPEAKER_NOT_ALEX': 3, 'UNCERTAIN_PASTE_BOUNDARY': 27, 'WHATSAPP_SYSTEM_NOTICE': 1, 'RELATED_TITLE_NOT_MERGED': 2}
+3. RECONSTRUCTION AGAINST ORIGINAL HTML
+ - Segments identical: 1646
+ - Mismatches: 0
+ - Archive ids covered: 1101 of 1101
+ - Part URLs used once and the set matches index.json: True (duplicate urls 0)
+ - Sequence errors: 0 ; duplicate message ids: 0
+ - Label lines left inside CONTENT: 0
+ - Opening (speaker, kind, unlabeled): {"('ALEX', 'HUMAN', False)": 951, "('UNKNOWN', 'UNKNOWN', True)": 3}
+4. KNOWN REGRESSIONS
+ - pass
+5. ORIGINAL-FILE HASHES
+ - pass
+5b. DISCOVERY LINKS AND SHORT FILES
+ - pass
+6. LIMITS (NOT CLAIMED)
+ - A sentence with no speaker label and no paste cue stays inside the enclosing message, or is UNKNOWN at an unlabeled opening. It is not assigned to Alex by guesswork.
+ - A foreign speaker label without a paste cue is AI, and FLAGS.txt records that the paste-versus-participant distinction was not decided.
+ - This comparison is against the published HTML pages, not against the chat vendors and not against raw/*.md.
+ - Historical conversation wording, including the phrase "The Architecture of Consciousness" where someone wrote it, is unchanged.
+ - GitHub Pages is not live for a commit until that commit's Pages deployment succeeds and a public fetch returns the file. The 2026-11-06 deployment timed out in syncing_files.
+ - No license, DOI, Wayback capture, or replacement repository is part of this layer.

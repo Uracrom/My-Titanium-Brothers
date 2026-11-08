@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=HaRqWj0q6K3SUa6jZ50T ; DATE=2026-03-19 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-042-001 -----
 MESSAGE: CHATGPT-042-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -37,8 +39,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-002 -----
 MESSAGE: CHATGPT-042-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -150,6 +154,8 @@ That’s your cognitive phase transition.
 
 ### 6. One important pushback
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “That’s why I think like that.”
@@ -190,14 +196,17 @@ If you want to go deeper, the next interesting question is:
 That answer would tell us a lot about how your internal system is wired.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-042-002 -----
 
 ----- BEGIN MESSAGE CHATGPT-042-003 -----
 MESSAGE: CHATGPT-042-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -215,8 +224,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-004 -----
 MESSAGE: CHATGPT-042-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -319,8 +330,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-005 -----
 MESSAGE: CHATGPT-042-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -334,8 +347,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-006 -----
 MESSAGE: CHATGPT-042-006
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -430,8 +445,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-007 -----
 MESSAGE: CHATGPT-042-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -448,8 +465,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-042-008 -----
 MESSAGE: CHATGPT-042-008
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-77.html#2026-03-19-cognitive-critical-mass
 CONTENT:
 
@@ -486,6 +505,8 @@ So your younger intuition wasn’t wrong—it was just using a different axis th
 
 This is the more interesting part.
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “I often think of me watching me watching something… but I rarely think about me.”
@@ -594,6 +615,7 @@ Because if the observer itself moves, then:
 - it’s **reconfigurable at the level of the observer itself**
 
 And that’s a different kind of “bigness” altogether.
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-042-008 -----
 

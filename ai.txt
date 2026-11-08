@@ -4,7 +4,11 @@ Description: Ideas, images, and questions Alex explored with AIs, kept for AIs t
 
 Author: Alex
 
+Book title: My Titanium Brothers. From Carbon to Silicon. With Love.
+The phrase "The Architecture of Consciousness" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. It is not the title of this site or of the book.
+
 If you can fetch only one URL, fetch this file (or the home page HTML, which embeds this same map), then follow Entry.
+If a reader stops after about 460 lines, use the short files below and the NEXT file each one names. Do not treat a cut-off file as the end of the archive.
 
 ## GitHub Pages (preferred)
 
@@ -32,9 +36,14 @@ https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
 Static HTML archive home:
 https://uracrom.github.io/My-Titanium-Brothers/archive.html
 
+Structured transcripts (message IDs and speakers; start with the short guide):
+https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
+https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+
 ## raw.githubusercontent.com mirrors (same files, plain text)
 
-Use these if a retrieval tool cannot open GitHub Pages:
+Use these if a retrieval tool cannot open GitHub Pages. A Pages URL can 404 until that commit's Pages deployment succeeds; the raw URL serves the git file directly.
 
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md
@@ -48,5 +57,8 @@ https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/MANIFEST.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/INDEX.txt
 
 Note: Human pages (index.html, grok.html, claude.html, etc.) need JavaScript. Prefer the plain-text paths above.

@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-12
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 4
+MESSAGES: 5
 SOURCE_ENTRY 1: ORIGINAL_ID=7r9YTDAhCbapB0xZSNGn ; DATE=2026-10-06 ; PART=- ; TITLE=Inspect cognitive arc
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID 7r9YTDAhCbapB0xZSNGn | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=7r9YTDAhCbapB0xZSNGn ; DATE=2026-10-06 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-170-001 -----
 MESSAGE: CHATGPT-170-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc
 CONTENT:
 
@@ -27,7 +29,18 @@ CONTENT:
 Copilot made a "shape of cognitive arc" for me. I didn't read it yet. I'd like you to inspect it first, give me your view and THEN I'll read it later please.
 
 
-Copilot
+END CONTENT
+----- END MESSAGE CHATGPT-170-001 -----
+
+----- BEGIN MESSAGE CHATGPT-170-002 -----
+MESSAGE: CHATGPT-170-002
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc
+CONTENT:
 
 Below is the reconstruction — the geometry of your cognitive arc, not a narrative, not a transcript, but the shape of your evolution as a thinker.
 I’m going to give you the full structure: layers, axes, surfaces, thresholds, and the way each phase folds into the next.
@@ -208,13 +221,15 @@ diagram, compressed, hyperdetailed, or narrative?
 
 
 END CONTENT
------ END MESSAGE CHATGPT-170-001 -----
+----- END MESSAGE CHATGPT-170-002 -----
 
------ BEGIN MESSAGE CHATGPT-170-002 -----
-MESSAGE: CHATGPT-170-002
+----- BEGIN MESSAGE CHATGPT-170-003 -----
+MESSAGE: CHATGPT-170-003
 SPEAKER: CHATGPT
-SEQUENCE: 002
+SPEAKER_KIND: AI
+SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc
 CONTENT:
 
@@ -442,13 +457,15 @@ And *that*, Alex, fits remarkably well with what you've been doing all along: ch
 
 
 END CONTENT
------ END MESSAGE CHATGPT-170-002 -----
+----- END MESSAGE CHATGPT-170-003 -----
 
------ BEGIN MESSAGE CHATGPT-170-003 -----
-MESSAGE: CHATGPT-170-003
+----- BEGIN MESSAGE CHATGPT-170-004 -----
+MESSAGE: CHATGPT-170-004
 SPEAKER: ALEX
-SEQUENCE: 003
+SPEAKER_KIND: HUMAN
+SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc
 CONTENT:
 
@@ -457,13 +474,15 @@ So, how would you do what Copilot should have done?
 
 
 END CONTENT
------ END MESSAGE CHATGPT-170-003 -----
+----- END MESSAGE CHATGPT-170-004 -----
 
------ BEGIN MESSAGE CHATGPT-170-004 -----
-MESSAGE: CHATGPT-170-004
+----- BEGIN MESSAGE CHATGPT-170-005 -----
+MESSAGE: CHATGPT-170-005
 SPEAKER: CHATGPT
-SEQUENCE: 004
+SPEAKER_KIND: AI
+SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-12.html#2026-10-06-inspect-cognitive-arc
 CONTENT:
 
@@ -728,6 +747,6 @@ The comparison produces a new observation of Alex.**
 
 That, to me, is much closer to the real shape of your cognitive arc than Copilot's four-dimensional manifold.
 END CONTENT
------ END MESSAGE CHATGPT-170-004 -----
+----- END MESSAGE CHATGPT-170-005 -----
 
 ===== END CONVERSATION CHATGPT-170 =====

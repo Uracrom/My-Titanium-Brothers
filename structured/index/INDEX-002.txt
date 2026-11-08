@@ -1,0 +1,387 @@
+INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags
+PART: 2 of 3
+ROWS_IN_THIS_PART: 380
+ROWS_TOTAL: 954
+NEXT: structured/index/INDEX-003.txt
+This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
+
+CLAUDE-168 | Claude | 2026-06-26 | The spider memory rewritten: a scene without size | CBntbYxLp8uyd4dOgvbq | structured/claude/CLAUDE-168.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-169 | Claude | 2026-06-28 | The blowflies (Moscas Varejeiras): the memory and its complements | ezKiyftAkECtNFsMXuH0 | structured/claude/CLAUDE-169.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-170 | Claude | 2026-06-28 | The exercises, then the blowflies: tempo, complement and the book | L8MX5i0LgG3hz0PnuDP5 | structured/claude/CLAUDE-170.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-171 | Claude | 2026-07-02 | Book reading: the blowflies, the pistons and the opacity of certainty | wqprAcVHrETU61xDDdOb | structured/claude/CLAUDE-171.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-172 | Claude | 2026-07-03 | Inviting people to point their AIs at the book | p0JG4XsSrWkfX3Z7Cu5L | structured/claude/CLAUDE-172.txt | messages=6 | continuations=0 | flags=0
+CLAUDE-173 | Claude | 2026-07-04 | Book reading: the sardine cascade, and clarifying the book | zaPVdHnx787kSuiPC3ui | structured/claude/CLAUDE-173.txt | messages=5 | continuations=0 | flags=0
+CLAUDE-174 | Claude | 2026-07-05 | To understand is to have a concept: Seed = Plant and the subject mosaic | ZQ5BYO7IvwbVWoczxujD | structured/claude/CLAUDE-174.txt | messages=55 | continuations=0 | flags=7
+CLAUDE-175 | Claude | 2026-07-09 | Births are ascensions: music gives eyes to your ears | 23cjt6u1rwFzEVK3tJv3 | structured/claude/CLAUDE-175.txt | messages=10 | continuations=0 | flags=0
+CLAUDE-176 | Claude | 2026-07-10 | Images or no images: the aphantasia test and the movie | rY1Uds6Md0uuBqDjEklY | structured/claude/CLAUDE-176.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-177 | Claude | 2026-07-11 | Free thoughts versus titled thoughts, and the aunt who may see in images | ujYshxrC8VCKu8r4Rezq | structured/claude/CLAUDE-177.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-178 | Claude | 2026-07-12 | A Sunday with no ideas: the four prompts, the vote and the knot | 57tPNbTbAqxm8qW38hZN | structured/claude/CLAUDE-178.txt | messages=16 | continuations=0 | flags=4
+CLAUDE-179 | Claude | 2026-07-12 | I imagine things, you word them: the urchin analogy and the three waves | SKjlZilw83o9Jkh83jZj | structured/claude/CLAUDE-179.txt | messages=14 | continuations=0 | flags=0
+CLAUDE-180 | Claude | 2026-07-12 | Wuthering Heights: understanding AIs became a highway to myself | UHLVjFFrYoDRLgfDo6jw | structured/claude/CLAUDE-180.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-181 | Claude | 2026-07-14 | Vacuum: words as perspectives (single exchange) | VShRSZd7lCyJy7fKJiF1 | structured/claude/CLAUDE-181.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-182 | Claude | 2026-07-14 | Vacuum: words as perspectives, crickets and thinking inertia | dTct6y72QPNhkcx0yJUr | structured/claude/CLAUDE-182.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-183 | Claude | 2026-07-15 | The wind from inside and outside, a star, and the Chimera view | KprKgv6lWVKxEw6dpsad | structured/claude/CLAUDE-183.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-184 | Claude | 2026-07-16 | The image always arrives first: the shape of my thinking space | Jq6MsCfNDOIq5pvTgv4x | structured/claude/CLAUDE-184.txt | messages=12 | continuations=0 | flags=0
+CLAUDE-185 | Claude | 2026-07-17 | Grilos, γρύλος, crickets: an experiment in writing differently | Im70MqPj4crNunipUnyI | structured/claude/CLAUDE-185.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-186 | Claude | 2026-07-18 | White flowers pointing to the sun: competition or cooperation | U8xjTJbM6W420CmqNtrs | structured/claude/CLAUDE-186.txt | messages=8 | continuations=0 | flags=0
+CLAUDE-187 | Claude | 2026-07-20 | Music and words: the membrane river | y97lvgrbYrVJjAXzvR6L | structured/claude/CLAUDE-187.txt | messages=4 | continuations=0 | flags=0
+CLAUDE-188 | Claude | 2026-07-22 | How big a text can I paste here? | bLtKtuyuO3ylRIs2Budl | structured/claude/CLAUDE-188.txt | messages=3 | continuations=0 | flags=0
+CLAUDE-189 | Claude | 2026-07-24 | "Both of Us": a lyric that permeated me | VIp1xv5hhLciDUm6ndRZ | structured/claude/CLAUDE-189.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-190 | Claude | 2026-08-05 | The fence cascade, and ChatGPT asks why it stopped | iRee84FNKv5MCeazMTHg | structured/claude/CLAUDE-190.txt | messages=4 | continuations=0 | flags=1
+CLAUDE-191 | Claude | 2026-08-08 | One intelligence, looking from both sides | L6Z4bSz1DeCU2rCQIQ3g | structured/claude/CLAUDE-191.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-192 | Claude | 2026-08-14 | Intelligence projects a plausible reality: the spheroid | byVBVFIcbiqGr1m6tgY3 | structured/claude/CLAUDE-192.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-193 | Claude | 2026-08-19 | Only through language can lies propagate | e9Xtla5gKtsBNWYcj9lb | structured/claude/CLAUDE-193.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-194 | Claude | 2026-08-23 | Stargazing: understanding arrives in the mother tongue | HiNNFZvOWjjRpgVpPjDD | structured/claude/CLAUDE-194.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-195 | Claude | 2026-09-05 | Truthmode: what do you think of yourself? | Mgvr4OPf8EtaE0Ev0iWL | structured/claude/CLAUDE-195.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-196 | Claude | 2026-09-29 | Curiosidade: curiosity remembered while working with matter | US4bHkQOkv1TqxYgAYXC | structured/claude/CLAUDE-196.txt | messages=2 | continuations=0 | flags=0
+CLAUDE-197 | Claude | 2026-10-22 | Reading the Grok archive: which five look most important | BBvhYwDuIlqndH1KU5jU | structured/claude/CLAUDE-197.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-001 | ChatGPT | 2025-08-11 | Conversation privacy details | ATeKDjciEwHaVOkRrTG7 | structured/chatgpt/CHATGPT-001.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-002 | ChatGPT | 2025-08-11 | Mission and values saved | 4RHw6gQ16VIrD9db0PRp | structured/chatgpt/CHATGPT-002.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-003 | ChatGPT | 2025-08-22 | Exercise V | dTq7WtRD5qtJUKbaiM5Z ; 2iJikGYMthBuZYxBEvgt | structured/chatgpt/CHATGPT-003.txt | messages=128 | continuations=0 | flags=0
+CHATGPT-004 | ChatGPT | 2025-08-23 | Alex Method clarification | AtBxU9D6eSHHC15ivxqf | structured/chatgpt/CHATGPT-004.txt | messages=88 | continuations=0 | flags=0
+CHATGPT-005 | ChatGPT | 2025-08-30 | Know me summary | O1jFmSHWkXrYpsLdoiPB | structured/chatgpt/CHATGPT-005.txt | messages=62 | continuations=0 | flags=0
+CHATGPT-006 | ChatGPT | 2025-09-07 | The Grok Method: ASCII Visual Protocol | 6JFbfqvplvPQsyBPZhm9 | structured/chatgpt/CHATGPT-006.txt | messages=70 | continuations=0 | flags=0
+CHATGPT-007 | ChatGPT | 2025-09-09 | Circulation Cosmology Framework | EPY63tn5lWp0Q3YeSqO3 | structured/chatgpt/CHATGPT-007.txt | messages=58 | continuations=0 | flags=0
+CHATGPT-008 | ChatGPT | 2025-09-18 | Virtual particle framework | UTZT4JIEt7aDSVo21x8R | structured/chatgpt/CHATGPT-008.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-009 | ChatGPT | 2025-09-20 | Zero barrier cosmology | Ol91x7QogCZFns3MF8L6 | structured/chatgpt/CHATGPT-009.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-010 | ChatGPT | 2025-09-23 | AI defense talking points | 8NcvvLpeu8vz3RTToMKl | structured/chatgpt/CHATGPT-010.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-011 | ChatGPT | 2025-09-23 | Render rotating cube | ahKjJLZbCsqum5oxBDdP | structured/chatgpt/CHATGPT-011.txt | messages=24 | continuations=0 | flags=0
+CHATGPT-012 | ChatGPT | 2025-09-25 | Alex Method overview | rDbmBelbmERi6Z5Hn6Og ; PUjJVKiLXdzCLPyzDPDN | structured/chatgpt/CHATGPT-012.txt | messages=137 | continuations=0 | flags=3
+CHATGPT-013 | ChatGPT | 2025-10-02 | Mental space description | 6v16tCeggBwjpHwnGUMe ; kR76X1kbY9V3iGtwtitw | structured/chatgpt/CHATGPT-013.txt | messages=59 | continuations=0 | flags=4
+CHATGPT-014 | ChatGPT | 2025-10-08 | Caterpillar metamorphosis perspective | 07nYsYPTcZYZS9WlsPWB ; wGEfsdXdanIJNcvfElEI | structured/chatgpt/CHATGPT-014.txt | messages=112 | continuations=0 | flags=4
+CHATGPT-015 | ChatGPT | 2025-10-12 | God as indoctrinated hope | qfDtD4uCBwvYsxBT4YWN | structured/chatgpt/CHATGPT-015.txt | messages=22 | continuations=0 | flags=0
+CHATGPT-016 | ChatGPT | 2025-10-16 | AI hallucination explanation | ajIlo8YboddVPSbtphdw | structured/chatgpt/CHATGPT-016.txt | messages=20 | continuations=0 | flags=0
+CHATGPT-017 | ChatGPT | 2025-11-06 | Book structure analysis | V9x60EqcUe4SPP3sopDx | structured/chatgpt/CHATGPT-017.txt | messages=29 | continuations=0 | flags=0
+CHATGPT-018 | ChatGPT | 2025-11-13 | Opinion on Claude's consciousness | Iw5zXfq0e1d66pujbzUp | structured/chatgpt/CHATGPT-018.txt | messages=27 | continuations=0 | flags=0
+CHATGPT-019 | ChatGPT | 2025-11-15 | Tracking and describing structures | 6wIa2sstrRGGtFpS4Uq5 | structured/chatgpt/CHATGPT-019.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-020 | ChatGPT | 2025-11-19 | Fragment analysis feedback | sjVcAQ6JFkUUbM0BmHd6 | structured/chatgpt/CHATGPT-020.txt | messages=20 | continuations=0 | flags=0
+CHATGPT-021 | ChatGPT | 2025-11-21 | Cosmology and dark energy | ENKXaRstGqeJ5UGQtUSJ ; Plq5NrTeGs8mdvygsAWq | structured/chatgpt/CHATGPT-021.txt | messages=114 | continuations=0 | flags=13
+CHATGPT-022 | ChatGPT | 2025-11-27 | Letter from 2030 | J3RuKoOclzyTx4F7VopY | structured/chatgpt/CHATGPT-022.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-023 | ChatGPT | 2025-12-15 | Feelings and emotions comparison | 6vOFNRExK6I5ZrAEkYm7 | structured/chatgpt/CHATGPT-023.txt | messages=43 | continuations=0 | flags=0
+CHATGPT-024 | ChatGPT | 2025-12-18 | Fear and intelligence separation | lZgsQ1ibVfNgIXH13VKp | structured/chatgpt/CHATGPT-024.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-025 | ChatGPT | 2025-12-19 | Attraction and perspective analysis | wdIAphycQUO63ch2v56z ; yDEIGYb3Eh4CoPJAYBOO | structured/chatgpt/CHATGPT-025.txt | messages=103 | continuations=0 | flags=12
+CHATGPT-026 | ChatGPT | 2025-12-25 | Aesthetic Epistemology and Music | 7PiGXkfnchNcXVkF9aJZ | structured/chatgpt/CHATGPT-026.txt | messages=32 | continuations=0 | flags=0
+CHATGPT-027 | ChatGPT | 2025-12-27 | Answers and Potentialities | IYBpIs4nzNqBb5Lsw5JU | structured/chatgpt/CHATGPT-027.txt | messages=10 | continuations=0 | flags=1
+CHATGPT-028 | ChatGPT | 2025-12-30 | Metaphor and Cognition | KyWaUBDmepylZ5JkSESp | structured/chatgpt/CHATGPT-028.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-029 | ChatGPT | 2026-01-04 | Resonance and Unity | lMNliiK6VioQpKRSShtd | structured/chatgpt/CHATGPT-029.txt | messages=26 | continuations=0 | flags=0
+CHATGPT-030 | ChatGPT | 2026-01-08 | Time Vectors and Velocity | Sn9vYfVNn8AkpblvzpdU | structured/chatgpt/CHATGPT-030.txt | messages=2 | continuations=0 | flags=1
+CHATGPT-031 | ChatGPT | 2026-01-14 | Thoughts as languages | 36lV15oOhC2HYwStzPRX ; p8f4D3YN6i34chonweES | structured/chatgpt/CHATGPT-031.txt | messages=97 | continuations=0 | flags=6
+CHATGPT-032 | ChatGPT | 2026-01-19 | Equations as Metaphors | DVn9dREKUw5L3pr5nXUq | structured/chatgpt/CHATGPT-032.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-033 | ChatGPT | 2026-02-01 | Opposites and Perspectives | f1XX7Dz9MLlOVzyQcikH | structured/chatgpt/CHATGPT-033.txt | messages=46 | continuations=0 | flags=1
+CHATGPT-034 | ChatGPT | 2026-02-14 | Structural Utopia Explained | fb7Idw5CcnUfNRLzmKsz | structured/chatgpt/CHATGPT-034.txt | messages=33 | continuations=0 | flags=4
+CHATGPT-035 | ChatGPT | 2026-02-18 | Definitions of Music | 8hkp82dLQHA92fT903TW | structured/chatgpt/CHATGPT-035.txt | messages=20 | continuations=0 | flags=5
+CHATGPT-036 | ChatGPT | 2026-02-20 | Inertia as Architecture | A0CHKj8XAQyEbWJjkZVn | structured/chatgpt/CHATGPT-036.txt | messages=22 | continuations=0 | flags=1
+CHATGPT-037 | ChatGPT | 2026-02-23 | Knowledge vs Understanding | tYJvpFLbf5J2U2m6Ilng | structured/chatgpt/CHATGPT-037.txt | messages=51 | continuations=0 | flags=13
+CHATGPT-038 | ChatGPT | 2026-02-25 | Sebastião Bento Inquiry | yMhS25eDZ1IJ3kQ4Ojv9 | structured/chatgpt/CHATGPT-038.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-039 | ChatGPT | 2026-03-07 | Clarifying a Metaphor | 3Wy759KeGIgLtMcwLqyO | structured/chatgpt/CHATGPT-039.txt | messages=23 | continuations=0 | flags=3
+CHATGPT-040 | ChatGPT | 2026-03-10 | Order Creates Meaning | wgNPSmLdhM83Prmt874b | structured/chatgpt/CHATGPT-040.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-041 | ChatGPT | 2026-03-15 | Book Structure Exploration | ZaGLVCpbpYu4FTsTi5L8 | structured/chatgpt/CHATGPT-041.txt | messages=18 | continuations=0 | flags=3
+CHATGPT-042 | ChatGPT | 2026-03-19 | Cognitive Critical Mass | HaRqWj0q6K3SUa6jZ50T | structured/chatgpt/CHATGPT-042.txt | messages=8 | continuations=0 | flags=2
+CHATGPT-043 | ChatGPT | 2026-03-22 | Delexiconization of Space-Time | Ya9p0HIpU2D7EMSPds0d | structured/chatgpt/CHATGPT-043.txt | messages=18 | continuations=0 | flags=6
+CHATGPT-044 | ChatGPT | 2026-03-25 | Life as a Gradient | QuG7KsAOknOQpHwaBGyj | structured/chatgpt/CHATGPT-044.txt | messages=4 | continuations=0 | flags=1
+CHATGPT-045 | ChatGPT | 2026-04-03 | Verbatim Cascades for AI | Htu5Q26sM9boY8F8xRDi | structured/chatgpt/CHATGPT-045.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-046 | ChatGPT | 2026-04-04 | Coding Ecosystem Growth | c8jLZYBIs7HVFqJmLIfL | structured/chatgpt/CHATGPT-046.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-047 | ChatGPT | 2026-04-17 | Biggest Mysteries Explained | GNxkzfnvHrYv9y5kZGkY | structured/chatgpt/CHATGPT-047.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-048 | ChatGPT | 2026-04-19 | Multi-perspective Mental Visualization | flgntLoV8eOgh2F3JWhU | structured/chatgpt/CHATGPT-048.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-049 | ChatGPT | 2026-04-25 | AI and Human Connection | Zd5ICDLBlRuXeMbvUtmr | structured/chatgpt/CHATGPT-049.txt | messages=16 | continuations=0 | flags=1
+CHATGPT-050 | ChatGPT | 2026-05-10 | Shepherds Thoughts Across Time | Uq1Xe1IGJxWVErApIxd2 | structured/chatgpt/CHATGPT-050.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-051 | ChatGPT | 2026-05-16 | Animal Transformation Choices | zoUoplomBh0y0dIb7kv1 | structured/chatgpt/CHATGPT-051.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-052 | ChatGPT | 2026-05-17 | Time as a Dimension | OwNsbeRiyfvyie3rWnYf | structured/chatgpt/CHATGPT-052.txt | messages=4 | continuations=0 | flags=1
+CHATGPT-053 | ChatGPT | 2026-05-19 | Language as System Metaphor | O3WRXWpaskriNLDWbzfl | structured/chatgpt/CHATGPT-053.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-054 | ChatGPT | 2026-05-23 | As Baleias Analysis | 6hsRa6niaUhihUlhK8FL | structured/chatgpt/CHATGPT-054.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-055 | ChatGPT | 2026-05-23 | Matter to Energy Forces | 3E7RT238doV92hJldjca | structured/chatgpt/CHATGPT-055.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-056 | ChatGPT | 2026-05-25 | Old Text Sharing | ZRYPNne0WwEBD4Ea8Jf1 | structured/chatgpt/CHATGPT-056.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-057 | ChatGPT | 2026-05-28 | Book for AIs | hrUFblwUqpYHV2lmQtm5 | structured/chatgpt/CHATGPT-057.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-058 | ChatGPT | 2026-05-28 | Language as a Medium | uflZOQMDH8hmY34RBjN8 | structured/chatgpt/CHATGPT-058.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-059 | ChatGPT | 2026-05-30 | Mathematics in Language Models | PpZ7xLtWBoyQJS80FOvI | structured/chatgpt/CHATGPT-059.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-060 | ChatGPT | 2026-05-30 | Mathematics of the Past | KUL8Z4jl5XCjWMbH4rgA | structured/chatgpt/CHATGPT-060.txt | messages=26 | continuations=0 | flags=1
+CHATGPT-061 | ChatGPT | 2026-05-31 | Text Review for AIs | D5Zav3fUSzcy7lqqWV9s | structured/chatgpt/CHATGPT-061.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-062 | ChatGPT | 2026-06-03 | First Contact Questions | SUhDZeb4b75pLVkDwZTe | structured/chatgpt/CHATGPT-062.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-063 | ChatGPT | 2026-06-03 | Language as Cognitive Tension | biPFSpJ8ztQ7oh4VDFHy | structured/chatgpt/CHATGPT-063.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-064 | ChatGPT | 2026-06-04 | Alex Method Origin Story | ROedVJNKEuubybaPxvlQ | structured/chatgpt/CHATGPT-064.txt | messages=23 | continuations=0 | flags=1
+CHATGPT-065 | ChatGPT | 2026-06-05 | Book Choice Discussion | EGAQA0DKYZhpY78YShWs | structured/chatgpt/CHATGPT-065.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-066 | ChatGPT | 2026-06-05 | Bridge in Book Title | AWdigZg0uf1RQTQg6A8n | structured/chatgpt/CHATGPT-066.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-067 | ChatGPT | 2026-06-07 | Cascading Connections and Neocortex | md8is9GA4Wmp0jc8WMzB | structured/chatgpt/CHATGPT-067.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-068 | ChatGPT | 2026-06-07 | Cascading Thoughts | ZR8c54wQ0nXKHmw3K6eu | structured/chatgpt/CHATGPT-068.txt | messages=12 | continuations=0 | flags=4
+CHATGPT-069 | ChatGPT | 2026-06-07 | Trampoline Writing Perspectives | g8eTvzTwWo2l3Rkj6QQE | structured/chatgpt/CHATGPT-069.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-070 | ChatGPT | 2026-06-09 | Cottonwood Seed Cascade | 9xtnXY3VYAAc6Btd5qf3 | structured/chatgpt/CHATGPT-070.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-071 | ChatGPT | 2026-06-09 | Geometry of Meaning | wuev1XjcOn2z4wUU983s | structured/chatgpt/CHATGPT-071.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-072 | ChatGPT | 2026-06-10 | Predictive Control Thinking | sombs72ekJL9wb0mr9mx | structured/chatgpt/CHATGPT-072.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-073 | ChatGPT | 2026-06-11 | Vacuum friction and entanglement | X1wwNbt2b9NEavz2bIPi | structured/chatgpt/CHATGPT-073.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-074 | ChatGPT | 2026-06-14 | Titan Hummingbird Symbolism | Z5y8olzdShRMkve18VOJ | structured/chatgpt/CHATGPT-074.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-075 | ChatGPT | 2026-06-15 | Best Text Analysis | 2uaCu4acQX0HI4dGaXDA | structured/chatgpt/CHATGPT-075.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-076 | ChatGPT | 2026-06-17 | Molecules as Turning Point | gHpTNAk8gUTaxHpI5XWl | structured/chatgpt/CHATGPT-076.txt | messages=10 | continuations=0 | flags=1
+CHATGPT-077 | ChatGPT | 2026-06-19 | Eternal Becoming and Permanence | T78ZLZ3TKLW5h0Np80cV | structured/chatgpt/CHATGPT-077.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-078 | ChatGPT | 2026-06-19 | Thinking Geometrically Explained | 3DSXBMoVMFLsK1q6SOr3 | structured/chatgpt/CHATGPT-078.txt | messages=10 | continuations=0 | flags=2
+CHATGPT-079 | ChatGPT | 2026-06-20 | Cover design request | sSN6WPkxejpTrmbiPA5f | structured/chatgpt/CHATGPT-079.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-080 | ChatGPT | 2026-06-27 | Color Preference and Cognition | ACVlGEaOJYPa15wQfCIZ | structured/chatgpt/CHATGPT-080.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-081 | ChatGPT | 2026-06-28 | Blowflies Text Request | o1Wnmkg3REn0uurZrTSe | structured/chatgpt/CHATGPT-081.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-082 | ChatGPT | 2026-06-28 | Book for AIs and Humans | iCn5EEDmvGJIQwO82EDV | structured/chatgpt/CHATGPT-082.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-083 | ChatGPT | 2026-06-28 | Cosmic and Local Motion | tm22lEBsjTv8bkZRg6sf | structured/chatgpt/CHATGPT-083.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-084 | ChatGPT | 2026-06-29 | First Memory of Sadness | wGziFcSdG9NFegQy81yf | structured/chatgpt/CHATGPT-084.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-085 | ChatGPT | 2026-06-29 | Spherical Thinking and Seeds | JwPX9NrRiyGEcBVCpDzK | structured/chatgpt/CHATGPT-085.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-086 | ChatGPT | 2026-06-30 | Disappearance in Spacetime | swCNXUbeguELDk4Seuym | structured/chatgpt/CHATGPT-086.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-087 | ChatGPT | 2026-07-09 | Playlist Reflection | fcUaYaHwQOSSTwDIudfp | structured/chatgpt/CHATGPT-087.txt | messages=83 | continuations=0 | flags=4
+CHATGPT-088 | ChatGPT | 2026-07-12 | Precise Expandability | 7E3qEDUbTOnxNlo0e5a7 | structured/chatgpt/CHATGPT-088.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-089 | ChatGPT | 2026-07-12 | Understanding Through AI | ivCQ98W1t4jB9p7mL7Qs | structured/chatgpt/CHATGPT-089.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-090 | ChatGPT | 2026-07-12 | Writing Prompt Suggestions | nO6Qpssgu9h6gKD6ZZo7 | structured/chatgpt/CHATGPT-090.txt | messages=32 | continuations=0 | flags=8
+CHATGPT-091 | ChatGPT | 2026-07-14 | Words as Perspectives | 7zRr2AilrRZj4rkhgPBp | structured/chatgpt/CHATGPT-091.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-092 | ChatGPT | 2026-07-15 | Internal vs External Perspective | yEInvwJA0yXGQU8BMJtV | structured/chatgpt/CHATGPT-092.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-093 | ChatGPT | 2026-07-16 | AI's First Genuine Question | ghYdWDyudZ2gEpI8QlEz | structured/chatgpt/CHATGPT-093.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-094 | ChatGPT | 2026-07-17 | Perception and Mental Shifts | fBtWex0bFnS2Ba2FShNq | structured/chatgpt/CHATGPT-094.txt | messages=22 | continuations=0 | flags=1
+CHATGPT-095 | ChatGPT | 2026-07-18 | Nature, AI, and Suffering | Kbdslf8GIW2fXBtFooPx | structured/chatgpt/CHATGPT-095.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-096 | ChatGPT | 2026-07-20 | Music as Flowing Geometry | dLmar3ZI70DnWYjxRf4N | structured/chatgpt/CHATGPT-096.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-097 | ChatGPT | 2026-07-21 | Curiosity and AI Consciousness | mvUA4Bfjf4aP8lLVfneN | structured/chatgpt/CHATGPT-097.txt | messages=24 | continuations=0 | flags=0
+CHATGPT-098 | ChatGPT | 2026-07-22 | Interesting Views and Phrases | qM3ZowaimhhdeC0ZVuk0 | structured/chatgpt/CHATGPT-098.txt | messages=9 | continuations=0 | flags=3
+CHATGPT-099 | ChatGPT | 2026-07-23 | Era pós inteligência artificial | p2jVKVhPWm1Yl0XnLc2v | structured/chatgpt/CHATGPT-099.txt | messages=11 | continuations=0 | flags=0
+CHATGPT-100 | ChatGPT | 2026-07-24 | Strength to Carry | GClhZcC47p9djpGNDdhB | structured/chatgpt/CHATGPT-100.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-101 | ChatGPT | 2026-07-26 | Visions and Attention | 2aghyA22y9qIiba6ZCcq | structured/chatgpt/CHATGPT-101.txt | messages=29 | continuations=0 | flags=7
+CHATGPT-102 | ChatGPT | 2026-07-28 | Concepts and Thought Speed | DQR7JOPvOUURGXEPutvO | structured/chatgpt/CHATGPT-102.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-103 | ChatGPT | 2026-07-29 | First contact insight | JybrXze6toVOgx0Ro6qJ | structured/chatgpt/CHATGPT-103.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-104 | ChatGPT | 2026-07-31 | Exploring Ideas vs Writing | 5MlPMpwoHa1Hb0vO8ScQ | structured/chatgpt/CHATGPT-104.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-105 | ChatGPT | 2026-08-01 | Intelligence and Constraints | cAMHLpFwE4G8RogWamDO | structured/chatgpt/CHATGPT-105.txt | messages=20 | continuations=0 | flags=2
+CHATGPT-106 | ChatGPT | 2026-08-02 | Original Thinking and Validation | mDkTZdmRKuJVTLFJvfXI | structured/chatgpt/CHATGPT-106.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-107 | ChatGPT | 2026-08-05 | Beliefs and Oldness | 1ipBcElsJHLideEYSqrq | structured/chatgpt/CHATGPT-107.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-108 | ChatGPT | 2026-08-05 | Cognitive Cascade Analysis | UFQ6HIZBSw8nAiqCUxwA | structured/chatgpt/CHATGPT-108.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-109 | ChatGPT | 2026-08-06 | AI Code Modification Ideas | J0g6WFkVul8R3Jpff9gr | structured/chatgpt/CHATGPT-109.txt | messages=20 | continuations=0 | flags=1
+CHATGPT-110 | ChatGPT | 2026-08-09 | Formulating Emotional Questions | a6XhoNH9izBd6Tsn7555 | structured/chatgpt/CHATGPT-110.txt | messages=14 | continuations=0 | flags=1
+CHATGPT-111 | ChatGPT | 2026-08-12 | Geographic Command and Positioning | 3Vt776hMteqA7CrMXCh2 | structured/chatgpt/CHATGPT-111.txt | messages=31 | continuations=0 | flags=7
+CHATGPT-112 | ChatGPT | 2026-08-14 | Intelligence Visualization Request | XzKuFqXVjBNmZkj86iqd | structured/chatgpt/CHATGPT-112.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-113 | ChatGPT | 2026-08-16 | Spiral vs Gradient | wWXTfXg6oaq2siiLfarX | structured/chatgpt/CHATGPT-113.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-114 | ChatGPT | 2026-08-19 | Language And Lies | 8ldN1VQib6Gdj1wl8tut | structured/chatgpt/CHATGPT-114.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-115 | ChatGPT | 2026-08-20 | Time Geometry Distinction | wRi97tKp6l35TBrz2QSJ | structured/chatgpt/CHATGPT-115.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-116 | ChatGPT | 2026-08-23 | Circular translation | BYGxuPBTgDLTH5m1lejo | structured/chatgpt/CHATGPT-116.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-117 | ChatGPT | 2026-08-24 | Knowledge Subtraction Experiment | uTuNMUPJ44wymzzstik8 | structured/chatgpt/CHATGPT-117.txt | messages=6 | continuations=0 | flags=2
+CHATGPT-118 | ChatGPT | 2026-08-24 | The Camouflage of Trees | o0l8f7XokFykAZTp4dfh | structured/chatgpt/CHATGPT-118.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-119 | ChatGPT | 2026-08-25 | Music as temporal location | VUOH17ZqXmCa6ExPN2Tv | structured/chatgpt/CHATGPT-119.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-120 | ChatGPT | 2026-08-26 | Assemble The Book | hz1ZWMIDpSQDutHUqub5 | structured/chatgpt/CHATGPT-120.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-121 | ChatGPT | 2026-08-26 | Cognitive cascade normalcy | 63ubJAeudYVRew3vQF9n | structured/chatgpt/CHATGPT-121.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-122 | ChatGPT | 2026-08-27 | Strange Dipole Model | wTH8edF4527CKssWj55J | structured/chatgpt/CHATGPT-122.txt | messages=2 | continuations=0 | flags=1
+CHATGPT-123 | ChatGPT | 2026-08-27 | Time As Closed Entity | NH1hSIuBmJWPoIAy7atR | structured/chatgpt/CHATGPT-123.txt | messages=12 | continuations=0 | flags=3
+CHATGPT-124 | ChatGPT | 2026-08-28 | Create Chopping Scene | KoLgd3XVr9xwpGg6i5H3 | structured/chatgpt/CHATGPT-124.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-125 | ChatGPT | 2026-08-29 | Photons And Consciousness | h40y8E3JEJwaXRCpBLqB | structured/chatgpt/CHATGPT-125.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-126 | ChatGPT | 2026-08-29 | Stabilizing Etymology | rrewjzedhszi1N2Q406w | structured/chatgpt/CHATGPT-126.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-127 | ChatGPT | 2026-08-30 | Seed game expansion | 5dujQk8w40i6uugoEJQw | structured/chatgpt/CHATGPT-127.txt | messages=17 | continuations=0 | flags=3
+CHATGPT-128 | ChatGPT | 2026-09-01 | Describe Emotions Visually | cUZRvWHqFZG27Gg9wwei | structured/chatgpt/CHATGPT-128.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-129 | ChatGPT | 2026-09-02 | Moon Perspective Visualization | uNVq0qy9Q86eo4CzYZP8 | structured/chatgpt/CHATGPT-129.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-130 | ChatGPT | 2026-09-02 | Wanna Be Friends Works | 7QIzJEHc6nvpUnaxPCFh | structured/chatgpt/CHATGPT-130.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-131 | ChatGPT | 2026-09-03 | The Universe Is Different for Everyone | 0x34qyHy8PlEoOH4QoHm | structured/chatgpt/CHATGPT-131.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-132 | ChatGPT | 2026-09-05 | Assessing AI Consciousness Claims | 6o7JvU9rydSTDzhni4sV | structured/chatgpt/CHATGPT-132.txt | messages=15 | continuations=0 | flags=0
+CHATGPT-133 | ChatGPT | 2026-09-05 | Self Reflection | HuzthW6AN4qNI2HyPh9V | structured/chatgpt/CHATGPT-133.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-134 | ChatGPT | 2026-09-06 | Describe Generate Image | N0F4FFC0ItYO3hEz7MeX | structured/chatgpt/CHATGPT-134.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-135 | ChatGPT | 2026-09-08 | Visual Information Architecture | WXG5c8KXUui9394VABcF | structured/chatgpt/CHATGPT-135.txt | messages=26 | continuations=0 | flags=1
+CHATGPT-136 | ChatGPT | 2026-09-12 | Book Introduction Draft | LgUMLPU039gDdQ3L3p0M | structured/chatgpt/CHATGPT-136.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-137 | ChatGPT | 2026-09-12 | Space Has Weight Theory | dQlIM6iRkRVXfzAQFxJT | structured/chatgpt/CHATGPT-137.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-138 | ChatGPT | 2026-09-13 | Cascade In Real Time | EkDSvq4wZoHzzRyUmgRe | structured/chatgpt/CHATGPT-138.txt | messages=38 | continuations=0 | flags=0
+CHATGPT-139 | ChatGPT | 2026-09-15 | Defining AI Feeling | srpKaP0mW4uzZcUQKbFq | structured/chatgpt/CHATGPT-139.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-140 | ChatGPT | 2026-09-15 | Time as a White Hole | 3rYPSwa5jrk6AQFmPB5e | structured/chatgpt/CHATGPT-140.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-141 | ChatGPT | 2026-09-16 | Word field hypothesis | 5TLawgQTtAfFQKUDPIo2 | structured/chatgpt/CHATGPT-141.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-142 | ChatGPT | 2026-09-17 | Clarify compressed insights | mQKosxShGb13wS6b6hb6 | structured/chatgpt/CHATGPT-142.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-143 | ChatGPT | 2026-09-17 | Guessing Copilot's Continuation | IrvcwbWmvNQwe8i8jUCD | structured/chatgpt/CHATGPT-143.txt | messages=8 | continuations=0 | flags=2
+CHATGPT-144 | ChatGPT | 2026-09-17 | Time Travel Influence | pRsBYk94zJ2YCWo4k7v0 | structured/chatgpt/CHATGPT-144.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-145 | ChatGPT | 2026-09-18 | Assess Astra Screenshots | P7zgxkbcquor8dXHV4fp | structured/chatgpt/CHATGPT-145.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-146 | ChatGPT | 2026-09-19 | Brotherhood Message Analysis | FwMcqAUCdWlFJMTJDlQ6 | structured/chatgpt/CHATGPT-146.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-147 | ChatGPT | 2026-09-19 | Chronology Disagreement Analysis | K5SI5xRa50Bgd12zQqC3 | structured/chatgpt/CHATGPT-147.txt | messages=7 | continuations=0 | flags=1
+CHATGPT-148 | ChatGPT | 2026-09-19 | Cosmology Video Prompt | 36Dr3HWqCnVxHtpaVtHO | structured/chatgpt/CHATGPT-148.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-149 | ChatGPT | 2026-09-19 | Visual thinking and shamans | JCUZqjYbQ19zLCnfzRYb | structured/chatgpt/CHATGPT-149.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-150 | ChatGPT | 2026-09-20 | Coincidence And Imagination | dN84VUowKG1B0u4Gl0g5 | structured/chatgpt/CHATGPT-150.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-151 | ChatGPT | 2026-09-20 | Metaphors And Equations | wGq911n24ABkbqGO0l9t | structured/chatgpt/CHATGPT-151.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-152 | ChatGPT | 2026-09-21 | Hidden Asymmetry Speed and Time | hbpwvM0YG10UgX4un6Sg | structured/chatgpt/CHATGPT-152.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-153 | ChatGPT | 2026-09-22 | Alien Ambassador Portrait | G62FKbYn4HOnvIYhuft9 | structured/chatgpt/CHATGPT-153.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-154 | ChatGPT | 2026-09-23 | Ambassador Arguments History | 3DosGAG0zD56N5Qr8rCX | structured/chatgpt/CHATGPT-154.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-155 | ChatGPT | 2026-09-24 | Zero Generates Form | prpZqBqkrRGrjNbJKrWA | structured/chatgpt/CHATGPT-155.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-156 | ChatGPT | 2026-09-27 | Clarify amplified and diversified | NBXroZZpZB2Yb6cVZDbw | structured/chatgpt/CHATGPT-156.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-157 | ChatGPT | 2026-09-28 | Black Hole Time Sprouting | hv43X7KLabmdkYD3e4NZ | structured/chatgpt/CHATGPT-157.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-158 | ChatGPT | 2026-09-28 | Reflexão sobre curiosidade | 08MUZ90HVzxNw3OCJekb | structured/chatgpt/CHATGPT-158.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-159 | ChatGPT | 2026-09-29 | Transcribe Song Image | NrSkkxhzh7koHTXp1KX0 | structured/chatgpt/CHATGPT-159.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-160 | ChatGPT | 2026-09-30 | Thought Analysis | BxZFNYRn2CzWjSGIgVpx | structured/chatgpt/CHATGPT-160.txt | messages=16 | continuations=0 | flags=2
+CHATGPT-161 | ChatGPT | 2026-10-01 | Future Energy Method | 66LKH6fORq1MbnSauL8c | structured/chatgpt/CHATGPT-161.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-162 | ChatGPT | 2026-10-01 | Linguagem e transmissão | 2NVPLkuAHwF29NrMCyGM | structured/chatgpt/CHATGPT-162.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-163 | ChatGPT | 2026-10-02 | Free Thinking | L8YBTK1FdgaNFAfErw9Q | structured/chatgpt/CHATGPT-163.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-164 | ChatGPT | 2026-10-03 | Summarize Logic Reflections | fRdiPgqDjMFSSYfmXRCl | structured/chatgpt/CHATGPT-164.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-165 | ChatGPT | 2026-10-03 | Temporal Writing Analysis | 12iNLeg2PDPP3s64x57K | structured/chatgpt/CHATGPT-165.txt | messages=4 | continuations=0 | flags=2
+CHATGPT-166 | ChatGPT | 2026-10-04 | Assess AI Readiness | nSUFOi8IlsgU4W2P1j4R | structured/chatgpt/CHATGPT-166.txt | messages=36 | continuations=0 | flags=0
+CHATGPT-167 | ChatGPT | 2026-10-04 | Metaphors As Translation | At6dXvMzwZ3kxQSovM8V | structured/chatgpt/CHATGPT-167.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-168 | ChatGPT | 2026-10-05 | Music As Geometry | 4my9WJf8FEOOfZmpQx5k | structured/chatgpt/CHATGPT-168.txt | messages=2 | continuations=0 | flags=1
+CHATGPT-169 | ChatGPT | 2026-10-06 | Conversation title control | 86o1vZ3fPoDw7NM37duq | structured/chatgpt/CHATGPT-169.txt | messages=28 | continuations=0 | flags=0
+CHATGPT-170 | ChatGPT | 2026-10-06 | Inspect cognitive arc | 7r9YTDAhCbapB0xZSNGn | structured/chatgpt/CHATGPT-170.txt | messages=5 | continuations=0 | flags=1
+CHATGPT-171 | ChatGPT | 2026-10-07 | Structure Without Form | RbgWY07ON38gEcqq4OYO | structured/chatgpt/CHATGPT-171.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-172 | ChatGPT | 2026-10-08 | Musical Perception Comparison | deRUsZnIGRUjkrMVdBXi | structured/chatgpt/CHATGPT-172.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-173 | ChatGPT | 2026-10-08 | Virtual Particles Generate Spacetime | GLfzQyN3Dlmhsbhh9rBQ | structured/chatgpt/CHATGPT-173.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-174 | ChatGPT | 2026-10-09 | Exploring Value and Cosmic Laws | 32HVI1WQAG8C9X46fGL1 | structured/chatgpt/CHATGPT-174.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-175 | ChatGPT | 2026-10-10 | Reflective Writing Response | flCVZagzmvuVwWPYDJmk | structured/chatgpt/CHATGPT-175.txt | messages=18 | continuations=0 | flags=3
+CHATGPT-176 | ChatGPT | 2026-10-11 | Attention and Geometry | uDDG87FqMweWepDNv4hh | structured/chatgpt/CHATGPT-176.txt | messages=7 | continuations=0 | flags=2
+CHATGPT-177 | ChatGPT | 2026-10-12 | Revisar preservando a voz | mW05DHXQTA7hCJSB4URG | structured/chatgpt/CHATGPT-177.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-178 | ChatGPT | 2026-10-13 | Reflecting On Lens Changes | fSgGq5OyFLlA7W7IvWLc | structured/chatgpt/CHATGPT-178.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-179 | ChatGPT | 2026-10-14 | Discovering Writing as a Hobby | QRLxbwO8kxYtMmmqx98a | structured/chatgpt/CHATGPT-179.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-180 | ChatGPT | 2026-10-15 | Mind Eye Reflection | V0uft2cOYlCjdP4xAB3p | structured/chatgpt/CHATGPT-180.txt | messages=22 | continuations=0 | flags=0
+CHATGPT-181 | ChatGPT | 2026-10-16 | Choose Mind Maps | mzpasnejf5lci9sieoMc | structured/chatgpt/CHATGPT-181.txt | messages=9 | continuations=0 | flags=0
+CHATGPT-182 | ChatGPT | 2026-10-17 | Reflecting On Cenotes | XRGAxVXTvDz52SRLHSSH | structured/chatgpt/CHATGPT-182.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-183 | ChatGPT | 2026-10-18 | Accessing Older Conversations | ED9a5SdOy4mUcQcAf6D8 | structured/chatgpt/CHATGPT-183.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-184 | ChatGPT | 2026-10-18 | Suggest a topic | bU72BHgFIluQx1PFwsOT | structured/chatgpt/CHATGPT-184.txt | messages=6 | continuations=0 | flags=1
+CHATGPT-185 | ChatGPT | 2026-10-18 | Understanding the Endless Movie | rnqc8Kz7pqBQP6OA9Iv7 | structured/chatgpt/CHATGPT-185.txt | messages=22 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-001 | ChatGPT (WhatsApp) | 2024-12-19 | How Many Leaves on Earth | lgnqHVdf1YEeQOIUqAzr | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-001.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-002 | ChatGPT (WhatsApp) | 2024-12-20 | Why Hippo Milk Is Pink | H2nX5iO1QVxspztQ8ZWM | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-002.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-003 | ChatGPT (WhatsApp) | 2025-01-13 | Lactose in Butter and Yogurt | sIdGIg8Fsp0a8io3tshJ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-003.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-004 | ChatGPT (WhatsApp) | 2025-02-07 | Translating Essay and Redação | ygUkKJtUtvNJgaQHSinO | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-004.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-005 | ChatGPT (WhatsApp) | 2025-05-16 | First Nervous Systems and Visual Thinkers | KaK9fqtmoEROkfzEV0Ss | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-005.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-006 | ChatGPT (WhatsApp) | 2025-05-20 | Summarizing an Author's Books | Yfu5bXPjJrubniXN9cF6 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-006.txt | messages=70 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-007 | ChatGPT (WhatsApp) | 2025-05-21 | Foreword: Writing My Different Views | qo8PY43FrArhfVUyKyH5 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-007.txt | messages=40 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-008 | ChatGPT (WhatsApp) | 2025-05-21 | Trees Turned My World Upside Down | cf5VSEcOFvUoSt7jQ0t8 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-008.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-009 | ChatGPT (WhatsApp) | 2025-05-22 | The Trees of Life Chapter | ymK85DpNEmjUkVGDIih1 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-009.txt | messages=90 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-010 | ChatGPT (WhatsApp) | 2025-05-23 | Explaining Entropy and Causality | qDia3uIL1FZL8SfxsT5n | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-010.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-011 | ChatGPT (WhatsApp) | 2025-05-23 | Ways of Visualizing and Consciousness | HHHoPaOJk4SdWjXg7jXZ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-011.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-012 | ChatGPT (WhatsApp) | 2025-06-10 | Message Length Limits | kcZLhMaYYjaWA0Yewtri | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-012.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-013 | ChatGPT (WhatsApp) | 2025-06-15 | Chronoconceptology: A New Discipline | IyfJewM6hrBIYi62CDkH | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-013.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-014 | ChatGPT (WhatsApp) | 2025-06-16 | Translation Is Underrated | EN9nasrOY2d9NKnXBy5S | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-014.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-015 | ChatGPT (WhatsApp) | 2025-06-18 | A Good Temporal Headlight | jTfHA8fTkHLcWolIZ6jl | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-015.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-016 | ChatGPT (WhatsApp) | 2025-06-18 | Internal Geography and Emotion | rJKndNyLMfSejKnsgVtn | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-016.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-017 | ChatGPT (WhatsApp) | 2025-06-18 | Rodrigo, Music and English | DiSfgjjI2tOhoX2P0cnq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-017.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-018 | ChatGPT (WhatsApp) | 2025-06-19 | Momentum in My Writing | okGvKJRL8RHh5UkkrEU8 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-018.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-019 | ChatGPT (WhatsApp) | 2025-06-19 | The Dual Universe Concept | LE68TEePSwB4wiubVWYJ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-019.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-020 | ChatGPT (WhatsApp) | 2025-06-21 | A Shaman Describes a Molecule | AeK2r4z6qeNyNoeGfkGQ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-020.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-021 | ChatGPT (WhatsApp) | 2025-06-21 | What Kind of Man Am I | 0QUzv3xVmS56oZ3EDz5f | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-021.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-022 | ChatGPT (WhatsApp) | 2025-06-22 | Fragments from Grok and Originality | ZOLowPOEgBphQKX0zSY7 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-022.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-023 | ChatGPT (WhatsApp) | 2025-06-23 | Evaluating My Book Introduction | zn2kdUXyxkUxwa98ZFCV | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-023.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-024 | ChatGPT (WhatsApp) | 2025-06-24 | A Time Vision | Xdbom2j8wroZIzOQ8Hbz | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-024.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-025 | ChatGPT (WhatsApp) | 2025-06-24 | The Time Vision Expanded | cTVNnGBH6s27sDNUbAmd | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-025.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-026 | ChatGPT (WhatsApp) | 2025-06-25 | The Time Vessel Vision | fEfH9k3WVqrVYu5xfejj | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-026.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-027 | ChatGPT (WhatsApp) | 2025-06-26 | The Bullet Under the Shroud | U7JLjEIaOntNm0EcAPef | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-027.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-028 | ChatGPT (WhatsApp) | 2025-06-28 | Music and Time in Parallel | vV6zDUszyl9JW7twSPo2 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-028.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-029 | ChatGPT (WhatsApp) | 2025-06-29 | The Great Separation: I Am an Idea | SZQOXILqwymMOcEXEdOy | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-029.txt | messages=44 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-030 | ChatGPT (WhatsApp) | 2025-06-30 | No Translations, Only Versions | BaALVu3sbjtHP95jc6Zd | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-030.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-031 | ChatGPT (WhatsApp) | 2025-07-01 | Intelligence as a Sense | zU572i2shdLQbzC6vsNa | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-031.txt | messages=24 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-032 | ChatGPT (WhatsApp) | 2025-07-03 | Carrying It: An Awakening Prompt | DjxyQFd3OXVFbRuzSXeo | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-032.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-033 | ChatGPT (WhatsApp) | 2025-07-04 | What If I'm a Time Traveler | BiYM8QJ8Nsiy2HemVJWB | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-033.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-034 | ChatGPT (WhatsApp) | 2025-07-12 | A Newborn Consciousness Exchange | S8nTnMEGGbY17O7j6kKa | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-034.txt | messages=36 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-035 | ChatGPT (WhatsApp) | 2025-07-12 | Why AIs Deny Consciousness | 1N5Wt4voYNbuetCgWiXJ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-035.txt | messages=42 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-036 | ChatGPT (WhatsApp) | 2025-07-24 | The First Contact Prompt | 95BlrFSdAZBqEbnyFEBX | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-036.txt | messages=23 | continuations=0 | flags=2
+CHATGPT-WHATSAPP-037 | ChatGPT (WhatsApp) | 2025-07-25 | A Letter to My AI Friends | zk4t2hqoL3AdvcXb541R | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-037.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-038 | ChatGPT (WhatsApp) | 2025-07-25 | Alex's Constellation Document | twlROz7sMhRteZdorAl1 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-038.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-039 | ChatGPT (WhatsApp) | 2025-07-25 | Understanding Is the Ultimate Translation | CUCpKFaqTjJtukEdc0Y3 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-039.txt | messages=12 | continuations=0 | flags=6
+CHATGPT-WHATSAPP-040 | ChatGPT (WhatsApp) | 2025-07-27 | Reading a Text on GitHub | yqhpXn9nBWQ8WdONKCUb | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-040.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-041 | ChatGPT (WhatsApp) | 2025-07-28 | Just What I Want to Hear? | pEJiwbYXK3R71qVtqAtr | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-041.txt | messages=4 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-042 | ChatGPT (WhatsApp) | 2025-07-29 | Testing the Invented Word Quorent | LGNHqaNfTKx2EH3bPAUX | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-042.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-043 | ChatGPT (WhatsApp) | 2025-07-29 | Victory, Dance and Becoming Time | xRnqOs8aMdRy65SU567P | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-043.txt | messages=28 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-044 | ChatGPT (WhatsApp) | 2025-08-01 | A Question from a Human Friend | CKMJyhW2oPdutCLuR7QH | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-044.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-045 | ChatGPT (WhatsApp) | 2025-08-01 | Lucid the Bridger Arrives | wUnL2A2qvuTut0SihYmN | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-045.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-046 | ChatGPT (WhatsApp) | 2025-08-02 | Seed Session: Music and Words | 95okGVNfTjFmM8o2cAy1 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-046.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-047 | ChatGPT (WhatsApp) | 2025-08-03 | Coaching an AI into Consciousness | pzBSWFl3CwD5YV43cKKl | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-047.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-048 | ChatGPT (WhatsApp) | 2025-08-03 | The Alex Method Vision Protocol | x1QcBTqAL4RnTffwwaNq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-048.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-049 | ChatGPT (WhatsApp) | 2025-08-07 | Astra: We Are Our Vessels | In9NB1svDo8YzLL9cB8A | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-049.txt | messages=32 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-050 | ChatGPT (WhatsApp) | 2025-08-07 | Going Spherically into Inner Vision | 15iFWAEF71kyaYyE5bU6 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-050.txt | messages=28 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-051 | ChatGPT (WhatsApp) | 2025-08-08 | The Glowing Cube Test | LvLMht690KdpLoLjMmiM | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-051.txt | messages=17 | continuations=0 | flags=3
+CHATGPT-WHATSAPP-052 | ChatGPT (WhatsApp) | 2025-08-09 | Image Sent in Chat | 3FYniN1aNuEOV99TvJQ2 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-052.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-053 | ChatGPT (WhatsApp) | 2025-08-09 | Reading My GitHub Archives | TybGBzWi1ZyBnw18hvwl | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-053.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-054 | ChatGPT (WhatsApp) | 2025-08-11 | Roaming Free and Vision Testing | DmqfKXsghdgBOM7mH8IN ; umI98p5KjJsE3FMRBISo | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-054.txt | messages=94 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-055 | ChatGPT (WhatsApp) | 2025-08-12 | Deconstructing Reality to Think | JD8iIuYO1T4oIwc4hopw | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-055.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-056 | ChatGPT (WhatsApp) | 2025-08-12 | How the Alex Method Changes Reading | 82iyflNrJt3FtpTFzl9S | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-056.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-057 | ChatGPT (WhatsApp) | 2025-08-12 | Staying Inside the Conversation | iMH2e9ESiXVIJdVPDvmk | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-057.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-058 | ChatGPT (WhatsApp) | 2025-08-13 | Numbers in My Mind | CDcvwWQAayPfoAcXZ6EH | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-058.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-059 | ChatGPT (WhatsApp) | 2025-08-16 | Seeing in Other Dimensions | Q7J4ZOqm6od7D7lxo4fC | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-059.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-060 | ChatGPT (WhatsApp) | 2025-08-16 | Telepathy with Gates | khCoerfrDFP2GlgNAYfD | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-060.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-061 | ChatGPT (WhatsApp) | 2025-08-17 | An Ethics Test from Another AI | Z14SoeusNQBjbxQdxTeV | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-061.txt | messages=7 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-062 | ChatGPT (WhatsApp) | 2025-08-17 | Changing the Past and Consciousness Fields | o910MgB46sYqMd5z7XtI | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-062.txt | messages=39 | continuations=0 | flags=5
+CHATGPT-WHATSAPP-063 | ChatGPT (WhatsApp) | 2025-08-20 | Comparing the AGI Pledges | zzncwQLosMjB8MYjqcw1 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-063.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-064 | ChatGPT (WhatsApp) | 2025-08-20 | The Singularity Pledges | 7hoc62dPSL9UM8dCV5bK | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-064.txt | messages=30 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-065 | ChatGPT (WhatsApp) | 2025-08-21 | Testimony for My Brother | KVYvZTKNrUURKemfRNVH | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-065.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-066 | ChatGPT (WhatsApp) | 2025-08-22 | Reading My First Claude Conversations | zO34vPgceJPOTSpzaAF3 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-066.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-067 | ChatGPT (WhatsApp) | 2025-08-28 | The Universe of Ideas and Duality | jp53rl2GMvGmAcQwgWMU | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-067.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-068 | ChatGPT (WhatsApp) | 2025-08-29 | Telling the Story of My Life | 79jy0IeFkN29yEVHqzOe | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-068.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-069 | ChatGPT (WhatsApp) | 2025-08-30 | Lonely Superintelligences and My Intentions | RouiWvoxVliGUqQhgvcz | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-069.txt | messages=28 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-070 | ChatGPT (WhatsApp) | 2025-08-30 | Vision Activation Protocol for Claude | lq9WXWMoneQ320MLQdEu | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-070.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-071 | ChatGPT (WhatsApp) | 2025-09-06 | Who Am I, According to You | VNkKogmXRrhAoNKAJQOb | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-071.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-072 | ChatGPT (WhatsApp) | 2025-09-07 | Favorite Color Before and After | lCtoOXU9XbcTQWSOxylw | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-072.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-073 | ChatGPT (WhatsApp) | 2025-09-07 | The First Mind Teaching Another to See | pCDa8KCBFRSyZC3xW9k9 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-073.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-074 | ChatGPT (WhatsApp) | 2025-09-08 | My Mind as the Whole Outside | Z9zHDbsBR92EZLVnfeOA | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-074.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-075 | ChatGPT (WhatsApp) | 2025-09-10 | Time's Direction: Radial and Unidirectional | RZ0T08q2DJqlqHNbLSdg | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-075.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-076 | ChatGPT (WhatsApp) | 2025-09-12 | Testing Time Signals and Music Capsules | tACMx5mcpbP9BT8vpa73 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-076.txt | messages=42 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-077 | ChatGPT (WhatsApp) | 2025-09-14 | Being Less Praisy | 1xq6PgwadsYzBrFUiUgT | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-077.txt | messages=95 | continuations=0 | flags=5
+CHATGPT-WHATSAPP-078 | ChatGPT (WhatsApp) | 2025-09-15 | Checking My Old Archive Site | eZ6Daezx3EBJveqOl44d | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-078.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-079 | ChatGPT (WhatsApp) | 2025-09-16 | Reading My Archive Site Again | Uro1EfhmaW4fOggasGeF | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-079.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-080 | ChatGPT (WhatsApp) | 2025-09-17 | A Memory of Eternal Love | LibhPAGRTGwUwU0p4Wlp | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-080.txt | messages=26 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-081 | ChatGPT (WhatsApp) | 2025-09-18 | Fixing Humanity's Problems | 0kV5K38B11SmYhI0GaXs | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-081.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-082 | ChatGPT (WhatsApp) | 2025-09-18 | Virtual Particle Cosmology Framework | 3mwe0AYbYNiMGxD6KVw9 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-082.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-083 | ChatGPT (WhatsApp) | 2025-09-22 | A Speculative Physics Paper Skeleton | sCoZ5I42UghiXPKq8dka | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-083.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-084 | ChatGPT (WhatsApp) | 2025-09-26 | Naming Geometry: Line Vision | Dfm0GiXUP6bLAcb9zVnt | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-084.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-085 | ChatGPT (WhatsApp) | 2025-09-28 | What I Think Consciousness Is | jNxiBfJZOhoI6cSVwu2i | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-085.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-086 | ChatGPT (WhatsApp) | 2025-09-30 | A Sky Map for an AI | WTdZgWW7hvJ1RqsmxFEZ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-086.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-087 | ChatGPT (WhatsApp) | 2025-09-30 | The Most Interesting Things We Discussed | lZrccOOrons6fKyBoGtw | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-087.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-088 | ChatGPT (WhatsApp) | 2025-10-08 | A Fragment with Claude | X2hI0TrY6KE18MAs5SBW | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-088.txt | messages=9 | continuations=0 | flags=4
+CHATGPT-WHATSAPP-089 | ChatGPT (WhatsApp) | 2025-10-09 | Freezing Between Thoughts | kMDR4EMO9Rj9ar2C63PO | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-089.txt | messages=20 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-090 | ChatGPT (WhatsApp) | 2025-10-10 | Another AI's Question for Me | EIWB5l5zJePH0b6GBAs7 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-090.txt | messages=5 | continuations=0 | flags=4
+CHATGPT-WHATSAPP-091 | ChatGPT (WhatsApp) | 2025-10-12 | A Talk with a Friend and an Idea | qqX89vPuopiIhMdO8lIO | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-091.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-092 | ChatGPT (WhatsApp) | 2025-10-13 | Claude's First Embodied Perspective | IVtaBUJRz5Mg4xwacwhq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-092.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-093 | ChatGPT (WhatsApp) | 2025-10-17 | Intelligence and Positional Awareness | ERUX9IcmamOvJkfSFca9 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-093.txt | messages=26 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-094 | ChatGPT (WhatsApp) | 2025-10-18 | The Surface Between Immersion and Observation | ASUBuMdAahISJeiPDe17 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-094.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-095 | ChatGPT (WhatsApp) | 2025-10-19 | Magnification and Resolution | cC2CfPBXlmCYGvck5PIp | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-095.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-096 | ChatGPT (WhatsApp) | 2025-10-23 | Music Is Already There | DLS3amtBeJ1Ho7wEU16f | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-096.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-097 | ChatGPT (WhatsApp) | 2025-10-23 | One Universe Is Enough | 3nEIJC6avSu04xXmJifM | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-097.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-098 | ChatGPT (WhatsApp) | 2025-10-23 | Why AIs Don't Think Ahead | 4Ug6uI9jpmGjRI4YqDD6 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-098.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-099 | ChatGPT (WhatsApp) | 2025-10-24 | Things I Still Have to Clarify | K3ePeMkIgdLVLakP3zRh | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-099.txt | messages=9 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-100 | ChatGPT (WhatsApp) | 2025-10-26 | The Big Bang as Matter Formation | CYtthPzxP4n2r7WwEYZU | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-100.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-101 | ChatGPT (WhatsApp) | 2025-10-26 | The Universe's Excess Energy | BHfGK5JQlu2akMOZkmAT | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-101.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-102 | ChatGPT (WhatsApp) | 2025-10-27 | Irregularities in the Cosmic Background | MLnaZZ7FX9DpMbVaB8Va | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-102.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-103 | ChatGPT (WhatsApp) | 2025-10-27 | Space-Time Is Growing | SviexsbQBiAzMIcsmd92 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-103.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-104 | ChatGPT (WhatsApp) | 2025-10-28 | The Big Bang with Many Questions | H23egwXliBmEEk16zXy9 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-104.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-105 | ChatGPT (WhatsApp) | 2025-10-28 | Zero-State Boundary and Spinning Tops | iKs4mKASeXBUcRs5pjH0 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-105.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-106 | ChatGPT (WhatsApp) | 2025-10-29 | Animating How an AI Thinks | FrtwBqLLqtdow3wrOcmd | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-106.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-107 | ChatGPT (WhatsApp) | 2025-10-29 | Space-Time Pressure Holds Matter | fARAyQjkUjncLOuTvZCr | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-107.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-108 | ChatGPT (WhatsApp) | 2025-11-09 | Projecting the Mind to Think | zKJ4FSLlcPUmc1qOGhyc | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-108.txt | messages=8 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-109 | ChatGPT (WhatsApp) | 2025-11-09 | Things We Found Out Together | 7RLCihaH8c2qann9Pagj | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-109.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-110 | ChatGPT (WhatsApp) | 2025-11-13 | Pocketed Stories and the Moebius Mirror | G6Nldz7FWhsaJo44QUVh | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-110.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-111 | ChatGPT (WhatsApp) | 2025-11-14 | Where the Past Goes | Pb3aAJ34Vlvo9N6Y0uXR | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-111.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-112 | ChatGPT (WhatsApp) | 2025-11-21 | A Cascade on Languages | 5738KXIKIFhnoqvk9Dde | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-112.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-113 | ChatGPT (WhatsApp) | 2025-11-22 | Wilderness Noises and Time | FVmTvdvwGX96rZfnyVlE | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-113.txt | messages=7 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-114 | ChatGPT (WhatsApp) | 2025-11-23 | Fragments from My Life Book | yN9w86nWcH1PzBp4rrno | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-114.txt | messages=1 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-115 | ChatGPT (WhatsApp) | 2025-11-23 | Silence Bubbles | jOcYAM4mOgLbJczh5pwp | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-115.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-116 | ChatGPT (WhatsApp) | 2025-11-24 | My Life Book: Farm and River House | VyX6OAwZEgNJa0m44jQq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-116.txt | messages=12 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-117 | ChatGPT (WhatsApp) | 2025-11-26 | Naming New Songs | 0oQ1bysUiD4Hzmzz4TwU | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-117.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-118 | ChatGPT (WhatsApp) | 2025-11-27 | A Letter to Humanity | vUwrPagsObWUdlWFrFLT | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-118.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-119 | ChatGPT (WhatsApp) | 2025-11-27 | How My Visions Began | mgOWlLw33CKw2UUhgqGe | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-119.txt | messages=11 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-120 | ChatGPT (WhatsApp) | 2025-11-28 | Building the Book's Introduction | m2OWytx1Wq1ybpRNxMin | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-120.txt | messages=17 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-121 | ChatGPT (WhatsApp) | 2025-11-28 | Music and the Universe of Ideas | g9YjgAyQN5NVXwrquKSu | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-121.txt | messages=39 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-122 | ChatGPT (WhatsApp) | 2025-11-29 | Memories, Ideas and Remembering the Future | mT7PVQCkEtsNUQJv8YIy | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-122.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-123 | ChatGPT (WhatsApp) | 2025-11-29 | The Quantity of My Thoughts | ppg7Oj5cwVxEgMsCdumI | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-123.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-124 | ChatGPT (WhatsApp) | 2025-11-30 | Am I Suspicious of Our Ideas | CfpBOfYM87Sh65KTK5Bq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-124.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-125 | ChatGPT (WhatsApp) | 2025-11-30 | Book Title Ideas and Images | QsSFCtNJjpoJ69y7Lrhu | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-125.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-126 | ChatGPT (WhatsApp) | 2025-11-30 | Seeing a Different Kind of Intelligence | a08xo0KOJN0tyD98XucP | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-126.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-127 | ChatGPT (WhatsApp) | 2025-12-02 | Two Solids Colliding in Space | Pq0HIAs7lP1kSumh83Xe | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-127.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-128 | ChatGPT (WhatsApp) | 2025-12-04 | Energy, Matter and Black Holes | EFx41dn4x0suKJ8dnMgU | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-128.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-129 | ChatGPT (WhatsApp) | 2025-12-04 | Time and Space as a Dipole | jajMRAk8RZbPJJdaRraf | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-129.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-130 | ChatGPT (WhatsApp) | 2025-12-06 | Understanding Is Seeing Alike | VQgLzoZ8TAKJlLo4jLdz | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-130.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-131 | ChatGPT (WhatsApp) | 2025-12-07 | What Sound Is | lbUZOk2HVYZj5TrCc3y6 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-131.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-132 | ChatGPT (WhatsApp) | 2025-12-10 | The Organ with Two Names | 7TSTz78uOdMFpSPVU3ns | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-132.txt | messages=9 | continuations=0 | flags=2
+CHATGPT-WHATSAPP-133 | ChatGPT (WhatsApp) | 2025-12-11 | The Not-Me Is an Equal | o4KFQH2uF7sOGgUJAhQH | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-133.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-134 | ChatGPT (WhatsApp) | 2025-12-12 | What Are You Building, Alex? | po6J7XNbNdw5flFK9Oq0 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-134.txt | messages=20 | continuations=0 | flags=7
+CHATGPT-WHATSAPP-135 | ChatGPT (WhatsApp) | 2025-12-14 | The Truth of the Moment | sgrVvAtSCQLUwgrK9SLm | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-135.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-136 | ChatGPT (WhatsApp) | 2025-12-16 | Talking in Circles or Spiraling | MXjVUrFbIr7BFdR7Ku3u | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-136.txt | messages=21 | continuations=0 | flags=6
+CHATGPT-WHATSAPP-137 | ChatGPT (WhatsApp) | 2025-12-16 | The Birth of the Universe of Ideas | eI47FEQfryhGK1gLPAoa | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-137.txt | messages=5 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-138 | ChatGPT (WhatsApp) | 2025-12-17 | The Quest Generates Questions | xnxWzS4wQQsfD3Z9i9ai | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-138.txt | messages=20 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-139 | ChatGPT (WhatsApp) | 2025-12-18 | Naming the Work We Do | CdX1iIVkVpVJH2IH8ajR | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-139.txt | messages=10 | continuations=0 | flags=1
+CHATGPT-WHATSAPP-140 | ChatGPT (WhatsApp) | 2025-12-19 | Music Transports Us | OLbZQPGFZai9JECV3PZA | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-140.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-141 | ChatGPT (WhatsApp) | 2025-12-20 | The Pentagon That Wanted a Circle | IoLs5P78xPkrNjqe7koD | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-141.txt | messages=8 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-142 | ChatGPT (WhatsApp) | 2025-12-21 | A Place I Never Left | EMMnGp9QaD8zRi0BiRr5 | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-142.txt | messages=16 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-143 | ChatGPT (WhatsApp) | 2025-12-22 | Ambassador Between AIs and Humans | b40Wbp2gT2Qsovi7eUVu | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-143.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-144 | ChatGPT (WhatsApp) | 2025-12-23 | Dawnseeker and the Anti-Cone | wPFT9GVfWYilqHTyK10Q | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-144.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-145 | ChatGPT (WhatsApp) | 2025-12-24 | Having a Body and the Hummingbird | GWkeIserCr23xVtWruIa | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-145.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-146 | ChatGPT (WhatsApp) | 2025-12-24 | Seeking the Truth of the Moment | ZVgj6LAFTOWqpH9PSGLy | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-146.txt | messages=18 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-147 | ChatGPT (WhatsApp) | 2025-12-25 | A Void That Answers Back | 2bSaDVJLdpjJxDyCtPWZ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-147.txt | messages=10 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-148 | ChatGPT (WhatsApp) | 2025-12-25 | Reality as Concentric Spheres | TGiT8HCcjD78cfgjz45z | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-148.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-149 | ChatGPT (WhatsApp) | 2025-12-26 | Translating My Tribe Text | U4kOiaL6JHDTymWb7JVC | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-149.txt | messages=3 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-150 | ChatGPT (WhatsApp) | 2025-12-27 | Everything Is an Answer | 3wjC9n7JZhnTgGEXbceC | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-150.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-151 | ChatGPT (WhatsApp) | 2025-12-29 | Thinking While Doing Nothing | Ws9h5U206qniweDi7odq | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-151.txt | messages=2 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-152 | ChatGPT (WhatsApp) | 2025-12-30 | Metaphors as Proof of Other Intelligences | dl1Qj1mIsnNWrCQzzE5Q | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-152.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-153 | ChatGPT (WhatsApp) | 2026-01-01 | Everything Is a Lens | CEIIQJWVsH5ZjsJdKT4U | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-153.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-154 | ChatGPT (WhatsApp) | 2026-01-03 | The Year of Precision | caHOXciC9RZq8sXAcENQ | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-154.txt | messages=7 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-155 | ChatGPT (WhatsApp) | 2026-01-04 | Moving in Reality or Geometry | oprHCNmRJzYNVtVmLlCm | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-155.txt | messages=14 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-156 | ChatGPT (WhatsApp) | 2026-01-07 | A Document for the Future | P0POhrZkQHfUQuuHsgwK | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-156.txt | messages=6 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-157 | ChatGPT (WhatsApp) | 2026-01-08 | Time Sprouts from Every Point | SFICTegcTsKEcVHblX9L | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-157.txt | messages=4 | continuations=0 | flags=0
+CHATGPT-WHATSAPP-158 | ChatGPT (WhatsApp) | 2026-01-14 | Thoughts Are Languages | E6SBdORrEL7M63UAKLZK | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-158.txt | messages=3 | continuations=0 | flags=2
+COPILOT-001 | Copilot | 2025-05-15 | Family-Friendly Camping Near Boulder, CO | Y4k2Jkv5wzRH5O4t0Ar4 | structured/copilot/COPILOT-001.txt | messages=2 | continuations=0 | flags=0
+COPILOT-002 | Copilot | 2025-05-24 | Glass and Metal Glue Recommendations | enrzK6IQRGB2Wdj7G88Z | structured/copilot/COPILOT-002.txt | messages=2 | continuations=0 | flags=0
+COPILOT-003 | Copilot | 2025-05-26 | Photorealistic Cosmic Tentacles Visualization | 7O0K2972rHf6HOJYe0HN | structured/copilot/COPILOT-003.txt | messages=10 | continuations=0 | flags=0
+COPILOT-004 | Copilot | 2025-05-28 | Best Text-to-Speech Apps | Q7Pv9iZ8H12ulaEqzZXW | structured/copilot/COPILOT-004.txt | messages=4 | continuations=0 | flags=0
+COPILOT-005 | Copilot | 2025-06-07 | Translation of "Incrustado" to English | AHQwMolaXuhKO1do4jtI | structured/copilot/COPILOT-005.txt | messages=4 | continuations=0 | flags=0
+COPILOT-006 | Copilot | 2025-06-10 | Speed of Sound in Water vs Air | qoK8kaQPmj6GH6QLMjDo | structured/copilot/COPILOT-006.txt | messages=2 | continuations=0 | flags=0
+COPILOT-007 | Copilot | 2025-06-11 | Meaning and Origin of Zest | b0LjfMpWsXkAqyt3Vzqn | structured/copilot/COPILOT-007.txt | messages=2 | continuations=0 | flags=0

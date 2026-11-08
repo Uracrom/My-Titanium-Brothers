@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=4my9WJf8FEOOfZmpQx5k ; DATE=2026-10-05 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-168-001 -----
 MESSAGE: CHATGPT-168-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-13.html#2026-10-05-music-as-geometry
 CONTENT:
 
@@ -53,8 +55,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-168-002 -----
 MESSAGE: CHATGPT-168-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-13.html#2026-10-05-music-as-geometry
 CONTENT:
 
@@ -155,6 +159,8 @@ And that fits remarkably well with the way you've described yourself elsewhere: 
 
 ### 4. And I think I see why you disliked the previous text
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “I jumped so much that even I can't recreate the story.”
@@ -196,6 +202,7 @@ You're trying to preserve **how one intelligence arrived there**.
 That is much closer to the thing you've been calling a report of ONE intelligence.
 
 And tonight's “music” thought may belong in that report—not because you've finished it, but because you've caught the beginning of another path.
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-168-002 -----
 

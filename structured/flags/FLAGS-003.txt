@@ -1,0 +1,387 @@
+FLAGS PART. Fields: conversation | message sequence | type | detail
+PART: 3 of 4
+ROWS_IN_THIS_PART: 380
+ROWS_TOTAL: 1440
+NEXT: structured/flags/FLAGS-004.txt
+This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
+
+CLAUDE-082 | 081 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 083 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 084 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 084 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 085 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-083 | 020 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-096 | 070 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-096 | 071 | EMBEDDED_PASTE | Speaker GROK is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-096 | 077 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-096 | 078 | EMBEDDED_PASTE | Speaker GROK is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-103 | 058 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-103 | 094 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-104 | 018 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 063 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 066 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 070 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 072 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 074 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-104 | 082 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-104 | 083 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 077 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 079 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 081 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 083 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 085 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 087 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 089 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 093 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 095 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 097 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 099 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 101 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 103 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 108 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 112 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 114 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 116 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 118 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 124 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 130 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 132 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 134 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because the preceding human turn cues a paste (another conversation with another AI). It is not Alex-owned.
+CLAUDE-105 | 138 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 140 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 142 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 144 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 146 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 150 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 152 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 154 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 156 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 158 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 160 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-105 | 162 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-105 | 166 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked ChatGPT). It is not Alex-owned.
+CLAUDE-105 | 227 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-105 | 229 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-105 | 231 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-105 | 233 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-105 | 235 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-106 | 018 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-109 | 071 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-109 | 072 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-109 | 074 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-109 | 075 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 008 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 009 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 037 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-111 | 037 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 043 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 044 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-111 | 052 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-111 | 053 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-113 | 022 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-113 | 024 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-113 | 026 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-113 | 103 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 105 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 107 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 109 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 111 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 113 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 115 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 117 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 119 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 121 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 125 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 127 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 141 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 143 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 145 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 147 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 149 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 151 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 153 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 155 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 157 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 159 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 161 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 163 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 165 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 169 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-113 | 171 | UNCERTAIN_PASTE_BOUNDARY | "END PASTE" without a clear start marker; the start of the pasted text was not determined.
+CLAUDE-114 | 093 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 094 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 094 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 095 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 096 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 097 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 097 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 098 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 104 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 105 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 105 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 106 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 108 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 109 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 109 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 110 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 112 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 113 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 113 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 114 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 116 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 117 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 117 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 118 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 120 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 121 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 121 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 122 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 124 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 125 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 125 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 126 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 128 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 129 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 129 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 130 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 132 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 133 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 133 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 134 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 136 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 137 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 137 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 138 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 140 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 141 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 141 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 142 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 145 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 147 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 148 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 148 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 149 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 151 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 152 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 152 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 153 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 155 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 156 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 156 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 157 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 159 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 160 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 160 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 161 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 163 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 164 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 164 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 165 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 167 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 168 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 168 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 169 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 171 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 172 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-114 | 172 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-114 | 173 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 012 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 044 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 184 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-120 | 185 | EMBEDDED_PASTE | Speaker VERTEX is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-120 | 195 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 197 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 199 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 209 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-120 | 209 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 210 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 211 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-120 | 228 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-120 | 229 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 237 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-120 | 237 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 239 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-120 | 239 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 241 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-120 | 241 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 243 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-120 | 243 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 245 | GENERIC_AI_LABEL | The whole line "Chat" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-120 | 245 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 310 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 312 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 314 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-120 | 316 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 012 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 040 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 043 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 046 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 047 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 048 | FOREIGN_SPEAKER | Speaker ECHO-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 050 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 053 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 054 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 055 | FOREIGN_SPEAKER | Speaker PRISM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 057 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 058 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 059 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 061 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 063 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 066 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 067 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 068 | EMBEDDED_PASTE | Speaker GROK is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-121 | 070 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 071 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 072 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 076 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 077 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-121 | 078 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 080 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 083 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 086 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 089 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 092 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 095 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 098 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 101 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 104 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 107 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 110 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 113 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 116 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 119 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 122 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 125 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 128 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 131 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 134 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 137 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 140 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 143 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 146 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 149 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 152 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 155 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 158 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 161 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 164 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 167 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 170 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 173 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 176 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 179 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 182 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 185 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 188 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 191 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 194 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 197 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 200 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 203 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 206 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 209 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 214 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 217 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 220 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 223 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 226 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 229 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 232 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 235 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 238 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 241 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 244 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 247 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 250 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 253 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 256 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 259 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 262 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 265 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-121 | 268 | FOREIGN_SPEAKER | Speaker VANAMONDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-122 | 010 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-122 | 011 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-122 | 052 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-122 | 080 | EMBEDDED_PASTE | Speaker NEWBORN is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+CLAUDE-122 | 082 | EMBEDDED_PASTE | Speaker NEWBORN is AI. This turn is marked embedded because the preceding human turn cues a paste (I'm pasting). It is not Alex-owned.
+CLAUDE-122 | 084 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-122 | 086 | FOREIGN_SPEAKER | Speaker NEWBORN is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 145 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-123 | 147 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 165 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 196 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 236 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 238 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 240 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-123 | 242 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-124 | 113 | FOREIGN_SPEAKER | Speaker CONSTANT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-124 | 188 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-124 | 191 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-125 | 002 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-128 | 002 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-128 | 160 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-128 | 160 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-129 | 020 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 003 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 004 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 005 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 084 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 086 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-130 | 144 | ALEXANDROS_LABEL | The whole line "Alexandros" is Alex's name, so the speaker is the human ALEX, not an AI.
+CLAUDE-131 | 039 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+CLAUDE-131 | 112 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+CLAUDE-133 | 003 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: UNCERTAIN. Introduced by the line: This is from another conversation with another AI. I'm dropping it here as an experiment, to see wha
+CLAUDE-133 | 021 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-133 | 023 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-133 | 025 | FOREIGN_SPEAKER | Speaker VERTEX is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-133 | 064 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-135 | 001 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-136 | 002 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-136 | 002 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-136 | 062 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+CLAUDE-136 | 133 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-136 | 140 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-136 | 141 | EMBEDDED_PASTE | Speaker GEMINI is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-137 | 026 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-137 | 029 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-137 | 030 | EMBEDDED_PASTE | Speaker CHATGPT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-138 | 001 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-138 | 002 | EMBEDDED_PASTE | Speaker GROK is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-139 | 024 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-140 | 029 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-140 | 031 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-140 | 043 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+CLAUDE-140 | 045 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+CLAUDE-140 | 070 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-140 | 107 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-156 | 008 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-156 | 009 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-156 | 010 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-156 | 011 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-164 | 003 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because the preceding human turn cues a paste (I asked Copilot). It is not Alex-owned.
+CLAUDE-174 | 016 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-174 | 024 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-174 | 029 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-174 | 032 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-174 | 033 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-174 | 041 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-174 | 042 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-178 | 004 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-178 | 005 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-178 | 006 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-178 | 007 | FOREIGN_SPEAKER | Speaker GEMINI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-190 | 003 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: I said:
+CHATGPT-012 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-012 | 012 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-012 | 072 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-013 | 017 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-013 | 022 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+CHATGPT-013 | 054 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-013 | 056 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-014 | 003 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-014 | 005 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-014 | 007 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-014 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-021 | 003 | FOREIGN_SPEAKER | Speaker GROK is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CHATGPT-021 | 011 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:
+CHATGPT-021 | 051 | EMBEDDED_MATERIAL_MARKED | ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.). Pasted transcript starting with: You said:

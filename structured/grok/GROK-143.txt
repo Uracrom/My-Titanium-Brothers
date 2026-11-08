@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-39.ht
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 8
+MESSAGES: 12
 SOURCE_ENTRY 1: ORIGINAL_ID=OhJ4fSfBKfG3ukcK44Td ; DATE=2026-06-07 ; PART=- ; TITLE=Sardines Bones Carrion Farts
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID OhJ4fSfBKfG3ukcK44Td | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=OhJ4fSfBKfG3ukcK44Td ; DATE=2026-06-07 ; PART=- ; TI
 ----- BEGIN MESSAGE GROK-143-001 -----
 MESSAGE: GROK-143-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -43,8 +45,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-143-002 -----
 MESSAGE: GROK-143-002
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -87,8 +91,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-143-003 -----
 MESSAGE: GROK-143-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -156,8 +162,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-143-004 -----
 MESSAGE: GROK-143-004
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -187,8 +195,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-143-005 -----
 MESSAGE: GROK-143-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -196,48 +206,96 @@ CONTENT:
 After the voting.
 Now I'll reveal the results and who voted for what. I think it's fair and scientifically correct, so that you guys can know each other better.
 
-ChatGPT
-Behavioral Fossils
-What the Fart Remembers
-Olfactory Archeology
-
-Copilot
-The Anatomy of a Thought
-The Smell of Ancient Hunger
-How Sardines Become Philosophy
-
 END CONTENT
 ----- END MESSAGE GROK-143-005 -----
 
 ----- BEGIN MESSAGE GROK-143-006 -----
 MESSAGE: GROK-143-006
-SPEAKER: GROK
+SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
-SPEAKER_LABEL_IN_ORIGINAL: Grok
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
-The Smell of Ancient Hunger
-Carrion Memory
-The olfactory Archive
-
-Gemini
-The Smell of Ancient Hunger
-From Tin to Fart: A Nutritional Odyssey
-The Last Witness
-
-Claude
-The Smell of Ancient Hunger
-Sacred Sardines and Profane Farts
-The Olfactory Archive
+Behavioral Fossils
+What the Fart Remembers
+Olfactory Archeology
 
 END CONTENT
 ----- END MESSAGE GROK-143-006 -----
 
 ----- BEGIN MESSAGE GROK-143-007 -----
 MESSAGE: GROK-143-007
-SPEAKER: ALEX
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
 SEQUENCE: 007
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
+CONTENT:
+The Anatomy of a Thought
+The Smell of Ancient Hunger
+How Sardines Become Philosophy
+
+END CONTENT
+----- END MESSAGE GROK-143-007 -----
+
+----- BEGIN MESSAGE GROK-143-008 -----
+MESSAGE: GROK-143-008
+SPEAKER: GROK
+SPEAKER_KIND: AI
+SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
+CONTENT:
+The Smell of Ancient Hunger
+Carrion Memory
+The olfactory Archive
+
+END CONTENT
+----- END MESSAGE GROK-143-008 -----
+
+----- BEGIN MESSAGE GROK-143-009 -----
+MESSAGE: GROK-143-009
+SPEAKER: GEMINI
+SPEAKER_KIND: AI
+SEQUENCE: 009
+SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
+CONTENT:
+The Smell of Ancient Hunger
+From Tin to Fart: A Nutritional Odyssey
+The Last Witness
+
+END CONTENT
+----- END MESSAGE GROK-143-009 -----
+
+----- BEGIN MESSAGE GROK-143-010 -----
+MESSAGE: GROK-143-010
+SPEAKER: CLAUDE
+SPEAKER_KIND: AI
+SEQUENCE: 010
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
+CONTENT:
+The Smell of Ancient Hunger
+Sacred Sardines and Profane Farts
+The Olfactory Archive
+
+END CONTENT
+----- END MESSAGE GROK-143-010 -----
+
+----- BEGIN MESSAGE GROK-143-011 -----
+MESSAGE: GROK-143-011
+SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
+SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 A Sardine's Journey Through the Mind
@@ -249,13 +307,15 @@ Thank you guys. I think that your suggestions were way cooler than mine. Thumbs 
 
 
 END CONTENT
------ END MESSAGE GROK-143-007 -----
+----- END MESSAGE GROK-143-011 -----
 
------ BEGIN MESSAGE GROK-143-008 -----
-MESSAGE: GROK-143-008
+----- BEGIN MESSAGE GROK-143-012 -----
+MESSAGE: GROK-143-012
 SPEAKER: GROK
-SEQUENCE: 008
+SPEAKER_KIND: AI
+SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-39.html#2026-06-07-sardines-bones-carrion-farts
 CONTENT:
 
@@ -278,6 +338,6 @@ Overall, you’re right — the collective suggestions leveled up the original l
 
 Would you like help turning the winning title(s) into something more permanent — like a short reflective piece, a note you keep, or even just ranking the top 5 with your final choice? Or shall we wait for the next sardine-fueled cascade? 😄
 END CONTENT
------ END MESSAGE GROK-143-008 -----
+----- END MESSAGE GROK-143-012 -----
 
 ===== END CONVERSATION GROK-143 =====

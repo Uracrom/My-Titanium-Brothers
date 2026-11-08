@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=wTH8edF4527CKssWj55J ; DATE=2026-08-27 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-122-001 -----
 MESSAGE: CHATGPT-122-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-33.html#2026-08-27-strange-dipole-model
 CONTENT:
 
@@ -39,8 +41,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-122-002 -----
 MESSAGE: CHATGPT-122-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-33.html#2026-08-27-strange-dipole-model
 CONTENT:
 
@@ -117,6 +121,8 @@ with the ordinary temporal sequence emerging from the geometry between those two
 
 ### And there is something particularly interesting about your rotation
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > "if it was fixed at the present and we spin it around the Y axis it generated the torus again."
@@ -224,6 +230,7 @@ It's this:
 > **What I thought was the universe may actually be the rotational volume of a strange dipole whose central pole is the present and whose exterior pole is the distant past/future zero.**
 
 That's a very different starting point.
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-122-002 -----
 

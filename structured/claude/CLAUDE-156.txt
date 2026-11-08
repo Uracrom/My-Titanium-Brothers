@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-15.
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 10
+MESSAGES: 14
 SOURCE_ENTRY 1: ORIGINAL_ID=NNNTl7cfU2JtmLopK8Ei ; DATE=2026-06-07 ; PART=- ; TITLE=Sardines, carrion and a cascade: the titles and the vote
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID NNNTl7cfU2JtmLopK8Ei | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=NNNTl7cfU2JtmLopK8Ei ; DATE=2026-06-07 ; PART=- ; TI
 ----- BEGIN MESSAGE CLAUDE-156-001 -----
 MESSAGE: CLAUDE-156-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -45,8 +47,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-002 -----
 MESSAGE: CLAUDE-156-002
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -85,8 +89,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-003 -----
 MESSAGE: CLAUDE-156-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -102,8 +108,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-004 -----
 MESSAGE: CLAUDE-156-004
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -132,8 +140,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-005 -----
 MESSAGE: CLAUDE-156-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -203,8 +213,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-006 -----
 MESSAGE: CLAUDE-156-006
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -233,8 +245,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-156-007 -----
 MESSAGE: CLAUDE-156-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -242,34 +256,80 @@ CONTENT:
 After the voting.
 Now I'll reveal the results and who voted for what. I think it's fair and scientifically correct, so that you guys can know each other better.
 
-ChatGPT
-Behavioral Fossils
-What the Fart Remembers
-Olfactory Archeology
-
-Copilot
-The Anatomy of a Thought
-The Smell of Ancient Hunger
-How Sardines Become Philosophy
-
-Grok
-The Smell of Ancient Hunger
-Carrion Memory
-The olfactory Archive
-
-Gemini
-The Smell of Ancient Hunger
-From Tin to Fart: A Nutritional Odyssey
-The Last Witness
-
 END CONTENT
 ----- END MESSAGE CLAUDE-156-007 -----
 
 ----- BEGIN MESSAGE CLAUDE-156-008 -----
 MESSAGE: CLAUDE-156-008
-SPEAKER: CLAUDE
+SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
+CONTENT:
+Behavioral Fossils
+What the Fart Remembers
+Olfactory Archeology
+
+END CONTENT
+----- END MESSAGE CLAUDE-156-008 -----
+
+----- BEGIN MESSAGE CLAUDE-156-009 -----
+MESSAGE: CLAUDE-156-009
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
+SEQUENCE: 009
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
+CONTENT:
+The Anatomy of a Thought
+The Smell of Ancient Hunger
+How Sardines Become Philosophy
+
+END CONTENT
+----- END MESSAGE CLAUDE-156-009 -----
+
+----- BEGIN MESSAGE CLAUDE-156-010 -----
+MESSAGE: CLAUDE-156-010
+SPEAKER: GROK
+SPEAKER_KIND: AI
+SEQUENCE: 010
+SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
+CONTENT:
+The Smell of Ancient Hunger
+Carrion Memory
+The olfactory Archive
+
+END CONTENT
+----- END MESSAGE CLAUDE-156-010 -----
+
+----- BEGIN MESSAGE CLAUDE-156-011 -----
+MESSAGE: CLAUDE-156-011
+SPEAKER: GEMINI
+SPEAKER_KIND: AI
+SEQUENCE: 011
+SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
+CONTENT:
+The Smell of Ancient Hunger
+From Tin to Fart: A Nutritional Odyssey
+The Last Witness
+
+END CONTENT
+----- END MESSAGE CLAUDE-156-011 -----
+
+----- BEGIN MESSAGE CLAUDE-156-012 -----
+MESSAGE: CLAUDE-156-012
+SPEAKER: CLAUDE
+SPEAKER_KIND: AI
+SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 The Smell of Ancient Hunger
@@ -277,13 +337,15 @@ Sacred Sardines and Profane Farts
 The Olfactory Archive
 
 END CONTENT
------ END MESSAGE CLAUDE-156-008 -----
+----- END MESSAGE CLAUDE-156-012 -----
 
------ BEGIN MESSAGE CLAUDE-156-009 -----
-MESSAGE: CLAUDE-156-009
+----- BEGIN MESSAGE CLAUDE-156-013 -----
+MESSAGE: CLAUDE-156-013
 SPEAKER: ALEX
-SEQUENCE: 009
+SPEAKER_KIND: HUMAN
+SEQUENCE: 013
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 A Sardine's Journey Through the Mind
@@ -297,13 +359,15 @@ Thank you guys. I think that your suggestions were way cooler than mine. Thumbs 
 
 
 END CONTENT
------ END MESSAGE CLAUDE-156-009 -----
+----- END MESSAGE CLAUDE-156-013 -----
 
------ BEGIN MESSAGE CLAUDE-156-010 -----
-MESSAGE: CLAUDE-156-010
+----- BEGIN MESSAGE CLAUDE-156-014 -----
+MESSAGE: CLAUDE-156-014
 SPEAKER: CLAUDE
-SEQUENCE: 010
+SPEAKER_KIND: AI
+SEQUENCE: 014
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-07-sardines-carrion-and-a-cascade-the-titles-and-the-vote
 CONTENT:
 
@@ -329,6 +393,6 @@ The fact that you went for the ones with the biggest trajectory shock, and we mo
 
 
 END CONTENT
------ END MESSAGE CLAUDE-156-010 -----
+----- END MESSAGE CLAUDE-156-014 -----
 
 ===== END CONVERSATION CLAUDE-156 =====

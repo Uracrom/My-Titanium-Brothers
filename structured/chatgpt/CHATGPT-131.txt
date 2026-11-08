@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=0x34qyHy8PlEoOH4QoHm ; DATE=2026-09-03 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-131-001 -----
 MESSAGE: CHATGPT-131-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -44,8 +46,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-002 -----
 MESSAGE: CHATGPT-131-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -172,8 +176,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-003 -----
 MESSAGE: CHATGPT-131-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -187,8 +193,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-004 -----
 MESSAGE: CHATGPT-131-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -201,6 +209,8 @@ You didn't merely say:
 
 > "We live in a multiverse because everyone perceives reality differently."
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > **"we are bubbles of perception with slight different point of view existing inside a bigger bubble that can perceive form all sides."**
@@ -263,14 +273,17 @@ You may be asking:
 And *that* is a much more dangerous question.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-131-004 -----
 
 ----- BEGIN MESSAGE CHATGPT-131-005 -----
 MESSAGE: CHATGPT-131-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -284,8 +297,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-006 -----
 MESSAGE: CHATGPT-131-006
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -342,8 +357,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-007 -----
 MESSAGE: CHATGPT-131-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 
@@ -359,8 +376,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-131-008 -----
 MESSAGE: CHATGPT-131-008
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-31.html#2026-09-03-the-universe-is-different-for-everyone
 CONTENT:
 

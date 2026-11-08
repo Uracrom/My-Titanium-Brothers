@@ -1,0 +1,387 @@
+FLAGS PART. Fields: conversation | message sequence | type | detail
+PART: 2 of 4
+ROWS_IN_THIS_PART: 380
+ROWS_TOTAL: 1440
+NEXT: structured/flags/FLAGS-003.txt
+This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
+
+CLAUDE-036 | 031 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 031 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 032 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 033 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 033 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 034 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 035 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 035 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 037 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 038 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 038 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 039 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 040 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 040 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 041 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 042 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 043 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 043 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 044 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 045 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 046 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 046 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 047 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 048 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 048 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 049 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 050 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 051 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 051 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 052 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 053 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 053 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 054 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 055 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 055 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 056 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-036 | 057 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 057 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 058 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 059 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-036 | 059 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-036 | 061 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-036 | 062 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-036 | 062 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 012 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 013 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 013 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 016 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 016 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 018 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 019 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 019 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 021 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 022 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 022 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 024 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 025 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 025 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 026 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 027 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 027 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 028 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 029 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 029 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 030 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 031 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 031 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 032 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-037 | 033 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 034 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 034 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 035 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 036 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-037 | 037 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 038 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 038 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 039 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 040 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 040 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 041 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 042 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 042 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 043 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 044 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 044 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 045 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 046 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 046 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 047 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 048 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-037 | 049 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 050 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 050 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 051 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 052 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 052 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 053 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Alex here -"). The line stays in the text. Speaker ALEX.
+CLAUDE-037 | 054 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 054 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 055 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 056 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 056 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 058 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 059 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Dragon here -"). The line stays in the text. Speaker DRAGON.
+CLAUDE-037 | 059 | FOREIGN_SPEAKER | Speaker DRAGON is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-037 | 061 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-037 | 062 | INLINE_SPEAKER_PREFIX | Line begins with an explicit speaker prefix ("Lion here -"). The line stays in the text. Speaker LION.
+CLAUDE-037 | 062 | FOREIGN_SPEAKER | Speaker LION is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-052 | 003 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-052 | 003 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-055 | 024 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-055 | 024 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-055 | 026 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-055 | 026 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-055 | 028 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-055 | 028 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-061 | 007 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-061 | 009 | FOREIGN_SPEAKER | Speaker AXIOM is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-061 | 011 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-061 | 011 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-061 | 013 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-061 | 013 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-061 | 014 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-061 | 014 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-062 | 011 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-062 | 013 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-062 | 013 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-062 | 015 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-062 | 015 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-062 | 016 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-062 | 016 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-063 | 027 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-063 | 028 | EMBEDDED_PASTE | Speaker COPILOT is AI. This turn is marked embedded because a source line names it. It is not Alex-owned.
+CLAUDE-064 | 019 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-064 | 019 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-064 | 021 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-064 | 021 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-064 | 062 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-064 | 066 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-065 | 015 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-065 | 015 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-065 | 017 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-065 | 017 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-065 | 018 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-065 | 018 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-065 | 021 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-068 | 101 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-070 | 023 | GENERIC_AI_LABEL | The whole line "AI" is a speaker label but does not name a specific model. Speaker is AI, not Alex.
+CLAUDE-070 | 023 | FOREIGN_SPEAKER | Speaker AI is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-072 | 009 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 016 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-073 | 024 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 026 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 028 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 030 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 033 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 036 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 038 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 043 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 046 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 049 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 052 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 055 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 058 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 061 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 064 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 067 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 070 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 073 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 076 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 079 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 082 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 085 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 088 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 091 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 094 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 097 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 100 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 103 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 106 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 109 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 112 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 115 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 118 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 121 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 127 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 130 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 132 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 133 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-073 | 134 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 136 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 137 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-073 | 138 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 141 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-073 | 144 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-074 | 003 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-074 | 005 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-074 | 008 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-074 | 012 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-074 | 015 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 003 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 005 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 010 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 013 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 016 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 019 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 022 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 025 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 028 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 031 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 034 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 037 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 040 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 043 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 046 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 049 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 052 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 055 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 058 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 061 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-075 | 064 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-078 | 012 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 002 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 003 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 005 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 006 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 008 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 011 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 012 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 014 | FOREIGN_SPEAKER | Speaker COPILOT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 015 | FOREIGN_SPEAKER | Speaker CHATGPT is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 017 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 018 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 020 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 021 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 023 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 024 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 026 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 027 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 029 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 030 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 032 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 033 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 035 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 036 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 038 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 039 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 041 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 042 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 044 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 045 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 047 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 048 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 050 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 051 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 053 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 054 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 056 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 057 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 059 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 060 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 062 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 063 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 065 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 066 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 068 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 069 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 071 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 072 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 074 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 075 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 077 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 078 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 080 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 081 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 083 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 084 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 086 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 087 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 089 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 090 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 092 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 093 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 095 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 096 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 098 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 099 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 101 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 102 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 104 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 105 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 107 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 108 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 110 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 111 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 113 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 114 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 116 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 117 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 119 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 120 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 122 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 123 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 125 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 126 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 128 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 129 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 131 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 132 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 134 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 135 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 137 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 138 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 140 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 141 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 143 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 144 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-080 | 146 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-080 | 147 | FOREIGN_SPEAKER | Speaker CLAUDE-7 is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-081 | 019 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-081 | 020 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-081 | 023 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 002 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 003 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 005 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 006 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 008 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 009 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 011 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 012 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 014 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 015 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 017 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 018 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 020 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 021 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 023 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 024 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 026 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 027 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 029 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 030 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 032 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 033 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 035 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 036 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 038 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 039 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 041 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 042 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 044 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 045 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 047 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 048 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 049 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 051 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 052 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 054 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 055 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 057 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 058 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 060 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 061 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 063 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 064 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 066 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 067 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 069 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 070 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 072 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 073 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 075 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 076 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 076 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 077 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.
+CLAUDE-082 | 079 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 080 | EMPTY_MESSAGE | Speaker label followed by no text before the next label. Preserved as an empty message.
+CLAUDE-082 | 080 | FOREIGN_SPEAKER | Speaker CLAUDE-LOGIC is AI (not Alex, and not this collection's host). No paste cue was found, so this is not labeled as a paste. It may be a real participant or an unmarked paste.

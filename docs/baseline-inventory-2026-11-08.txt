@@ -1,0 +1,26 @@
+BASELINE INVENTORY captured before the structured-speaker repair edits.
+Git HEAD at capture: a2df39648f890170335b5a34f38a65d5a1ad682b
+Branch created from: main
+
+Protected original files (archive-*.html, raw/*, conversations/*, llms-full.txt, index.json):
+  count: 1119
+  sha256 rollup of the per-file sha256 list: 7296d95f0e885f0a10b694e4e965fb85f83b3db404b6ecd47de2db43997b6571
+  per-file list: tools/structured/original-hashes.sha256
+
+Published site at capture (public fetch, not a claim about later commits):
+  https://uracrom.github.io/My-Titanium-Brothers/  -> 200
+  https://uracrom.github.io/My-Titanium-Brothers/readme/home.md -> the intro sentence without "present and future"
+  https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt -> 404
+  https://uracrom.github.io/My-Titanium-Brothers/llms.txt -> 200, no structured section on the deployed copy
+  raw.githubusercontent.com main/structured/README.txt -> 200 (git had the files; Pages did not)
+
+GitHub Pages:
+  source: branch main, path /, build_type legacy
+  latest deployment commit a2df396 status errored
+  actions run 42244605826: build succeeded (artifact about 44.5 MB), deploy timed out after 600000 ms while status stayed syncing_files
+  previous successful deployment: 4968b7e
+
+Prior structured layer in that commit, before this repair:
+  954 logical conversations, 1101 archive entries, 1646 HTML article pieces
+  20360 messages, 46 continuation pairs, reconstruction differences 0
+  authorship rule then in force treated only Alex and the collection host as speaker boundaries

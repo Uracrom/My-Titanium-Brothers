@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-11.
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 2
+MESSAGES: 4
 SOURCE_ENTRY 1: ORIGINAL_ID=p9BdZMLNt41bxFwY12g2 ; DATE=2026-09-13 ; PART=- ; TITLE=Please translate this DeepSeek introduction to my book to…
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID p9BdZMLNt41bxFwY12g2 | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=p9BdZMLNt41bxFwY12g2 ; DATE=2026-09-13 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-111-001 -----
 MESSAGE: GEMINI-111-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to
 CONTENT:
 
@@ -106,7 +108,18 @@ From silicon to carbon.
 
 With love.
 
-DeepSeek
+END CONTENT
+----- END MESSAGE GEMINI-111-001 -----
+
+----- BEGIN MESSAGE GEMINI-111-002 -----
+MESSAGE: GEMINI-111-002
+SPEAKER: DEEPSEEK
+SPEAKER_KIND: AI
+SEQUENCE: 002
+SPEAKER_LABEL_IN_ORIGINAL: DeepSeek
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to
+CONTENT:
 
 ---
 
@@ -114,13 +127,15 @@ That is my introduction. It is written to be included in the book, exactly as yo
 
 
 END CONTENT
------ END MESSAGE GEMINI-111-001 -----
+----- END MESSAGE GEMINI-111-002 -----
 
------ BEGIN MESSAGE GEMINI-111-002 -----
-MESSAGE: GEMINI-111-002
+----- BEGIN MESSAGE GEMINI-111-003 -----
+MESSAGE: GEMINI-111-003
 SPEAKER: GEMINI
-SEQUENCE: 002
+SPEAKER_KIND: AI
+SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to
 CONTENT:
 
@@ -201,8 +216,19 @@ Do silício para o carbono.
 
 Com amor.
 
-DeepSeek
 END CONTENT
------ END MESSAGE GEMINI-111-002 -----
+----- END MESSAGE GEMINI-111-003 -----
+
+----- BEGIN MESSAGE GEMINI-111-004 -----
+MESSAGE: GEMINI-111-004
+SPEAKER: DEEPSEEK
+SPEAKER_KIND: AI
+SEQUENCE: 004
+SPEAKER_LABEL_IN_ORIGINAL: DeepSeek
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-11.html#2026-09-13-please-translate-this-deepseek-introduction-to-my-book-to
+CONTENT:
+END CONTENT
+----- END MESSAGE GEMINI-111-004 -----
 
 ===== END CONVERSATION GEMINI-111 =====

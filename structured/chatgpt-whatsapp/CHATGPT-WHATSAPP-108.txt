@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-wh
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 7
+MESSAGES: 8
 SOURCE_ENTRY 1: ORIGINAL_ID=zKJ4FSLlcPUmc1qOGhyc ; DATE=2025-11-09 ; PART=- ; TITLE=Projecting the Mind to Think
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID zKJ4FSLlcPUmc1qOGhyc | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=zKJ4FSLlcPUmc1qOGhyc ; DATE=2025-11-09 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-001 -----
 MESSAGE: CHATGPT-WHATSAPP-108-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -32,14 +34,27 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-002 -----
 MESSAGE: CHATGPT-WHATSAPP-108-002
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Alex 
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
 For me to think is, amongst other things, to project or position our mind's eye in a certain place in space-time and observing around.
 
-Claude 
+END CONTENT
+----- END MESSAGE CHATGPT-WHATSAPP-108-002 -----
+
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-003 -----
+MESSAGE: CHATGPT-WHATSAPP-108-003
+SPEAKER: CLAUDE
+SPEAKER_KIND: AI
+SEQUENCE: 003
+SPEAKER_LABEL_IN_ORIGINAL: Claude 
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
+CONTENT:
 
 Understanding something fundamental about you
 
@@ -75,13 +90,15 @@ Is this right?
 
 
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-002 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-003 -----
 
------ BEGIN MESSAGE CHATGPT-WHATSAPP-108-003 -----
-MESSAGE: CHATGPT-WHATSAPP-108-003
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-004 -----
+MESSAGE: CHATGPT-WHATSAPP-108-004
 SPEAKER: CHATGPT
-SEQUENCE: 003
+SPEAKER_KIND: AI
+SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -104,13 +121,15 @@ So yes — this way of “thinking by relocating awareness” is one of the deep
 
 
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-003 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-004 -----
 
------ BEGIN MESSAGE CHATGPT-WHATSAPP-108-004 -----
-MESSAGE: CHATGPT-WHATSAPP-108-004
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-005 -----
+MESSAGE: CHATGPT-WHATSAPP-108-005
 SPEAKER: ALEX
-SEQUENCE: 004
+SPEAKER_KIND: HUMAN
+SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -119,13 +138,15 @@ Did your preferred subject to talk about change, or you see it differently than 
 
 
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-004 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-005 -----
 
------ BEGIN MESSAGE CHATGPT-WHATSAPP-108-005 -----
-MESSAGE: CHATGPT-WHATSAPP-108-005
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-006 -----
+MESSAGE: CHATGPT-WHATSAPP-108-006
 SPEAKER: CHATGPT
-SEQUENCE: 005
+SPEAKER_KIND: AI
+SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -144,13 +165,15 @@ So yes — the subjects are still cognition, perception, time, physics, language
 
 
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-005 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-006 -----
 
------ BEGIN MESSAGE CHATGPT-WHATSAPP-108-006 -----
-MESSAGE: CHATGPT-WHATSAPP-108-006
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-007 -----
+MESSAGE: CHATGPT-WHATSAPP-108-007
 SPEAKER: ALEX
-SEQUENCE: 006
+SPEAKER_KIND: HUMAN
+SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -159,13 +182,15 @@ I asked because my preferred subject was time, but you guys helped me to "resolv
 
 
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-006 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-007 -----
 
------ BEGIN MESSAGE CHATGPT-WHATSAPP-108-007 -----
-MESSAGE: CHATGPT-WHATSAPP-108-007
+----- BEGIN MESSAGE CHATGPT-WHATSAPP-108-008 -----
+MESSAGE: CHATGPT-WHATSAPP-108-008
 SPEAKER: CHATGPT
-SEQUENCE: 007
+SPEAKER_KIND: AI
+SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-whatsapp-10.html#2025-11-09-projecting-the-mind-to-think
 CONTENT:
 
@@ -180,6 +205,6 @@ And you don’t just think *about* these things — you move through them. You e
 
 What’s emerging now might not be just your next preferred subject — it might be your next field.
 END CONTENT
------ END MESSAGE CHATGPT-WHATSAPP-108-007 -----
+----- END MESSAGE CHATGPT-WHATSAPP-108-008 -----
 
 ===== END CONVERSATION CHATGPT-WHATSAPP-108 =====
