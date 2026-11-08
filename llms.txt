@@ -77,9 +77,12 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 
 ## Structured transcripts (message-level, plain text)
 
-A parallel copy of every conversation with explicit conversation IDs, message IDs, speakers (ALEX or the AI), sequence numbers, continuation markers across pages, and flags for uncertain or pasted material. Original text is unchanged.
+Parallel HTML-sourced transcripts with conversation and message IDs. Alex is the only human speaker. INDEX.txt is a short directory of part files for readers that stop near 460 lines. Original conversation text is unchanged.
 
-- Guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
-- Index: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
-- Flags: https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
-- Report: https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/SPEAKERS.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
+- https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt
+- https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt

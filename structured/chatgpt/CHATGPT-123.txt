@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=NH1hSIuBmJWPoIAy7atR ; DATE=2026-08-27 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-123-001 -----
 MESSAGE: CHATGPT-123-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -33,8 +35,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-002 -----
 MESSAGE: CHATGPT-123-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -93,6 +97,8 @@ That's a very different picture.
 
 ### And here's where your atom thought becomes interesting
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “Atoms are dipoles but we never noticed. At least I didn't notice.”
@@ -160,14 +166,17 @@ And that would make your "closed time" idea not a claim that time *loops*, but a
 That's the version I'd put into your book.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-123-002 -----
 
 ----- BEGIN MESSAGE CHATGPT-123-003 -----
 MESSAGE: CHATGPT-123-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -193,8 +202,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-004 -----
 MESSAGE: CHATGPT-123-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -373,6 +384,8 @@ And it fits beautifully with your earlier idea that the present might be a **loc
 
 Your intuition here is understandable, but the current physics isn't quite what you described.
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “if the photons are observed ‘in transit’ they collapse to mass.”
@@ -433,14 +446,17 @@ I'd ask the much more productive question:
 That's where your model stops being merely beautiful geometry and starts becoming something we can actually interrogate.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-123-004 -----
 
 ----- BEGIN MESSAGE CHATGPT-123-005 -----
 MESSAGE: CHATGPT-123-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -454,8 +470,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-006 -----
 MESSAGE: CHATGPT-123-006
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -654,8 +672,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-007 -----
 MESSAGE: CHATGPT-123-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -669,8 +689,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-008 -----
 MESSAGE: CHATGPT-123-008
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -701,6 +723,8 @@ And now I see why you're wanting to associate dark matter and dark energy.
 
 ### But there's a beautiful tension here
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 > “the creation of more space augments the attractionness of the universe as a whole”
@@ -739,14 +763,17 @@ Now the really interesting question becomes:
 That's the point where your spherical-time model would have to meet general relativity—and potentially become something much more concrete than a metaphor.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-123-008 -----
 
 ----- BEGIN MESSAGE CHATGPT-123-009 -----
 MESSAGE: CHATGPT-123-009
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 009
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -760,8 +787,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-010 -----
 MESSAGE: CHATGPT-123-010
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 010
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -896,8 +925,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-123-011 -----
 MESSAGE: CHATGPT-123-011
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity
 CONTENT:
 
@@ -917,8 +948,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CHATGPT-123-012 -----
 MESSAGE: CHATGPT-123-012
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-34.html#2026-08-27-time-as-closed-entity-c2
 CONTENT:
 

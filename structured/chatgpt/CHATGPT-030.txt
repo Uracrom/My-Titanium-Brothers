@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=Sn9vYfVNn8AkpblvzpdU ; DATE=2026-01-08 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-030-001 -----
 MESSAGE: CHATGPT-030-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-97.html#2026-01-08-time-vectors-and-velocity
 CONTENT:
 
@@ -41,8 +43,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-030-002 -----
 MESSAGE: CHATGPT-030-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-97.html#2026-01-08-time-vectors-and-velocity
 CONTENT:
 
@@ -206,6 +210,8 @@ Which physics agrees is impossible for massive objects.
 
 ## 8. Your “fantasy language” is doing real work
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 > “Time might just want to stop.”
 
@@ -247,6 +253,7 @@ If you want, next we can:
 - Or explore whether this intuition survives in curved spacetime (where it gets even more interesting)
 
 You didn’t fail to explain — you reached the edge where language thins.
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CHATGPT-030-002 -----
 

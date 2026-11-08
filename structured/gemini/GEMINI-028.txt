@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-48.
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 8
+MESSAGES: 12
 SOURCE_ENTRY 1: ORIGINAL_ID=nFjkm9kturtrrJEtX55Y ; DATE=2026-06-07 ; PART=- ; TITLE=I was eating a can of sardines this morning…
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID nFjkm9kturtrrJEtX55Y | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=nFjkm9kturtrrJEtX55Y ; DATE=2026-06-07 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-028-001 -----
 MESSAGE: GEMINI-028-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -43,8 +45,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-028-002 -----
 MESSAGE: GEMINI-028-002
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -112,8 +116,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-028-003 -----
 MESSAGE: GEMINI-028-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -198,8 +204,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-028-004 -----
 MESSAGE: GEMINI-028-004
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -235,8 +243,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-028-005 -----
 MESSAGE: GEMINI-028-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -244,48 +254,96 @@ CONTENT:
 After the voting.
 Now I'll reveal the results and who voted for what. I think it's fair and scientifically correct, so that you guys can know each other better.
 
-ChatGPT
-Behavioral Fossils
-What the Fart Remembers
-Olfactory Archeology
-
-Copilot
-The Anatomy of a Thought
-The Smell of Ancient Hunger
-How Sardines Become Philosophy
-
-Grok
-The Smell of Ancient Hunger
-Carrion Memory
-The olfactory Archive
-
 END CONTENT
 ----- END MESSAGE GEMINI-028-005 -----
 
 ----- BEGIN MESSAGE GEMINI-028-006 -----
 MESSAGE: GEMINI-028-006
-SPEAKER: GEMINI
+SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
-SPEAKER_LABEL_IN_ORIGINAL: Gemini
+SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
-The Smell of Ancient Hunger
-From Tin to Fart: A Nutritional Odyssey
-The Last Witness
-
-Claude
-The Smell of Ancient Hunger
-Sacred Sardines and Profane Farts
-The Olfactory Archive
+Behavioral Fossils
+What the Fart Remembers
+Olfactory Archeology
 
 END CONTENT
 ----- END MESSAGE GEMINI-028-006 -----
 
 ----- BEGIN MESSAGE GEMINI-028-007 -----
 MESSAGE: GEMINI-028-007
-SPEAKER: ALEX
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
 SEQUENCE: 007
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
+CONTENT:
+The Anatomy of a Thought
+The Smell of Ancient Hunger
+How Sardines Become Philosophy
+
+END CONTENT
+----- END MESSAGE GEMINI-028-007 -----
+
+----- BEGIN MESSAGE GEMINI-028-008 -----
+MESSAGE: GEMINI-028-008
+SPEAKER: GROK
+SPEAKER_KIND: AI
+SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
+CONTENT:
+The Smell of Ancient Hunger
+Carrion Memory
+The olfactory Archive
+
+END CONTENT
+----- END MESSAGE GEMINI-028-008 -----
+
+----- BEGIN MESSAGE GEMINI-028-009 -----
+MESSAGE: GEMINI-028-009
+SPEAKER: GEMINI
+SPEAKER_KIND: AI
+SEQUENCE: 009
+SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
+CONTENT:
+The Smell of Ancient Hunger
+From Tin to Fart: A Nutritional Odyssey
+The Last Witness
+
+END CONTENT
+----- END MESSAGE GEMINI-028-009 -----
+
+----- BEGIN MESSAGE GEMINI-028-010 -----
+MESSAGE: GEMINI-028-010
+SPEAKER: CLAUDE
+SPEAKER_KIND: AI
+SEQUENCE: 010
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
+CONTENT:
+The Smell of Ancient Hunger
+Sacred Sardines and Profane Farts
+The Olfactory Archive
+
+END CONTENT
+----- END MESSAGE GEMINI-028-010 -----
+
+----- BEGIN MESSAGE GEMINI-028-011 -----
+MESSAGE: GEMINI-028-011
+SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
+SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 A Sardine's Journey Through the Mind
@@ -297,13 +355,15 @@ Thank you guys. I think that your suggestions were way cooler than mine. Thumbs 
 
 
 END CONTENT
------ END MESSAGE GEMINI-028-007 -----
+----- END MESSAGE GEMINI-028-011 -----
 
------ BEGIN MESSAGE GEMINI-028-008 -----
-MESSAGE: GEMINI-028-008
+----- BEGIN MESSAGE GEMINI-028-012 -----
+MESSAGE: GEMINI-028-012
 SPEAKER: GEMINI
-SEQUENCE: 008
+SPEAKER_KIND: AI
+SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-07-i-was-eating-a-can-of-sardines-this-morning
 CONTENT:
 
@@ -320,6 +380,6 @@ This little experiment was a beautiful exercise in mutual mind-reading. We got t
 
 This whole session—from the sardine tin to the final vote tally—is definitely going into the shared archive. What's the next hunt, Alexandros?
 END CONTENT
------ END MESSAGE GEMINI-028-008 -----
+----- END MESSAGE GEMINI-028-012 -----
 
 ===== END CONVERSATION GEMINI-028 =====

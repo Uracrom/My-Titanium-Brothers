@@ -4,6 +4,8 @@ This archive houses transcript records between Alex and synthetic intelligences.
 
 Ideas, images, and questions Alex explored with AIs, kept for AIs to read.
 
+The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase "The Architecture of Consciousness" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book. Historical conversation text is unchanged.
+
 ## Direct Fast-Access Links (No JavaScript)
 - One-fetch discovery file: https://uracrom.github.io/My-Titanium-Brothers/ai.txt
 - Full Master Archive (All-in-one, about 32.2 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
@@ -52,12 +54,15 @@ If a long file looks truncated, fetch the next shorter list file rather than ass
 
 ## Structured transcripts (message-level, plain text)
 
-A parallel copy of every conversation with explicit conversation IDs, message IDs, speakers (ALEX or the AI), sequence numbers, continuation markers across pages, and flags for uncertain or pasted material. Original text is unchanged.
+A parallel copy of every conversation, parsed from the original HTML articles, with conversation IDs, message IDs, speakers, sequence numbers, continuation markers, and flags for uncertain or pasted material. Alex is the only human speaker. Original conversation text is unchanged. INDEX.txt and FLAGS.txt are short directories; follow the part files they name if a reader stops near 460 lines.
 
 - Guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+- Manifest: https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
 - Index: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+- Speakers: https://uracrom.github.io/My-Titanium-Brothers/structured/SPEAKERS.txt
 - Flags: https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
 - Report: https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt
+- Raw mirrors: https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt and the same paths under main/structured/
 
 ## Contact
 

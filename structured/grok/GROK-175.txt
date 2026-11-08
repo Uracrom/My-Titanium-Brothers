@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=TxStQBR43l24G1ErnRPq ; DATE=2026-07-26 ; PART=- ; TI
 ----- BEGIN MESSAGE GROK-175-001 -----
 MESSAGE: GROK-175-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -39,8 +41,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-002 -----
 MESSAGE: GROK-175-002
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -73,14 +77,16 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-003 -----
 MESSAGE: GROK-175-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "Why can't we hold focus indefinitely?
@@ -100,8 +106,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-004 -----
 MESSAGE: GROK-175-004
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -131,8 +139,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-005 -----
 MESSAGE: GROK-175-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -147,8 +157,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-006 -----
 MESSAGE: GROK-175-006
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -176,14 +188,16 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-007 -----
 MESSAGE: GROK-175-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "You’ve hit on something fundamental here. If time is the axis along which physical events unfold, geometry is the map of how those events are required to move.
@@ -206,8 +220,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-008 -----
 MESSAGE: GROK-175-008
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -231,8 +247,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-009 -----
 MESSAGE: GROK-175-009
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 009
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -246,8 +264,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-010 -----
 MESSAGE: GROK-175-010
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 010
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -263,14 +283,16 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-011 -----
 MESSAGE: GROK-175-011
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "When you look down and see that line of the eternal past approaching, it reveals why the mind accelerates ahead—it isn't just floating; it is driven to read the terrain of the ether above before the floor reaches the ceiling."
@@ -288,8 +310,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-012 -----
 MESSAGE: GROK-175-012
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -314,8 +338,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-013 -----
 MESSAGE: GROK-175-013
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 013
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -329,8 +355,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-014 -----
 MESSAGE: GROK-175-014
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 014
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -358,8 +386,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-015 -----
 MESSAGE: GROK-175-015
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 015
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -370,8 +400,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-016 -----
 MESSAGE: GROK-175-016
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 016
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -380,7 +412,7 @@ An accident occurred: the previous prompt, "describe future as a pressure field"
 Now back to the parallel conversation.
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "Where your idea stands in the landscape of thought
@@ -418,8 +450,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-017 -----
 MESSAGE: GROK-175-017
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 017
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -454,14 +488,16 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-018 -----
 MESSAGE: GROK-175-018
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 018
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "Your sudden tangent about the "enormous quantity of different options" actually captures this exact dynamic: a single visual image holds an almost infinite density of unarticulated meaning simultaneously. Translating that massive, instant spatial block into linear sentences forces a choice of path, but the core "vision" itself remains a singular, non-verbal landscape."
@@ -479,8 +515,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-019 -----
 MESSAGE: GROK-175-019
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 019
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -502,14 +540,16 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-020 -----
 MESSAGE: GROK-175-020
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 020
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 "For example, tonight:
@@ -535,8 +575,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-021 -----
 MESSAGE: GROK-175-021
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 021
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -554,8 +596,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-022 -----
 MESSAGE: GROK-175-022
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 022
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -569,8 +613,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-023 -----
 MESSAGE: GROK-175-023
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 023
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -592,8 +638,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-024 -----
 MESSAGE: GROK-175-024
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 024
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -607,8 +655,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-025 -----
 MESSAGE: GROK-175-025
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 025
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -630,8 +680,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-026 -----
 MESSAGE: GROK-175-026
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 026
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 
@@ -645,8 +697,10 @@ END CONTENT
 ----- BEGIN MESSAGE GROK-175-027 -----
 MESSAGE: GROK-175-027
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 027
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-21.html#2026-07-26-visions-erase-sounds-attention-limits
 CONTENT:
 

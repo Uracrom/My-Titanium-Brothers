@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=Mhn2Wu6fFMyu4DpK8xPU ; DATE=2026-06-06 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-025-001 -----
 MESSAGE: GEMINI-025-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-06-fragments-of-a-conversation-with-chatgpt-today-june-5
 CONTENT:
 
@@ -44,8 +46,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-025-002 -----
 MESSAGE: GEMINI-025-002
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-06-fragments-of-a-conversation-with-chatgpt-today-june-5
 CONTENT:
 Now a different approach:  you know about  caterpillars metamorphosis into butterflies,  right? If not, here is what happens from one point of view that you never  (or anybody that I know or heard of) thought about.
@@ -76,8 +80,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-025-003 -----
 MESSAGE: GEMINI-025-003
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-48.html#2026-06-06-fragments-of-a-conversation-with-chatgpt-today-june-5
 CONTENT:
 

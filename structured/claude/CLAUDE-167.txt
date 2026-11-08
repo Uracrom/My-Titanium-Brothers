@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=MiFaSfWescMM1s48Yw4n ; DATE=2026-06-25 ; PART=- ; TI
 ----- BEGIN MESSAGE CLAUDE-167-001 -----
 MESSAGE: CLAUDE-167-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-9.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward
 CONTENT:
 
@@ -35,8 +37,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-167-002 -----
 MESSAGE: CLAUDE-167-002
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-9.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward
 CONTENT:
 
@@ -53,8 +57,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-167-003 -----
 MESSAGE: CLAUDE-167-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-9.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward
 CONTENT:
 
@@ -75,8 +81,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 MESSAGE: CLAUDE-167-004
 PART: A of 2
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-10.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c2
 CONTENT:
 
@@ -529,7 +537,7 @@ NEXT PART: CLAUDE-167-004-B
 ----- END MESSAGE CLAUDE-167-004-A -----
 
 ===== SOURCE SEGMENT 3 of 4 | ORIGINAL_ID MiFaSfWescMM1s48Yw4n | single entry | HTML piece 3 of 4 | SOURCE_ARTICLE archive-claude-10.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c3 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-10.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c3 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -537,8 +545,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-167-004
 PART: B of 2
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-10.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c3
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-167-004
@@ -563,8 +573,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-167-005 -----
 MESSAGE: CLAUDE-167-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-11.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c4
 CONTENT:
 
@@ -585,8 +597,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-167-006 -----
 MESSAGE: CLAUDE-167-006
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-11.html#2026-06-25-all-51-exercises-from-a-fresh-start-then-focus-turned-inward-c4
 CONTENT:
 

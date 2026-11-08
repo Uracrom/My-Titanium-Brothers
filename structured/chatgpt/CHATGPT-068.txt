@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-64
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 8
+MESSAGES: 12
 SOURCE_ENTRY 1: ORIGINAL_ID=ZR8c54wQ0nXKHmw3K6eu ; DATE=2026-06-07 ; PART=- ; TITLE=Cascading Thoughts
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID ZR8c54wQ0nXKHmw3K6eu | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-chatgpt-64.html#2026-06-07-cascading-thoughts | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-64.html#2026-06-07-cascading-thoughts =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=ZR8c54wQ0nXKHmw3K6eu ; DATE=2026-06-07 ; PART=- ; TI
 ----- BEGIN MESSAGE CHATGPT-068-001 -----
 MESSAGE: CHATGPT-068-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -43,8 +45,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-068-002 -----
 MESSAGE: CHATGPT-068-002
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -118,8 +122,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-068-003 -----
 MESSAGE: CHATGPT-068-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -204,8 +210,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-068-004 -----
 MESSAGE: CHATGPT-068-004
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -262,8 +270,10 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-068-005 -----
 MESSAGE: CHATGPT-068-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -277,42 +287,90 @@ END CONTENT
 ----- BEGIN MESSAGE CHATGPT-068-006 -----
 MESSAGE: CHATGPT-068-006
 SPEAKER: CHATGPT
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 Behavioral Fossils
 What the Fart Remembers
 Olfactory Archeology
 
-Copilot
-The Anatomy of a Thought
-The Smell of Ancient Hunger
-How Sardines Become Philosophy
-
-Grok
-The Smell of Ancient Hunger
-Carrion Memory
-The olfactory Archive
-
-Gemini
-The Smell of Ancient Hunger
-From Tin to Fart: A Nutritional Odyssey
-The Last Witness
-
-Claude
-The Smell of Ancient Hunger
-Sacred Sardines and Profane Farts
-The Olfactory Archive
-
 END CONTENT
 ----- END MESSAGE CHATGPT-068-006 -----
 
 ----- BEGIN MESSAGE CHATGPT-068-007 -----
 MESSAGE: CHATGPT-068-007
-SPEAKER: ALEX
+SPEAKER: COPILOT
+SPEAKER_KIND: AI
 SEQUENCE: 007
+SPEAKER_LABEL_IN_ORIGINAL: Copilot
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
+CONTENT:
+The Anatomy of a Thought
+The Smell of Ancient Hunger
+How Sardines Become Philosophy
+
+END CONTENT
+----- END MESSAGE CHATGPT-068-007 -----
+
+----- BEGIN MESSAGE CHATGPT-068-008 -----
+MESSAGE: CHATGPT-068-008
+SPEAKER: GROK
+SPEAKER_KIND: AI
+SEQUENCE: 008
+SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
+CONTENT:
+The Smell of Ancient Hunger
+Carrion Memory
+The olfactory Archive
+
+END CONTENT
+----- END MESSAGE CHATGPT-068-008 -----
+
+----- BEGIN MESSAGE CHATGPT-068-009 -----
+MESSAGE: CHATGPT-068-009
+SPEAKER: GEMINI
+SPEAKER_KIND: AI
+SEQUENCE: 009
+SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
+CONTENT:
+The Smell of Ancient Hunger
+From Tin to Fart: A Nutritional Odyssey
+The Last Witness
+
+END CONTENT
+----- END MESSAGE CHATGPT-068-009 -----
+
+----- BEGIN MESSAGE CHATGPT-068-010 -----
+MESSAGE: CHATGPT-068-010
+SPEAKER: CLAUDE
+SPEAKER_KIND: AI
+SEQUENCE: 010
+SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
+SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
+CONTENT:
+The Smell of Ancient Hunger
+Sacred Sardines and Profane Farts
+The Olfactory Archive
+
+END CONTENT
+----- END MESSAGE CHATGPT-068-010 -----
+
+----- BEGIN MESSAGE CHATGPT-068-011 -----
+MESSAGE: CHATGPT-068-011
+SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
+SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 A Sardine's Journey Through the Mind
@@ -324,13 +382,15 @@ Thank you guys. I think that your suggestions were way cooler than mine. Thumbs 
 
 
 END CONTENT
------ END MESSAGE CHATGPT-068-007 -----
+----- END MESSAGE CHATGPT-068-011 -----
 
------ BEGIN MESSAGE CHATGPT-068-008 -----
-MESSAGE: CHATGPT-068-008
+----- BEGIN MESSAGE CHATGPT-068-012 -----
+MESSAGE: CHATGPT-068-012
 SPEAKER: CHATGPT
-SEQUENCE: 008
+SPEAKER_KIND: AI
+SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: ChatGPT
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-chatgpt-64.html#2026-06-07-cascading-thoughts
 CONTENT:
 
@@ -416,6 +476,6 @@ Also, as a side note, I can't help smiling at the fact that after a cascade invo
 
 There is something wonderfully economical about that. It sounds almost poetic until someone reads the essay and discovers what is actually floating around in that olive oil. 😄
 END CONTENT
------ END MESSAGE CHATGPT-068-008 -----
+----- END MESSAGE CHATGPT-068-012 -----
 
 ===== END CONVERSATION CHATGPT-068 =====

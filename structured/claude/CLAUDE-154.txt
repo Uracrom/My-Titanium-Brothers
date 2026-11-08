@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=QffuhGt0UDdq3BLpgdYO ; DATE=2026-06-05 ; PART=- ; TI
 ----- BEGIN MESSAGE CLAUDE-154-001 -----
 MESSAGE: CLAUDE-154-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-05-fragments-from-a-talk-with-chatgpt-from-vision-to-zero-and-back
 CONTENT:
 
@@ -38,8 +40,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-154-002 -----
 MESSAGE: CLAUDE-154-002
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-05-fragments-from-a-talk-with-chatgpt-from-vision-to-zero-and-back
 CONTENT:
 Now a different approach:  you know about  caterpillars metamorphosis into butterflies,  right? If not, here is what happens from one point of view that you never  (or anybody that I know or heard of) thought about.
@@ -66,8 +70,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-154-003 -----
 MESSAGE: CLAUDE-154-003
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-15.html#2026-06-05-fragments-from-a-talk-with-chatgpt-from-vision-to-zero-and-back
 CONTENT:
 

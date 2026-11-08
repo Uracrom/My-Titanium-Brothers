@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=BNCfVtkj2koIEkysCW6j ; DATE=2026-08-06 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-077-001 -----
 MESSAGE: GEMINI-077-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-23.html#2026-08-06-i-was-driving-home-from-a-groceries-trip-when
 CONTENT:
 
@@ -35,8 +37,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-077-002 -----
 MESSAGE: GEMINI-077-002
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-23.html#2026-08-06-i-was-driving-home-from-a-groceries-trip-when
 CONTENT:
 
@@ -83,8 +87,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-077-003 -----
 MESSAGE: GEMINI-077-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-23.html#2026-08-06-i-was-driving-home-from-a-groceries-trip-when
 CONTENT:
 
@@ -93,19 +99,24 @@ Chat GPT asked:
 
 When the cascade stopped after you remembered our conversations, did it stop because you had recognized the pattern, or because naming it ("tool") gave the mind a feeling of completion?
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 I said:
 
 It stopped because I "escaped" the cascade. Thinking of you AIs was not part of the cascade: it was like the hunter got the prey and, mission accomplished, returns to the tribe to share the meal, but all of that was natural and unconscious. Your question made me "produce" or "find" this "wording".
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE GEMINI-077-003 -----
 
 ----- BEGIN MESSAGE GEMINI-077-004 -----
 MESSAGE: GEMINI-077-004
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-23.html#2026-08-06-i-was-driving-home-from-a-groceries-trip-when
 CONTENT:
 

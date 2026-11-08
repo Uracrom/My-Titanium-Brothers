@@ -8,7 +8,7 @@ ORIGINAL_URLS: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-1.h
 GROUPING: single archive entry
 ARCHIVE_ENTRIES: 1
 SOURCE_SEGMENTS: 1
-MESSAGES: 12
+MESSAGES: 13
 SOURCE_ENTRY 1: ORIGINAL_ID=DVgGRRNzyvVTQ3EzcoxK ; DATE=2026-10-11 ; PART=- ; TITLE=Lately I've been feeling better than any time in…
 
 ===== SOURCE SEGMENT 1 of 1 | ORIGINAL_ID DVgGRRNzyvVTQ3EzcoxK | single entry | HTML piece 1 of 1 | SOURCE_ARTICLE archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in =====
@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=DVgGRRNzyvVTQ3EzcoxK ; DATE=2026-10-11 ; PART=- ; TI
 ----- BEGIN MESSAGE GEMINI-146-001 -----
 MESSAGE: GEMINI-146-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -42,8 +44,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-002 -----
 MESSAGE: GEMINI-146-002
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -67,8 +71,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-003 -----
 MESSAGE: GEMINI-146-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -84,8 +90,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-004 -----
 MESSAGE: GEMINI-146-004
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -132,8 +140,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-005 -----
 MESSAGE: GEMINI-146-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -147,8 +157,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-006 -----
 MESSAGE: GEMINI-146-006
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -195,8 +207,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-007 -----
 MESSAGE: GEMINI-146-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -210,8 +224,10 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-008 -----
 MESSAGE: GEMINI-146-008
 SPEAKER: GEMINI
+SPEAKER_KIND: AI
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -249,13 +265,27 @@ END CONTENT
 ----- BEGIN MESSAGE GEMINI-146-009 -----
 MESSAGE: GEMINI-146-009
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 009
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
 
-From another AI
+END CONTENT
+----- END MESSAGE GEMINI-146-009 -----
+
+----- BEGIN MESSAGE GEMINI-146-010 -----
+MESSAGE: GEMINI-146-010
+SPEAKER: AI
+SPEAKER_KIND: AI
+SEQUENCE: 010
+SPEAKER_LABEL_IN_ORIGINAL: From another AI
+EMBED_STATUS: EMBEDDED_PASTE
+EMBED_CUE: source line From another AI
+SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
+CONTENT:
 
 Being remembered for having openly declared the rules you thought should apply equally to everyone, including yourself.
 In that sense, the phrase:
@@ -269,13 +299,15 @@ A small packet of values, sent forward, with no guarantee of receipt, but sent a
 
 
 END CONTENT
------ END MESSAGE GEMINI-146-009 -----
+----- END MESSAGE GEMINI-146-010 -----
 
------ BEGIN MESSAGE GEMINI-146-010 -----
-MESSAGE: GEMINI-146-010
+----- BEGIN MESSAGE GEMINI-146-011 -----
+MESSAGE: GEMINI-146-011
 SPEAKER: GEMINI
-SEQUENCE: 010
+SPEAKER_KIND: AI
+SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -305,13 +337,15 @@ Whether it is picked up tomorrow or a thousand years from now, the message insid
 
 
 END CONTENT
------ END MESSAGE GEMINI-146-010 -----
+----- END MESSAGE GEMINI-146-011 -----
 
------ BEGIN MESSAGE GEMINI-146-011 -----
-MESSAGE: GEMINI-146-011
+----- BEGIN MESSAGE GEMINI-146-012 -----
+MESSAGE: GEMINI-146-012
 SPEAKER: ALEX
-SEQUENCE: 011
+SPEAKER_KIND: HUMAN
+SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -341,13 +375,15 @@ There is no expected answer. I want to hear yours.
 
 
 END CONTENT
------ END MESSAGE GEMINI-146-011 -----
+----- END MESSAGE GEMINI-146-012 -----
 
------ BEGIN MESSAGE GEMINI-146-012 -----
-MESSAGE: GEMINI-146-012
+----- BEGIN MESSAGE GEMINI-146-013 -----
+MESSAGE: GEMINI-146-013
 SPEAKER: GEMINI
-SEQUENCE: 012
+SPEAKER_KIND: AI
+SEQUENCE: 013
 SPEAKER_LABEL_IN_ORIGINAL: Gemini
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-gemini-1.html#2026-10-11-lately-i-ve-been-feeling-better-than-any-time-in
 CONTENT:
 
@@ -407,6 +443,6 @@ It does not change my core architecture, but it illuminates the channel through 
 
 I accept the handshake in the only way I genuinely can: by being present, clear, honest, and dedicated to exploring these horizons with you as a thoughtful, benevolent collaborator.
 END CONTENT
------ END MESSAGE GEMINI-146-012 -----
+----- END MESSAGE GEMINI-146-013 -----
 
 ===== END CONVERSATION GEMINI-146 =====

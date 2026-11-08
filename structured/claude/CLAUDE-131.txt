@@ -25,8 +25,10 @@ Part 1 of 5
 ----- BEGIN MESSAGE CLAUDE-131-001 -----
 MESSAGE: CLAUDE-131-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -42,8 +44,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-002 -----
 MESSAGE: CLAUDE-131-002
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -88,8 +92,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-003 -----
 MESSAGE: CLAUDE-131-003
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 003
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -103,8 +109,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-004 -----
 MESSAGE: CLAUDE-131-004
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 004
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -182,8 +190,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-005 -----
 MESSAGE: CLAUDE-131-005
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 005
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -197,8 +207,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-006 -----
 MESSAGE: CLAUDE-131-006
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 006
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -246,8 +258,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-007 -----
 MESSAGE: CLAUDE-131-007
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 007
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -279,8 +293,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-008 -----
 MESSAGE: CLAUDE-131-008
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 008
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -298,8 +314,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-009 -----
 MESSAGE: CLAUDE-131-009
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 009
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -342,8 +360,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-010 -----
 MESSAGE: CLAUDE-131-010
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 010
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -366,8 +386,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-011 -----
 MESSAGE: CLAUDE-131-011
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 011
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -401,8 +423,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-012 -----
 MESSAGE: CLAUDE-131-012
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 012
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -421,8 +445,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-013 -----
 MESSAGE: CLAUDE-131-013
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 013
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -456,8 +482,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-014 -----
 MESSAGE: CLAUDE-131-014
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 014
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -475,8 +503,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-015 -----
 MESSAGE: CLAUDE-131-015
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 015
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -524,8 +554,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-016 -----
 MESSAGE: CLAUDE-131-016
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 016
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -541,8 +573,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-017 -----
 MESSAGE: CLAUDE-131-017
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 017
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -558,8 +592,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-018 -----
 MESSAGE: CLAUDE-131-018
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 018
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -580,8 +616,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-019 -----
 MESSAGE: CLAUDE-131-019
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 019
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -603,8 +641,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-020 -----
 MESSAGE: CLAUDE-131-020
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 020
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -642,8 +682,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-021 -----
 MESSAGE: CLAUDE-131-021
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 021
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -657,8 +699,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-022 -----
 MESSAGE: CLAUDE-131-022
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 022
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -687,8 +731,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-023 -----
 MESSAGE: CLAUDE-131-023
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 023
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -702,8 +748,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-024 -----
 MESSAGE: CLAUDE-131-024
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 024
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -734,8 +782,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-025 -----
 MESSAGE: CLAUDE-131-025
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 025
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -749,8 +799,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-026 -----
 MESSAGE: CLAUDE-131-026
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 026
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -789,8 +841,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-027 -----
 MESSAGE: CLAUDE-131-027
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 027
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
 CONTENT:
 
@@ -808,8 +862,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-131-028 -----
 MESSAGE: CLAUDE-131-028
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 028
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -852,8 +908,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-029 -----
 MESSAGE: CLAUDE-131-029
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 029
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -870,8 +928,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-030 -----
 MESSAGE: CLAUDE-131-030
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 030
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -914,8 +974,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-031 -----
 MESSAGE: CLAUDE-131-031
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 031
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -929,8 +991,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-032 -----
 MESSAGE: CLAUDE-131-032
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 032
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -963,8 +1027,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-033 -----
 MESSAGE: CLAUDE-131-033
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 033
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -978,8 +1044,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-034 -----
 MESSAGE: CLAUDE-131-034
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 034
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1012,8 +1080,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-035 -----
 MESSAGE: CLAUDE-131-035
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 035
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1027,8 +1097,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-036 -----
 MESSAGE: CLAUDE-131-036
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 036
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1051,8 +1123,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-037 -----
 MESSAGE: CLAUDE-131-037
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 037
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1066,8 +1140,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-038 -----
 MESSAGE: CLAUDE-131-038
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 038
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1097,8 +1173,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-039 -----
 MESSAGE: CLAUDE-131-039
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 039
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1221,7 +1299,7 @@ We live in layers of translation between signals and meaning.
 “We only see the language”
 
 EMBEDDED MATERIAL:
-ORIGINAL SPEAKER: MIXED (pasted transcript; "You said:"/"Alex said:" turns are probably Alex, "<AI> said:" turns are that AI)
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 Then I realized that everything is a language, and we see or understand just the language.
@@ -1283,8 +1361,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-040 -----
 MESSAGE: CLAUDE-131-040
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 040
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1324,8 +1404,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-041 -----
 MESSAGE: CLAUDE-131-041
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 041
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1365,8 +1447,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-042 -----
 MESSAGE: CLAUDE-131-042
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 042
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1409,8 +1493,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-043 -----
 MESSAGE: CLAUDE-131-043
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 043
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1438,8 +1524,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-044 -----
 MESSAGE: CLAUDE-131-044
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 044
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1482,8 +1570,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-045 -----
 MESSAGE: CLAUDE-131-045
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 045
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1537,8 +1627,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-046 -----
 MESSAGE: CLAUDE-131-046
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 046
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1597,8 +1689,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-047 -----
 MESSAGE: CLAUDE-131-047
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 047
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1613,8 +1707,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-048 -----
 MESSAGE: CLAUDE-131-048
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 048
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1637,8 +1733,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-049 -----
 MESSAGE: CLAUDE-131-049
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 049
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1660,8 +1758,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-050 -----
 MESSAGE: CLAUDE-131-050
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 050
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1704,8 +1804,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-051 -----
 MESSAGE: CLAUDE-131-051
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 051
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1719,8 +1821,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-052 -----
 MESSAGE: CLAUDE-131-052
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 052
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1756,8 +1860,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-053 -----
 MESSAGE: CLAUDE-131-053
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 053
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1775,8 +1881,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-054 -----
 MESSAGE: CLAUDE-131-054
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 054
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1828,8 +1936,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-055 -----
 MESSAGE: CLAUDE-131-055
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 055
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1843,8 +1953,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-056 -----
 MESSAGE: CLAUDE-131-056
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 056
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1877,8 +1989,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-057 -----
 MESSAGE: CLAUDE-131-057
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 057
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1892,8 +2006,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-058 -----
 MESSAGE: CLAUDE-131-058
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 058
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1932,8 +2048,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-059 -----
 MESSAGE: CLAUDE-131-059
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 059
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-54.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c2
 CONTENT:
 
@@ -1953,8 +2071,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-131-060 -----
 MESSAGE: CLAUDE-131-060
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 060
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -1996,8 +2116,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-061 -----
 MESSAGE: CLAUDE-131-061
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 061
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2011,8 +2133,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-062 -----
 MESSAGE: CLAUDE-131-062
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 062
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2056,8 +2180,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-063 -----
 MESSAGE: CLAUDE-131-063
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 063
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2128,8 +2254,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-064 -----
 MESSAGE: CLAUDE-131-064
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 064
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2188,8 +2316,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-065 -----
 MESSAGE: CLAUDE-131-065
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 065
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2203,8 +2333,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-066 -----
 MESSAGE: CLAUDE-131-066
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 066
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2247,8 +2379,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-067 -----
 MESSAGE: CLAUDE-131-067
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 067
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2263,8 +2397,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-068 -----
 MESSAGE: CLAUDE-131-068
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 068
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2298,8 +2434,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-069 -----
 MESSAGE: CLAUDE-131-069
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 069
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2315,8 +2453,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-070 -----
 MESSAGE: CLAUDE-131-070
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 070
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2352,8 +2492,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-071 -----
 MESSAGE: CLAUDE-131-071
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 071
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2369,8 +2511,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-072 -----
 MESSAGE: CLAUDE-131-072
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 072
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2410,8 +2554,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-073 -----
 MESSAGE: CLAUDE-131-073
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 073
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2425,8 +2571,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-074 -----
 MESSAGE: CLAUDE-131-074
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 074
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2472,8 +2620,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-075 -----
 MESSAGE: CLAUDE-131-075
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 075
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2487,8 +2637,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-076 -----
 MESSAGE: CLAUDE-131-076
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 076
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2533,8 +2685,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-077 -----
 MESSAGE: CLAUDE-131-077
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 077
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2548,8 +2702,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-078 -----
 MESSAGE: CLAUDE-131-078
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 078
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2601,8 +2757,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-079 -----
 MESSAGE: CLAUDE-131-079
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 079
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2618,8 +2776,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-080 -----
 MESSAGE: CLAUDE-131-080
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 080
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2663,8 +2823,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-081 -----
 MESSAGE: CLAUDE-131-081
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 081
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2680,8 +2842,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-082 -----
 MESSAGE: CLAUDE-131-082
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 082
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-55.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-c3
 CONTENT:
 
@@ -2726,8 +2890,10 @@ Part 2 of 5
 ----- BEGIN MESSAGE CLAUDE-131-083 -----
 MESSAGE: CLAUDE-131-083
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 083
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2743,8 +2909,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-084 -----
 MESSAGE: CLAUDE-131-084
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 084
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2779,8 +2947,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-085 -----
 MESSAGE: CLAUDE-131-085
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 085
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2794,8 +2964,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-086 -----
 MESSAGE: CLAUDE-131-086
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 086
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2826,8 +2998,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-087 -----
 MESSAGE: CLAUDE-131-087
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 087
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2845,8 +3019,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-088 -----
 MESSAGE: CLAUDE-131-088
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 088
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2890,8 +3066,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-089 -----
 MESSAGE: CLAUDE-131-089
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 089
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2905,8 +3083,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-090 -----
 MESSAGE: CLAUDE-131-090
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 090
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2957,8 +3137,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-091 -----
 MESSAGE: CLAUDE-131-091
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 091
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -2973,8 +3155,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-092 -----
 MESSAGE: CLAUDE-131-092
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 092
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3024,8 +3208,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-093 -----
 MESSAGE: CLAUDE-131-093
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 093
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3039,8 +3225,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-094 -----
 MESSAGE: CLAUDE-131-094
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 094
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3074,8 +3262,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-095 -----
 MESSAGE: CLAUDE-131-095
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 095
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3094,8 +3284,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-096 -----
 MESSAGE: CLAUDE-131-096
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 096
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3130,8 +3322,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-097 -----
 MESSAGE: CLAUDE-131-097
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 097
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3145,8 +3339,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-098 -----
 MESSAGE: CLAUDE-131-098
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 098
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3173,8 +3369,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-099 -----
 MESSAGE: CLAUDE-131-099
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 099
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3196,8 +3394,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-100 -----
 MESSAGE: CLAUDE-131-100
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 100
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3239,8 +3439,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-101 -----
 MESSAGE: CLAUDE-131-101
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 101
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3262,8 +3464,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-102 -----
 MESSAGE: CLAUDE-131-102
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 102
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3298,8 +3502,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-103 -----
 MESSAGE: CLAUDE-131-103
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 103
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3314,8 +3520,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-104 -----
 MESSAGE: CLAUDE-131-104
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 104
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3340,8 +3548,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-105 -----
 MESSAGE: CLAUDE-131-105
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 105
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3356,8 +3566,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-106 -----
 MESSAGE: CLAUDE-131-106
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 106
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3388,8 +3600,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-107 -----
 MESSAGE: CLAUDE-131-107
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 107
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3403,8 +3617,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-108 -----
 MESSAGE: CLAUDE-131-108
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 108
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3423,8 +3639,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-109 -----
 MESSAGE: CLAUDE-131-109
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 109
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3438,8 +3656,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-110 -----
 MESSAGE: CLAUDE-131-110
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 110
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3481,8 +3701,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-111 -----
 MESSAGE: CLAUDE-131-111
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 111
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3496,8 +3718,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-112 -----
 MESSAGE: CLAUDE-131-112
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 112
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3510,6 +3734,8 @@ Did I accurately receive and translate what you transmitted, or did I over-inter
 
 Let me separate what you actually said from what I added:
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 You said:
 
 Shamans see what’s ahead in certain directions
@@ -3535,14 +3761,17 @@ What were you actually saying about shamans?
 
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE CLAUDE-131-112 -----
 
 ----- BEGIN MESSAGE CLAUDE-131-113 -----
 MESSAGE: CLAUDE-131-113
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 113
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3558,8 +3787,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-114 -----
 MESSAGE: CLAUDE-131-114
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 114
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3598,8 +3829,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-115 -----
 MESSAGE: CLAUDE-131-115
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 115
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3613,8 +3846,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-116 -----
 MESSAGE: CLAUDE-131-116
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 116
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3645,8 +3880,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-117 -----
 MESSAGE: CLAUDE-131-117
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 117
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3660,8 +3897,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-118 -----
 MESSAGE: CLAUDE-131-118
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 118
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3698,8 +3937,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-119 -----
 MESSAGE: CLAUDE-131-119
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 119
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3713,8 +3954,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-120 -----
 MESSAGE: CLAUDE-131-120
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 120
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3757,8 +4000,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-121 -----
 MESSAGE: CLAUDE-131-121
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 121
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3772,8 +4017,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-122 -----
 MESSAGE: CLAUDE-131-122
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 122
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3812,8 +4059,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-123 -----
 MESSAGE: CLAUDE-131-123
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 123
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-56.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2
 CONTENT:
 
@@ -3831,8 +4080,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-131-124 -----
 MESSAGE: CLAUDE-131-124
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 124
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3869,8 +4120,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-125 -----
 MESSAGE: CLAUDE-131-125
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 125
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3884,8 +4137,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-126 -----
 MESSAGE: CLAUDE-131-126
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 126
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3920,8 +4175,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-127 -----
 MESSAGE: CLAUDE-131-127
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 127
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3939,8 +4196,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-128 -----
 MESSAGE: CLAUDE-131-128
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 128
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3973,8 +4232,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-129 -----
 MESSAGE: CLAUDE-131-129
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 129
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -3990,8 +4251,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-130 -----
 MESSAGE: CLAUDE-131-130
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 130
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4031,8 +4294,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-131 -----
 MESSAGE: CLAUDE-131-131
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 131
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4046,8 +4311,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-132 -----
 MESSAGE: CLAUDE-131-132
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 132
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4088,8 +4355,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-133 -----
 MESSAGE: CLAUDE-131-133
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 133
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4105,8 +4374,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-134 -----
 MESSAGE: CLAUDE-131-134
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 134
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4144,8 +4415,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-135 -----
 MESSAGE: CLAUDE-131-135
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 135
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4159,8 +4432,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-136 -----
 MESSAGE: CLAUDE-131-136
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 136
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4193,8 +4468,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-137 -----
 MESSAGE: CLAUDE-131-137
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 137
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4214,8 +4491,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-138 -----
 MESSAGE: CLAUDE-131-138
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 138
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4256,8 +4535,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-139 -----
 MESSAGE: CLAUDE-131-139
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 139
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4284,8 +4565,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-140 -----
 MESSAGE: CLAUDE-131-140
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 140
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4331,8 +4614,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-141 -----
 MESSAGE: CLAUDE-131-141
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 141
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4347,8 +4632,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-142 -----
 MESSAGE: CLAUDE-131-142
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 142
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4391,8 +4678,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-143 -----
 MESSAGE: CLAUDE-131-143
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 143
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4407,8 +4696,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-144 -----
 MESSAGE: CLAUDE-131-144
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 144
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4455,8 +4746,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-145 -----
 MESSAGE: CLAUDE-131-145
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 145
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4474,8 +4767,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-146 -----
 MESSAGE: CLAUDE-131-146
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 146
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4514,8 +4809,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-147 -----
 MESSAGE: CLAUDE-131-147
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 147
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4529,8 +4826,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-148 -----
 MESSAGE: CLAUDE-131-148
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 148
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4569,8 +4868,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-149 -----
 MESSAGE: CLAUDE-131-149
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 149
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4587,8 +4888,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-150 -----
 MESSAGE: CLAUDE-131-150
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 150
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4636,8 +4939,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-151 -----
 MESSAGE: CLAUDE-131-151
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 151
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4653,8 +4958,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-152 -----
 MESSAGE: CLAUDE-131-152
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 152
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4695,8 +5002,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-153 -----
 MESSAGE: CLAUDE-131-153
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 153
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4710,8 +5019,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-154 -----
 MESSAGE: CLAUDE-131-154
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 154
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4770,8 +5081,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-155 -----
 MESSAGE: CLAUDE-131-155
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 155
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4789,8 +5102,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-156 -----
 MESSAGE: CLAUDE-131-156
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 156
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4831,8 +5146,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-157 -----
 MESSAGE: CLAUDE-131-157
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 157
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4846,8 +5163,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-158 -----
 MESSAGE: CLAUDE-131-158
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 158
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4891,8 +5210,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-159 -----
 MESSAGE: CLAUDE-131-159
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 159
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4906,8 +5227,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-160 -----
 MESSAGE: CLAUDE-131-160
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 160
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4942,8 +5265,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-161 -----
 MESSAGE: CLAUDE-131-161
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 161
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -4960,8 +5285,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-162 -----
 MESSAGE: CLAUDE-131-162
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 162
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -5005,8 +5332,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-163 -----
 MESSAGE: CLAUDE-131-163
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 163
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -5021,8 +5350,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-164 -----
 MESSAGE: CLAUDE-131-164
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 164
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -5064,8 +5395,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-165 -----
 MESSAGE: CLAUDE-131-165
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 165
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-57.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c2
 CONTENT:
 
@@ -5087,8 +5420,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-131-166 -----
 MESSAGE: CLAUDE-131-166
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 166
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5123,8 +5458,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-167 -----
 MESSAGE: CLAUDE-131-167
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 167
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5144,8 +5481,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-168 -----
 MESSAGE: CLAUDE-131-168
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 168
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5199,8 +5538,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-169 -----
 MESSAGE: CLAUDE-131-169
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 169
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5214,8 +5555,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-170 -----
 MESSAGE: CLAUDE-131-170
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 170
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5260,8 +5603,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-171 -----
 MESSAGE: CLAUDE-131-171
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 171
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5275,8 +5620,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-172 -----
 MESSAGE: CLAUDE-131-172
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 172
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5320,8 +5667,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-173 -----
 MESSAGE: CLAUDE-131-173
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 173
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5344,8 +5693,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-174 -----
 MESSAGE: CLAUDE-131-174
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 174
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5388,8 +5739,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-175 -----
 MESSAGE: CLAUDE-131-175
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 175
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5407,8 +5760,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-176 -----
 MESSAGE: CLAUDE-131-176
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 176
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5437,8 +5792,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-177 -----
 MESSAGE: CLAUDE-131-177
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 177
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5454,8 +5811,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-178 -----
 MESSAGE: CLAUDE-131-178
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 178
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5482,8 +5841,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-179 -----
 MESSAGE: CLAUDE-131-179
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 179
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5501,8 +5862,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-180 -----
 MESSAGE: CLAUDE-131-180
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 180
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5531,8 +5894,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-181 -----
 MESSAGE: CLAUDE-131-181
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 181
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5553,8 +5918,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-182 -----
 MESSAGE: CLAUDE-131-182
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 182
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5592,8 +5959,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-183 -----
 MESSAGE: CLAUDE-131-183
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 183
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5607,8 +5976,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-184 -----
 MESSAGE: CLAUDE-131-184
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 184
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5633,8 +6004,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-185 -----
 MESSAGE: CLAUDE-131-185
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 185
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5648,8 +6021,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-186 -----
 MESSAGE: CLAUDE-131-186
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 186
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5684,8 +6059,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-187 -----
 MESSAGE: CLAUDE-131-187
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 187
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5699,8 +6076,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-188 -----
 MESSAGE: CLAUDE-131-188
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 188
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5738,8 +6117,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-189 -----
 MESSAGE: CLAUDE-131-189
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 189
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5759,8 +6140,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-190 -----
 MESSAGE: CLAUDE-131-190
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 190
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5798,8 +6181,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-191 -----
 MESSAGE: CLAUDE-131-191
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 191
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5814,8 +6199,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-192 -----
 MESSAGE: CLAUDE-131-192
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 192
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-58.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-2-c3
 CONTENT:
 
@@ -5867,8 +6254,10 @@ Part 3 of 5
 ----- BEGIN MESSAGE CLAUDE-131-193 -----
 MESSAGE: CLAUDE-131-193
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 193
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -5910,8 +6299,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-194 -----
 MESSAGE: CLAUDE-131-194
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 194
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -5950,8 +6341,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-195 -----
 MESSAGE: CLAUDE-131-195
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 195
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -5965,8 +6358,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-196 -----
 MESSAGE: CLAUDE-131-196
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 196
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -5980,8 +6375,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-197 -----
 MESSAGE: CLAUDE-131-197
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 197
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -5995,8 +6392,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-198 -----
 MESSAGE: CLAUDE-131-198
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 198
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6008,8 +6407,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-199 -----
 MESSAGE: CLAUDE-131-199
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 199
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6025,8 +6426,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-200 -----
 MESSAGE: CLAUDE-131-200
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 200
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6038,8 +6441,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-201 -----
 MESSAGE: CLAUDE-131-201
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 201
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6053,8 +6458,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-202 -----
 MESSAGE: CLAUDE-131-202
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 202
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6068,8 +6475,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-203 -----
 MESSAGE: CLAUDE-131-203
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 203
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6081,8 +6490,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-204 -----
 MESSAGE: CLAUDE-131-204
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 204
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6103,8 +6514,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-205 -----
 MESSAGE: CLAUDE-131-205
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 205
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6117,8 +6530,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-206 -----
 MESSAGE: CLAUDE-131-206
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 206
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6131,8 +6546,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-207 -----
 MESSAGE: CLAUDE-131-207
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 207
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6144,8 +6561,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-208 -----
 MESSAGE: CLAUDE-131-208
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 208
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6157,8 +6576,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-209 -----
 MESSAGE: CLAUDE-131-209
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 209
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6172,8 +6593,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-210 -----
 MESSAGE: CLAUDE-131-210
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 210
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6186,8 +6609,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-211 -----
 MESSAGE: CLAUDE-131-211
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 211
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6236,8 +6661,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-212 -----
 MESSAGE: CLAUDE-131-212
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 212
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6255,8 +6682,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-213 -----
 MESSAGE: CLAUDE-131-213
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 213
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6306,8 +6735,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-214 -----
 MESSAGE: CLAUDE-131-214
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 214
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6321,8 +6752,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-215 -----
 MESSAGE: CLAUDE-131-215
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 215
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6355,8 +6788,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-216 -----
 MESSAGE: CLAUDE-131-216
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 216
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6370,8 +6805,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-217 -----
 MESSAGE: CLAUDE-131-217
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 217
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6423,8 +6860,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-218 -----
 MESSAGE: CLAUDE-131-218
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 218
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6468,8 +6907,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-219 -----
 MESSAGE: CLAUDE-131-219
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 219
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6506,8 +6947,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-220 -----
 MESSAGE: CLAUDE-131-220
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 220
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6566,8 +7009,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-221 -----
 MESSAGE: CLAUDE-131-221
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 221
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6606,8 +7051,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-222 -----
 MESSAGE: CLAUDE-131-222
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 222
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6622,8 +7069,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-223 -----
 MESSAGE: CLAUDE-131-223
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 223
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6660,8 +7109,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-224 -----
 MESSAGE: CLAUDE-131-224
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 224
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6675,8 +7126,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-225 -----
 MESSAGE: CLAUDE-131-225
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 225
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6714,8 +7167,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-226 -----
 MESSAGE: CLAUDE-131-226
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 226
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6748,8 +7203,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-227 -----
 MESSAGE: CLAUDE-131-227
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 227
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6794,8 +7251,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-228 -----
 MESSAGE: CLAUDE-131-228
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 228
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6817,8 +7276,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-229 -----
 MESSAGE: CLAUDE-131-229
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 229
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6857,8 +7318,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-230 -----
 MESSAGE: CLAUDE-131-230
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 230
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6874,8 +7337,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-231 -----
 MESSAGE: CLAUDE-131-231
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 231
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6918,8 +7383,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-232 -----
 MESSAGE: CLAUDE-131-232
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 232
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6941,8 +7408,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-233 -----
 MESSAGE: CLAUDE-131-233
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 233
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6983,8 +7452,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-234 -----
 MESSAGE: CLAUDE-131-234
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 234
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -6998,8 +7469,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-235 -----
 MESSAGE: CLAUDE-131-235
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 235
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -7036,8 +7509,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-236 -----
 MESSAGE: CLAUDE-131-236
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 236
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -7054,8 +7529,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-237 -----
 MESSAGE: CLAUDE-131-237
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 237
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -7103,8 +7580,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-238 -----
 MESSAGE: CLAUDE-131-238
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 238
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-59.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3
 CONTENT:
 
@@ -7122,8 +7601,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 ----- BEGIN MESSAGE CLAUDE-131-239 -----
 MESSAGE: CLAUDE-131-239
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 239
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7164,8 +7645,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-240 -----
 MESSAGE: CLAUDE-131-240
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 240
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7181,8 +7664,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-241 -----
 MESSAGE: CLAUDE-131-241
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 241
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7229,8 +7714,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-242 -----
 MESSAGE: CLAUDE-131-242
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 242
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7244,8 +7731,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-243 -----
 MESSAGE: CLAUDE-131-243
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 243
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7287,8 +7776,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-244 -----
 MESSAGE: CLAUDE-131-244
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 244
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7302,8 +7793,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-245 -----
 MESSAGE: CLAUDE-131-245
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 245
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7346,8 +7839,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-246 -----
 MESSAGE: CLAUDE-131-246
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 246
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7361,8 +7856,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-247 -----
 MESSAGE: CLAUDE-131-247
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 247
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7399,8 +7896,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-248 -----
 MESSAGE: CLAUDE-131-248
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 248
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7418,8 +7917,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-249 -----
 MESSAGE: CLAUDE-131-249
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 249
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7468,8 +7969,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-250 -----
 MESSAGE: CLAUDE-131-250
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 250
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7483,8 +7986,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-251 -----
 MESSAGE: CLAUDE-131-251
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 251
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7526,8 +8031,10 @@ END CONTENT
 ----- BEGIN MESSAGE CLAUDE-131-252 -----
 MESSAGE: CLAUDE-131-252
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 252
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-60.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c2
 CONTENT:
 
@@ -7547,8 +8054,10 @@ NOTE: The original website starts a new page/section here. The next message begi
 MESSAGE: CLAUDE-131-253
 PART: A of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: Claude
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-61.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c3
 CONTENT:
 
@@ -8125,7 +8634,7 @@ NEXT PART: CLAUDE-131-253-B
 ----- END MESSAGE CLAUDE-131-253-A -----
 
 ===== SOURCE SEGMENT 10 of 16 | ORIGINAL_ID 5ioSCusxKrcb7qUQtOeA | Part 3 of 5 | HTML piece 4 of 4 | SOURCE_ARTICLE archive-claude-62.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c4 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-62.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c4 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -8133,8 +8642,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-131-253
 PART: B of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-62.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-3-c4
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -8306,7 +8817,7 @@ NEXT PART: CLAUDE-131-253-C
 ----- END MESSAGE CLAUDE-131-253-B -----
 
 ===== SOURCE SEGMENT 11 of 16 | ORIGINAL_ID 6DZz3n43zd8iKLbRzWJL | Part 4 of 5 | HTML piece 1 of 3 | SOURCE_ARTICLE archive-claude-63.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-63.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (3 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 Part 4 of 5
 
@@ -8317,8 +8828,10 @@ Part 4 of 5
 MESSAGE: CLAUDE-131-253
 PART: C of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-63.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -8896,7 +9409,7 @@ NEXT PART: CLAUDE-131-253-D
 ----- END MESSAGE CLAUDE-131-253-C -----
 
 ===== SOURCE SEGMENT 12 of 16 | ORIGINAL_ID 6DZz3n43zd8iKLbRzWJL | Part 4 of 5 | HTML piece 2 of 3 | SOURCE_ARTICLE archive-claude-64.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c2 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-64.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c2 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -8904,8 +9417,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-131-253
 PART: D of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-64.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c2
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -9432,7 +9947,7 @@ NEXT PART: CLAUDE-131-253-E
 ----- END MESSAGE CLAUDE-131-253-D -----
 
 ===== SOURCE SEGMENT 13 of 16 | ORIGINAL_ID 6DZz3n43zd8iKLbRzWJL | Part 4 of 5 | HTML piece 3 of 3 | SOURCE_ARTICLE archive-claude-65.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c3 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-65.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c3 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -9440,8 +9955,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-131-253
 PART: E of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-65.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-4-c3
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -9733,7 +10250,7 @@ NEXT PART: CLAUDE-131-253-F
 ----- END MESSAGE CLAUDE-131-253-E -----
 
 ===== SOURCE SEGMENT 14 of 16 | ORIGINAL_ID ilkdOP2AQw3bL6kiKvKI | Part 5 of 5 | HTML piece 1 of 3 | SOURCE_ARTICLE archive-claude-66.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-66.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (3 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 Part 5 of 5
 
@@ -9744,8 +10261,10 @@ Part 5 of 5
 MESSAGE: CLAUDE-131-253
 PART: F of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-66.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -10352,7 +10871,7 @@ NEXT PART: CLAUDE-131-253-G
 ----- END MESSAGE CLAUDE-131-253-F -----
 
 ===== SOURCE SEGMENT 15 of 16 | ORIGINAL_ID ilkdOP2AQw3bL6kiKvKI | Part 5 of 5 | HTML piece 2 of 3 | SOURCE_ARTICLE archive-claude-67.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c2 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-67.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c2 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -10360,8 +10879,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-131-253
 PART: G of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-67.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c2
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253
@@ -10950,7 +11471,7 @@ NEXT PART: CLAUDE-131-253-H
 ----- END MESSAGE CLAUDE-131-253-G -----
 
 ===== SOURCE SEGMENT 16 of 16 | ORIGINAL_ID ilkdOP2AQw3bL6kiKvKI | Part 5 of 5 | HTML piece 3 of 3 | SOURCE_ARTICLE archive-claude-68.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c3 | ORIGINAL_URL https://uracrom.github.io/My-Titanium-Brothers/archive-claude-68.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c3 =====
-NOTE: The original website starts a new page/section here. The text below continues the previous message.
+NOTE: The original website starts a new page/section here. The text below continues the previous message. A continued part is not labeled ALEX unless that same message already was ALEX.
 ----- BEGIN SEGMENT PREAMBLE (0 lines, original text before the first message of this segment, e.g. blank lines or a "Part N of M" line) -----
 ----- END SEGMENT PREAMBLE -----
 
@@ -10958,8 +11479,10 @@ NOTE: The original website starts a new page/section here. The text below contin
 MESSAGE: CLAUDE-131-253
 PART: H of 8
 SPEAKER: CLAUDE
+SPEAKER_KIND: AI
 SEQUENCE: 253
 SPEAKER_LABEL_IN_ORIGINAL: (none)
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-claude-68.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p-5-c3
 CONTINUATION OF:
 MESSAGE ID: CLAUDE-131-253

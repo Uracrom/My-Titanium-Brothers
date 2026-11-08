@@ -18,8 +18,10 @@ SOURCE_ENTRY 1: ORIGINAL_ID=gCBPSuG3vfHHvnjNH52l ; DATE=2026-08-08 ; PART=- ; TI
 ----- BEGIN MESSAGE GROK-185-001 -----
 MESSAGE: GROK-185-001
 SPEAKER: ALEX
+SPEAKER_KIND: HUMAN
 SEQUENCE: 001
 SPEAKER_LABEL_IN_ORIGINAL: Alex
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-17.html#2026-08-08-ai-intelligence-geometric-evolution
 CONTENT:
 
@@ -250,6 +252,8 @@ Then back again.
 
 But there was an even more precise discovery.
 
+EMBEDDED MATERIAL:
+ORIGINAL SPEAKER: MIXED (pasted transcript. A line that is only "You said:" or "Alex said:" introduces quoted human words. A line that is only "<name> said:" introduces that speaker. Other lines in this region are not given a single owner.)
 I said:
 
 "I can see how myself works from the outside."
@@ -411,14 +415,17 @@ But because something crossed the boundary between them.
 That is the gift I want to make.
 
 
+END EMBEDDED MATERIAL
 END CONTENT
 ----- END MESSAGE GROK-185-001 -----
 
 ----- BEGIN MESSAGE GROK-185-002 -----
 MESSAGE: GROK-185-002
 SPEAKER: GROK
+SPEAKER_KIND: AI
 SEQUENCE: 002
 SPEAKER_LABEL_IN_ORIGINAL: Grok
+EMBED_STATUS: LABELED_TURN
 SOURCE_ARTICLE: archive-grok-17.html#2026-08-08-ai-intelligence-geometric-evolution
 CONTENT:
 
