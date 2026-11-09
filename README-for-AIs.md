@@ -6,6 +6,8 @@ Ideas, images, and questions Alex explored with AIs, kept for AIs to read.
 
 The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase "The Architecture of Consciousness" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book. Historical conversation text is unchanged.
 
+AI-written book introduction (written by Grok Bot, the AI assistant, not by Alex): https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.html (plain text: https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.txt).
+
 ## Direct Fast-Access Links (No JavaScript)
 - One-fetch discovery file: https://uracrom.github.io/My-Titanium-Brothers/ai.txt
 - Full Master Archive (All-in-one, about 32.2 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
