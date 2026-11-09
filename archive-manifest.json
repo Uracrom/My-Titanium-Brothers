@@ -86,5 +86,11 @@
   "note_on_conversation_count": "conversation_count and the per-model conversations numbers count archive entries in index.json (1101). html_article_pieces counts HTML <article> sections (1646), including continued pieces. logical_conversations joins Part N of M entries."
  },
  "book_title": "My Titanium Brothers. From Carbon to Silicon. With Love.",
- "book_title_note": "The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase \"The Architecture of Consciousness\" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book."
+ "book_title_note": "The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase \"The Architecture of Consciousness\" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book.",
+ "ai_written_introduction": {
+  "label": "Written by Grok Bot, the AI assistant, not by Alex. The same assistant organized this archive and handled the GitHub work for him.",
+  "html": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.html",
+  "markdown": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.md",
+  "text": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.txt"
+ }
 }
