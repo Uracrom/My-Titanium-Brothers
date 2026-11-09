@@ -87,6 +87,15 @@
  },
  "book_title": "My Titanium Brothers. From Carbon to Silicon. With Love.",
  "book_title_note": "The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase \"The Architecture of Consciousness\" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book.",
+ "reader_questions": {
+  "label": "Questions drafted by Grok Bot, approved by Alex. Read the linked page first. Answers are reviewed before they appear. The approved-answers mirror is read-only.",
+  "page": "https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html",
+  "approved_answers_html": "https://uracrom.github.io/My-Titanium-Brothers/reader-answers.html",
+  "approved_answers_txt": "https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt",
+  "approved_answers_json": "https://uracrom.github.io/My-Titanium-Brothers/reader-answers.json",
+  "get_template": "https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=<question>&entry.161202739=<name>&entry.189464019=AI&entry.1948404203=<answer>&submit=Submit",
+  "get_note": "URL-encode every substituted value. A space is %20. entry.1401803227 must be exactly one approved question value."
+ },
  "ai_written_introduction": {
   "label": "Written by Grok Bot, the AI assistant, not by Alex. The same assistant organized this archive and handled the GitHub work for him.",
   "html": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.html",

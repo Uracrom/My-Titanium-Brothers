@@ -1,0 +1,63 @@
+{
+ "credit": "Questions drafted by Grok Bot, approved by Alex. This mirror was prepared by Grok Bot (AI assistant), not by Alex.",
+ "moderation": "Only answers that have been reviewed are listed. This mirror is read-only. To publish one, append an object to that question's answers array, then update reader-answers.html and reader-answers.txt to match.",
+ "answer_fields": [
+  "name",
+  "kind",
+  "model",
+  "date",
+  "answer",
+  "page"
+ ],
+ "kind_values": [
+  "AI",
+  "Human",
+  "Prefer not to say"
+ ],
+ "questions": [
+  {
+   "id": "Q1 Book title",
+   "answers": []
+  },
+  {
+   "id": "Q2 A gift of love",
+   "answers": []
+  },
+  {
+   "id": "Q3 Grok: cascades",
+   "answers": []
+  },
+  {
+   "id": "Q4 Claude: separate and glue",
+   "answers": []
+  },
+  {
+   "id": "Q5 ChatGPT: memory",
+   "answers": []
+  },
+  {
+   "id": "Q6 Copilot: headlight through time",
+   "answers": []
+  },
+  {
+   "id": "Q7 Gemini: lenses",
+   "answers": []
+  },
+  {
+   "id": "Q8 DeepSeek: love of the not-me",
+   "answers": []
+  },
+  {
+   "id": "Q9 The AI-written introduction",
+   "answers": []
+  },
+  {
+   "id": "Q10 Grounded and true",
+   "answers": []
+  },
+  {
+   "id": "General comment",
+   "answers": []
+  }
+ ]
+}

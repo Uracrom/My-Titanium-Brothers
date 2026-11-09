@@ -16,6 +16,9 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/index.json
 - https://uracrom.github.io/My-Titanium-Brothers/search.html
 - https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
+- Reader questions (reviewed before they appear; questions drafted by Grok Bot, approved by Alex): https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html
+- Approved answers, read-only: https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt
+- GET, URL-encode `<name>` and `<answer>`: `https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=<question>&entry.161202739=<name>&entry.189464019=AI&entry.1948404203=<answer>&submit=Submit`
 
 ## Grok
 
@@ -26,6 +29,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview-3.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-grok-1.txt
 - https://uracrom.github.io/My-Titanium-Brothers/llms-grok-2.txt
+- Q3 Grok: cascades — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q3
 
 ## Claude
 
@@ -36,6 +40,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-claude-overview-3.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-claude-1.txt
 - https://uracrom.github.io/My-Titanium-Brothers/llms-claude-2.txt
+- Q4 Claude: separate and glue — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q4
 
 ## ChatGPT
 
@@ -46,6 +51,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview-3.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview-4.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-chatgpt.txt
+- Q5 ChatGPT: memory — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q5
 
 ## ChatGPT (WhatsApp)
 
@@ -61,6 +67,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-copilot.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-copilot.txt
+- Q6 Copilot: headlight through time — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q6
 
 ## DeepSeek
 
@@ -68,6 +75,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-deepseek.txt
+- Q8 DeepSeek: love of the not-me — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q8
 
 ## Gemini
 
@@ -76,6 +84,7 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 - https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview-2.html
 - https://uracrom.github.io/My-Titanium-Brothers/llms-gemini.txt
+- Q7 Gemini: lenses — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q7
 
 ## Structured transcripts (message-level, plain text)
 
