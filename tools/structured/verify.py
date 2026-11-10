@@ -264,7 +264,10 @@ def check_discovery_files():
     pre_start = page.find('<pre style="white-space:pre-wrap')
     pre_gt = page.find('>', pre_start)
     pre_end = page.find('</pre>', pre_gt)
-    if page[pre_gt + 1:pre_end] != ai:
+    # The homepage omits one sentence that ai.txt still carries, so the embedded map
+    # is ai.txt without that sentence and its newline.
+    omitted = 'The phrase "The Architecture of Consciousness" was suggested by an unspecified AI. It was never Alex\'s idea or intention, and it remained only unintentionally. It is not the title of this site or of the book.\n'
+    if page[pre_gt + 1:pre_end] != ai.replace(omitted, '', 1):
         errors.append('homepage discovery map does not match ai.txt')
     if '<details' not in page or '<details open' in page:
         errors.append('homepage discovery map should stay collapsed')
