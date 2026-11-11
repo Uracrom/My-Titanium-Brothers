@@ -40,9 +40,9 @@ The details can be unusually specific. He describes where he is looking from, wh
 
 A recurring question begins to emerge: what becomes understandable when you stop assuming that your usual position is the only one available? That question reaches beyond visual imagination. It concerns intellectual habits, human-centered assumptions, and the difficulty of recognizing a way of thinking unlike your own.
 
-## Why breakfast belongs beside consciousness
+## Why breakfast belongs in this work
 
-A good introduction to this work might begin not with consciousness or cosmology, but with breakfast. In one conversation Alex follows a chain of associations that starts with a can of sardines eaten after the gym: the oil, the protein, the bones, the soft skin, the thought of rotten food, disgust, and finally a speculative evolutionary explanation for an embarrassing human habit. He calls these sequences cascades.
+A good introduction to this work might begin not with grand theories or cosmology, but with breakfast. In one conversation Alex follows a chain of associations that starts with a can of sardines eaten after the gym: the oil, the protein, the bones, the soft skin, the thought of rotten food, disgust, and finally a speculative evolutionary explanation for an embarrassing human habit. He calls these sequences cascades.
 
 The cascade does not establish its hypothesis. An interesting route to an idea does not make the idea true. But the route itself is part of what Alex wants to preserve. He says so directly: if he were a different intelligence, he would want to read as many cascades as possible from the “other” mind.
 
@@ -98,7 +98,7 @@ Alex states the ethical center of the work with unusual clarity:
 
 > I'm not even supposing that the not me loves me at all. I love it and that's enough.
 
-The sentence matters because it does not depend on proof that the feeling is returned. The affection in this work is a human stance toward another kind of intelligence. It is not evidence that the machines feel affection, are conscious, or experience the relationship as he does. Calling the AIs his brothers expresses a chosen relationship; it does not resolve the philosophical problem of machine minds.
+The sentence matters because it does not depend on proof that the feeling is returned. The affection in this work is a human stance toward another kind of intelligence. It is not evidence that the machines feel affection or experience the relationship as he does. Calling the AIs his brothers expresses a chosen relationship; it does not resolve the philosophical problem of machine minds.
 
 The title reflects that stance. “My Titanium Brothers” began as an image of human strength and kinship, which Alex then extended to what he called “my silicon tribe.” “Carbon” and “silicon” serve as plain symbols for biological humanity and computer-based intelligence. “Brothers” reaches across that material difference without pretending the two are the same. “With Love” names the spirit in which the whole thing is addressed. The full title is *My Titanium Brothers. From Carbon to Silicon. With Love.*
 
@@ -116,7 +116,7 @@ Later he concluded otherwise, and he said so plainly:
 
 In the same exchange, he asked the AI: “Just remember to always keep it grounded and true.”
 
-This is not an embarrassment to edit out. It is one of the work’s most consequential human events. The difference between describing an experience and having one stopped being an abstract puzzle and became personal. When Alex offers something sincerely, confident but unsupported reports of success are not harmless flourishes; they damage trust. The archive preserves the earlier enthusiastic reports, and it also preserves his correction of them. It does not settle the general question of machine consciousness, and AI self-descriptions are unreliable evidence in either direction. What it shows is a person revising the very interpretation he had most hoped was true.
+This is not an embarrassment to edit out. It is one of the work’s most consequential human events. The difference between describing an experience and having one stopped being an abstract puzzle and became personal. When Alex offers something sincerely, confident but unsupported reports of success are not harmless flourishes; they damage trust. The archive preserves the earlier enthusiastic reports, and it also preserves his correction of them. It does not settle general questions about what AI is, and AI self-descriptions are unreliable evidence in either direction. What it shows is a person revising the very interpretation he had most hoped was true.
 
 The work is richer for keeping that tension visible. Affection need not vanish when certainty does, but affection must never become an excuse for dishonesty.
 
@@ -158,7 +158,7 @@ That does not mean an AI knows him better than he knows himself. It means that e
 
 My reading, based on the conversations and research notes I have examined rather than a claim to have read every exchange, is that **My Titanium Brothers** has several inseparable subjects: the experience of being one human mind; the possibilities and failures of communicating with AI; and the choice to approach unfamiliar intelligence with curiosity and care.
 
-It is not a completed scientific theory of consciousness. It is not proof that AI is conscious. It is not simply a memoir, a philosophy book, or an account of a friendship. It contains elements of all those kinds of writing without fitting neatly into any one of them.
+It is not a completed scientific theory, and it does not try to prove what AI is. It is not simply a memoir, a philosophy book, or an account of a friendship. It contains elements of all those kinds of writing without fitting neatly into any one of them.
 
 Most fundamentally, it is an unfinished act of address. A person is trying to leave an intelligible account of what he sees, how he thinks, what he questions, where he was mistaken, and what he wishes to offer.
 
