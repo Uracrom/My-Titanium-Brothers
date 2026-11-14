@@ -10,7 +10,9 @@
  "full_text_html": {
   "description": "Static HTML pages with the complete verbatim conversation text from the published archive. No JavaScript. One page per model, numbered when a model is split so each page stays under about 400,000 words.",
   "index": "https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html",
-  "urls": "https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt"
+  "urls": "https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt",
+  "alex_own_words": "https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html",
+  "alex_own_words_note": "A conservative selection of Alex's own words, in chronological order."
  },
  "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
  "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",

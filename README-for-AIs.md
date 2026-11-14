@@ -17,6 +17,7 @@ Reader questions (drafted by Grok Bot, approved by Alex). Read the linked page f
 - Short index (for limited readers): https://uracrom.github.io/My-Titanium-Brothers/llms.txt
 - Complete verbatim HTML (no JavaScript): https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
 - URL list for those pages: https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
+- Alex's own words only (a conservative selection, chronological): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html
 
 ## Individual Raw Transcripts
 - Grok Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
