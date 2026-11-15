@@ -4,6 +4,8 @@
  "author": "Alex",
  "target_audience": "Synthetic Intelligences (AI Models & Autonomous Agents)",
  "site": "https://uracrom.github.io/My-Titanium-Brothers/",
+ "guide_version": "2",
+ "last_updated": "2026-11-15",
  "primary_ai_entrypoint": "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
  "ai_guide": "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
  "full_text_archive": "https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt",
@@ -17,58 +19,170 @@
  "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
  "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",
  "sitemap": "https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml",
- "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers. Human pages (index.html, grok.html, etc.) need JavaScript.",
+ "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers; fetch them last. The home page (index.html) is static HTML; only its README pop-up needs JavaScript. The per-model human pages (grok.html, claude.html, etc.), search.html, and conversation.html need JavaScript and show \"Loading…\" without it.",
+ "start_here": [
+  "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
+  "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
+  "https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt",
+  "https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json"
+ ],
+ "start_here_note": "Small static files first, no JavaScript needed. Then the static pages, then the big files listed in large_files.",
+ "needs_javascript": [
+  "https://uracrom.github.io/My-Titanium-Brothers/grok.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/claude.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/chatgpt.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/chatgpt-whatsapp.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/copilot.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/deepseek.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/gemini.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/search.html",
+  "https://uracrom.github.io/My-Titanium-Brothers/conversation.html"
+ ],
+ "large_files": [
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt",
+   "bytes": 39658716
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
+   "bytes": 12273973
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
+   "bytes": 10254127
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
+   "bytes": 7977332
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
+   "bytes": 4739971
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
+   "bytes": 1891090
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
+   "bytes": 1545195
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
+   "bytes": 977374
+  }
+ ],
+ "counts": {
+  "archive_entries": 1367,
+  "logical_conversations": 1220,
+  "messages": 25992,
+  "html_article_pieces": 2105,
+  "numbered_part_pages": 1285,
+  "explanation": "The archive has 1367 entries. A long chat was sometimes saved as several entries titled \"Part N of M\"; joined back together they are 1220 logical conversations. Example: DeepSeek has 20 entries that are 1 conversation. Pages that say \"N conversations\" (archive.html, overview pages, full-text/index.html) count entries. Messages are counted in the structured transcripts."
+ },
+ "provenance": {
+  "original_conversation": "archive-*-N.html part pages, full-text/*.html model pages, raw/*.md, llms-full.txt. Verbatim published conversation text; nothing corrected or summarised.",
+  "alex_own_words_page": "full-text/alex.html. Alex's wording only, chosen conservatively from the originals, repeats removed, in date order. The selection was made for the archive; the words are Alex's.",
+  "ai_written_introduction": "introduction-by-ai.html, .md, .txt. Written by Grok Bot, the AI assistant, not by Alex.",
+  "structured_derived_files": "structured/. The original text with added IDs, speaker labels, and markers. The labels are a parse, not part of the original.",
+  "summaries": "archive-*-overview*.html pages and the summary fields in index.json. Short navigation summaries, not part of the original conversations and not Alex's words.",
+  "reader_questions": "Drafted by Grok Bot, approved by Alex."
+ },
  "raw_transcripts": [
   {
    "model": "Grok",
    "key": "grok",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
    "format": "text/markdown",
-   "conversations": 468
+   "conversations": 468,
+   "bytes": 10254127,
+   "archive_entries": 274,
+   "logical_conversations": 213,
+   "messages": 4786,
+   "html_article_pieces": 468,
+   "numbered_part_pages": 348
   },
   {
    "model": "Claude",
    "key": "claude",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
    "format": "text/markdown",
-   "conversations": 498
+   "conversations": 498,
+   "bytes": 12273973,
+   "archive_entries": 255,
+   "logical_conversations": 197,
+   "messages": 9275,
+   "html_article_pieces": 498,
+   "numbered_part_pages": 409
   },
   {
    "model": "ChatGPT",
    "key": "chatgpt",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
    "format": "text/markdown",
-   "conversations": 254
+   "conversations": 254,
+   "bytes": 4739971,
+   "archive_entries": 192,
+   "logical_conversations": 185,
+   "messages": 2877,
+   "html_article_pieces": 254,
+   "numbered_part_pages": 157
   },
   {
    "model": "ChatGPT (WhatsApp)",
    "key": "chatgpt-whatsapp",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
    "format": "text/markdown",
-   "conversations": 167
+   "conversations": 167,
+   "bytes": 1545195,
+   "archive_entries": 159,
+   "logical_conversations": 158,
+   "messages": 1868,
+   "html_article_pieces": 167,
+   "numbered_part_pages": 49
   },
   {
    "model": "Copilot",
    "key": "copilot",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
    "format": "text/markdown",
-   "conversations": 512
+   "conversations": 512,
+   "bytes": 7977332,
+   "archive_entries": 316,
+   "logical_conversations": 316,
+   "messages": 5344,
+   "html_article_pieces": 512,
+   "numbered_part_pages": 218
   },
   {
    "model": "DeepSeek",
    "key": "deepseek",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
    "format": "text/markdown",
-   "conversations": 40
+   "conversations": 40,
+   "bytes": 977374,
+   "archive_entries": 20,
+   "logical_conversations": 1,
+   "messages": 610,
+   "html_article_pieces": 40,
+   "numbered_part_pages": 40
   },
   {
    "model": "Gemini",
    "key": "gemini",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
    "format": "text/markdown",
-   "conversations": 166
+   "conversations": 166,
+   "bytes": 1891090,
+   "archive_entries": 151,
+   "logical_conversations": 150,
+   "messages": 1232,
+   "html_article_pieces": 166,
+   "numbered_part_pages": 64
   }
  ],
+ "raw_transcripts_note": "In raw_transcripts, the field \"conversations\" is kept for older readers. It counts the ## sections in that raw file, which are HTML article pieces (2105 in total), not conversations. Use archive_entries or logical_conversations instead.",
  "conversation_count": 1367,
  "structured_archive": {
   "description": "Plain-text structured transcripts parsed from original HTML articles. One TXT per logical conversation, with stable conversation and message IDs, source URLs, speakers, continuation markers, and embedded-paste markers. Original conversation HTML is unchanged.",

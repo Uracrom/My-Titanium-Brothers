@@ -2,19 +2,39 @@
 
 > Ideas, images, and questions Alex explored with AIs, kept for AIs to read
 
+Guide version 2. Last updated 2026-11-15.
+
 Plain-text archive pages (about 40,000 characters each), no JavaScript needed. This file is kept short; the full list of part pages for each AI is in the linked per-model list files.
+
+Counts: 1367 archive entries, which are 1220 logical conversations once "Part N of M" entries are joined (for example, DeepSeek's 20 entries are 1 conversation), with 25992 messages. Alex is the only human speaker. Pages that say "N conversations" count entries.
+
+## Start here (small, static, no JavaScript)
+
+- Short guide for AI readers: https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
+- Complete verbatim text, one static HTML page per model (index is small; most linked pages are 1 to 2.8 MB): https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
+- Structured transcripts, short directory: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+- Structured transcripts guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+- Structured transcripts manifest: https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
+- One-fetch discovery file: https://uracrom.github.io/My-Titanium-Brothers/ai.txt
+- Manifest (counts, sizes, entry points): https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
+- Static archive home: https://uracrom.github.io/My-Titanium-Brothers/archive.html
+- Home page (static HTML; only its README pop-up needs JavaScript): https://uracrom.github.io/My-Titanium-Brothers/
+
+## Where each kind of text comes from
+
+- Original conversation: archive-*-N.html part pages, full-text/*.html model pages, raw/*.md, llms-full.txt. Verbatim.
+- Alex's own words page: full-text/alex.html. Alex's wording only, a conservative selection, repeats removed, in date order.
+- AI-written introduction: introduction-by-ai.*. Written by Grok Bot, not by Alex.
+- Structured derived files: structured/. Original text plus added IDs and speaker labels (a parse, not part of the original).
+- Summaries: archive-*-overview*.html and index.json summaries. Navigation aids, not original text, not Alex's words.
 
 ## Site
 
 - AI-written book introduction (by Grok Bot, not by Alex): https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.html
 - https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.txt
-- https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
-- https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
-- https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
-- https://uracrom.github.io/My-Titanium-Brothers/
-- https://uracrom.github.io/My-Titanium-Brothers/archive.html
-- https://uracrom.github.io/My-Titanium-Brothers/index.json
-- https://uracrom.github.io/My-Titanium-Brothers/search.html
+- Alex's own words only (conservative selection, chronological, 2.8 MB): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html
+- Plain list of full-text page URLs: https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
+- Machine index of every entry (JSON, about 780 KB): https://uracrom.github.io/My-Titanium-Brothers/index.json
 - https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
 - Reader questions (reviewed before they appear; questions drafted by Grok Bot, approved by Alex): https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html
 - Approved answers, read-only: https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt
@@ -22,69 +42,125 @@ Plain-text archive pages (about 40,000 characters each), no JavaScript needed. T
 
 ## Grok
 
-- https://uracrom.github.io/My-Titanium-Brothers/grok.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-grok.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview.html
+274 entries, 213 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-grok.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview-2.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview-3.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-grok-1.txt
-- https://uracrom.github.io/My-Titanium-Brothers/llms-grok-2.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-grok-1.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-grok-2.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/grok-1.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/grok-2.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/grok-3.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/grok-4.html
 - Q3 Grok: cascades — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q3
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/grok.html
 
 ## Claude
 
-- https://uracrom.github.io/My-Titanium-Brothers/claude.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-claude.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-claude-overview.html
+255 entries, 197 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-claude.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-claude-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-claude-overview-2.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-claude-overview-3.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-claude-1.txt
-- https://uracrom.github.io/My-Titanium-Brothers/llms-claude-2.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-claude-1.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-claude-2.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/claude-1.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/claude-2.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/claude-3.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/claude-4.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/claude-5.html
 - Q4 Claude: separate and glue — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q4
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/claude.html
 
 ## ChatGPT
 
-- https://uracrom.github.io/My-Titanium-Brothers/chatgpt.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview.html
+192 entries, 185 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview-2.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview-3.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-overview-4.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-chatgpt.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-chatgpt.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/chatgpt-1.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/chatgpt-2.html
 - Q5 ChatGPT: memory — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q5
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/chatgpt.html
 
 ## ChatGPT (WhatsApp)
 
-- https://uracrom.github.io/My-Titanium-Brothers/chatgpt-whatsapp.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-overview.html
+159 entries, 158 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-overview-2.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-chatgpt-whatsapp.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-chatgpt-whatsapp.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/chatgpt-whatsapp.html
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/chatgpt-whatsapp.html
 
 ## Copilot
 
-- https://uracrom.github.io/My-Titanium-Brothers/copilot.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-copilot.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-overview.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-copilot.txt
+316 entries, 316 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-overview.html
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-copilot.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot-1.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot-2.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot-3.html
+- https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot-4.html
 - Q6 Copilot: headlight through time — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q6
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/copilot.html
 
 ## DeepSeek
 
-- https://uracrom.github.io/My-Titanium-Brothers/deepseek.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-overview.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-deepseek.txt
+20 entries, 1 logical conversation.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-overview.html
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-deepseek.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/deepseek.html
 - Q8 DeepSeek: love of the not-me — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q8
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/deepseek.html
 
 ## Gemini
 
-- https://uracrom.github.io/My-Titanium-Brothers/gemini.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-gemini.html
-- https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview.html
+151 entries, 150 logical conversations.
+
+- Static index of part pages: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini.html
+- Overview (summaries): https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview.html
 - https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-overview-2.html
-- https://uracrom.github.io/My-Titanium-Brothers/llms-gemini.txt
+- List of part pages: https://uracrom.github.io/My-Titanium-Brothers/llms-gemini.txt
+- Full text, static: https://uracrom.github.io/My-Titanium-Brothers/full-text/gemini.html
 - Q7 Gemini: lenses — https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html#q7
+- Needs JavaScript: https://uracrom.github.io/My-Titanium-Brothers/gemini.html
+
+## Needs JavaScript (shows "Loading…" without it; use the static links above)
+
+- https://uracrom.github.io/My-Titanium-Brothers/grok.html
+- https://uracrom.github.io/My-Titanium-Brothers/claude.html
+- https://uracrom.github.io/My-Titanium-Brothers/chatgpt.html
+- https://uracrom.github.io/My-Titanium-Brothers/chatgpt-whatsapp.html
+- https://uracrom.github.io/My-Titanium-Brothers/copilot.html
+- https://uracrom.github.io/My-Titanium-Brothers/deepseek.html
+- https://uracrom.github.io/My-Titanium-Brothers/gemini.html
+- https://uracrom.github.io/My-Titanium-Brothers/search.html
+- https://uracrom.github.io/My-Titanium-Brothers/conversation.html
+
+## Big files (fetch last; exact sizes)
+
+- https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt (39,658,716 bytes, about 39.7 MB, all dialogues)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md (12,273,973 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md (10,254,127 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md (7,977,332 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md (4,739,971 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md (1,891,090 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md (1,545,195 bytes)
+- https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md (977,374 bytes)
 
 ## Structured transcripts (message-level, plain text)
 

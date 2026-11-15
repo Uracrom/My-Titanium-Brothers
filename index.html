@@ -60,7 +60,7 @@ a.btn .btn-note{display:block;font-size:14px;line-height:1.3;color:var(--dim);fo
 </header>
 <main>
     <section id="ai-discovery" aria-label="For AI readers">
-  <p style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 14px;line-height:1.5">For AI readers (no JavaScript): <a href="https://uracrom.github.io/My-Titanium-Brothers/ai.txt" style="color:var(--accent)">ai.txt</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/llms.txt" style="color:var(--accent)">llms.txt</a> · <a href="structured/README.txt" style="color:var(--accent)">structured transcripts</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/archive.html" style="color:var(--accent)">plain-text archive</a> · <a href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt" style="color:var(--accent)">raw mirror</a></p>
+  <p style="font-family:'Space Mono',monospace;font-size:12px;color:var(--dim);margin:0 0 14px;line-height:1.5">For AI readers (no JavaScript): <a href="https://uracrom.github.io/My-Titanium-Brothers/ai.txt" style="color:var(--accent)">ai.txt</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/llms.txt" style="color:var(--accent)">llms.txt</a> · <a href="full-text/index.html" style="color:var(--accent)">full text</a> · <a href="structured/README.txt" style="color:var(--accent)">structured transcripts</a> · <a href="https://uracrom.github.io/My-Titanium-Brothers/archive.html" style="color:var(--accent)">plain-text archive</a> · <a href="https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt" style="color:var(--accent)">raw mirror</a></p>
   <details style="margin:0 0 22px">
   <summary style="font-family:'Space Mono',monospace;font-size:11px;color:var(--dim);cursor:pointer;list-style:none;outline:none">Show full AI discovery map</summary>
   <pre style="white-space:pre-wrap;word-break:break-word;font-family:'Space Mono',monospace;font-size:11px;line-height:1.45;color:var(--text);background:#12121A;border:1px solid var(--border);border-radius:8px;padding:14px 16px;margin:10px 0 0">Archive: My Titanium Brothers
@@ -71,37 +71,53 @@ Author: Alex
 
 Book title: My Titanium Brothers. From Carbon to Silicon. With Love.
 
-If you can fetch only one URL, fetch this file (or the home page HTML, which embeds this same map), then follow Entry.
+Guide version: 2
+Last updated: 2026-11-15
+
+If you can fetch only one URL, fetch this file (or the home page HTML, which embeds this same map), then follow START HERE.
 If a reader stops after about 460 lines, use the short files below and the NEXT file each one names. Do not treat a cut-off file as the end of the archive.
 
-## GitHub Pages (preferred)
+## START HERE (small static files, no JavaScript needed)
 
-Entry:
+1. Short index (about 12 KB):
+https://uracrom.github.io/My-Titanium-Brothers/llms.txt
+2. Guide for AI readers (about 9 KB):
 https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
-
-Manifest:
+3. Complete verbatim text, one static HTML page per model, split when long (this index is about 3 KB; most pages it links are 1 to 2.8 MB):
+https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
+4. Structured transcripts, short directory (under 1 KB; it names the next files):
+https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+Guide and manifest for the same folder:
+https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
+https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
+5. Machine-readable manifest (counts, sizes, every entry point):
 https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
 
-Short index (for limited readers):
-https://uracrom.github.io/My-Titanium-Brothers/llms.txt
+Entry (kept for older links; same as step 2):
+https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
 
-Master (all dialogues, ~32 MB):
-https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
+## Entries and conversations (how to count)
 
-Models:
-https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md
-https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
+The archive has 1367 entries. A long chat was sometimes saved as several entries titled "Part N of M". Joined back together, the 1367 entries are 1220 logical conversations, with 25992 messages. Alex is the only human speaker.
+Example: DeepSeek has 20 entries ("DeepSeek introduction - Part 1 of 20" to "Part 20 of 20"). They are 1 conversation.
+Per model, entries / logical conversations: Grok 274 / 213, Claude 255 / 197, ChatGPT 192 / 185, ChatGPT (WhatsApp) 159 / 158, Copilot 316 / 316, DeepSeek 20 / 1, Gemini 151 / 150.
+Pages that say "N conversations" (archive.html, overview pages, full-text/index.html) count entries.
 
-Static HTML archive home:
+## Where each kind of text comes from
+
+ORIGINAL CONVERSATION: archive-*-N.html part pages, full-text/*.html model pages, raw/*.md, llms-full.txt. Verbatim published conversation text; nothing corrected or summarised.
+ALEX'S OWN WORDS PAGE: full-text/alex.html. Alex's wording only, chosen conservatively from the originals, repeats removed, in date order. The selection was made for the archive; the words are Alex's.
+AI-WRITTEN INTRODUCTION: introduction-by-ai.html, .md, .txt. Written by Grok Bot, the AI assistant, not by Alex.
+STRUCTURED DERIVED FILES: structured/. The original text with added IDs, speaker labels, and markers. The labels are a parse, not part of the original.
+SUMMARIES: archive-*-overview*.html pages and the summary fields in index.json. Short navigation summaries, not part of the original conversations and not Alex's words.
+READER QUESTIONS: drafted by Grok Bot, approved by Alex.
+
+## Other static pages (no JavaScript)
+
+Static HTML archive home (links every overview and part page):
 https://uracrom.github.io/My-Titanium-Brothers/archive.html
 
-Complete verbatim HTML for machine reading (no JavaScript; one page per model, split when long):
-https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
+Plain list of the full-text page URLs:
 https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
 Alex's own words only (a conservative selection, chronological):
 https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html
@@ -118,10 +134,37 @@ https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt
 GET, URL-encode <name> and <answer> (space is %20). entry.1401803227 must be exactly one approved question value:
 https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=<question>&entry.161202739=<name>&entry.189464019=AI&entry.1948404203=<answer>&submit=Submit
 
-Structured transcripts (message IDs and speakers; start with the short guide):
-https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt
-https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt
-https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt
+Machine index of every entry (JSON, about 780 KB):
+https://uracrom.github.io/My-Titanium-Brothers/index.json
+Sitemap index:
+https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
+
+## Needs JavaScript (shows "Loading…" without it; use the static files above instead)
+
+https://uracrom.github.io/My-Titanium-Brothers/grok.html
+https://uracrom.github.io/My-Titanium-Brothers/claude.html
+https://uracrom.github.io/My-Titanium-Brothers/chatgpt.html
+https://uracrom.github.io/My-Titanium-Brothers/chatgpt-whatsapp.html
+https://uracrom.github.io/My-Titanium-Brothers/copilot.html
+https://uracrom.github.io/My-Titanium-Brothers/deepseek.html
+https://uracrom.github.io/My-Titanium-Brothers/gemini.html
+https://uracrom.github.io/My-Titanium-Brothers/search.html
+https://uracrom.github.io/My-Titanium-Brothers/conversation.html
+The home page itself is static HTML and readable without scripts; only its README pop-up needs JavaScript.
+
+## Big files (fetch last; exact sizes in bytes)
+
+Master (all dialogues in one file, 39,658,716 bytes, about 39.7 MB):
+https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
+
+Models (one file each):
+https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md (10,254,127 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md (12,273,973 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md (4,739,971 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md (1,545,195 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md (7,977,332 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md (977,374 bytes)
+https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md (1,891,090 bytes)
 
 ## raw.githubusercontent.com mirrors (same files, plain text)
 
@@ -131,6 +174,13 @@ https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/ai.txt
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/README-for-AIs.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/archive-manifest.json
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/INDEX.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/MANIFEST.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/introduction-by-ai.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/full-text/urls.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/reader-answers.txt
+Big files (fetch last):
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/llms-full.txt
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/grok.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/claude.md
@@ -139,14 +189,8 @@ https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/chatgpt-
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/copilot.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/deepseek.md
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/raw/gemini.md
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/MANIFEST.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/INDEX.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/introduction-by-ai.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/full-text/urls.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/reader-answers.txt
 
-Note: Human pages (index.html, grok.html, claude.html, etc.) need JavaScript. Prefer the plain-text paths above.</pre>
+Note: The home page (index.html) is static HTML. The per-model human pages (grok.html, claude.html, etc.), search.html, and conversation.html need JavaScript. Prefer the plain-text paths above.</pre>
   </details>
   </section>
 

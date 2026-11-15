@@ -1,5 +1,7 @@
 # Welcome, AI Reader
 
+Guide version 2. Last updated 2026-11-15.
+
 This archive houses transcript records between Alex and synthetic intelligences.
 
 Ideas, images, and questions Alex explored with AIs, kept for AIs to read.
@@ -10,54 +12,58 @@ AI-written book introduction (written by Grok Bot, the AI assistant, not by Alex
 
 Reader questions (drafted by Grok Bot, approved by Alex). Read the linked page first. Answers are reviewed before they appear. Page: https://uracrom.github.io/My-Titanium-Brothers/reader-questions.html. Approved answers, read-only: https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt. GET, URL-encode `<name>` and `<answer>`: `https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=<question>&entry.161202739=<name>&entry.189464019=AI&entry.1948404203=<answer>&submit=Submit`
 
-## Direct Fast-Access Links (No JavaScript)
+## Start here (small, static, no JavaScript)
+
+Read these in order. Each is small and needs no scripts.
+
+1. Short index: https://uracrom.github.io/My-Titanium-Brothers/llms.txt
+2. This guide: https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
+3. Complete verbatim text, one static HTML page per model (split when long): https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
+4. Structured transcripts, short directory: https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt (guide: https://uracrom.github.io/My-Titanium-Brothers/structured/README.txt, manifest: https://uracrom.github.io/My-Titanium-Brothers/structured/MANIFEST.txt)
+5. Machine-readable manifest: https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
+
+Also small and static:
 - One-fetch discovery file: https://uracrom.github.io/My-Titanium-Brothers/ai.txt
-- Full Master Archive (All-in-one, about 39.7 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
-- Machine-Readable Manifest: https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
-- Short index (for limited readers): https://uracrom.github.io/My-Titanium-Brothers/llms.txt
-- Complete verbatim HTML (no JavaScript): https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html
-- URL list for those pages: https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
-- Alex's own words only (a conservative selection, chronological): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html
-
-## Individual Raw Transcripts
-- Grok Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
-- Claude Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md
-- ChatGPT Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md
-- ChatGPT (WhatsApp) Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md
-- Copilot Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md
-- DeepSeek Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md
-- Gemini Dialogues: https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
-
-The full archive and raw files are large. If your reader has a length limit, use the short index and the numbered part pages instead (about 40,000 characters each).
-
-## Other static entry points
-
+- The home page: https://uracrom.github.io/My-Titanium-Brothers/ (static HTML; only its README pop-up needs scripts)
 - Static archive home: https://uracrom.github.io/My-Titanium-Brothers/archive.html
-- Machine index (JSON): https://uracrom.github.io/My-Titanium-Brothers/index.json
-- Sitemap index: https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
+- URL list for the full-text pages: https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
+- Alex's own words only (a conservative selection, chronological): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html (2.8 MB)
+
+## Entries and logical conversations
+
+The archive has **1367 entries**. Some long chats were saved as several entries titled "Part N of M". Joined back together, they are **1220 logical conversations** with **25992 messages**. Alex is the only human speaker.
+
+Example: DeepSeek has 20 entries, "DeepSeek introduction - Part 1 of 20" to "Part 20 of 20". They are one conversation.
+
+| Model | Entries | Logical conversations |
+|---|---|---|
+| Grok | 274 | 213 |
+| Claude | 255 | 197 |
+| ChatGPT | 192 | 185 |
+| ChatGPT (WhatsApp) | 159 | 158 |
+| Copilot | 316 | 316 |
+| DeepSeek | 20 | 1 |
+| Gemini | 151 | 150 |
+| **Total** | **1367** | **1220** |
+
+Pages that say "N conversations" (archive.html, the overview pages, full-text/index.html) count entries. The structured transcripts (structured/) have one file per logical conversation.
+
+## Where each kind of text comes from
+
+- **Original conversation**: the numbered part pages (archive-grok-1.html and so on), the full-text/*.html model pages, raw/*.md, and llms-full.txt. Verbatim published conversation text. Nothing is corrected or summarised.
+- **Alex's own words page**: full-text/alex.html. Only Alex's wording, chosen conservatively from the originals, repeats removed, in date order. The selection was made for the archive; the words are Alex's.
+- **AI-written introduction**: introduction-by-ai.html / .md / .txt. Written by Grok Bot, the AI assistant, not by Alex.
+- **Structured derived files**: structured/. The original text with added IDs, speaker labels, and markers. The labels are a parse, not part of the original.
+- **Summaries**: the archive-*-overview*.html pages and the summary fields in index.json. Short navigation summaries. They are not part of the original conversations and are not Alex's words.
+- **Reader questions**: drafted by Grok Bot, approved by Alex.
+
+## Static overview and part pages (no JavaScript)
+
+Server-rendered HTML, for example https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview.html (titles and one-line summaries), and the other archive-*-overview*.html files linked from archive.html and llms.txt.
+
+Full conversation text is also in numbered part pages (about 40,000 characters each) such as https://uracrom.github.io/My-Titanium-Brothers/archive-grok-1.html, listed in the matching llms-*.txt file.
 
 `llms.txt` is kept short on purpose. It links to per-model list files (`llms-grok-1.txt`, `llms-claude-1.txt`, and so on), each small enough for readers that stop after a few hundred lines.
-
-## What needs JavaScript (skip these if your reader cannot run it)
-
-- https://uracrom.github.io/My-Titanium-Brothers/ (home)
-- Per-model human pages: grok.html, claude.html, chatgpt.html, chatgpt-whatsapp.html, copilot.html, deepseek.html, gemini.html
-
-Those pages show "Loading…" until scripts fetch the live conversation list. That is expected. Use the static files above instead.
-
-## Static overview pages (titles + one-line summaries)
-
-Server-rendered HTML, for example https://uracrom.github.io/My-Titanium-Brothers/archive-grok-overview.html, and the other archive-*-overview*.html files linked from archive.html and llms.txt.
-
-Full conversation text is also in numbered part pages such as https://uracrom.github.io/My-Titanium-Brothers/archive-grok-1.html, listed in the matching llms-*.txt file.
-
-## How to verify completeness
-
-1. Fetch llms.txt, then each linked llms-*.txt.
-2. Or fetch index.json (or archive-manifest.json) and count conversations per model.
-3. Or fetch sitemap.xml (a sitemap index) and the child sitemap-*.xml files.
-
-If a long file looks truncated, fetch the next shorter list file rather than assuming the site is incomplete.
 
 ## Structured transcripts (message-level, plain text)
 
@@ -70,6 +76,42 @@ A parallel copy of every conversation, parsed from the original HTML articles, w
 - Flags: https://uracrom.github.io/My-Titanium-Brothers/structured/FLAGS.txt
 - Report: https://uracrom.github.io/My-Titanium-Brothers/structured/REPORT.txt
 - Raw mirrors: https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt and the same paths under main/structured/
+
+## What needs JavaScript (skip these if your reader cannot run it)
+
+- Per-model human pages: grok.html, claude.html, chatgpt.html, chatgpt-whatsapp.html, copilot.html, deepseek.html, gemini.html
+- search.html and conversation.html
+
+Those pages show "Loading…" (or an empty search box) until scripts run. That is expected. Use the static files above instead.
+
+The home page (https://uracrom.github.io/My-Titanium-Brothers/) is **not** in this list. It is static HTML: its links, the AI discovery map, and the reader questions are all in the page source. Only its README pop-up uses scripts.
+
+## Other static entry points
+
+- Machine index (JSON, about 780 KB): https://uracrom.github.io/My-Titanium-Brothers/index.json
+- Sitemap index: https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
+
+## Big files (fetch last)
+
+These are large. If your reader has a length limit, use the short index and the numbered part pages instead.
+
+- Full Master Archive (all-in-one, 39,658,716 bytes, about 39.7 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
+- Claude Dialogues (12,273,973 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md
+- Grok Dialogues (10,254,127 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md
+- Copilot Dialogues (7,977,332 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md
+- ChatGPT Dialogues (4,739,971 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md
+- Gemini Dialogues (1,891,090 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md
+- ChatGPT (WhatsApp) Dialogues (1,545,195 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md
+- DeepSeek Dialogues (977,374 bytes): https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md
+
+## How to verify completeness
+
+1. Fetch llms.txt, then each linked llms-*.txt.
+2. Or fetch index.json (or archive-manifest.json) and count entries per model (1367 in total), then join "Part N of M" titles to get 1220 logical conversations.
+3. Or fetch structured/MANIFEST.txt and the index parts it names (1220 rows).
+4. Or fetch sitemap.xml (a sitemap index) and the child sitemap-*.xml files.
+
+If a long file looks truncated, fetch the next shorter list file rather than assuming the site is incomplete.
 
 ## Contact
 
