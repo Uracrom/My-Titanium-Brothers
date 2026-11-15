@@ -12,7 +12,7 @@ Reader questions (drafted by Grok Bot, approved by Alex). Read the linked page f
 
 ## Direct Fast-Access Links (No JavaScript)
 - One-fetch discovery file: https://uracrom.github.io/My-Titanium-Brothers/ai.txt
-- Full Master Archive (All-in-one, about 32.2 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
+- Full Master Archive (All-in-one, about 39.7 MB): https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt
 - Machine-Readable Manifest: https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json
 - Short index (for limited readers): https://uracrom.github.io/My-Titanium-Brothers/llms.txt
 - Complete verbatim HTML (no JavaScript): https://uracrom.github.io/My-Titanium-Brothers/full-text/index.html

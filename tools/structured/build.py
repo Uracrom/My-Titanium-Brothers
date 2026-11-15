@@ -356,10 +356,28 @@ def group_conversations(conv):
     by = collections.defaultdict(list)
     for item in logical:
         by[item['col']].append(item)
+    pins = None
     for col, items in by.items():
         items.sort(key=lambda item: (item['date'], item['title'], item['entries'][0]['id']))
-        for i, item in enumerate(items, 1):
-            item['cid'] = '%s-%03d' % (PREFIX[col], i)
+        if col == 'copilot':
+            # COPILOT-001..050 stay the numbers already published. Later ids are the
+            # approved 2026-11-15 list (COPILOT-051..316), not a fresh date sort.
+            if pins is None:
+                pin_path = os.path.join(os.path.dirname(__file__), 'copilot-ids.json')
+                pins = json.load(open(pin_path, encoding='utf-8'))
+            seen = set()
+            for item in items:
+                oid = item['entries'][0]['id']
+                if oid not in pins:
+                    raise SystemExit('copilot entry has no pinned id: %s %s' % (oid, item['title']))
+                cid = pins[oid]
+                if cid in seen:
+                    raise SystemExit('duplicate pinned copilot id: ' + cid)
+                seen.add(cid)
+                item['cid'] = cid
+        else:
+            for i, item in enumerate(items, 1):
+                item['cid'] = '%s-%03d' % (PREFIX[col], i)
     return by, logical, flags
 
 
@@ -523,6 +541,7 @@ Collections: grok, claude, chatgpt, chatgpt-whatsapp, copilot, deepseek, gemini.
 
 IDS
   Conversation ID: PREFIX-NNN, oldest first inside each collection (date, then title, then original id).
+  Copilot is pinned instead of re-sorted: COPILOT-001 through COPILOT-050 keep the numbers already published. COPILOT-051 through COPILOT-316 are the 2026-11-15 addition, in real chat-start order.
   Prefixes: GROK, CLAUDE, CHATGPT, CHATGPT-WHATSAPP, COPILOT, DEEPSEEK, GEMINI.
   Message ID: CONVERSATION-NNN in original order. SEQUENCE is that number.
   A message split across original pages has block IDs like CLAUDE-025-014-A and -B.
@@ -653,7 +672,7 @@ def update_site_manifest(stats):
         'built': stats['built'],
         'source_git_commit': stats['commit'],
         'deployment_note': 'These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.',
-        'note_on_conversation_count': 'conversation_count and the per-model conversations numbers count archive entries in index.json (1101). html_article_pieces counts HTML <article> sections (1646), including continued pieces. logical_conversations joins Part N of M entries.',
+        'note_on_conversation_count': 'conversation_count counts archive entries in index.json (%d). The per-model numbers on raw_transcripts count the ## sections in that raw file, which matches html_article_pieces (%d) when added together, including continued pieces. logical_conversations joins Part N of M entries.' % (stats['entries'], stats['segments']),
     }
     with open(path, 'w', encoding='utf-8') as handle:
         json.dump(data, handle, ensure_ascii=False, indent=1)
@@ -739,7 +758,7 @@ def build():
         ] + ['PART: ' + part for part in flag_parts]) + '\n')
     write_speakers(spk, labelraw, inline_counts)
     result = {
-        'built': '2026-11-08',
+        'built': '2026-11-15',
         'commit': commit,
         'logical': len(logical),
         'messages': stats['messages'],

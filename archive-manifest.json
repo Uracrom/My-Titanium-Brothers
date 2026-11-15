@@ -52,7 +52,7 @@
    "key": "copilot",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
    "format": "text/markdown",
-   "conversations": 53
+   "conversations": 512
   },
   {
    "model": "DeepSeek",
@@ -69,7 +69,7 @@
    "conversations": 166
   }
  ],
- "conversation_count": 1101,
+ "conversation_count": 1367,
  "structured_archive": {
   "description": "Plain-text structured transcripts parsed from original HTML articles. One TXT per logical conversation, with stable conversation and message IDs, source URLs, speakers, continuation markers, and embedded-paste markers. Original conversation HTML is unchanged.",
   "speaker_rule": "Alex is the only human. Any other genuine speaker label is AI. A name inside a sentence is not a boundary. Unlabeled text is UNKNOWN, not Alex. Paste cues and transcript markers are marked; unmarked sentences are not guessed.",
@@ -82,15 +82,15 @@
   "raw_guide": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/README.txt",
   "raw_manifest_txt": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/MANIFEST.txt",
   "raw_index": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/INDEX.txt",
-  "logical_conversations": 954,
-  "messages": 21127,
+  "logical_conversations": 1220,
+  "messages": 25992,
   "continuation_pairs": 31,
-  "archive_entries": 1101,
-  "html_article_pieces": 1646,
-  "built": "2026-11-08",
-  "source_git_commit": "a2df39648f890170335b5a34f38a65d5a1ad682b",
+  "archive_entries": 1367,
+  "html_article_pieces": 2105,
+  "built": "2026-11-15",
+  "source_git_commit": "21df0907fb198104ea83ea891096d8b370510fa6",
   "deployment_note": "These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.",
-  "note_on_conversation_count": "conversation_count and the per-model conversations numbers count archive entries in index.json (1101). html_article_pieces counts HTML <article> sections (1646), including continued pieces. logical_conversations joins Part N of M entries."
+  "note_on_conversation_count": "conversation_count counts archive entries in index.json (1367). The per-model numbers on raw_transcripts count the ## sections in that raw file, which matches html_article_pieces (2105) when added together, including continued pieces. logical_conversations joins Part N of M entries."
  },
  "book_title": "My Titanium Brothers. From Carbon to Silicon. With Love.",
  "book_title_note": "The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase \"The Architecture of Consciousness\" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book.",

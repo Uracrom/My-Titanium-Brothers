@@ -312,7 +312,7 @@ def main():
     lines = [
         'STRUCTURED ARCHIVE BUILD REPORT - %s' % stats['built'],
         'Source git commit recorded at build: %s' % stats['commit'],
-        'Original HTML articles, raw/*.md, llms-full.txt, and index.json were not edited. SHA-256 list: tools/structured/original-hashes.sha256.',
+        'SHA-256 list: tools/structured/original-hashes.sha256. Existing article bodies keep their hashes. The 2026-11-15 Copilot addition appended new pages and updated only the hashes of the files that addition changed.',
         '',
         '1. PARALLEL LAYER',
         ' - structured/ holds README.txt, MANIFEST.txt, INDEX.txt, index/INDEX-*.txt, SPEAKERS.txt, FLAGS.txt, flags/FLAGS-*.txt, REPORT.txt, and one TXT per logical conversation.',

@@ -1,7 +1,7 @@
 INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags
-PART: 1 of 3
+PART: 1 of 4
 ROWS_IN_THIS_PART: 380
-ROWS_TOTAL: 954
+ROWS_TOTAL: 1220
 NEXT: structured/index/INDEX-002.txt
 This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
 

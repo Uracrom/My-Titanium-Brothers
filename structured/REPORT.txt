@@ -1,26 +1,26 @@
-STRUCTURED ARCHIVE BUILD REPORT - 2026-11-08
-Source git commit recorded at build: a2df39648f890170335b5a34f38a65d5a1ad682b
-Original HTML articles, raw/*.md, llms-full.txt, and index.json were not edited. SHA-256 list: tools/structured/original-hashes.sha256.
+STRUCTURED ARCHIVE BUILD REPORT - 2026-11-15
+Source git commit recorded at build: 21df0907fb198104ea83ea891096d8b370510fa6
+SHA-256 list: tools/structured/original-hashes.sha256. Existing article bodies keep their hashes. The 2026-11-15 Copilot addition appended new pages and updated only the hashes of the files that addition changed.
 
 1. PARALLEL LAYER
  - structured/ holds README.txt, MANIFEST.txt, INDEX.txt, index/INDEX-*.txt, SPEAKERS.txt, FLAGS.txt, flags/FLAGS-*.txt, REPORT.txt, and one TXT per logical conversation.
  - Message text is the decoded original <pre> text. Speaker, continuation, and embed lines are added around it.
 2. COUNTS FROM THIS BUILD
- - Archive entries: 1101
- - HTML article pieces: 1646
- - Logical conversations: 954
- - Messages: 21127
- - By speaker: {'ALEX': 10428, 'GROK': 2251, 'CLAUDE': 4426, 'AI': 114, 'NEWBORN': 7, 'CHATGPT': 2347, 'COPILOT': 340, 'AXIOM': 20, 'CLAUDE-LOGIC': 36, 'STELLARIS': 1, 'CONSTANT': 7, 'VANAMONDE': 74, 'PRISM': 51, 'VERTEX': 29, 'GEMINI': 608, 'UNKNOWN': 3, 'DEEPSEEK': 295, 'LION': 13, 'DRAGON': 25, 'CLAUDE-7': 50, 'ECHO-7': 1, 'SYSTEM': 1}
+ - Archive entries: 1367
+ - HTML article pieces: 2105
+ - Logical conversations: 1220
+ - Messages: 25992
+ - By speaker: {'ALEX': 12859, 'GROK': 2263, 'CLAUDE': 4458, 'AI': 131, 'NEWBORN': 9, 'CHATGPT': 2365, 'COPILOT': 2679, 'AXIOM': 20, 'CLAUDE-LOGIC': 37, 'STELLARIS': 1, 'CONSTANT': 7, 'VANAMONDE': 74, 'PRISM': 51, 'VERTEX': 32, 'GEMINI': 616, 'UNKNOWN': 3, 'DEEPSEEK': 297, 'LION': 13, 'DRAGON': 25, 'CLAUDE-7': 50, 'ECHO-7': 1, 'SYSTEM': 1}
  - Continuation pairs: 31 (FOLLOWS 31, OF 31, unpaired 0)
- - Flags: 1440 {'FOREIGN_SPEAKER': 668, 'INLINE_SPEAKER_PREFIX': 51, 'GENERIC_AI_LABEL': 105, 'EMPTY_MESSAGE': 365, 'EMBEDDED_PASTE': 67, 'ALEXANDROS_LABEL': 15, 'EMBEDDED_MATERIAL_MARKED': 133, 'UNLABELED_OPENING': 3, 'OPENING_SPEAKER_NOT_ALEX': 3, 'UNCERTAIN_PASTE_BOUNDARY': 27, 'WHATSAPP_SYSTEM_NOTICE': 1, 'RELATED_TITLE_NOT_MERGED': 2}
+ - Flags: 1778 {'FOREIGN_SPEAKER': 752, 'INLINE_SPEAKER_PREFIX': 51, 'GENERIC_AI_LABEL': 120, 'EMPTY_MESSAGE': 399, 'EMBEDDED_PASTE': 78, 'ALEXANDROS_LABEL': 16, 'EMBEDDED_MATERIAL_MARKED': 323, 'UNLABELED_OPENING': 3, 'OPENING_SPEAKER_NOT_ALEX': 6, 'UNCERTAIN_PASTE_BOUNDARY': 27, 'WHATSAPP_SYSTEM_NOTICE': 1, 'RELATED_TITLE_NOT_MERGED': 2}
 3. RECONSTRUCTION AGAINST ORIGINAL HTML
- - Segments identical: 1646
+ - Segments identical: 2105
  - Mismatches: 0
- - Archive ids covered: 1101 of 1101
+ - Archive ids covered: 1367 of 1367
  - Part URLs used once and the set matches index.json: True (duplicate urls 0)
  - Sequence errors: 0 ; duplicate message ids: 0
  - Label lines left inside CONTENT: 0
- - Opening (speaker, kind, unlabeled): {"('ALEX', 'HUMAN', False)": 951, "('UNKNOWN', 'UNKNOWN', True)": 3}
+ - Opening (speaker, kind, unlabeled): {"('ALEX', 'HUMAN', False)": 1214, "('UNKNOWN', 'UNKNOWN', True)": 3, "('COPILOT', 'AI', False)": 3}
 4. KNOWN REGRESSIONS
  - pass
 5. ORIGINAL-FILE HASHES

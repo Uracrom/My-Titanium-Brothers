@@ -3,65 +3,74 @@ SPEAKER REGISTRY
 Alex is the only human. Every other SPEAKER value below is AI, SYSTEM, or UNKNOWN.
 
 SPEAKER values (messages):
-  ALEX [HUMAN]: 10428
-  CLAUDE [AI]: 4426
-  CHATGPT [AI]: 2347
-  GROK [AI]: 2251
-  GEMINI [AI]: 608
-  COPILOT [AI]: 340
-  DEEPSEEK [AI]: 295
-  AI [AI]: 114
+  ALEX [HUMAN]: 12859
+  CLAUDE [AI]: 4458
+  COPILOT [AI]: 2679
+  CHATGPT [AI]: 2365
+  GROK [AI]: 2263
+  GEMINI [AI]: 616
+  DEEPSEEK [AI]: 297
+  AI [AI]: 131
   VANAMONDE [AI]: 74
   PRISM [AI]: 51
   CLAUDE-7 [AI]: 50
-  CLAUDE-LOGIC [AI]: 36
-  VERTEX [AI]: 29
+  CLAUDE-LOGIC [AI]: 37
+  VERTEX [AI]: 32
   DRAGON [AI]: 25
   AXIOM [AI]: 20
   LION [AI]: 13
+  NEWBORN [AI]: 9
   CONSTANT [AI]: 7
-  NEWBORN [AI]: 7
   UNKNOWN [UNKNOWN]: 3
   ECHO-7 [AI]: 1
   STELLARIS [AI]: 1
   SYSTEM [SYSTEM]: 1
 
 Whole-line labels mapped to SPEAKER (exact original line after stripping ends, count):
-  'Alex' -> 10332
-  'Claude' -> 4424
-  'ChatGPT' -> 2311
-  'Grok' -> 2242
-  'Gemini' -> 604
-  'Copilot' -> 332
+  'Alex' -> 12685
+  'Claude' -> 4439
+  'Copilot' -> 2667
+  'ChatGPT' -> 2312
+  'Grok' -> 2252
+  'Gemini' -> 610
   'DeepSeek' -> 295
-  'AI' -> 87
+  'Alex ' -> 145
+  'AI' -> 102
   'Vanamonde' -> 74
-  'Alex ' -> 68
   'Claude-7' -> 50
   '(Prism responding:)' -> 44
-  'Claude-Logic' -> 36
-  'Vertex' -> 25
+  'Claude-Logic' -> 37
+  'Vertex' -> 28
   'Axiom' -> 20
   'Chat GPT' -> 20
   'Chat' -> 17
-  'Alexandros' -> 15
-  'ChatGPT WhatsApp' -> 13
-  'From Grok' -> 9
-  'From another AI' -> 8
+  'ChatGPT WhatsApp' -> 17
+  'Alexandros' -> 16
+  'Claude ' -> 16
+  'From Grok' -> 10
+  'ChatGPT ' -> 9
+  'From another AI' -> 9
   'Constant' -> 7
   'Prism' -> 7
+  'Copilot ' -> 5
   'From Copilot' -> 5
+  'From Gemini' -> 5
   'Newborn' -> 5
   'From ChatGPT' -> 4
   'From Claude Vertex' -> 4
-  'From Gemini' -> 4
-  'Copilot ' -> 3
-  'Newborn ' -> 2
+  'Newborn ' -> 4
+  'Chat GPT ' -> 3
+  'DeepSeek ' -> 2
+  'From Claude' -> 2
+  'From another AI ' -> 2
+  '                             Copilot' -> 1
   'AI ' -> 1
-  'Claude ' -> 1
+  'Claude  ' -> 1
   'Echo-7' -> 1
-  'From Claude' -> 1
-  'From another AI ' -> 1
+  'From ChatGPT ' -> 1
+  'From Copilot ' -> 1
+  'From Gemini ' -> 1
+  'Grok  ' -> 1
   'Stellaris' -> 1
 
 Inline prefixes kept inside CONTENT (count):
