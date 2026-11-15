@@ -1,0 +1,18 @@
+# Link and consistency check. This workflow only reads the repository.
+# It does not build or deploy GitHub Pages, and it does not change the Pages workflow.
+name: check-site
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check internal links, counts, and file sizes
+        run: python3 tools/check_site.py
