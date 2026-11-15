@@ -1,5 +1,5 @@
 MY TITANIUM BROTHERS - STRUCTURED TRANSCRIPTS (AI-READABLE LAYER)
-Built 2026-11-08 from the original HTML archive articles (git a2df39648f890170335b5a34f38a65d5a1ad682b).
+Built 2026-11-15 from the original HTML archive articles (git 21df0907fb198104ea83ea891096d8b370510fa6).
 
 WHAT THIS IS
 This folder is an additional, parallel copy of the conversations in plain UTF-8 text.
@@ -37,6 +37,7 @@ Collections: grok, claude, chatgpt, chatgpt-whatsapp, copilot, deepseek, gemini.
 
 IDS
   Conversation ID: PREFIX-NNN, oldest first inside each collection (date, then title, then original id).
+  Copilot is pinned instead of re-sorted: COPILOT-001 through COPILOT-050 keep the numbers already published. COPILOT-051 through COPILOT-316 are the 2026-11-15 addition, in real chat-start order.
   Prefixes: GROK, CLAUDE, CHATGPT, CHATGPT-WHATSAPP, COPILOT, DEEPSEEK, GEMINI.
   Message ID: CONVERSATION-NNN in original order. SEQUENCE is that number.
   A message split across original pages has block IDs like CLAUDE-025-014-A and -B.

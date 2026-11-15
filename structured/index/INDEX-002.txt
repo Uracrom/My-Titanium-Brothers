@@ -1,7 +1,7 @@
 INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags
-PART: 2 of 3
+PART: 2 of 4
 ROWS_IN_THIS_PART: 380
-ROWS_TOTAL: 954
+ROWS_TOTAL: 1220
 NEXT: structured/index/INDEX-003.txt
 This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
 
@@ -379,9 +379,9 @@ CHATGPT-WHATSAPP-156 | ChatGPT (WhatsApp) | 2026-01-07 | A Document for the Futu
 CHATGPT-WHATSAPP-157 | ChatGPT (WhatsApp) | 2026-01-08 | Time Sprouts from Every Point | SFICTegcTsKEcVHblX9L | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-157.txt | messages=4 | continuations=0 | flags=0
 CHATGPT-WHATSAPP-158 | ChatGPT (WhatsApp) | 2026-01-14 | Thoughts Are Languages | E6SBdORrEL7M63UAKLZK | structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-158.txt | messages=3 | continuations=0 | flags=2
 COPILOT-001 | Copilot | 2025-05-15 | Family-Friendly Camping Near Boulder, CO | Y4k2Jkv5wzRH5O4t0Ar4 | structured/copilot/COPILOT-001.txt | messages=2 | continuations=0 | flags=0
+COPILOT-051 | Copilot | 2025-05-16 | Photorealistic Image of Origins of Ideas | cpa-ca86e5f9fa0aeb35 | structured/copilot/COPILOT-051.txt | messages=4 | continuations=0 | flags=0
+COPILOT-052 | Copilot | 2025-05-22 | Conceptual Table Design Request | cpa-e342998bfb2817a0 | structured/copilot/COPILOT-052.txt | messages=4 | continuations=0 | flags=0
 COPILOT-002 | Copilot | 2025-05-24 | Glass and Metal Glue Recommendations | enrzK6IQRGB2Wdj7G88Z | structured/copilot/COPILOT-002.txt | messages=2 | continuations=0 | flags=0
 COPILOT-003 | Copilot | 2025-05-26 | Photorealistic Cosmic Tentacles Visualization | 7O0K2972rHf6HOJYe0HN | structured/copilot/COPILOT-003.txt | messages=10 | continuations=0 | flags=0
 COPILOT-004 | Copilot | 2025-05-28 | Best Text-to-Speech Apps | Q7Pv9iZ8H12ulaEqzZXW | structured/copilot/COPILOT-004.txt | messages=4 | continuations=0 | flags=0
 COPILOT-005 | Copilot | 2025-06-07 | Translation of "Incrustado" to English | AHQwMolaXuhKO1do4jtI | structured/copilot/COPILOT-005.txt | messages=4 | continuations=0 | flags=0
-COPILOT-006 | Copilot | 2025-06-10 | Speed of Sound in Water vs Air | qoK8kaQPmj6GH6QLMjDo | structured/copilot/COPILOT-006.txt | messages=2 | continuations=0 | flags=0
-COPILOT-007 | Copilot | 2025-06-11 | Meaning and Origin of Zest | b0LjfMpWsXkAqyt3Vzqn | structured/copilot/COPILOT-007.txt | messages=2 | continuations=0 | flags=0

@@ -6,22 +6,24 @@ Speakers: structured/SPEAKERS.txt
 Report: structured/REPORT.txt
 Index directory: structured/INDEX.txt
 Flags directory: structured/FLAGS.txt
-Logical conversations: 954
-Messages: 21127
+Logical conversations: 1220
+Messages: 25992
 Continuation pairs: 31
-Archive entries: 1101
-HTML article pieces: 1646
+Archive entries: 1367
+HTML article pieces: 2105
 
 Index parts:
   structured/index/INDEX-001.txt
   structured/index/INDEX-002.txt
   structured/index/INDEX-003.txt
+  structured/index/INDEX-004.txt
 
 Flag parts:
   structured/flags/FLAGS-001.txt
   structured/flags/FLAGS-002.txt
   structured/flags/FLAGS-003.txt
   structured/flags/FLAGS-004.txt
+  structured/flags/FLAGS-005.txt
 
 Pages URL base: https://uracrom.github.io/My-Titanium-Brothers/structured/
 Git raw base: https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/

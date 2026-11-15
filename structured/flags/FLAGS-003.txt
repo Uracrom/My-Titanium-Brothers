@@ -1,7 +1,7 @@
 FLAGS PART. Fields: conversation | message sequence | type | detail
-PART: 3 of 4
+PART: 3 of 5
 ROWS_IN_THIS_PART: 380
-ROWS_TOTAL: 1440
+ROWS_TOTAL: 1778
 NEXT: structured/flags/FLAGS-004.txt
 This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
 
