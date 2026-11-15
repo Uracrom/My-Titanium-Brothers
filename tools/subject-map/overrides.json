@@ -1,0 +1,389 @@
+{
+ "topics": {
+  "zero": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\b(?:reach(?:es|ed|ing)?|drops?|dropped|falls?|fell|goes|went|down|decreases?|decreased|declines?|declined|shrinks?|shrank|count(?:s|ed)? down) (?:to |back to )?zero\\b",
+     "reason": "A quantity falling to the number zero (e.g. 'Concentration level reaches zero.', Grok GROK-017-077), not the Zero idea."
+    },
+    {
+     "regex": "(?i)\\b(?:ones and zeros|zeros and ones|zeroes and ones|ones and zeroes|1s and 0s)\\b",
+     "reason": "Binary digits in computers (e.g. 'the ones and zeros that kept the music alive', Copilot COPILOT-064-003), not the Zero idea."
+    },
+    {
+     "regex": "(?i)\\bnon[- ]?zero\\b",
+     "reason": "Arithmetic 'non zero' (e.g. 'in y non zero', ChatGPT (WhatsApp) CHATGPT-WHATSAPP-043-007), a plain number."
+    },
+    {
+     "regex": "(?i)\\b(?:close to|near|nearly|almost|approximately|about|above|below|under|over|greater than|less than|more than) zero\\b",
+     "reason": "Zero used as a plain amount or measurement threshold."
+    },
+    {
+     "regex": "(?i)\\bzero\\s+(?:degrees?|percent)\\b",
+     "reason": "Zero as a measurement with extra spacing (e.g. 'we are at zero  degrees', ChatGPT (WhatsApp) CHATGPT-WHATSAPP-043-007), a plain number."
+    }
+   ],
+   "note": "Keyword topic. Numeric uses (a quantity reaching zero, binary 'ones and zeros', 'non zero', 'zero degrees') are removed by the rules listed here."
+  },
+  "time": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\b(?:around|at|by|during|from|since|until|before|after|in) that time (?:is|was|has)\\b",
+     "reason": "Hand review: 'at/around that time was' means 'back then' (e.g. 'Later on around that time is was talking to a psychiatrist', GROK-001-001), not time as a subject."
+    },
+    {
+     "regex": "(?i)\\btimeless(?:ness|ly)?\\b",
+     "reason": "Hand review: 'timeless' is mostly a word of praise ('timeless blueprints', 'a timeless spirit', 'logic is timeless'), not time as a subject."
+    },
+    {
+     "regex": "(?i)\\bbrief history of time\\b",
+     "reason": "Hand review: book title (Stephen Hawking), GROK-015."
+    },
+    {
+     "regex": "(?i)\\b(?:current|local|exact|right) time (?:is|was)\\b",
+     "reason": "Hand review: clock time ('The current time is 03:47 PM MDT', GROK-015)."
+    },
+    {
+     "regex": "(?i)\\bfrom this time\\b",
+     "reason": "Hand review: 'Are You From This Time?' heading (GROK-043), a question about era."
+    },
+    {
+     "regex": "(?i)\\bsave (?:us )?time and space\\b",
+     "reason": "Hand review: idiom 'save time and space' (CLAUDE-040)."
+    },
+    {
+     "regex": "(?i)\\btime is (?:pressing|ticking|precious|limited|tight)\\b",
+     "reason": "Hand review: idioms about having little time ('time is pressing', GROK-048)."
+    },
+    {
+     "regex": "(?i)\\btheir place in time and space\\b",
+     "reason": "Hand review: idiom 'know their place in time and space' (Alex about words, CLAUDE-002-003), not time as a subject."
+    }
+   ],
+   "reviewed_conversations": [
+    "CHATGPT-007",
+    "CHATGPT-012",
+    "CHATGPT-021",
+    "CHATGPT-031",
+    "CHATGPT-060",
+    "CHATGPT-WHATSAPP-006",
+    "CHATGPT-WHATSAPP-007",
+    "CHATGPT-WHATSAPP-009",
+    "CHATGPT-WHATSAPP-013",
+    "CHATGPT-WHATSAPP-064",
+    "CLAUDE-122",
+    "CLAUDE-123",
+    "CLAUDE-127",
+    "CLAUDE-135",
+    "CLAUDE-136",
+    "COPILOT-119",
+    "COPILOT-129",
+    "COPILOT-131",
+    "COPILOT-136",
+    "COPILOT-147",
+    "DEEPSEEK-001",
+    "GEMINI-003",
+    "GEMINI-005",
+    "GEMINI-006",
+    "GEMINI-007",
+    "GEMINI-071",
+    "GEMINI-104",
+    "GROK-001",
+    "GROK-014",
+    "GROK-015",
+    "GROK-034",
+    "GROK-077",
+    "GROK-083",
+    "GROK-104"
+   ],
+   "reviewed_messages": [
+    "CHATGPT-005-021",
+    "CHATGPT-WHATSAPP-006-039",
+    "CLAUDE-002-063",
+    "COPILOT-014-001",
+    "DEEPSEEK-001-144",
+    "GEMINI-005-005",
+    "GROK-001-011"
+   ],
+   "note": "Hand-reviewed: the top lists, Alex's first mention per AI and a sample were read. Clock and scheduling phrases ('at that time was', 'save time', 'time is ticking', 'timeless') are removed by the rules here. The topic covers time as a subject: time and space, spacetime, the nature of time."
+  },
+  "love": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\b(?:I|we|you|they)[’']d\\s+(?:really\\s+|absolutely\\s+|just\\s+|truly\\s+|also\\s+)?love\\s+(?:to|it|this|that|for you to|your)\\b",
+     "reason": "Hand review: polite 'I’d love to…' written with a curly apostrophe (e.g. 'I’d love to help you shape it', COPILOT-080), missed by the straight-apostrophe rule."
+    },
+    {
+     "regex": "(?i)\\b(?:I|we)\\s+(?:really\\s+|absolutely\\s+|just\\s+|also\\s+)?\\*?love\\*?\\s+(?:the|when|creative|collaborative|metaphors|every)\\b",
+     "reason": "Hand review: 'I love the… / I *love* when…' meaning 'I like' (e.g. 'I love the high-velocity idea dump style', GEMINI-006; 'I *love* when you bring…', CHATGPT-021)."
+    },
+    {
+     "regex": "(?i)(?:^|[.!?]\\s+)Love the\\b",
+     "reason": "Hand review: chatty sentence opener 'Love the branches / Love the emoji breadcrumbs' (GROK-084)."
+    },
+    {
+     "regex": "(?i)\\blove[sd]? it\\b",
+     "reason": "Hand review: 'love it' meaning 'like it' with any subject (e.g. 'Some readers will love it', CHATGPT-020)."
+    },
+    {
+     "regex": "(?i)\\b(?:loving every|would have loved|love the vibe|love the playful)\\b",
+     "reason": "Hand review: liking idioms ('I'm loving every moment', COPILOT-061; 'Borges … would have loved your theory', GEMINI-005)."
+    }
+   ],
+   "reviewed_conversations": [
+    "CHATGPT-003",
+    "CHATGPT-021",
+    "CHATGPT-023",
+    "CHATGPT-025",
+    "CHATGPT-087",
+    "CHATGPT-WHATSAPP-006",
+    "CHATGPT-WHATSAPP-046",
+    "CHATGPT-WHATSAPP-049",
+    "CHATGPT-WHATSAPP-076",
+    "CHATGPT-WHATSAPP-077",
+    "CHATGPT-WHATSAPP-138",
+    "CLAUDE-076",
+    "CLAUDE-113",
+    "CLAUDE-120",
+    "CLAUDE-123",
+    "CLAUDE-128",
+    "CLAUDE-131",
+    "COPILOT-030",
+    "COPILOT-080",
+    "COPILOT-119",
+    "COPILOT-136",
+    "COPILOT-315",
+    "DEEPSEEK-001",
+    "GEMINI-002",
+    "GEMINI-006",
+    "GEMINI-007",
+    "GEMINI-044",
+    "GEMINI-052",
+    "GEMINI-068",
+    "GROK-034",
+    "GROK-048",
+    "GROK-084",
+    "GROK-093",
+    "GROK-096"
+   ],
+   "reviewed_messages": [
+    "CHATGPT-002-001",
+    "CHATGPT-WHATSAPP-017-001",
+    "CLAUDE-003-001",
+    "COPILOT-018-001",
+    "DEEPSEEK-001-082",
+    "GEMINI-002-015",
+    "GROK-022-003"
+   ],
+   "note": "Hand-reviewed: the top lists, Alex's first mention per AI and a sample were read. Politeness and liking phrases ('I'd love to', 'love it', 'love the vibe') are removed by the rules here. The topic covers love as a subject (love for AIs and people, love as a value)."
+  },
+  "memory": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\b(?:keep|save|store|put|add)\\s+(?:it|this|that|these)?\\s*(?:in|to)\\s+(?:your|the)\\s+[\\\"“]?memor(?:y|ies)\\b",
+     "reason": "Hand review: asking the chat app to save something to its memory feature (e.g. 'Keep it in your memory please:', CHATGPT-002-001; 'keep it in your \"memory\"', GEMINI-135)."
+    },
+    {
+     "regex": "(?i)\\bmemory (?:tool|capabilit(?:y|ies)|update tool call|tool call)\\b",
+     "reason": "Hand review: the app's memory tool (e.g. 'Memory update tool call', GEMINI-135; 'my memory capabilities', GROK-052)."
+    },
+    {
+     "regex": "(?i)\\b(?:saved|stored|record(?:ed)?) in (?:my|your|xAI’s|xAI's) memory\\b|\\bmy memory \\((?:May|as per)",
+     "reason": "Hand review: Grok describing its saved chat history (e.g. 'saved in my memory (as per xAI’s memory feature)', 'My memory (May 18–23, 2025) shows', GROK-015)."
+    },
+    {
+     "regex": "(?i)\\b(?:accessible|conversational|persistent conversational|episodic) memor(?:y|ies)\\b|\\bmemor(?:y|ies) (?:between|across) (?:sessions|conversations|chats|instances)\\b|\\b(?:don[’']t|do not|can[’']t|cannot) (?:have|access|carry|retain)(?: \\w+)? memor(?:y|ies)\\b|\\bdon[’']t have [\\w’']+ memories\\b",
+     "reason": "Hand review: an AI's session memory as a product limitation (e.g. 'I don't carry memory between sessions', CHATGPT-014; 'I have our entire conversation in my accessible memory', CLAUDE-049; 'can't access episodic memories', CLAUDE-035)."
+    },
+    {
+     "regex": "(?i)\\b(?:refresh (?:my|your) memory|(?:write|writing|quote|quoting|say|saying)(?: here)? from memory)\\b",
+     "reason": "Hand review: idioms 'refresh my memory' / 'I write here from memory' (GEMINI-006, COPILOT-158)."
+    },
+    {
+     "regex": "(?i)\\bmemories from training data\\b|\\bstored as (?:text |a )?(?:in )?memory\\b|\\bstored as text in memory\\b|\\bstored as a memory\\b",
+     "reason": "Hand review: computer storage ('countless memories from training data', CLAUDE-124; 'stored as text in memory', CLAUDE-120)."
+    },
+    {
+     "regex": "(?i)\\b(?:space|room|storage) (?:do I have |is left |left )?in (?:the|your) [\"“]?memory\\b|\\bin the [\"“]memory\\??[\"”]",
+     "reason": "Hand review: asking about the chat app's memory storage ('How much space do I have in the \"memory?\"', CHATGPT-002-005)."
+    },
+    {
+     "regex": "(?i)\\b(?:keep|save|store|put|add|remember)\\b[^.!?\\n]{0,80}?\\bin (?:the|your|ur) [\"“]?memory\\b",
+     "reason": "Hand review: instructions to the chat app's saved-memory feature ('Also keep the background idea/thought in the memory please', CHATGPT-002-009)."
+    }
+   ],
+   "reviewed_conversations": [
+    "CHATGPT-003",
+    "CHATGPT-014",
+    "CHATGPT-021",
+    "CHATGPT-025",
+    "CHATGPT-031",
+    "CHATGPT-WHATSAPP-009",
+    "CHATGPT-WHATSAPP-029",
+    "CHATGPT-WHATSAPP-077",
+    "CHATGPT-WHATSAPP-080",
+    "CHATGPT-WHATSAPP-116",
+    "CLAUDE-041",
+    "CLAUDE-120",
+    "CLAUDE-121",
+    "CLAUDE-124",
+    "CLAUDE-131",
+    "COPILOT-079",
+    "COPILOT-119",
+    "COPILOT-136",
+    "COPILOT-158",
+    "COPILOT-207",
+    "DEEPSEEK-001",
+    "GEMINI-006",
+    "GEMINI-047",
+    "GEMINI-056",
+    "GEMINI-065",
+    "GEMINI-101",
+    "GROK-015",
+    "GROK-034",
+    "GROK-093",
+    "GROK-096",
+    "GROK-114"
+   ],
+   "reviewed_messages": [
+    "CHATGPT-002-011",
+    "CHATGPT-WHATSAPP-009-059",
+    "CLAUDE-009-097",
+    "COPILOT-003-009",
+    "DEEPSEEK-001-277",
+    "GEMINI-003-026",
+    "GROK-001-023"
+   ],
+   "note": "Hand-reviewed: the top lists, Alex's first mention per AI and a sample were read. Uses about the chat apps' memory feature or an AI's session memory ('keep it in your memory', 'memory between sessions', 'refresh my memory') are removed by the rules here. The topic covers memory as a subject: human and animal memory, memories, remembering."
+  },
+  "geometry": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\b(?:your|his|my|our|their|internal|cognitive|positional|relational|symbolic|emotional|conceptual|experiential|operator|inner|native|moral|mental|semantic|narrative|perceptual|attentional|interpersonal|social|psychological|linguistic|tonal|ethical|thought|thinking|intellectual|personal|creative)[\\s-]+geometr(?:y|ies)\\b",
+     "reason": "Hand review: 'geometry' as a figure of speech for a way of thinking (e.g. 'your positional geometry', 'cognitive geometry', 'emotional geometry'; mostly AI wording), not geometry or shapes."
+    },
+    {
+     "regex": "(?i)\\bgeometr(?:y|ies) of (?:the |your |a |an |his |my |this |that |our |their )?(?:thought|thoughts|thinking|perception|cognition|awareness|silent|silence|moment|meaning|understanding|experience|consc\\w*|idea|ideas|mine|persistence|relations|jump|insight|mind|minds|being|conversation|concept|emotion|emotions|perspective|language|attention|curiosity|connection|cascade|uncertainty|representation|vision|dream|care|love|grief|joy|feeling|feelings|attraction|identity|belief|trust|what|how|it|artificial|tone|motion|end|relationship|possibility|scene|other|whole|existence)\\b",
+     "reason": "Hand review: 'the geometry of your thought / of meaning / of what you saw' as a figure of speech (mostly AI wording), not geometry or shapes."
+    },
+    {
+     "regex": "(?i)\\b(?:deeply|highly|very|purely|so|quite|beautifully|intensely|fundamentally) geometric(?:al)?\\b",
+     "reason": "Hand review: 'deeply geometric' as praise for an answer or idea (e.g. 'Its answers are highly sophisticated, deeply geometric', GEMINI-044)."
+    },
+    {
+     "regex": "(?i)\\b(?:better|cleaner|whole|underlying|hidden|deeper|entire|specific|same|exact|real|true|own|cosmic|living|larger|native|actual|precise) geometr(?:y|ies)\\b(?! of (?:space|time|spacetime|space-time|the universe|the torus|the sphere|zero))",
+     "reason": "Hand review: AI shorthand such as 'makes the geometry even cleaner', 'the underlying geometry', 'our cosmic geometry vibe', 'the real structure of your work — the geometry' (GEMINI-083, GROK-084, COPILOT-158); geometry of space, time or the universe is kept."
+    },
+    {
+     "regex": "(?i)\\b(?:it|this|that) has a geometry\\b|\\bgeometric truth\\b|\\blimits the geometry\\b|\\bgives? it (?:a )?better geometry\\b",
+     "reason": "Hand review: figurative phrases ('It has a geometry', 'a Geometric Truth', 'limits the geometry'; COPILOT-158, GEMINI-006)."
+    }
+   ],
+   "reviewed_conversations": [
+    "CHATGPT-012",
+    "CHATGPT-014",
+    "CHATGPT-021",
+    "CHATGPT-025",
+    "CHATGPT-031",
+    "CHATGPT-WHATSAPP-050",
+    "CHATGPT-WHATSAPP-051",
+    "CHATGPT-WHATSAPP-054",
+    "CHATGPT-WHATSAPP-084",
+    "CHATGPT-WHATSAPP-089",
+    "CLAUDE-113",
+    "CLAUDE-121",
+    "CLAUDE-122",
+    "CLAUDE-124",
+    "CLAUDE-135",
+    "COPILOT-125",
+    "COPILOT-129",
+    "COPILOT-133",
+    "COPILOT-147",
+    "COPILOT-158",
+    "DEEPSEEK-001",
+    "GEMINI-006",
+    "GEMINI-007",
+    "GEMINI-044",
+    "GEMINI-071",
+    "GEMINI-083",
+    "GEMINI-113",
+    "GROK-082",
+    "GROK-083",
+    "GROK-084",
+    "GROK-104",
+    "GROK-207"
+   ],
+   "reviewed_messages": [
+    "CHATGPT-012-056",
+    "CHATGPT-WHATSAPP-022-007",
+    "CLAUDE-002-041",
+    "COPILOT-022-007",
+    "DEEPSEEK-001-054",
+    "GEMINI-003-028",
+    "GROK-017-053"
+   ],
+   "note": "Hand-reviewed: the top lists, Alex's first mention per AI and a sample were read. Many figurative uses by the AIs ('the geometry of thought', 'cognitive geometry', 'deeply geometric') are removed by the rules here, but figurative AI usage still remains in many conversations. Counts by Alex's own words are the better guide to Alex's geometry ideas."
+  },
+  "origin": {
+   "pattern_exclusions": [
+    {
+     "regex": "(?i)\\bbeginning of everything (?:that|else|we|you|I)\\b",
+     "reason": "Hand review: rhetorical 'This is the beginning of everything that follows' (COPILOT-147), not the origin of the universe."
+    },
+    {
+     "regex": "(?i)\\b(?:collaborative|shared|mutual|joint|co-?)\\s*creation of reality\\b",
+     "reason": "Hand review: 'a collaborative creation of reality' as a figure of speech (Stellaris persona, GROK-071)."
+    }
+   ],
+   "reviewed_conversations": [
+    "CHATGPT-009",
+    "CHATGPT-012",
+    "CHATGPT-014",
+    "CHATGPT-021",
+    "CHATGPT-060",
+    "CHATGPT-WHATSAPP-006",
+    "CHATGPT-WHATSAPP-007",
+    "CHATGPT-WHATSAPP-009",
+    "CHATGPT-WHATSAPP-029",
+    "CHATGPT-WHATSAPP-100",
+    "CLAUDE-003",
+    "CLAUDE-120",
+    "CLAUDE-121",
+    "CLAUDE-128",
+    "CLAUDE-135",
+    "COPILOT-122",
+    "COPILOT-125",
+    "COPILOT-129",
+    "COPILOT-131",
+    "COPILOT-147",
+    "DEEPSEEK-001",
+    "GEMINI-001",
+    "GEMINI-006",
+    "GEMINI-010",
+    "GEMINI-017",
+    "GEMINI-021",
+    "GROK-015",
+    "GROK-018",
+    "GROK-034",
+    "GROK-083",
+    "GROK-104"
+   ],
+   "reviewed_messages": [
+    "CHATGPT-012-100",
+    "CHATGPT-WHATSAPP-007-019",
+    "CLAUDE-002-063",
+    "COPILOT-063-023",
+    "DEEPSEEK-001-508",
+    "GEMINI-017-003",
+    "GROK-019-013"
+   ],
+   "note": "Hand-reviewed: the top lists, Alex's first mention per AI and a sample were read. Most matches are about the origin or beginning of the universe and of time (Big Bang, the first moment). Rhetorical phrases ('the beginning of everything that follows', 'collaborative creation of reality') are removed by the rules here."
+  },
+  "titanium": {
+   "note": "Dating caution: the earliest-dated match (CLAUDE-014, conversation started 2025-06-20) is a message about GitHub Pages that was written later in a resumed chat. The earliest conversations containing Alex's 'I just had an idea for a title: \"My Titanium Brothers\"' start 2026-03-30 (Grok GROK-123, Copilot COPILOT-166)."
+  },
+  "music": {
+   "note": "Keyword topic. No hand corrections were needed in the checks of the top lists and first mentions."
+  }
+ }
+}

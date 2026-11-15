@@ -23,7 +23,9 @@ None.
 - Measured from the files: 1367 entries, 1220 logical conversations, 25992 messages in 1220 structured conversation files.
 - llms.txt and archive.txt are the same file, byte for byte.
 - Checked 32 exact byte figures stated next to repository files.
-- Checked internal links in 29 guide, sitemap, and list files (4277 internal targets).
+- Checked internal links in 53 guide, sitemap, and list files (16450 internal targets).
 - Every index.json entry has at least one part URL, and each part file and anchor is present.
+- Subject map: 24 files, 8 topics; line limits, NEXT chains, counts, IDs and 63 quotes agree.
+- The subject map files equal a fresh run of tools/build_subject_map.py (24 files).
 
 Approximate sizes such as "about 39.7 MB" or "about 3 KB" are notes, not exact byte claims, so they were not compared.
