@@ -38,6 +38,16 @@ https://uracrom.github.io/My-Titanium-Brothers/search/README.txt
 List of the small terms files (one fetch per word):
 https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt
 
+## Finding a subject (example: Zero, Time)
+
+Zero in three fetches: (1) search/SHARDS.txt shows that "zero" is in search/terms/y.txt; (2) in that file, the line starting "zero | " lists exact messages, for example CHATGPT-007:015* (* = Alex's own words); (3) open structured/chatgpt/CHATGPT-007.txt and find "----- BEGIN MESSAGE CHATGPT-007-015 -----".
+Time: "time" is in search/terms/thr.txt but is COMMON (in more than 3000 messages, so only conversation IDs are listed). For Time as a subject, start with the subject map instead:
+https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt
+Full worked example: https://uracrom.github.io/My-Titanium-Brothers/search/README.txt
+If a GitHub Pages URL fails, use the same path under the raw mirror, for example:
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/subject-map/time.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/terms/y.txt
+
 Entry (kept for older links; same as step 2):
 https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
 

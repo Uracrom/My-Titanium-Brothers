@@ -10,6 +10,30 @@ ChatGPT, ChatGPT (WhatsApp), Copilot, DeepSeek, Gemini) in a few fetches:
   4. the structured transcript files the terms file names, to read or confirm the text.
 Every result is a stable conversation ID and message ID from structured/ (see structured/README.txt).
 
+FOR VERY FREQUENT WORDS SUCH AS "time": READ THIS FIRST
+  Words found in more than 3000 messages are COMMON. "time" is in 7497 messages, so its line lists
+  only conversation IDs, not message numbers. Pair such a word with a rarer word from the passage
+  you want (see EXACT-PHRASE SEARCH below), or, for a broad subject such as Time, start with the
+  subject map, a derived index of 8 subjects: https://uracrom.github.io/My-Titanium-Brothers/subject-map/INDEX.txt
+
+EXAMPLE: FIND ZERO AND TIME IN THREE FETCHES (real data from this build)
+  Fetch 1: https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt
+    "zero" -> shard key "zero_" -> longest listed key "z" -> search/terms/y.txt (keys: y z)
+    "time" -> shard key "time_" -> longest listed key "ti" -> search/terms/thr.txt
+  Fetch 2: https://uracrom.github.io/My-Titanium-Brothers/search/terms/y.txt, the line that starts with "zero | ":
+    zero | 2076 | 479 | 372 | MESSAGES | CHATGPT-007:015*,016,018,029*; ...
+    = 2076 messages in 372 conversations; in 479 of them the word is in Alex's own text (marked *).
+    CHATGPT-007:015* means message CHATGPT-007-015, and Alex wrote it.
+  Fetch 3: https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-007.txt
+    then find the line "----- BEGIN MESSAGE CHATGPT-007-015 -----" and read to "----- END MESSAGE CHATGPT-007-015 -----".
+  Time: in https://uracrom.github.io/My-Titanium-Brothers/search/terms/thr.txt the line starts
+    time | 7497 | 2349 | 990 | COMMON | CHATGPT-002(5); CHATGPT-003(24); CHATGPT-004(15); ...
+    = 7497 messages in 990 conversations, COMMON: it lists only conversation IDs with a count of messages, no message numbers.
+    So for Time as a subject, fetch https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt instead. It is a derived
+    index (keyword matching + hand review) of messages that talk about time itself, with Alex's first
+    mention to each AI and links to the exact messages in structured/.
+  If a URL fails on GitHub Pages, use the raw mirror: replace https://uracrom.github.io/My-Titanium-Brothers/ with https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/
+
 WHAT WAS INDEXED
   25992 messages in 1220 logical conversations (every file in structured/<collection>/).
   Only the CONTENT of each message is indexed, including pasted (embedded) material.

@@ -338,6 +338,73 @@ def stopwords_file():
     return '\n'.join(out) + '\n'
 
 
+def zero_time_block(files):
+    """The 'find Zero and Time' worked example for the README, computed from this build's files."""
+    keys = []
+    for line in files['search/SHARDS.txt'].split('\n'):
+        parts = line.split(' | ')
+        if len(parts) == 6 and parts[0].startswith(TERMS_DIR + '/'):
+            for k in parts[1].split(' '):
+                keys.append((k, parts[0], parts[1]))
+
+    def locate(word):
+        sk = shard_key(word)
+        key, rel, all_keys = max((k for k in keys if sk.startswith(k[0])), key=lambda k: len(k[0]))
+        line = next(l for l in files[rel].split('\n') if l.startswith(word + ' | '))
+        return sk, key, rel, all_keys, line.split(' | ', 5)
+
+    def short(fields, n):
+        refs = fields[5].split('; ')
+        head = '; '.join(refs[:n])
+        if fields[4] == 'MESSAGES' and ',' in refs[0]:
+            head = ','.join(refs[0].split(',')[:4])
+        return ' | '.join(fields[:5]) + ' | ' + head + '; ...'
+
+    zk, zkey, zrel, zall, z = locate('zero')
+    tk, tkey, trel, tall, t = locate('time')
+    first_alex = None
+    for ref in z[5].split('; '):
+        cid, seqs = ref.split(':')
+        for seq in seqs.split(','):
+            if seq.endswith('*'):
+                first_alex = (cid, seq[:-1])
+                break
+        if first_alex:
+            break
+    cid, seq = first_alex
+    mid = '%s-%s' % (cid, seq)
+    if t[4] == 'COMMON':
+        time_kind = ('COMMON: it lists only conversation IDs with a count of messages, no message numbers.')
+    else:
+        time_kind = 'MESSAGES: it lists exact message numbers.'
+    out = [
+        'FOR VERY FREQUENT WORDS SUCH AS "time": READ THIS FIRST',
+        '  Words found in more than %d messages are COMMON. "time" is in %s messages, so its line lists' % (COMMON_LIMIT, t[1]),
+        '  only conversation IDs, not message numbers. Pair such a word with a rarer word from the passage',
+        '  you want (see EXACT-PHRASE SEARCH below), or, for a broad subject such as Time, start with the',
+        '  subject map, a derived index of 8 subjects: %ssubject-map/INDEX.txt' % SITE,
+        '',
+        'EXAMPLE: FIND ZERO AND TIME IN THREE FETCHES (real data from this build)',
+        '  Fetch 1: %ssearch/SHARDS.txt' % SITE,
+        '    "zero" -> shard key "%s" -> longest listed key "%s" -> %s (keys: %s)' % (zk, zkey, zrel, zall),
+        '    "time" -> shard key "%s" -> longest listed key "%s" -> %s' % (tk, tkey, trel),
+        '  Fetch 2: %s%s, the line that starts with "zero | ":' % (SITE, zrel),
+        '    ' + short(z, 1),
+        '    = %s messages in %s conversations; in %s of them the word is in Alex\'s own text (marked *).' % (z[1], z[3], z[2]),
+        '    %s:%s* means message %s, and Alex wrote it.' % (cid, seq, mid),
+        '  Fetch 3: %s%s' % (SITE, structured_rel(cid)),
+        '    then find the line "----- BEGIN MESSAGE %s -----" and read to "----- END MESSAGE %s -----".' % (mid, mid),
+        '  Time: in %s%s the line starts' % (SITE, trel),
+        '    ' + short(t, 3),
+        '    = %s messages in %s conversations, %s' % (t[1], t[3], time_kind),
+        '    So for Time as a subject, fetch %ssubject-map/time.txt instead. It is a derived' % SITE,
+        '    index (keyword matching + hand review) of messages that talk about time itself, with Alex\'s first',
+        '    mention to each AI and links to the exact messages in structured/.',
+        '  If a URL fails on GitHub Pages, use the raw mirror: replace %s with %s' % (SITE, RAW),
+    ]
+    return '\n'.join(out)
+
+
 def readme_file(stats, files, common, phrase_example):
     def example(word):
         rel = TERMS_DIR + '/'
@@ -363,6 +430,8 @@ ChatGPT, ChatGPT (WhatsApp), Copilot, DeepSeek, Gemini) in a few fetches:
   1. this README (once), 2. search/SHARDS.txt (once), 3. one terms file per word,
   4. the structured transcript files the terms file names, to read or confirm the text.
 Every result is a stable conversation ID and message ID from structured/ (see structured/README.txt).
+
+{zero_time}
 
 WHAT WAS INDEXED
   {messages} messages in {conversations} logical conversations (every file in structured/<collection>/).
@@ -456,7 +525,7 @@ FILES
   search/terms/*.txt    the terms files. Each starts with a 5-line header and names NEXT.
 '''.format(updated=LAST_UPDATED, site=SITE, raw=RAW, max_bytes=MAX_SHARD_BYTES, max_lines=MAX_SHARD_LINES,
            min_len=MIN_LEN, max_len=MAX_LEN, common_limit=COMMON_LIMIT, common_n=len(common),
-           ex_path=ex_path, ex_line=ex_line, phrase_example=phrase_example, largest=stats['largest_shard_bytes'], **stats)
+           ex_path=ex_path, ex_line=ex_line, phrase_example=phrase_example, zero_time=zero_time_block(files), largest=stats['largest_shard_bytes'], **stats)
     return lines
 
 

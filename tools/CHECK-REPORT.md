@@ -23,7 +23,7 @@ None.
 - Measured from the files: 1367 entries, 1220 logical conversations, 25992 messages in 1220 structured conversation files.
 - llms.txt and archive.txt are the same file, byte for byte.
 - Checked 32 exact byte figures stated next to repository files.
-- Checked internal links in 55 guide, sitemap, and list files (16570 internal targets).
+- Checked internal links in 55 guide, sitemap, and list files (16579 internal targets).
 - Every index.json entry has at least one part URL, and each part file and anchor is present.
 - index.json lists exactly the 1367 entry ids named in the structured transcripts (ORIGINAL_IDS), per collection.
 - Discovery files agree: each names the master file, structured index, subject map, search and parts lists; the master file is about 39.7 MB everywhere; all say the home page is static HTML.
@@ -32,6 +32,7 @@ None.
 - Checked 32 SHA-256 checksums stated next to repository files.
 - Search index: 139 terms files, 42129 words; every file is listed, under 250000 bytes and 400 lines, and on the NEXT chain.
 - The search index equals a fresh run of tools/build_search_index.py (143 files).
+- Checked 2 worked search examples in the guides against the index.
 - The large-file parts lists equal a fresh run of tools/build_large_file_parts.py (30 large files, 274 parts).
 
 Approximate sizes such as "about 39.7 MB" or "about 3 KB" are notes, not exact byte claims, so they were not compared.
