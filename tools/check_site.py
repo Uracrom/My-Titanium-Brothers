@@ -6,6 +6,7 @@ prints the same report, and exits 1 when it finds an error. Warnings do not
 fail the run. This script does not modify conversation, raw, full-text,
 structured, or introduction files.
 """
+import glob
 import json
 import os
 import re
@@ -51,7 +52,14 @@ LINK_FILES = (
     'index.html',
     'full-text/index.html',
     'structured/INDEX.txt',
+    'subject-map.html',
+    'subject-map.json',
 )
+
+# The subject map (derived index) is rebuilt by tools/build_subject_map.py.
+SUBJECT_MAP_JSON = 'subject-map.json'
+SUBJECT_MAP_MAX_LINES = 460
+NEXT_RE = re.compile(r'^NEXT:\s+(\S+)', re.M)
 
 
 def read_text(rel):
@@ -268,6 +276,10 @@ class Checker(object):
                 names.append(name)
             elif name.startswith('llms-') and name.endswith('.txt') and name != 'llms-full.txt':
                 names.append(name)
+        names.extend(sorted(
+            os.path.relpath(path, ROOT).replace(os.sep, '/')
+            for path in glob.glob(os.path.join(ROOT, 'subject-map', '*.txt'))
+        ))
         seen = set()
         for name in names:
             if name in seen:
@@ -556,6 +568,168 @@ class Checker(object):
         if missing_parts == 0:
             self.ok('Every index.json entry has at least one part URL, and each part file and anchor is present.')
 
+    # ------------------------------------------------------------ subject map
+    def check_subject_map(self, rebuild=True):
+        """Check the derived subject map: files, line limits, NEXT chains, counts, IDs, quotes, rebuild."""
+        if not os.path.isfile(os.path.join(ROOT, SUBJECT_MAP_JSON)):
+            self.ok('No subject-map.json, so the subject map checks were skipped.')
+            return
+        try:
+            data = json.loads(read_text(SUBJECT_MAP_JSON))
+        except ValueError as exc:
+            self.error('subject-map.json is not valid JSON: %s' % exc)
+            return
+        start = len(self.errors)
+        listed = set(data.get('files', []))
+        on_disk = set('subject-map/' + n for n in os.listdir(os.path.join(ROOT, 'subject-map'))) \
+            if os.path.isdir(os.path.join(ROOT, 'subject-map')) else set()
+        for rel in sorted(listed):
+            if not os.path.isfile(os.path.join(ROOT, rel)):
+                self.error('subject-map.json lists %s, and that file is not in the repository.' % rel)
+        for rel in sorted(on_disk - listed):
+            self.error('%s is not listed in subject-map.json "files".' % rel)
+        for rel in sorted(on_disk):
+            if rel.endswith('.txt'):
+                count = read_text(rel).count('\n')
+                if count > SUBJECT_MAP_MAX_LINES:
+                    self.error('%s has %d lines; subject-map files must have at most %d.'
+                               % (rel, count, SUBJECT_MAP_MAX_LINES))
+        overrides = data.get('overrides')
+        if overrides and not os.path.isfile(os.path.join(ROOT, overrides)):
+            self.error('subject-map.json names overrides file %s, and it is missing.' % overrides)
+
+        # NEXT chains: INDEX.txt, then each topic file through its list parts.
+        index_text = read_text('subject-map/INDEX.txt') if 'subject-map/INDEX.txt' in on_disk else ''
+        if not index_text:
+            self.error('subject-map/INDEX.txt is missing.')
+        visited = set(['subject-map/INDEX.txt'])
+        topics = data.get('topics', [])
+        for topic in topics:
+            rel = 'subject-map/%s.txt' % topic.get('key')
+            hops = 0
+            while rel and hops < 100:
+                if rel in visited and hops:
+                    self.error('subject-map NEXT chain loops at %s.' % rel)
+                    break
+                visited.add(rel)
+                if not os.path.isfile(os.path.join(ROOT, rel)):
+                    self.error('subject-map NEXT chain reaches a missing file: %s' % rel)
+                    break
+                found = NEXT_RE.search(read_text(rel))
+                if not found:
+                    self.error('%s has no NEXT line.' % rel)
+                    break
+                target = found.group(1)
+                if target == 'none':
+                    break
+                kind, target_rel, _frag = self.resolve_site_path(target)
+                rel = target_rel if kind == 'internal' else None
+                hops += 1
+        for rel in sorted(x for x in on_disk if x.endswith('.txt')):
+            if rel not in visited:
+                self.error('%s is not reached by any subject-map NEXT chain.' % rel)
+
+        # Counts: JSON totals against the conversation rows, the INDEX table, the topic files and the HTML page.
+        html = read_text('subject-map.html') if os.path.isfile(os.path.join(ROOT, 'subject-map.html')) else ''
+        quotes_checked = 0
+        texts = {}
+        for topic in topics:
+            key = topic.get('key')
+            rows = topic.get('conversations', [])
+            totals = topic.get('totals', {})
+            measured = dict(
+                conversations=len(rows),
+                messages=sum(r['messages'] for r in rows),
+                alex_own_words=sum(r['alex_own_words'] for r in rows),
+                alex_labeled=sum(r['alex_labeled'] for r in rows),
+                ai_messages=sum(r['ai_messages'] for r in rows),
+            )
+            for name, value in measured.items():
+                if totals.get(name) != value:
+                    self.error('subject-map.json topic %s states %s %s, but its rows add up to %s.'
+                               % (key, name, totals.get(name), value))
+            if measured['messages'] != measured['alex_labeled'] + measured['ai_messages']:
+                self.error('subject-map.json topic %s: messages is not Alex-labeled plus AI.' % key)
+            row = '  %s | %s | %s | %d | %d | %d |' % (
+                key, topic.get('label'), topic.get('method'), totals.get('conversations', -1),
+                totals.get('messages', -1), totals.get('alex_own_words', -1))
+            if row not in index_text:
+                self.error('subject-map/INDEX.txt does not state the counts in subject-map.json for topic %s.' % key)
+            topic_rel = 'subject-map/%s.txt' % key
+            if os.path.isfile(os.path.join(ROOT, topic_rel)):
+                topic_text = read_text(topic_rel)
+                if 'Conversations with a match: %d of %d' % (totals.get('conversations', -1),
+                                                            data.get('conversations_total', -1)) not in topic_text:
+                    self.error('%s does not state the conversation count in subject-map.json.' % topic_rel)
+                head = '\n'.join(topic_text.split('\n')[:5])
+                if 'derived index' not in head or 'originals unchanged' not in head:
+                    self.error('%s does not state "derived index ... originals unchanged" in its header.' % topic_rel)
+            if html and ('id="%s"' % key) not in html:
+                self.error('subject-map.html has no section id="%s".' % key)
+            # IDs and quotes against the structured transcripts.
+            for r in rows:
+                rel = self.resolve_site_path(r.get('text', ''))
+                if rel[0] != 'internal' or not os.path.isfile(os.path.join(ROOT, rel[1])):
+                    self.error('subject-map topic %s row %s has a missing text file.' % (key, r.get('id')))
+                    continue
+                if rel[1] not in texts:
+                    texts[rel[1]] = read_text(rel[1])
+                body = texts[rel[1]]
+                if 'CONVERSATION: %s\n' % r['id'] not in body and ('BEGIN MESSAGE %s-' % r['id']) not in body:
+                    self.error('subject-map topic %s: %s is not the conversation in %s.' % (key, r['id'], rel[1]))
+                for mid in r.get('message_ids', []):
+                    if ('MESSAGE: %s\n' % mid) not in body:
+                        self.error('subject-map topic %s: message %s is not in %s.' % (key, mid, rel[1]))
+            quotes = list(topic.get('alex_first_mention_by_ai', []))
+            if topic.get('first_in_alex_own_words'):
+                quotes.append(topic['first_in_alex_own_words'])
+            for q in quotes:
+                rel = self.resolve_site_path(q.get('text', ''))
+                if rel[0] != 'internal' or not os.path.isfile(os.path.join(ROOT, rel[1])):
+                    self.error('subject-map topic %s quote %s has a missing text file.' % (key, q.get('message')))
+                    continue
+                body = texts.get(rel[1]) or read_text(rel[1])
+                begin = body.find('----- BEGIN MESSAGE %s -----' % q['message'])
+                if begin < 0:
+                    begin = body.find('----- BEGIN MESSAGE %s-' % q['message'])
+                end = body.find('----- END MESSAGE %s' % q['message'], begin)
+                if begin < 0 or end < 0 or q['quote'] not in body[begin:end]:
+                    self.error('subject-map topic %s: the quote for %s is not exact text of that message.'
+                               % (key, q['message']))
+                elif len(q['quote'].split()) > 25:
+                    self.error('subject-map topic %s: the quote for %s has more than 25 words.' % (key, q['message']))
+                quotes_checked += 1
+        try:
+            manifest_topics = json.loads(read_text('archive-manifest.json')).get('subject_map', {}).get('topics')
+        except (OSError, ValueError):
+            manifest_topics = None
+        if manifest_topics is not None:
+            expected = [(t.get('key'), t['totals']['conversations'], t['totals']['messages'], t['totals']['alex_own_words'])
+                        for t in topics]
+            stated = [(t.get('key'), t.get('conversations'), t.get('messages'), t.get('alex_own_words_messages'))
+                      for t in manifest_topics]
+            if stated != expected:
+                self.error('archive-manifest.json subject_map topic counts differ from subject-map.json.')
+        if len(self.errors) == start:
+            self.ok('Subject map: %d files, %d topics; line limits, NEXT chains, counts, IDs and %d quotes agree.'
+                    % (len(listed), len(topics), quotes_checked))
+        if not rebuild:
+            self.warn('The subject map was not compared with a fresh build (--skip-subject-map-rebuild).')
+            return
+        sys.path.insert(0, os.path.join(ROOT, 'tools'))
+        try:
+            import build_subject_map
+            fresh = build_subject_map.build()
+        except Exception as exc:  # report, do not crash the whole check
+            self.error('tools/build_subject_map.py failed: %s' % exc)
+            return
+        stale = [rel for rel, text in sorted(fresh.items())
+                 if not os.path.isfile(os.path.join(ROOT, rel)) or read_text(rel) != text]
+        for rel in stale:
+            self.error('%s differs from a fresh build. Run: python3 tools/build_subject_map.py' % rel)
+        if not stale:
+            self.ok('The subject map files equal a fresh run of tools/build_subject_map.py (%d files).' % len(fresh))
+
     def report(self, measured):
         lines = [
             '# Site link and consistency check',
@@ -603,6 +777,7 @@ def main():
     checker.check_stated_byte_phrases()
     checker.check_links()
     checker.check_index_pages(entries)
+    checker.check_subject_map(rebuild='--skip-subject-map-rebuild' not in sys.argv)
     checker.report(measured)
     return 1 if checker.errors else 0
 
