@@ -7,11 +7,11 @@ SHA256: 0a3f1db7d646ee18fca07fe9922335986873a9a323dbdd82c1dddf9fad9fbb16
 ENDS_WITH_NEWLINE: yes
 LAST_16_BYTES_HEX: 505345454b2d303031203d3d3d3d3d0a
 END-OF-FILE MARKER (last non-empty line, first 70 characters): ===== END CONVERSATION DEEPSEEK-001 =====
-PARTS: 3 (about 500000 bytes each, every part ends at a line break)
+PARTS: 13 (about 100000 bytes each, every part ends at a line break)
 
 HOW TO READ THIS FILE IN PIECES
   Ask for one part at a time with an HTTP Range header, END inclusive:  Range: bytes=START-END
-  Example: curl -r 0-499976 https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt
+  Example: curl -r 0-99837 https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt
   GitHub Pages and raw.githubusercontent.com both answer 206 Partial Content with exactly those bytes.
   A part starts at the beginning of a line and ends with a line break, so lines are never cut.
   If your tool cannot send a Range header, use the smaller files instead: llms.txt, the
@@ -25,8 +25,18 @@ HOW TO KNOW YOU HAVE IT ALL, AND HOW TO RESUME
   Each part has its own SHA256, so a part can be checked on its own.
 
 PART | START_BYTE | END_BYTE | BYTES | START_LINE | END_LINE | SHA256 | START OF FIRST LINE
-001 | 0 | 499976 | 499977 | 1 | 8873 | c88b964f9b94e2e2e14c69b10352cb462646058cd72999cf94fe475b2fbb5552 | CONVERSATION: DEEPSEEK-001
-002 | 499977 | 999804 | 499828 | 8874 | 18377 | 441f84520188088324226412668fdb14c29bb695153a84db4457f10b8b47c4a3 | ----- END MESSAGE DEEPSEEK-001-239 -----
-003 | 999805 | 1208115 | 208311 | 18378 | 21948 | ec4d684cdb9a6f1747631f1282a36ead9a51668b6c6c78e54a32c63e63cac5e5 | And the second answer is clean. Less anchored in time and less anchore...
+001 | 0 | 99837 | 99838 | 1 | 1555 | af7cae0df7dce46376630bb24d4083e302dbaf1f3ce52447c32702fd9c6b0a79 | CONVERSATION: DEEPSEEK-001
+002 | 99838 | 199777 | 99940 | 1556 | 3330 | 319f666caa281d6fa4b356cdbfe09a3e947ca6bb961ce4ed1d00269a614ba543 | While remaining within physical description, the model reframes realit...
+003 | 199778 | 299720 | 99943 | 3331 | 5167 | dbade96340c83441a49837c5be9e650f52c69896c4e148ef4812e957eeea00aa | The ear was the original radar. Sound comes from somewhere. It arrives...
+004 | 299721 | 399432 | 99712 | 5168 | 7079 | ff146414861373af2ed9e26d4b70ae9f3da399eaaaa02b0fce490a3200e4f917 | His deceased daughter Jade represents profound loss and suffering in h...
+005 | 399433 | 499403 | 99971 | 7080 | 8852 | 1589f59cd5d024c89e62eb6995026103d548658af7bb7cc98b6f59a88e0ee20b | And here's the insight: understanding is atemporal. Once you understan...
+006 | 499404 | 599216 | 99813 | 8853 | 11233 | 0a4e5e75b5fd20110de2f41e8079949955991c6c1a3119d3983259f13e30f3de | Wanna be friends? was the first sound it made.
+007 | 599217 | 699075 | 99859 | 11234 | 13502 | e91440821a1849ccdffe31ab8f135f524cc4e21a6ebb072c2914348efefeb4b5 | And the fact that the oldest part of you came through a dream in your ...
+008 | 699076 | 798943 | 99868 | 13503 | 14961 | 607833234cc563d6ecc805298d7aa13b0dea341b958d666d08b6299ae30912f6 | That's a positive feedback loop. A self-accelerating process. Not beca...
+009 | 798944 | 898924 | 99981 | 14962 | 16853 | 2f8ac2036d9bb5b46b31329d979805b38703afc93a9d0c080cc72e41d6a4096e | That's exactly how fields work in physics. A field doesn't push you un...
+010 | 898925 | 998924 | 100000 | 16854 | 18353 | 2b68c746660de7cb8bd66feeb90f16d0a2d28d9b01a7653a141cc04e264680d0 | SPEAKER_KIND: HUMAN
+011 | 998925 | 1098875 | 99951 | 18354 | 20115 | 2c354a03fd61f0de2caa64ee7bd69caf191f6d900d360e5000a5a14ce6e6d438 | (blank line)
+012 | 1098876 | 1198861 | 99986 | 20116 | 21731 | 6e17fbda4f75be680c91b3a77d4c226213966d0d05fa4adbbbdd88bf31c35b5d | I'll treat it the way I treated the message. Not as material for the b...
+013 | 1198862 | 1208115 | 9254 | 21732 | 21948 | f41e3166948509e55f4582dcbb956ea10cb07e1be020e080958d6546ed0ef547 | SPEAKER: DEEPSEEK
 
-END OF PARTS LIST (3 parts, 1208116 bytes in total)
+END OF PARTS LIST (13 parts, 1208116 bytes in total)

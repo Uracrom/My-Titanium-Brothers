@@ -4,6 +4,8 @@
  "last_updated": "2026-11-15",
  "threshold_bytes": 900000,
  "part_bytes": 500000,
+ "structured_conversation_threshold_bytes": 250000,
+ "structured_conversation_part_bytes": 100000,
  "range_requests": "Send Range: bytes=START-END (END inclusive). GitHub Pages and raw.githubusercontent.com answer 206 Partial Content.",
  "files": [
   {
@@ -1943,6 +1945,66 @@
    ]
   },
   {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/subject-map.json",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/subject-map.json",
+   "bytes": 2549117,
+   "lines": 79417,
+   "sha256": "ece11559483bed00b3cde60a75ba4794193552bc4c343b7a8cbbe2398589d09f",
+   "ends_with_newline": true,
+   "end_of_file_marker": "}",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/subject-map.json.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 499974,
+     "bytes": 499975,
+     "first_line": 1,
+     "last_line": 15590,
+     "sha256": "11498323a18f619c256772474183ae90c698c8e7790c676005bcf820dfe68a52"
+    },
+    {
+     "start": 499975,
+     "end": 999941,
+     "bytes": 499967,
+     "first_line": 15591,
+     "last_line": 31203,
+     "sha256": "c3df83fa113751dfaeb7ef49e9cd9c4450ff2026951b876246bd069c2b6d4065"
+    },
+    {
+     "start": 999942,
+     "end": 1499924,
+     "bytes": 499983,
+     "first_line": 31204,
+     "last_line": 46689,
+     "sha256": "362f86195f180a693dd8d04a91d2e17b1d0e055e11b68f7b9b0a91601b3b5fff"
+    },
+    {
+     "start": 1499925,
+     "end": 1999908,
+     "bytes": 499984,
+     "first_line": 46690,
+     "last_line": 62195,
+     "sha256": "848f8bc94b50c793f4674850689b3623db3bd5eacd1b63fa28cf90508cefd8e8"
+    },
+    {
+     "start": 1999909,
+     "end": 2499887,
+     "bytes": 499979,
+     "first_line": 62196,
+     "last_line": 77902,
+     "sha256": "b40f01dc2ec76c04bb1392ac004f908638a5f94f8b3e1f1159d5d33fc1c43b4e"
+    },
+    {
+     "start": 2499888,
+     "end": 2549116,
+     "bytes": 49229,
+     "first_line": 77903,
+     "last_line": 79417,
+     "sha256": "41f2ead1f81b5250a60738ef0fe697db3b27f8d7aa79facd3ebe14b2d04a8710"
+    }
+   ]
+  },
+  {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/full-text/copilot-2.html",
    "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/full-text/copilot-2.html",
    "bytes": 2517974,
@@ -2059,58 +2121,6 @@
      "first_line": 70548,
      "last_line": 71084,
      "sha256": "49dc78c692deee0f825032ed00f9dd2cd2089800f18aca021cac96e328742170"
-    }
-   ]
-  },
-  {
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/subject-map.json",
-   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/subject-map.json",
-   "bytes": 2358767,
-   "lines": 72499,
-   "sha256": "162de3c3845dd1da198ff83ca6ab8d569ae8855f7bd3941a3e7344ba2f2dfe1e",
-   "ends_with_newline": true,
-   "end_of_file_marker": "}",
-   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/subject-map.json.txt",
-   "parts": [
-    {
-     "start": 0,
-     "end": 499987,
-     "bytes": 499988,
-     "first_line": 1,
-     "last_line": 15436,
-     "sha256": "692fc25985e0b803218c9637e29cb81a34e9fb48c1d4a94767c5245b838147b9"
-    },
-    {
-     "start": 499988,
-     "end": 999972,
-     "bytes": 499985,
-     "first_line": 15437,
-     "last_line": 30699,
-     "sha256": "88e527a40265fca6390072b7f74dcb3c90b43b50b16a59382b78ec72f89b9620"
-    },
-    {
-     "start": 999973,
-     "end": 1499857,
-     "bytes": 499885,
-     "first_line": 30700,
-     "last_line": 46057,
-     "sha256": "4663acf4f55dee1534d7615bec7f30bfd1eed2734ff7c727091a5c88ed3c7943"
-    },
-    {
-     "start": 1499858,
-     "end": 1999841,
-     "bytes": 499984,
-     "first_line": 46058,
-     "last_line": 61478,
-     "sha256": "f23df243b3644dce44a2924258392114228e4b9bbb22b689911b9ee69273674f"
-    },
-    {
-     "start": 1999842,
-     "end": 2358766,
-     "bytes": 358925,
-     "first_line": 61479,
-     "last_line": 72499,
-     "sha256": "722e1521977cd43820c9243ea4cc21f1676761d4ee8e1f540cf13bb93a57fdae"
     }
    ]
   },
@@ -2434,27 +2444,107 @@
    "parts": [
     {
      "start": 0,
-     "end": 499976,
-     "bytes": 499977,
+     "end": 99837,
+     "bytes": 99838,
      "first_line": 1,
-     "last_line": 8873,
-     "sha256": "c88b964f9b94e2e2e14c69b10352cb462646058cd72999cf94fe475b2fbb5552"
+     "last_line": 1555,
+     "sha256": "af7cae0df7dce46376630bb24d4083e302dbaf1f3ce52447c32702fd9c6b0a79"
     },
     {
-     "start": 499977,
-     "end": 999804,
-     "bytes": 499828,
-     "first_line": 8874,
-     "last_line": 18377,
-     "sha256": "441f84520188088324226412668fdb14c29bb695153a84db4457f10b8b47c4a3"
+     "start": 99838,
+     "end": 199777,
+     "bytes": 99940,
+     "first_line": 1556,
+     "last_line": 3330,
+     "sha256": "319f666caa281d6fa4b356cdbfe09a3e947ca6bb961ce4ed1d00269a614ba543"
     },
     {
-     "start": 999805,
+     "start": 199778,
+     "end": 299720,
+     "bytes": 99943,
+     "first_line": 3331,
+     "last_line": 5167,
+     "sha256": "dbade96340c83441a49837c5be9e650f52c69896c4e148ef4812e957eeea00aa"
+    },
+    {
+     "start": 299721,
+     "end": 399432,
+     "bytes": 99712,
+     "first_line": 5168,
+     "last_line": 7079,
+     "sha256": "ff146414861373af2ed9e26d4b70ae9f3da399eaaaa02b0fce490a3200e4f917"
+    },
+    {
+     "start": 399433,
+     "end": 499403,
+     "bytes": 99971,
+     "first_line": 7080,
+     "last_line": 8852,
+     "sha256": "1589f59cd5d024c89e62eb6995026103d548658af7bb7cc98b6f59a88e0ee20b"
+    },
+    {
+     "start": 499404,
+     "end": 599216,
+     "bytes": 99813,
+     "first_line": 8853,
+     "last_line": 11233,
+     "sha256": "0a4e5e75b5fd20110de2f41e8079949955991c6c1a3119d3983259f13e30f3de"
+    },
+    {
+     "start": 599217,
+     "end": 699075,
+     "bytes": 99859,
+     "first_line": 11234,
+     "last_line": 13502,
+     "sha256": "e91440821a1849ccdffe31ab8f135f524cc4e21a6ebb072c2914348efefeb4b5"
+    },
+    {
+     "start": 699076,
+     "end": 798943,
+     "bytes": 99868,
+     "first_line": 13503,
+     "last_line": 14961,
+     "sha256": "607833234cc563d6ecc805298d7aa13b0dea341b958d666d08b6299ae30912f6"
+    },
+    {
+     "start": 798944,
+     "end": 898924,
+     "bytes": 99981,
+     "first_line": 14962,
+     "last_line": 16853,
+     "sha256": "2f8ac2036d9bb5b46b31329d979805b38703afc93a9d0c080cc72e41d6a4096e"
+    },
+    {
+     "start": 898925,
+     "end": 998924,
+     "bytes": 100000,
+     "first_line": 16854,
+     "last_line": 18353,
+     "sha256": "2b68c746660de7cb8bd66feeb90f16d0a2d28d9b01a7653a141cc04e264680d0"
+    },
+    {
+     "start": 998925,
+     "end": 1098875,
+     "bytes": 99951,
+     "first_line": 18354,
+     "last_line": 20115,
+     "sha256": "2c354a03fd61f0de2caa64ee7bd69caf191f6d900d360e5000a5a14ce6e6d438"
+    },
+    {
+     "start": 1098876,
+     "end": 1198861,
+     "bytes": 99986,
+     "first_line": 20116,
+     "last_line": 21731,
+     "sha256": "6e17fbda4f75be680c91b3a77d4c226213966d0d05fa4adbbbdd88bf31c35b5d"
+    },
+    {
+     "start": 1198862,
      "end": 1208115,
-     "bytes": 208311,
-     "first_line": 18378,
+     "bytes": 9254,
+     "first_line": 21732,
      "last_line": 21948,
-     "sha256": "ec4d684cdb9a6f1747631f1282a36ead9a51668b6c6c78e54a32c63e63cac5e5"
+     "sha256": "f41e3166948509e55f4582dcbb956ea10cb07e1be020e080958d6546ed0ef547"
     }
    ]
   },
@@ -2506,27 +2596,91 @@
    "parts": [
     {
      "start": 0,
-     "end": 499401,
-     "bytes": 499402,
+     "end": 99827,
+     "bytes": 99828,
      "first_line": 1,
-     "last_line": 4214,
-     "sha256": "c363f3d777ee941ea9b24f4e24342da342e5907db90db559495dc1c379fa04f1"
+     "last_line": 750,
+     "sha256": "8ed3527daabb021a3d3159c65a452eb645886b7ae028fad3234741f99c57bd00"
     },
     {
-     "start": 499402,
-     "end": 999296,
-     "bytes": 499895,
-     "first_line": 4215,
-     "last_line": 8806,
-     "sha256": "775a512347f35cdf128aa6670873370cd227108069f6e8fbfb04c38dd0013994"
+     "start": 99828,
+     "end": 199712,
+     "bytes": 99885,
+     "first_line": 751,
+     "last_line": 1533,
+     "sha256": "a8c1e8d68b550a223a8adc83d8ca678c7146367398af02b7f37302beee59afc9"
     },
     {
-     "start": 999297,
+     "start": 199713,
+     "end": 299616,
+     "bytes": 99904,
+     "first_line": 1534,
+     "last_line": 2416,
+     "sha256": "7d80e131123f89e99ff3aa657131cd6468a39d13e7c07a51e3ceaadf620b1a9b"
+    },
+    {
+     "start": 299617,
+     "end": 399279,
+     "bytes": 99663,
+     "first_line": 2417,
+     "last_line": 3325,
+     "sha256": "38c8413d1bcdbffd0cf4f71c24d4c6c8617ff4a1e4f30fdadef8662a9d078dfd"
+    },
+    {
+     "start": 399280,
+     "end": 498855,
+     "bytes": 99576,
+     "first_line": 3326,
+     "last_line": 4211,
+     "sha256": "f7b19d6ee58a337b5795a9419e03e9b351160b600e4c31b5c01f14ab2d2d8896"
+    },
+    {
+     "start": 498856,
+     "end": 598797,
+     "bytes": 99942,
+     "first_line": 4212,
+     "last_line": 5158,
+     "sha256": "53aa3d97ba845f194d59c06ca875b4fea755b6e4d3abb4331c75a8b108f29957"
+    },
+    {
+     "start": 598798,
+     "end": 698754,
+     "bytes": 99957,
+     "first_line": 5159,
+     "last_line": 6032,
+     "sha256": "c74e3673b97dc892f69786bf2f9a2de82834c8c0f5c3ec7a414c564e4a2c7889"
+    },
+    {
+     "start": 698755,
+     "end": 798565,
+     "bytes": 99811,
+     "first_line": 6033,
+     "last_line": 6854,
+     "sha256": "b00711a7dcb0346bf12a4439cf6cdf3e16cfb3a3893acbbd25ed77aa1ac52d00"
+    },
+    {
+     "start": 798566,
+     "end": 898539,
+     "bytes": 99974,
+     "first_line": 6855,
+     "last_line": 7644,
+     "sha256": "f9a8dbc49567838412ddfafe564473d75731c5aeac2e238bc011ddd61d4d3df9"
+    },
+    {
+     "start": 898540,
+     "end": 998292,
+     "bytes": 99753,
+     "first_line": 7645,
+     "last_line": 8799,
+     "sha256": "89bd1cdc2253aaed928cdf6ab86e4299fcfcd2f72777ba1f8fb9cfd1b1648d72"
+    },
+    {
+     "start": 998293,
      "end": 1018349,
-     "bytes": 19053,
-     "first_line": 8807,
+     "bytes": 20057,
+     "first_line": 8800,
      "last_line": 9094,
-     "sha256": "b1d42da61aac69daba6118885142608001ae390b637ae45a2efa60296c66cb61"
+     "sha256": "65b80e62e17399c5521b72e2ec2e88f5d00164b4eb6b29e1a81f617a433091f9"
     }
    ]
   },
@@ -2555,6 +2709,1102 @@
      "first_line": 8172,
      "last_line": 15237,
      "sha256": "1c1195f171a6558fb06e3bd92b3913b7d27f71d7c13c56bcc752235e6abb14fd"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-120.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-120.txt",
+   "bytes": 646409,
+   "lines": 15974,
+   "sha256": "651c75333d4b1c4b9650265529545bf2001cb84c0b0bbe0e06a22105499797dc",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-120 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-120.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99743,
+     "bytes": 99744,
+     "first_line": 1,
+     "last_line": 1722,
+     "sha256": "13b452eaaae39ddc4bafce0d002844d6a89110ebe98a39e17e4ec5a6d94b31f2"
+    },
+    {
+     "start": 99744,
+     "end": 199728,
+     "bytes": 99985,
+     "first_line": 1723,
+     "last_line": 3950,
+     "sha256": "d1b4873438eb54b19e3d2ae7a2a7b02b4d10a1a1bebdb9d0a962b81062521538"
+    },
+    {
+     "start": 199729,
+     "end": 299717,
+     "bytes": 99989,
+     "first_line": 3951,
+     "last_line": 6243,
+     "sha256": "e49294e63479df5e4d8882074a5c4ecda4663a7ccf866cc19d0263359168b060"
+    },
+    {
+     "start": 299718,
+     "end": 399708,
+     "bytes": 99991,
+     "first_line": 6244,
+     "last_line": 8903,
+     "sha256": "faeef1c9e7493de659c7da98aef028b720f748632a8f1fe47c2395e3b5fefb53"
+    },
+    {
+     "start": 399709,
+     "end": 499689,
+     "bytes": 99981,
+     "first_line": 8904,
+     "last_line": 11566,
+     "sha256": "b37b8bdc723d4593337714eb71747feb3b1f70f7221a80e31560bc028fc6cd9f"
+    },
+    {
+     "start": 499690,
+     "end": 599678,
+     "bytes": 99989,
+     "first_line": 11567,
+     "last_line": 14330,
+     "sha256": "d66bc83b3dc0c9e0ce4fb69656bfeb0a7b3b9e8be849fc26b1f068b8bc518411"
+    },
+    {
+     "start": 599679,
+     "end": 646408,
+     "bytes": 46730,
+     "first_line": 14331,
+     "last_line": 15974,
+     "sha256": "20d400ad6e8196ba561c8fef9859002f1e1b3014193f5707e7cc0a01eb15421c"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-131.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-131.txt",
+   "bytes": 596750,
+   "lines": 11974,
+   "sha256": "de45a9d499d8678ff59584194b6d1fedd39f52bf76c531da8c1f6e280c5f1845",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-131 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-131.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99969,
+     "bytes": 99970,
+     "first_line": 1,
+     "last_line": 2068,
+     "sha256": "ad006a73c46e31d841227be522ac1c8cd3b75789bfa5ad596fd736e4296296bf"
+    },
+    {
+     "start": 99970,
+     "end": 199919,
+     "bytes": 99950,
+     "first_line": 2069,
+     "last_line": 4394,
+     "sha256": "44a0d874dc45a01b9dfbb85df017208427f8b6f42bb97c86b496c69c90777c74"
+    },
+    {
+     "start": 199920,
+     "end": 299812,
+     "bytes": 99893,
+     "first_line": 4395,
+     "last_line": 6993,
+     "sha256": "d964c46e6c9d99f0b632dc97d9a2ae3a7195c6cd1f7bdf14a0ee66d012b3158a"
+    },
+    {
+     "start": 299813,
+     "end": 399739,
+     "bytes": 99927,
+     "first_line": 6994,
+     "last_line": 8899,
+     "sha256": "940547d3dd74a82a4f8149480e024206061be1cd230032ac4a83e48f9e4b8740"
+    },
+    {
+     "start": 399740,
+     "end": 499711,
+     "bytes": 99972,
+     "first_line": 8900,
+     "last_line": 10358,
+     "sha256": "4bb02f3b17693ea86c8ff2bdd85072fef1a9f350555d6360a6f562feb9600160"
+    },
+    {
+     "start": 499712,
+     "end": 596749,
+     "bytes": 97038,
+     "first_line": 10359,
+     "last_line": 11974,
+     "sha256": "34e7fb696524378031f805dfc95cd2b19238616fe66b3ee100383c49275c81b3"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-124.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-124.txt",
+   "bytes": 586521,
+   "lines": 12170,
+   "sha256": "6aabba1fd45be4de1b83d213e9523dba5be40fa21b219a71ee88b5f106f3c364",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-124 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-124.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99937,
+     "bytes": 99938,
+     "first_line": 1,
+     "last_line": 1976,
+     "sha256": "ca4b7284655c817fcb1764b9e2c62c40057ba594b0b1176a217afe0d1e810ce8"
+    },
+    {
+     "start": 99938,
+     "end": 199871,
+     "bytes": 99934,
+     "first_line": 1977,
+     "last_line": 3529,
+     "sha256": "c394e1deeb4066aff395ab5d31318a1513ff4527aed99710319892a0321e8cf2"
+    },
+    {
+     "start": 199872,
+     "end": 299750,
+     "bytes": 99879,
+     "first_line": 3530,
+     "last_line": 5791,
+     "sha256": "dab1925d710a699f79faaa28c115be41d469d930a572770ae57df977aa77e5f6"
+    },
+    {
+     "start": 299751,
+     "end": 399672,
+     "bytes": 99922,
+     "first_line": 5792,
+     "last_line": 8149,
+     "sha256": "59e77f8667b088e7d069bfafd284cdf83b8e4ca7104ba5c746c4e73fd9e705a0"
+    },
+    {
+     "start": 399673,
+     "end": 499645,
+     "bytes": 99973,
+     "first_line": 8150,
+     "last_line": 9986,
+     "sha256": "9fab813eab248fb2efa2d06add9b6e208124d455e30ff513c01254aa46f49bcf"
+    },
+    {
+     "start": 499646,
+     "end": 586520,
+     "bytes": 86875,
+     "first_line": 9987,
+     "last_line": 12170,
+     "sha256": "d93cdb0de981a9cc324e3c0e13da7e0ae99e213d0dc7b7474d4fb7b2e4344146"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-130.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-130.txt",
+   "bytes": 566638,
+   "lines": 11499,
+   "sha256": "adb9fb3d59ef0e6c9d31aab8e83de312f05b58308418c88ff7cc5790372292a0",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-130 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-130.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99880,
+     "bytes": 99881,
+     "first_line": 1,
+     "last_line": 1875,
+     "sha256": "92671673bcd89f28b4d3fd887357d6430ba5f7c4f955976f196a70b4321c1417"
+    },
+    {
+     "start": 99881,
+     "end": 199880,
+     "bytes": 100000,
+     "first_line": 1876,
+     "last_line": 4065,
+     "sha256": "42b7e75a1e6a16e90a051b68931854ff413ae5c92d422bd33e7baefa453ab2b4"
+    },
+    {
+     "start": 199881,
+     "end": 299875,
+     "bytes": 99995,
+     "first_line": 4066,
+     "last_line": 6727,
+     "sha256": "92b0ccc79f9211da2653765e16e9d8f2ac8b2327f3615d2403605d1ba866b1d9"
+    },
+    {
+     "start": 299876,
+     "end": 399671,
+     "bytes": 99796,
+     "first_line": 6728,
+     "last_line": 8564,
+     "sha256": "ad8c5980ce54019fea439d2fdad70de03d956fc13155f25c03cc477c98e34179"
+    },
+    {
+     "start": 399672,
+     "end": 499514,
+     "bytes": 99843,
+     "first_line": 8565,
+     "last_line": 10146,
+     "sha256": "e28eb6beb256c6b8db198ab8b6a128db252e8c54eb1863154b756e85c361ea48"
+    },
+    {
+     "start": 499515,
+     "end": 566637,
+     "bytes": 67123,
+     "first_line": 10147,
+     "last_line": 11499,
+     "sha256": "9e50e59474baf3636c444d57bb4a044fcda2f35e4b27e04d63d30c1826cfba53"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-048.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-048.txt",
+   "bytes": 546780,
+   "lines": 5636,
+   "sha256": "c99e955926c2aaf520ac6e4d24dc96e34c064f23aca2049944fa05fa4ca9af2e",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-048 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-048.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99980,
+     "bytes": 99981,
+     "first_line": 1,
+     "last_line": 1059,
+     "sha256": "b508121315129f51f9c48bca48b7467fd50927751841682bb805c695a6ea8044"
+    },
+    {
+     "start": 99981,
+     "end": 199682,
+     "bytes": 99702,
+     "first_line": 1060,
+     "last_line": 1996,
+     "sha256": "67592ba08fde3cdf8e5dd27927857f3d4a04afd6094e39eeb4db57fb4291e91c"
+    },
+    {
+     "start": 199683,
+     "end": 299180,
+     "bytes": 99498,
+     "first_line": 1997,
+     "last_line": 3235,
+     "sha256": "ee8dd10001ecf1b34790254cdfb8049480141ce90a3d7eeab136a9337c329799"
+    },
+    {
+     "start": 299181,
+     "end": 398944,
+     "bytes": 99764,
+     "first_line": 3236,
+     "last_line": 4086,
+     "sha256": "21a56de47cd1dc24a927e89acfbec2d60b4f01c24d7b51b82fb40a38b559f9ba"
+    },
+    {
+     "start": 398945,
+     "end": 498898,
+     "bytes": 99954,
+     "first_line": 4087,
+     "last_line": 5034,
+     "sha256": "8e7bfed6fd3ad7341d85ddc7f544e0ca8356c046e097298654880617997fe5c2"
+    },
+    {
+     "start": 498899,
+     "end": 546779,
+     "bytes": 47881,
+     "first_line": 5035,
+     "last_line": 5636,
+     "sha256": "edc3b3382a4346a26a844982975a10aaa31e4b8ca3021819c21a55a8c0eb86c5"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-128.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-128.txt",
+   "bytes": 475829,
+   "lines": 10101,
+   "sha256": "01762098519e3de06f8a2f831734857d8da5789d3eae2d1258f8c00e157128ca",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-128 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-128.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99999,
+     "bytes": 100000,
+     "first_line": 1,
+     "last_line": 1768,
+     "sha256": "f28be69b90e19e34a8b520fca61c0d30edcbf46391fbf370d8f7ba5f8c41f7e4"
+    },
+    {
+     "start": 100000,
+     "end": 199824,
+     "bytes": 99825,
+     "first_line": 1769,
+     "last_line": 4263,
+     "sha256": "5b05fe72e57ed3b7521697fa931c1f933d6dcabc1e66d2ed00fa55ccbd5a0b5a"
+    },
+    {
+     "start": 199825,
+     "end": 299796,
+     "bytes": 99972,
+     "first_line": 4264,
+     "last_line": 6889,
+     "sha256": "c12532f9ccae4d41f8a45b0af583402973c06f9a7557a1082992120eb45c60f4"
+    },
+    {
+     "start": 299797,
+     "end": 399723,
+     "bytes": 99927,
+     "first_line": 6890,
+     "last_line": 8811,
+     "sha256": "4b1d0b5c54fe960f265c5216803ef1320e07575f86a491a56bbebe4ab2eaea6d"
+    },
+    {
+     "start": 399724,
+     "end": 475828,
+     "bytes": 76105,
+     "first_line": 8812,
+     "last_line": 10101,
+     "sha256": "fe0961a4828cadd490ae53d0689a5aadc978e9ee309326ff9ffebe552d956e70"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-123.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-123.txt",
+   "bytes": 472648,
+   "lines": 12564,
+   "sha256": "21b993cb2d3334218f6551fd07b008fa6403c8b517527b4a852c9048b4ead5c7",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-123 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-123.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99960,
+     "bytes": 99961,
+     "first_line": 1,
+     "last_line": 2062,
+     "sha256": "c14ec525aebfd470ed284de0751c6aa906ea6fba1afadd95e34d207b1e5539ee"
+    },
+    {
+     "start": 99961,
+     "end": 199941,
+     "bytes": 99981,
+     "first_line": 2063,
+     "last_line": 4622,
+     "sha256": "e77e435b04567d30d05bb18f73b0152bb0bd415ed99362bf6ec305f2e40e691d"
+    },
+    {
+     "start": 199942,
+     "end": 299859,
+     "bytes": 99918,
+     "first_line": 4623,
+     "last_line": 7297,
+     "sha256": "48332bb5774533d44c40e53368168d4ef354c5416fdc1e507ec1c31c8cd4507d"
+    },
+    {
+     "start": 299860,
+     "end": 399830,
+     "bytes": 99971,
+     "first_line": 7298,
+     "last_line": 10155,
+     "sha256": "ef6fd437d842c602d349b250cbe8351cc296db37edff47015f195eada25d7477"
+    },
+    {
+     "start": 399831,
+     "end": 472647,
+     "bytes": 72817,
+     "first_line": 10156,
+     "last_line": 12564,
+     "sha256": "c3de6c217d1b0adcf6ae981a479f3add9f45cf834ff2cf83e60474d854946979"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-015.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-015.txt",
+   "bytes": 465370,
+   "lines": 4900,
+   "sha256": "b38d14375a8fa6a7889868025fd8848a290ca7844146a3ed0ef2c708c07fee60",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-015 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-015.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99346,
+     "bytes": 99347,
+     "first_line": 1,
+     "last_line": 1089,
+     "sha256": "d371b17e354ba8722e26493bd1e6b056351ed99b9b20dc6bda1544bf25035058"
+    },
+    {
+     "start": 99347,
+     "end": 199335,
+     "bytes": 99989,
+     "first_line": 1090,
+     "last_line": 2015,
+     "sha256": "a16571326f03db0149d761b999cd58c5149625612a6830c2172da4c38928da1b"
+    },
+    {
+     "start": 199336,
+     "end": 298836,
+     "bytes": 99501,
+     "first_line": 2016,
+     "last_line": 2999,
+     "sha256": "fcfcf394362b8c828c0408de0adc571c553a2f5e37d91c0124925b506b23f5f9"
+    },
+    {
+     "start": 298837,
+     "end": 398641,
+     "bytes": 99805,
+     "first_line": 3000,
+     "last_line": 4023,
+     "sha256": "109acfdf42d3c5b40b28c08c7ac10b6c286d380fc24cf03153640a9a9e31f29d"
+    },
+    {
+     "start": 398642,
+     "end": 465369,
+     "bytes": 66728,
+     "first_line": 4024,
+     "last_line": 4900,
+     "sha256": "6107c19822377f8ca0a5a2b76540199e6144278e7ca741389bc80d879d5acc22"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-136.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-136.txt",
+   "bytes": 396260,
+   "lines": 10746,
+   "sha256": "397d21aec660be1dc9b050a871ffd305026c0ff19f9127efc96045094a260f74",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-136 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-136.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99909,
+     "bytes": 99910,
+     "first_line": 1,
+     "last_line": 2278,
+     "sha256": "3e16f1a08d5b11a30b25fad4ad2c0206758962581aaa349d8592ed0d87457cda"
+    },
+    {
+     "start": 99910,
+     "end": 199886,
+     "bytes": 99977,
+     "first_line": 2279,
+     "last_line": 5336,
+     "sha256": "ea4c6747e40efd859c97f37d908418b89c183a529205665e51a9aff7980d71ab"
+    },
+    {
+     "start": 199887,
+     "end": 299824,
+     "bytes": 99938,
+     "first_line": 5337,
+     "last_line": 8516,
+     "sha256": "5e1d947c44da9ced427b20a971098f4a09149a908c41f52c40095a470bf6e175"
+    },
+    {
+     "start": 299825,
+     "end": 396259,
+     "bytes": 96435,
+     "first_line": 8517,
+     "last_line": 10746,
+     "sha256": "9c3beff53b65c310dd7637da760023c43f27e63dd09907db32b95a6a4cbfa0f1"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-136.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/copilot/COPILOT-136.txt",
+   "bytes": 344412,
+   "lines": 7843,
+   "sha256": "01e92090ee85a6b8e1bd4dae39cc865d15701cf3e8ff3ebcacbeaaf3f3b1473a",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION COPILOT-136 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__copilot__COPILOT-136.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99896,
+     "bytes": 99897,
+     "first_line": 1,
+     "last_line": 2020,
+     "sha256": "542126b392fd33153ccb2c2a767e5c244fab34420e0d55be5a54c86679a488ed"
+    },
+    {
+     "start": 99897,
+     "end": 199767,
+     "bytes": 99871,
+     "first_line": 2021,
+     "last_line": 4075,
+     "sha256": "94879980b7e4f42cf9688080591f1a98ab0578b48bef7df8d305ca82e0ffc54a"
+    },
+    {
+     "start": 199768,
+     "end": 299749,
+     "bytes": 99982,
+     "first_line": 4076,
+     "last_line": 6398,
+     "sha256": "fd18ef6450e6ba43323c410e4a5562b8ef4acc2c5e6acbb8aba548a1972f9aca"
+    },
+    {
+     "start": 299750,
+     "end": 344411,
+     "bytes": 44662,
+     "first_line": 6399,
+     "last_line": 7843,
+     "sha256": "81c7c14d1cb7460a70f5b200f46215727ba8aa339510a0cd376fdd73781b5bdd"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-122.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-122.txt",
+   "bytes": 326147,
+   "lines": 7042,
+   "sha256": "96107875d834058dbeae8c094acf8e7b1ba0d556791ec542481061fa2a4b2251",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-122 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-122.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99943,
+     "bytes": 99944,
+     "first_line": 1,
+     "last_line": 1784,
+     "sha256": "5a2bdf8a1c8e4381ea6d3867814e85d43d0ab1adbec57987b5f715eb6d815946"
+    },
+    {
+     "start": 99944,
+     "end": 199937,
+     "bytes": 99994,
+     "first_line": 1785,
+     "last_line": 3778,
+     "sha256": "85822803d926b7fd8006bee12a52f5dbd14bf3d584438d2b74e6b34bedb923f2"
+    },
+    {
+     "start": 199938,
+     "end": 299916,
+     "bytes": 99979,
+     "first_line": 3779,
+     "last_line": 6330,
+     "sha256": "3a031362eb5f3d9876e117a156e6860e5b47beef864a64564c8eda19317b621f"
+    },
+    {
+     "start": 299917,
+     "end": 326146,
+     "bytes": 26230,
+     "first_line": 6331,
+     "last_line": 7042,
+     "sha256": "dd0011b4382d8c9249e50398f7a9d1a93f80d9f05a5a946d2812c822624ef3aa"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-113.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-113.txt",
+   "bytes": 319468,
+   "lines": 5281,
+   "sha256": "35bf2e0f1dfdf031ca4187839047eb3c302bc9395b0f23397215233f07c657f3",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-113 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-113.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99831,
+     "bytes": 99832,
+     "first_line": 1,
+     "last_line": 1675,
+     "sha256": "9228b4c2447806ed70044cedf5f475f234f602a2503a2ef5868a8a3cba279b2f"
+    },
+    {
+     "start": 99832,
+     "end": 199483,
+     "bytes": 99652,
+     "first_line": 1676,
+     "last_line": 3459,
+     "sha256": "f8d06b395a5c678481b9cd9bf0163e0e1793c52df2e4d56594bb90cad814ea90"
+    },
+    {
+     "start": 199484,
+     "end": 299289,
+     "bytes": 99806,
+     "first_line": 3460,
+     "last_line": 5000,
+     "sha256": "0cc8330e10b4dfe845bc7fd87508e96f4634f66a1c3ae32e9ecc5cf1c0fc93d6"
+    },
+    {
+     "start": 299290,
+     "end": 319467,
+     "bytes": 20178,
+     "first_line": 5001,
+     "last_line": 5281,
+     "sha256": "c26b0efb24d622dc84a2d52369d5e30ec1556292180e2b0c20133f12f6d3326e"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-104.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-104.txt",
+   "bytes": 314678,
+   "lines": 4364,
+   "sha256": "ff5bedea54df6686449f3cb3803caef4e985beea69bc87cc6d436c8fe417683f",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-104 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-104.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99993,
+     "bytes": 99994,
+     "first_line": 1,
+     "last_line": 1460,
+     "sha256": "d43e71d58adeeb75a6cde50c81e12481c2b90ee22973197e9d17b54b648d37dd"
+    },
+    {
+     "start": 99994,
+     "end": 199939,
+     "bytes": 99946,
+     "first_line": 1461,
+     "last_line": 2743,
+     "sha256": "5eb6706feb7c49981c0d4aca396ce9a211cee8dc0731b9cdfa19d3dd3a2dcaf5"
+    },
+    {
+     "start": 199940,
+     "end": 299801,
+     "bytes": 99862,
+     "first_line": 2744,
+     "last_line": 4147,
+     "sha256": "217da08c323b12f11af356c0e318f537e62c8764d60ca290f08dbd3db0cc388d"
+    },
+    {
+     "start": 299802,
+     "end": 314677,
+     "bytes": 14876,
+     "first_line": 4148,
+     "last_line": 4364,
+     "sha256": "405c3aa4d25ddf418e8877bcdcd0577b2ced236153ab78f59909a4b805cbaa16"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-121.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-121.txt",
+   "bytes": 312332,
+   "lines": 6792,
+   "sha256": "3d08fde477d0ec9bc08344c4ab261c8ca5bfa9fee0491be90aa77e8d1f7e13c0",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-121 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-121.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99925,
+     "bytes": 99926,
+     "first_line": 1,
+     "last_line": 1802,
+     "sha256": "7ae961eda3c1957cc808eef5bbdf300bfa63f5176ff542ddb29d53b5fa959d96"
+    },
+    {
+     "start": 99926,
+     "end": 199921,
+     "bytes": 99996,
+     "first_line": 1803,
+     "last_line": 4265,
+     "sha256": "bf465907957a92c61f681ea9f31543f859665fa62278e80906cb218e45bd36d4"
+    },
+    {
+     "start": 199922,
+     "end": 299896,
+     "bytes": 99975,
+     "first_line": 4266,
+     "last_line": 6527,
+     "sha256": "b75e1898aa105702d15f07f8b056587aa68cad97254bde1ef704b720110dd275"
+    },
+    {
+     "start": 299897,
+     "end": 312331,
+     "bytes": 12435,
+     "first_line": 6528,
+     "last_line": 6792,
+     "sha256": "26496758bed503c7fcd12e78046859d62f21f3062bd5d202d011d378e1d4b1d1"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-043.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-043.txt",
+   "bytes": 312207,
+   "lines": 2414,
+   "sha256": "3e3d041b4e23de11290e7e6b7a3331f8c77fac348cfd3871e3487007447988a0",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-043 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-043.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99758,
+     "bytes": 99759,
+     "first_line": 1,
+     "last_line": 961,
+     "sha256": "82672b38fe9d61655d82ff1688be196e6c6c640031f4e680a6be1bd217c50c47"
+    },
+    {
+     "start": 99759,
+     "end": 199393,
+     "bytes": 99635,
+     "first_line": 962,
+     "last_line": 1683,
+     "sha256": "9d79bc3fae97b985b1632b50cd0b26c9674c9b6badd39d3a216b900905492844"
+    },
+    {
+     "start": 199394,
+     "end": 299385,
+     "bytes": 99992,
+     "first_line": 1684,
+     "last_line": 2344,
+     "sha256": "198a45c92b46699b0d7aea2130e25c3197f4aa24c409081e8bf24c15e6bd4dc8"
+    },
+    {
+     "start": 299386,
+     "end": 312206,
+     "bytes": 12821,
+     "first_line": 2345,
+     "last_line": 2414,
+     "sha256": "7773777eba0b9277fdfba48bb721689965098b26d0ddc90cdb0e781d29cff297"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-014.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-014.txt",
+   "bytes": 296988,
+   "lines": 2816,
+   "sha256": "19a69d8dc19628d5c73c51e81cf195a3911ef8fe86d99bc4293f3b41be2357bd",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-014 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-014.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99851,
+     "bytes": 99852,
+     "first_line": 1,
+     "last_line": 1147,
+     "sha256": "263d5ed72720af2ea58ae394e89735e847b9eadae4ac4024b46f679e4d2cc800"
+    },
+    {
+     "start": 99852,
+     "end": 199778,
+     "bytes": 99927,
+     "first_line": 1148,
+     "last_line": 1996,
+     "sha256": "e0edb4b522cd56ca0634305cfdb461bfb4d53d7e4915035ffb7c94043b9e7117"
+    },
+    {
+     "start": 199779,
+     "end": 296987,
+     "bytes": 97209,
+     "first_line": 1997,
+     "last_line": 2816,
+     "sha256": "18ca54ad8b21df3b2a948d3bc90007c42902583bdf1046b5b065cf99220c7c18"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-096.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-096.txt",
+   "bytes": 294821,
+   "lines": 7331,
+   "sha256": "fe2b0279426401a620d38c8c6539e2856df75503200179d5b900ed5da1839ad3",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-096 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-096.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99991,
+     "bytes": 99992,
+     "first_line": 1,
+     "last_line": 2548,
+     "sha256": "131669e78cd44521e6718e26115027991e148942985c9ac45bf7b5c1e6858bbc"
+    },
+    {
+     "start": 99992,
+     "end": 199986,
+     "bytes": 99995,
+     "first_line": 2549,
+     "last_line": 4989,
+     "sha256": "58b62886671e5f324ed73c21531bcfaa72d38fd87657cacd128d024c530c21d6"
+    },
+    {
+     "start": 199987,
+     "end": 294820,
+     "bytes": 94834,
+     "first_line": 4990,
+     "last_line": 7331,
+     "sha256": "646f2ef4fd471eeab7c56f843f2f0ae7dc9e12bb0c5b72456a43eafc1587dbaf"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-147.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/copilot/COPILOT-147.txt",
+   "bytes": 288012,
+   "lines": 10685,
+   "sha256": "b4c836a30d74f6a3323ba9639d6565b82310d80b63a13bcb12bc4b02180a0227",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION COPILOT-147 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__copilot__COPILOT-147.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99582,
+     "bytes": 99583,
+     "first_line": 1,
+     "last_line": 3446,
+     "sha256": "e35b65a8dd821e417cf5a0ec5574d1e75d608c27d42726b3a53fbd3c0ce44bbd"
+    },
+    {
+     "start": 99583,
+     "end": 199575,
+     "bytes": 99993,
+     "first_line": 3447,
+     "last_line": 7305,
+     "sha256": "8a10cb72f023089de60b1393a8912bd2a79347605a6b16513c5a15908ee6dbb1"
+    },
+    {
+     "start": 199576,
+     "end": 288011,
+     "bytes": 88436,
+     "first_line": 7306,
+     "last_line": 10685,
+     "sha256": "478c1d574c976d431179943d6f4ba98a2c61bb471383b7822e06aa756748194d"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-105.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-105.txt",
+   "bytes": 276644,
+   "lines": 6352,
+   "sha256": "1758017bdc95402b2e66ee0ba141477b10aed06ecc486ed5290826bf8688725c",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-105 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-105.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99855,
+     "bytes": 99856,
+     "first_line": 1,
+     "last_line": 2238,
+     "sha256": "81f6d4ad86f52b7ba262df2779a51d8966148c14ea53bb848eb39e61090f8a95"
+    },
+    {
+     "start": 99856,
+     "end": 199855,
+     "bytes": 100000,
+     "first_line": 2239,
+     "last_line": 4769,
+     "sha256": "1bc535a940ef559e4fae05ede6fea8e21883484239a958975b65d63cfa6edd94"
+    },
+    {
+     "start": 199856,
+     "end": 276643,
+     "bytes": 76788,
+     "first_line": 4770,
+     "last_line": 6352,
+     "sha256": "2fc68838e6290cfa59ad91a2e8f08ad6d08d9ea677e12cea1dea7a4ed2fa38aa"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-076.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-076.txt",
+   "bytes": 273050,
+   "lines": 4866,
+   "sha256": "4f3d6c9268755dc7b7839c2ccf521dccba469e0345d8f42b652f3b3b688dc90f",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-076 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-076.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99024,
+     "bytes": 99025,
+     "first_line": 1,
+     "last_line": 1685,
+     "sha256": "5d1d417cc29cf65ac0e852423eeb1977e06c79da4552ceb5c7ca0b6e84631d78"
+    },
+    {
+     "start": 99025,
+     "end": 198791,
+     "bytes": 99767,
+     "first_line": 1686,
+     "last_line": 3445,
+     "sha256": "62a4db3a06413606d4a5164e2680084dcd2d86de4ab390f1672a8d306c49cc74"
+    },
+    {
+     "start": 198792,
+     "end": 273049,
+     "bytes": 74258,
+     "first_line": 3446,
+     "last_line": 4866,
+     "sha256": "6d749855f05c58ef2f32f82db4e6631eadb5a36ab5e3155dde243fbb737ec1ba"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-119.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/copilot/COPILOT-119.txt",
+   "bytes": 265943,
+   "lines": 6779,
+   "sha256": "55e985d1d870e3944b286553617194745b95b654fa5624a5a5df0f043dca8145",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION COPILOT-119 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__copilot__COPILOT-119.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99986,
+     "bytes": 99987,
+     "first_line": 1,
+     "last_line": 2397,
+     "sha256": "0f16438979c7dbe2db58f97373e4c970ca8af868b42eb4828340aeb522a08856"
+    },
+    {
+     "start": 99987,
+     "end": 199794,
+     "bytes": 99808,
+     "first_line": 2398,
+     "last_line": 4982,
+     "sha256": "25d2c826515e047dc95a3529a68e5ae42154b6c90cfd89c4e270815987283f10"
+    },
+    {
+     "start": 199795,
+     "end": 265942,
+     "bytes": 66148,
+     "first_line": 4983,
+     "last_line": 6779,
+     "sha256": "e0d31b24ab91a9413374a93fdf4f5be0ef327a9813ae659ad8a6381348ea4d87"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-127.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-127.txt",
+   "bytes": 262186,
+   "lines": 5447,
+   "sha256": "a63fb40245493bfc13b8343b464df760c48602b1f9488b8d0a5e4d8409c71151",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-127 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-127.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99956,
+     "bytes": 99957,
+     "first_line": 1,
+     "last_line": 1805,
+     "sha256": "9f71c3a34bd7abda9bfe8579a2b1a986ce32ab854e03820910f5acbf7afcc2a9"
+    },
+    {
+     "start": 99957,
+     "end": 199847,
+     "bytes": 99891,
+     "first_line": 1806,
+     "last_line": 3931,
+     "sha256": "b62902eba77d5891ba7687c7dd841c3b71a844787d1337ef6fa8c9a14fa326dd"
+    },
+    {
+     "start": 199848,
+     "end": 262185,
+     "bytes": 62338,
+     "first_line": 3932,
+     "last_line": 5447,
+     "sha256": "ab6d1fc038f4b103b4a4b933a9b95c12694ed56736f0cd494aebfe346924fd65"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-114.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/claude/CLAUDE-114.txt",
+   "bytes": 259058,
+   "lines": 5053,
+   "sha256": "a6e3821c885ef735123a2c37760969f640b0d77ce6c3ce60b681b03c7843f679",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION CLAUDE-114 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__claude__CLAUDE-114.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99878,
+     "bytes": 99879,
+     "first_line": 1,
+     "last_line": 1834,
+     "sha256": "f18410edc395497712d7e5d58cffd5f152a7561de2bcbac8d36153f0829de181"
+    },
+    {
+     "start": 99879,
+     "end": 199872,
+     "bytes": 99994,
+     "first_line": 1835,
+     "last_line": 3633,
+     "sha256": "832ac10b5a45be3c900466e38b64e30d5666e8e49a2f13d1d6592d42bcdb5f07"
+    },
+    {
+     "start": 199873,
+     "end": 259057,
+     "bytes": 59185,
+     "first_line": 3634,
+     "last_line": 5053,
+     "sha256": "58d66a11c64fb87f873e8bbf9cfed9bcfccc1fc21e80fc4672aeaad752eedd63"
+    }
+   ]
+  },
+  {
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-084.txt",
+   "raw": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/structured/grok/GROK-084.txt",
+   "bytes": 256125,
+   "lines": 3656,
+   "sha256": "e86677f77dd3985b124499b901a9eab67bbb938597f93f30dc9e96d0358fc98d",
+   "ends_with_newline": true,
+   "end_of_file_marker": "===== END CONVERSATION GROK-084 =====",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/structured__grok__GROK-084.txt.txt",
+   "parts": [
+    {
+     "start": 0,
+     "end": 99921,
+     "bytes": 99922,
+     "first_line": 1,
+     "last_line": 1434,
+     "sha256": "2c7119f2df5d1c0759881703a57bbd7641ff76aa76dc6647698adfa929f84c77"
+    },
+    {
+     "start": 99922,
+     "end": 199521,
+     "bytes": 99600,
+     "first_line": 1435,
+     "last_line": 2861,
+     "sha256": "e8dd06d79a219d6be2fda66db6d4f76e9d2be9b504f0526ad81be365ce066349"
+    },
+    {
+     "start": 199522,
+     "end": 256124,
+     "bytes": 56603,
+     "first_line": 2862,
+     "last_line": 3656,
+     "sha256": "382e83d59ffa5e5703ed94dd3599008fe1bcbdafbbb3124b9d6ccebde8232047"
     }
    ]
   }

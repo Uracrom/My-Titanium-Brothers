@@ -112,6 +112,25 @@ If a GitHub Pages URL fails, use the same path under the raw mirror, for example
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/subject-map/time.txt
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/terms/y.txt
 
+## File sizes: budget your fetches
+
+Conversation links in the subject map (subject-map/*.txt) and every row of the structured index (structured/index/INDEX-*.txt) are followed by "| bytes=N", the size of the file the link points to, so you can decide what to fetch before you fetch it.
+Most conversation files are small, but some are very large, for example DEEPSEEK-001 (610 messages, about 1.2 MB). Read those in pieces: every conversation file of 250 KB or more has a parts list (its index row names it) with byte ranges of about 100 KB for HTTP Range requests (Range: bytes=START-END):
+https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt
+https://uracrom.github.io/My-Titanium-Brothers/parts/structured__deepseek__DEEPSEEK-001.txt.txt
+
+## AIs in this archive (date of Alex's first conversation with each, oldest first)
+
+2024-07-01 | Claude | CLAUDE-001
+2024-12-19 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-001
+2025-05-15 | Copilot | COPILOT-001
+2025-06-16 | Grok | GROK-001
+2025-08-11 | ChatGPT | CHATGPT-001
+2026-02-11 | Gemini | GEMINI-001
+2026-10-17 | DeepSeek | DEEPSEEK-001
+In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time.
+Dates are conversation start dates from structured/MANIFEST.txt (also in archive-manifest.json); ChatGPT and ChatGPT (WhatsApp) are kept as separate collections.
+
 Entry (kept for older links; same as step 2):
 https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
 
@@ -177,8 +196,8 @@ The home page itself is static HTML and readable without scripts; only its READM
 
 ## Big files (fetch last; exact sizes in bytes)
 
-Read a big file in pieces: each one has a parts list with byte ranges (about 500 KB each, cut at line breaks) for an HTTP Range request (Range: bytes=START-END), a SHA-256 for every part, and an end-of-file marker, so a cut-off read can be noticed and resumed. GitHub Pages and raw.githubusercontent.com both support Range requests.
-All big files and their parts lists (largest first, including the full-text pages):
+Read a big file in pieces: each one has a parts list with byte ranges (about 500 KB each, or about 100 KB for structured conversation files, cut at line breaks) for an HTTP Range request (Range: bytes=START-END), a SHA-256 for every part, and an end-of-file marker, so a cut-off read can be noticed and resumed. GitHub Pages and raw.githubusercontent.com both support Range requests.
+All big files and their parts lists (largest first, including the full-text pages and every structured conversation file of 250 KB or more):
 https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt
 
 Master (all dialogues in one file, 39,658,716 bytes, about 39.7 MB):

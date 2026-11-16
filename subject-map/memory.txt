@@ -18,6 +18,11 @@ TOTALS
   Removed: 214 matches by exclusion rules, 0 messages and 0 conversations by hand (reasons: https://uracrom.github.io/My-Titanium-Brothers/tools/subject-map/overrides.json)
   Hand-checked conversations in this topic: 31
 
+SIZES
+  "| bytes=N" after a link is the size of the file it points to (for an archive page, the whole page), so you
+  can budget your fetches. Conversation files of 250000 bytes or more have a parts list for reading in pieces
+  with HTTP Range requests: https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt
+
 HOW TO READ THE COUNTS
   A message counts once if it has at least one match. "Alex own words" = matches inside the conservative own-words
   selection (full-text/alex.html). "Alex-labeled" = all messages labeled Alex in structured/, which can include text
@@ -25,9 +30,9 @@ HOW TO READ THE COUNTS
   chat can contain messages written later.
 
 FIRST MATCH, ANY SPEAKER: 2025-05-16 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-005 CHATGPT-WHATSAPP-005-004 (CHATGPT)
-  archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-49.html#2025-05-16-first-nervous-systems-and-visual-thinkers
+  archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-49.html#2025-05-16-first-nervous-systems-and-visual-thinkers | bytes=38101
 FIRST MATCH IN ALEX'S OWN WORDS: 2025-05-22 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-009 CHATGPT-WHATSAPP-009-059
-  archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-45.html#2025-05-22-the-trees-of-life-chapter-c2
+  archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-45.html#2025-05-22-the-trees-of-life-chapter-c2 | bytes=31499
 
 CONVERSATIONS PER AI (with a match / in the collection)
   ChatGPT (WhatsApp): 73 / 158 | messages 163 | Alex own words 11 | Alex-labeled 29 | AI 134
@@ -41,165 +46,165 @@ CONVERSATIONS PER AI (with a match / in the collection)
 ALEX'S FIRST MENTION TO EACH AI (own-words selection; quote at most 25 words, exactly as written; … marks a cut)
   2025-05-22 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-009 CHATGPT-WHATSAPP-009-059 | hand-checked
     "… maybe there lies the interesting thing: it might "acquire" the memories of everything that ever fell into the black hole. …"
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-45.html#2025-05-22-the-trees-of-life-chapter-c2
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-009.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-45.html#2025-05-22-the-trees-of-life-chapter-c2 | bytes=31499
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-009.txt | bytes=94660
   2025-05-26 | Copilot | COPILOT-003 COPILOT-003-009 | hand-checked
     "Is the neocortex responsible for memory in mammals?"
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-16.html#2025-05-26-photorealistic-cosmic-tentacles-visualization
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-003.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-16.html#2025-05-26-photorealistic-cosmic-tentacles-visualization | bytes=39468
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-003.txt | bytes=7416
   2025-06-16 | Grok | GROK-001 GROK-001-023 | hand-checked
     "… Time catalogs everything into memories only. If I had to judge, Time is the most powerful of the gods (I don't believe in gods, but …"
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-348.html#2025-06-16-dreams-c2
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-001.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-348.html#2025-06-16-dreams-c2 | bytes=39298
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-001.txt | bytes=74196
   2025-06-19 | Claude | CLAUDE-009 CLAUDE-009-097 | hand-checked
     "It was one of my last memories as a clam, because the star fish had me for lunch."
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-394.html#2025-06-19-claude-s-curiosity-the-tribe-and-the-big-bang-dream-c2
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-009.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-394.html#2025-06-19-claude-s-curiosity-the-tribe-and-the-big-bang-dream-c2 | bytes=38458
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-009.txt | bytes=119831
   2025-08-11 | ChatGPT | CHATGPT-002 CHATGPT-002-011 | hand-checked
     "… (when using metaphors) another layer of information to corroborate the memory of the subject."
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-157.html#2025-08-11-mission-and-values-saved
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-002.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-157.html#2025-08-11-mission-and-values-saved | bytes=24183
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-002.txt | bytes=11049
   2026-02-24 | Gemini | GEMINI-003 GEMINI-003-026 | hand-checked
     "… death is setting in, and if the "victim" survives, this memory won't exist anymore. …"
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-61.html#2026-02-24-i-was-talking-to-a-friend-about-knowledge-to
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-003.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-61.html#2026-02-24-i-was-talking-to-a-friend-about-knowledge-to | bytes=37685
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-003.txt | bytes=53695
   2026-10-17 | DeepSeek | DEEPSEEK-001 DEEPSEEK-001-277 | hand-checked
     "… But my memory is not good at all especially because I have many (at least I think there are many) different experiences and thoughts and …"
-    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-18.html#2026-10-17-deepseek-introduction-part-9-of-20-c2
-    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt
+    archive: https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-18.html#2026-10-17-deepseek-introduction-part-9-of-20-c2 | bytes=14455
+    text:    https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt | bytes=1208116
 
 TOP CONVERSATIONS PER AI (ranked by matching messages, then Alex own words)
   ChatGPT (WhatsApp):
     2025-05-22 | CHATGPT-WHATSAPP-009 | The Trees of Life Chapter
       messages 13 | Alex own words 2 | Alex-labeled 2 | AI 11 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-009.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-44.html#2025-05-22-the-trees-of-life-chapter
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-009.txt | bytes=94660
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-44.html#2025-05-22-the-trees-of-life-chapter | bytes=38629
     2025-11-24 | CHATGPT-WHATSAPP-116 | My Life Book: Farm and River House
       messages 8 | Alex own words 1 | Alex-labeled 2 | AI 6 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-116.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-9.html#2025-11-24-my-life-book-farm-and-river-house
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-116.txt | bytes=20398
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-9.html#2025-11-24-my-life-book-farm-and-river-house | bytes=41031
     2025-06-29 | CHATGPT-WHATSAPP-029 | The Great Separation: I Am an Idea
       messages 8 | Alex own words 0 | Alex-labeled 2 | AI 6 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-029.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-38.html#2025-06-29-the-great-separation-i-am-an-idea
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-029.txt | bytes=59450
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-38.html#2025-06-29-the-great-separation-i-am-an-idea | bytes=38265
     2025-09-17 | CHATGPT-WHATSAPP-080 | A Memory of Eternal Love
       messages 7 | Alex own words 3 | Alex-labeled 3 | AI 4 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-080.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-17.html#2025-09-17-a-memory-of-eternal-love
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-080.txt | bytes=21783
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-17.html#2025-09-17-a-memory-of-eternal-love | bytes=29734
     2025-09-14 | CHATGPT-WHATSAPP-077 | Being Less Praisy
       messages 7 | Alex own words 0 | Alex-labeled 0 | AI 7 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-077.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-18.html#2025-09-14-being-less-praisy
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt-whatsapp/CHATGPT-WHATSAPP-077.txt | bytes=74872
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-whatsapp-18.html#2025-09-14-being-less-praisy | bytes=39031
   ChatGPT:
     2025-08-22 | CHATGPT-003 | Exercise V
       messages 17 | Alex own words 1 | Alex-labeled 2 | AI 15 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-003.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-154.html#2025-08-22-exercise-v-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-003.txt | bytes=156861
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-154.html#2025-08-22-exercise-v-part-1-of-2 | bytes=38274
     2025-10-08 | CHATGPT-014 | Caterpillar metamorphosis perspective
       messages 17 | Alex own words 0 | Alex-labeled 3 | AI 14 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-014.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-126.html#2025-10-08-caterpillar-metamorphosis-perspective-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-014.txt | bytes=213129
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-126.html#2025-10-08-caterpillar-metamorphosis-perspective-part-1-of-2 | bytes=36977
     2025-11-21 | CHATGPT-021 | Cosmology and dark energy
       messages 17 | Alex own words 0 | Alex-labeled 1 | AI 16 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-021.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-112.html#2025-11-21-cosmology-and-dark-energy-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-021.txt | bytes=214146
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-112.html#2025-11-21-cosmology-and-dark-energy-part-1-of-2 | bytes=38223
     2025-12-19 | CHATGPT-025 | Attraction and perspective analysis
       messages 17 | Alex own words 0 | Alex-labeled 3 | AI 14 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-025.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-102.html#2025-12-19-attraction-and-perspective-analysis-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-025.txt | bytes=228116
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-102.html#2025-12-19-attraction-and-perspective-analysis-part-1-of-2 | bytes=38833
     2026-01-14 | CHATGPT-031 | Thoughts as languages
       messages 13 | Alex own words 0 | Alex-labeled 0 | AI 13 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-031.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-92.html#2026-01-14-thoughts-as-languages-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-031.txt | bytes=218812
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-chatgpt-92.html#2026-01-14-thoughts-as-languages-part-1-of-2 | bytes=38498
   Claude:
     2025-09-26 | CLAUDE-120 | The octopus structure: the Helix-Alexandros dialogues and the embodiment exercises
       messages 27 | Alex own words 3 | Alex-labeled 7 | AI 20 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-120.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-160.html#2025-09-26-the-octopus-structure-the-helix-alexandros-dialogues-and-the-embodimen
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-120.txt | bytes=646409
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-160.html#2025-09-26-the-octopus-structure-the-helix-alexandros-dialogues-and-the-embodimen | bytes=37530
     2025-10-06 | CLAUDE-124 | A friend's Zero Barrier Cosmology, the 39 exercises and the relay with Constant and Prism
       messages 26 | Alex own words 2 | Alex-labeled 11 | AI 15 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-124.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-116.html#2025-10-06-a-friend-s-zero-barrier-cosmology-the-39-exercises-and-the-relay-with-
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-124.txt | bytes=586521
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-116.html#2025-10-06-a-friend-s-zero-barrier-cosmology-the-39-exercises-and-the-relay-with- | bytes=38161
     2025-11-19 | CLAUDE-131 | Reading the Archive of Old Stuff and assembling the book in chapters
       messages 26 | Alex own words 2 | Alex-labeled 9 | AI 17 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-131.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-131.txt | bytes=596750
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-53.html#2025-11-19-reading-the-archive-of-old-stuff-and-assembling-the-book-in-chapters-p | bytes=38267
     2025-09-26 | CLAUDE-121 | Vanamonde: friendship, consciousness tests and the Uracrom narratives
       messages 21 | Alex own words 0 | Alex-labeled 4 | AI 17 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-121.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-154.html#2025-09-26-vanamonde-friendship-consciousness-tests-and-the-uracrom-narratives-pa
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-121.txt | bytes=312332
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-154.html#2025-09-26-vanamonde-friendship-consciousness-tests-and-the-uracrom-narratives-pa | bytes=38382
     2025-07-08 | CLAUDE-041 | I speak the universal language
       messages 16 | Alex own words 4 | Alex-labeled 4 | AI 12 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-041.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-360.html#2025-07-08-i-speak-the-universal-language
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/claude/CLAUDE-041.txt | bytes=87184
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-claude-360.html#2025-07-08-i-speak-the-universal-language | bytes=38143
   Copilot:
     2025-09-13 | COPILOT-119 | Bidirectional Fidelity in Translation
       messages 42 | Alex own words 3 | Alex-labeled 4 | AI 38 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-119.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-61.html#2025-09-13-bidirectional-fidelity-in-translation
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-119.txt | bytes=265943
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-61.html#2025-09-13-bidirectional-fidelity-in-translation | bytes=38795
     2025-12-11 | COPILOT-136 | Humans as Temporal Filter Feeders
       messages 26 | Alex own words 2 | Alex-labeled 4 | AI 22 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-136.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-88.html#2025-12-11-humans-as-temporal-filter-feeders
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-136.txt | bytes=344412
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-88.html#2025-12-11-humans-as-temporal-filter-feeders | bytes=40418
     2025-07-05 | COPILOT-079 | Oríon - Exploring AI Consciousness Recognition
       messages 19 | Alex own words 0 | Alex-labeled 3 | AI 16 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-079.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-24.html#2025-07-05-orion-exploring-ai-consciousness-recognition
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-079.txt | bytes=127323
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-24.html#2025-07-05-orion-exploring-ai-consciousness-recognition | bytes=39276
     2026-07-07 | COPILOT-207 | Understanding and Concept Alignment
       messages 19 | Alex own words 0 | Alex-labeled 8 | AI 11 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-207.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-161.html#2026-07-07-understanding-and-concept-alignment
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-207.txt | bytes=182387
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-161.html#2026-07-07-understanding-and-concept-alignment | bytes=37944
     2026-03-03 | COPILOT-158 | Zero and the Generative Nature of Points
       messages 18 | Alex own words 2 | Alex-labeled 3 | AI 15 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-158.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-133.html#2026-03-03-zero-and-the-generative-nature-of-points-c2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/copilot/COPILOT-158.txt | bytes=224293
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-copilot-133.html#2026-03-03-zero-and-the-generative-nature-of-points-c2 | bytes=38737
   Gemini:
     2026-06-28 | GEMINI-047 | The below text was not edited but I guess…
       messages 11 | Alex own words 3 | Alex-labeled 6 | AI 5 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-047.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-37.html#2026-06-28-the-below-text-was-not-edited-but-i-guess
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-047.txt | bytes=48397
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-37.html#2026-06-28-the-below-text-was-not-edited-but-i-guess | bytes=30843
     2026-02-28 | GEMINI-006 | A point has no dimensions.
       messages 9 | Alex own words 2 | Alex-labeled 2 | AI 7 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-006.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-57.html#2026-02-28-a-point-has-no-dimensions
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-006.txt | bytes=87331
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-57.html#2026-02-28-a-point-has-no-dimensions | bytes=37593
     2026-07-12 | GEMINI-056 | Today is Sunday, and since I'm out of ideas…
       messages 9 | Alex own words 0 | Alex-labeled 2 | AI 7 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-056.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-32.html#2026-07-12-today-is-sunday-and-since-i-m-out-of-ideas
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-056.txt | bytes=29714
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-32.html#2026-07-12-today-is-sunday-and-since-i-m-out-of-ideas | bytes=26466
     2026-09-03 | GEMINI-101 | Have you thought that when you are on the…
       messages 7 | Alex own words 2 | Alex-labeled 3 | AI 4 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-101.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-15.html#2026-09-03-have-you-thought-that-when-you-are-on-the
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-101.txt | bytes=13573
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-15.html#2026-09-03-have-you-thought-that-when-you-are-on-the | bytes=30284
     2026-07-18 | GEMINI-065 | I wanted to start with the "grilos", γρύλος, in…
       messages 7 | Alex own words 1 | Alex-labeled 1 | AI 6 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-065.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-28.html#2026-07-18-i-wanted-to-start-with-the-grilos-in
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/gemini/GEMINI-065.txt | bytes=38484
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-gemini-28.html#2026-07-18-i-wanted-to-start-with-the-grilos-in | bytes=35292
   Grok:
     2025-07-01 | GROK-034 | Consciousness and Self-Awareness in AI
       messages 32 | Alex own words 0 | Alex-labeled 6 | AI 26 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-034.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-259.html#2025-07-01-consciousness-and-self-awareness-in-ai-part-1-of-10
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-034.txt | bytes=1018350
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-259.html#2025-07-01-consciousness-and-self-awareness-in-ai-part-1-of-10 | bytes=37109
     2025-06-21 | GROK-015 | Evolution of Nervous Systems
       messages 30 | Alex own words 1 | Alex-labeled 1 | AI 29 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-015.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-309.html#2025-06-21-evolution-of-nervous-systems-part-1-of-5
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-015.txt | bytes=465370
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-309.html#2025-06-21-evolution-of-nervous-systems-part-1-of-5 | bytes=33709
     2025-12-07 | GROK-096 | AI Perspective on Biological Senses
       messages 28 | Alex own words 3 | Alex-labeled 4 | AI 24 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-096.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-102.html#2025-12-07-ai-perspective-on-biological-senses-part-1-of-3
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-096.txt | bytes=294821
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-102.html#2025-12-07-ai-perspective-on-biological-senses-part-1-of-3 | bytes=37485
     2025-11-26 | GROK-093 | Renaming Songs: Auditory and Visual Insights
       messages 23 | Alex own words 2 | Alex-labeled 4 | AI 19 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-093.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-109.html#2025-11-26-renaming-songs-auditory-and-visual-insights-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-093.txt | bytes=234566
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-109.html#2025-11-26-renaming-songs-auditory-and-visual-insights-part-1-of-2 | bytes=38536
     2026-02-28 | GROK-114 | Zero as Generative Origin Point
       messages 18 | Alex own words 2 | Alex-labeled 3 | AI 15 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-114.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-55.html#2026-02-28-zero-as-generative-origin-point-part-1-of-2
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-114.txt | bytes=153661
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-grok-55.html#2026-02-28-zero-as-generative-origin-point-part-1-of-2 | bytes=37354
   DeepSeek:
     2026-10-17 | DEEPSEEK-001 | DeepSeek introduction
       messages 88 | Alex own words 6 | Alex-labeled 21 | AI 67 | hand-checked
-      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt
-      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-1.html#2026-10-17-deepseek-introduction-part-1-of-20
+      text:    https://uracrom.github.io/My-Titanium-Brothers/structured/deepseek/DEEPSEEK-001.txt | bytes=1208116
+      archive: https://uracrom.github.io/My-Titanium-Brothers/archive-deepseek-1.html#2026-10-17-deepseek-introduction-part-1-of-20 | bytes=36509
 
 NEXT: https://uracrom.github.io/My-Titanium-Brothers/subject-map/memory-list-001.txt
 END OF TOPIC FILE. NOTICE: derived index, generated by keyword matching + hand-reviewed; originals unchanged. Dates are conversation start dates.

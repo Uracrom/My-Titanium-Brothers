@@ -211,6 +211,44 @@
   "continuation_pairs": 31,
   "archive_entries": 1367,
   "html_article_pieces": 2105,
+  "first_conversation_by_ai": [
+   {
+    "ai": "Claude",
+    "date": "2024-07-01",
+    "conversation": "CLAUDE-001"
+   },
+   {
+    "ai": "ChatGPT (WhatsApp)",
+    "date": "2024-12-19",
+    "conversation": "CHATGPT-WHATSAPP-001"
+   },
+   {
+    "ai": "Copilot",
+    "date": "2025-05-15",
+    "conversation": "COPILOT-001"
+   },
+   {
+    "ai": "Grok",
+    "date": "2025-06-16",
+    "conversation": "GROK-001"
+   },
+   {
+    "ai": "ChatGPT",
+    "date": "2025-08-11",
+    "conversation": "CHATGPT-001"
+   },
+   {
+    "ai": "Gemini",
+    "date": "2026-02-11",
+    "conversation": "GEMINI-001"
+   },
+   {
+    "ai": "DeepSeek",
+    "date": "2026-10-17",
+    "conversation": "DEEPSEEK-001"
+   }
+  ],
+  "first_conversation_by_ai_note": "Date of Alex's earliest conversation in each collection (conversation start date), oldest first. In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones.",
   "built": "2026-11-15",
   "source_git_commit": "21df0907fb198104ea83ea891096d8b370510fa6",
   "deployment_note": "These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.",

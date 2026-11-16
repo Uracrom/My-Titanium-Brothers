@@ -13,10 +13,19 @@ Archive entries: 1367
 HTML article pieces: 2105
 
 Index parts:
-  structured/index/INDEX-001.txt
-  structured/index/INDEX-002.txt
-  structured/index/INDEX-003.txt
-  structured/index/INDEX-004.txt
+  structured/index/INDEX-001.txt | bytes=75386
+  structured/index/INDEX-002.txt | bytes=75590
+  structured/index/INDEX-003.txt | bytes=73572
+  structured/index/INDEX-004.txt | bytes=15526
+
+First conversation with each AI (date of Alex's earliest conversation in that collection, oldest first):
+  2024-07-01 | Claude | CLAUDE-001
+  2024-12-19 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-001
+  2025-05-15 | Copilot | COPILOT-001
+  2025-06-16 | Grok | GROK-001
+  2025-08-11 | ChatGPT | CHATGPT-001
+  2026-02-11 | Gemini | GEMINI-001
+  2026-10-17 | DeepSeek | DEEPSEEK-001
 
 Flag parts:
   structured/flags/FLAGS-001.txt

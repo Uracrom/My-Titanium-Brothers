@@ -17,6 +17,10 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 OUT = os.path.join(ROOT, 'structured')
 BASE = 'https://uracrom.github.io/My-Titanium-Brothers/'
 RAW = 'https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/'
+# Conversation files of this size or more get a parts list (tools/build_large_file_parts.py).
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from build_large_file_parts import STRUCTURED_LARGE_BYTES as STRUCTURED_PARTS_BYTES, parts_name  # noqa: E402
 
 PREFIX = {
     'grok': 'GROK', 'claude': 'CLAUDE', 'chatgpt': 'CHATGPT',
@@ -103,9 +107,24 @@ BOOK_NOTE = (
 
 def git_head():
     try:
-        return subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+        return subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, stderr=subprocess.DEVNULL, text=True).strip()
     except Exception:
-        return 'unknown'
+        # Outside a git checkout (for example an unpacked tarball), keep the commit recorded by the last build.
+        try:
+            with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'build_stats.json'), encoding='utf-8') as handle:
+                return json.load(handle).get('commit') or 'unknown'
+        except Exception:
+            return 'unknown'
+
+
+def first_conversation_by_ai(index_rows):
+    """Each collection with the date and ID of its earliest conversation, sorted by date (then name)."""
+    first = {}
+    for row in index_rows:
+        cid, name, date = row.split(' | ')[:3]
+        if name not in first or (date, cid) < (first[name]['date'], first[name]['conversation']):
+            first[name] = {'ai': name, 'date': date, 'conversation': cid}
+    return sorted(first.values(), key=lambda item: (item['date'], item['ai']))
 
 
 def classify_line(line):
@@ -635,7 +654,10 @@ def write_manifest_txt(index_parts, flag_parts, stats):
         '',
         'Index parts:',
     ]
-    rows.extend('  ' + part for part in index_parts)
+    rows.extend('  %s | bytes=%d' % (part, os.path.getsize(os.path.join(ROOT, part))) for part in index_parts)
+    rows.append('')
+    rows.append("First conversation with each AI (date of Alex's earliest conversation in that collection, oldest first):")
+    rows.extend('  %s | %s | %s' % (item['date'], item['ai'], item['conversation']) for item in stats['first_conversation_by_ai'])
     rows.append('')
     rows.append('Flag parts:')
     rows.extend('  ' + part for part in flag_parts)
@@ -669,14 +691,16 @@ def update_site_manifest(stats):
         'continuation_pairs': stats['cont'],
         'archive_entries': stats['entries'],
         'html_article_pieces': stats['segments'],
+        'first_conversation_by_ai': stats['first_conversation_by_ai'],
+        'first_conversation_by_ai_note': "Date of Alex's earliest conversation in each collection (conversation start date), oldest first. In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones.",
         'built': stats['built'],
         'source_git_commit': stats['commit'],
         'deployment_note': 'These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.',
         'note_on_conversation_count': 'conversation_count counts archive entries in index.json (%d). The per-model numbers on raw_transcripts count the ## sections in that raw file, which matches html_article_pieces (%d) when added together, including continued pieces. logical_conversations joins Part N of M entries.' % (stats['entries'], stats['segments']),
     }
-    with open(path, 'w', encoding='utf-8') as handle:
-        json.dump(data, handle, ensure_ascii=False, indent=1)
-        handle.write('\n')
+    # Same JSON style as tools/build_large_file_parts.py --update-guides, so the two writers agree.
+    with open(path, 'w', encoding='utf-8', newline='\n') as handle:
+        handle.write(json.dumps(data, indent=1, ensure_ascii=True))
 
 
 def build():
@@ -727,23 +751,27 @@ def build():
             stats['cont'] += ncont
             stats['entries'] += len(item['entries'])
             stats['segments'] += len(segs)
-            index_rows.append('%s | %s | %s | %s | %s | %s | messages=%d | continuations=%d | flags=%d' % (
+            size = os.path.getsize(os.path.join(ROOT, rel))
+            index_rows.append('%s | %s | %s | %s | %s | %s | bytes=%d | messages=%d | continuations=%d | flags=%d%s' % (
                 item['cid'], CNAME[col], item['date'], item['title'],
-                ' ; '.join(entry['id'] for entry in item['entries']), rel, len(msgs), ncont, len(flags) + len(item['gflags'])))
+                ' ; '.join(entry['id'] for entry in item['entries']), rel, size,
+                len(msgs), ncont, len(flags) + len(item['gflags']),
+                (' | parts list: ' + parts_name(rel)) if size >= STRUCTURED_PARTS_BYTES else ''))
     # The flags above lost per-message sequence. Re-scan written files for message-scoped flags
     # is unnecessary if we store seq during parse. Fix: include seq in parse by post-numbering.
     # Re-walk msgs was in render after ids assigned, but flags were collected before ids.
     # Attach '-' which is acceptable and stable. Message text is in the detail for openings.
     flag_rows = ['%s | %s | %s | %s' % row for row in all_flags]
-    index_parts = write_chunks('index', 'INDEX', 'INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags', index_rows)
+    index_parts = write_chunks('index', 'INDEX', 'INDEX PART. Fields: ID | collection | date | title | original ids | file | bytes (size of that file) | messages | continuation pairs | flags | parts list (only for files of %d bytes or more)' % STRUCTURED_PARTS_BYTES, index_rows)
     flag_parts = write_chunks('flags', 'FLAGS', 'FLAGS PART. Fields: conversation | message sequence | type | detail', flag_rows)
     with open(os.path.join(OUT, 'INDEX.txt'), 'w', encoding='utf-8') as handle:
         handle.write('\n'.join([
             'INDEX OF LOGICAL CONVERSATIONS (%d)' % len(index_rows),
             'This file is a directory. Conversation rows are in the parts below so a reader that stops near 460 lines can continue on purpose.',
-            'Fields in each part: ID | collection | date | title | original ids | file | messages | continuation pairs | flags',
+            'Fields in each part: ID | collection | date | title | original ids | file | bytes (size of that file) | messages | continuation pairs | flags | parts list (only for files of %d bytes or more)' % STRUCTURED_PARTS_BYTES,
+            'Sizes are listed so a reader can budget its fetches. Files of %d bytes or more have a parts list for HTTP Range reads: %sparts/INDEX.txt' % (STRUCTURED_PARTS_BYTES, BASE),
             '',
-        ] + ['PART: ' + part for part in index_parts] + [
+        ] + ['PART: %s | bytes=%d' % (part, os.path.getsize(os.path.join(ROOT, part))) for part in index_parts] + [
             '',
             'Guide: structured/README.txt',
             'Manifest: structured/MANIFEST.txt',
@@ -769,6 +797,7 @@ def build():
         'flags': len(all_flags),
         'flag_counts': dict(fc),
         'index_parts': index_parts,
+        'first_conversation_by_ai': first_conversation_by_ai(index_rows),
         'flag_parts': flag_parts,
         'labelraw': {k: labelraw[k] for k in labelraw},
     }

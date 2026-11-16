@@ -21,6 +21,8 @@ import sys
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SITE = 'https://uracrom.github.io/My-Titanium-Brothers/'
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_large_file_parts import STRUCTURED_LARGE_BYTES as STRUCTURED_PARTS_BYTES  # noqa: E402
 OVERRIDES = 'tools/subject-map/overrides.json'
 LAST_UPDATED = '2026-11-15'
 LINES_PER_PART = 380
@@ -95,6 +97,17 @@ def read(rel):
         return handle.read()
 
 
+_SIZES = {}
+
+
+def size_of(rel):
+    """Byte size of a repository file (an archive link's #anchor is ignored)."""
+    rel = rel.split('#', 1)[0]
+    if rel not in _SIZES:
+        _SIZES[rel] = os.path.getsize(os.path.join(ROOT, rel))
+    return _SIZES[rel]
+
+
 def blank_urls(text):
     return URL.sub(lambda m: ' ' * len(m.group()), text)
 
@@ -143,7 +156,7 @@ def load_conversations():
                     order.append(mid)
                 msgs[mid]['own'] += '\n'.join(own) + '\n'
             convs.append(dict(id=hdr['CONVERSATION'], title=hdr.get('TITLE', ''), ai=hdr.get('COLLECTION', ''),
-                              date=hdr.get('DATE', ''), file=rel, msgs=[msgs[k] for k in order]))
+                              date=hdr.get('DATE', ''), file=rel, bytes=os.path.getsize(os.path.join(ROOT, rel)), msgs=[msgs[k] for k in order]))
     convs.sort(key=lambda c: (c['date'], c['id']))
     return convs
 
@@ -270,8 +283,8 @@ def build_topic(spec, ov, convs, excerpts, owned):
     for ci, c in enumerate(convs):
         if c['id'] in t.drop_convs:
             continue
-        r = dict(id=c['id'], title=c['title'], date=c['date'], ai=c['ai'], text=SITE + c['file'],
-                 archive=None, messages=0, alex_own_words=0, alex_labeled=0, ai_messages=0, occurrences=0,
+        r = dict(id=c['id'], title=c['title'], date=c['date'], ai=c['ai'], text=SITE + c['file'], text_bytes=c['bytes'],
+                 archive=None, archive_bytes=None, messages=0, alex_own_words=0, alex_labeled=0, ai_messages=0, occurrences=0,
                  hand_checked=c['id'] in t.checked_convs, message_ids=[])
         for mi, msg in enumerate(c['msgs']):
             if msg['kind'] not in ('HUMAN', 'AI'):
@@ -289,9 +302,11 @@ def build_topic(spec, ov, convs, excerpts, owned):
             r['message_ids'].append(msg['id'])
             if r['archive'] is None:
                 r['archive'] = SITE + msg['src']
+                r['archive_bytes'] = size_of(msg['src'])
             if first_any is None:
                 first_any = dict(date=c['date'], ai=c['ai'], conversation=c['id'], message=msg['id'],
-                                 speaker=msg['speaker'], archive=SITE + msg['src'], text=SITE + c['file'])
+                                 speaker=msg['speaker'], archive=SITE + msg['src'], archive_bytes=size_of(msg['src']),
+                                 text=SITE + c['file'], text_bytes=c['bytes'])
             if msg['kind'] == 'AI':
                 r['ai_messages'] += 1
                 continue
@@ -306,7 +321,8 @@ def build_topic(spec, ov, convs, excerpts, owned):
                     if q in msg['own']:
                         alex_quotes.append(dict(date=c['date'], ai=c['ai'], conversation=c['id'], title=c['title'],
                                                 message=msg['id'], quote=q, cut_before=cut_before, cut_after=cut_after,
-                                                words=words, archive=SITE + msg['src'], text=SITE + c['file'],
+                                                words=words, archive=SITE + msg['src'], archive_bytes=size_of(msg['src']),
+                                                text=SITE + c['file'], text_bytes=c['bytes'],
                                                 hand_checked=msg['id'] in t.checked_msgs))
                 got = True
             if got:
@@ -402,6 +418,11 @@ def topic_files(t):
     if t['method'] != 'keyword':
         A('  Hand-checked conversations in this topic: %d' % tt['hand_checked_conversations'])
     A('')
+    A('SIZES')
+    A('  "| bytes=N" after a link is the size of the file it points to (for an archive page, the whole page), so you')
+    A('  can budget your fetches. Conversation files of %d bytes or more have a parts list for reading in pieces' % STRUCTURED_PARTS_BYTES)
+    A('  with HTTP Range requests: %sparts/INDEX.txt' % SITE)
+    A('')
     A('HOW TO READ THE COUNTS')
     A('  A message counts once if it has at least one match. "Alex own words" = matches inside the conservative own-words')
     A('  selection (full-text/alex.html). "Alex-labeled" = all messages labeled Alex in structured/, which can include text')
@@ -410,11 +431,11 @@ def topic_files(t):
     A('')
     f = t['first_match_any_speaker']
     A('FIRST MATCH, ANY SPEAKER: %s | %s | %s %s (%s)' % (f['date'], f['ai'], f['conversation'], f['message'], f['speaker']))
-    A('  archive: ' + f['archive'])
+    A('  archive: %s | bytes=%d' % (f['archive'], f['archive_bytes']))
     g = t['first_in_alex_own_words']
     if g:
         A("FIRST MATCH IN ALEX'S OWN WORDS: %s | %s | %s %s" % (g['date'], g['ai'], g['conversation'], g['message']))
-        A('  archive: ' + g['archive'])
+        A('  archive: %s | bytes=%d' % (g['archive'], g['archive_bytes']))
     A('')
     A('CONVERSATIONS PER AI (with a match / in the collection)')
     for ai in AIS:
@@ -426,8 +447,8 @@ def topic_files(t):
     for q in t['alex_first_mention_by_ai']:
         A('  %s | %s | %s %s%s' % (q['date'], q['ai'], q['conversation'], q['message'], ' | hand-checked' if q['hand_checked'] else ''))
         A('    "%s"' % qtext(q))
-        A('    archive: ' + q['archive'])
-        A('    text:    ' + q['text'])
+        A('    archive: %s | bytes=%d' % (q['archive'], q['archive_bytes']))
+        A('    text:    %s | bytes=%d' % (q['text'], q['text_bytes']))
     A('')
     A('TOP CONVERSATIONS PER AI (ranked by matching messages, then Alex own words)')
     for ai in AIS:
@@ -441,8 +462,8 @@ def topic_files(t):
             A('    %s | %s | %s' % (r['date'], r['id'], r['title']))
             A('      messages %d | Alex own words %d | Alex-labeled %d | AI %d%s'
               % (r['messages'], r['alex_own_words'], r['alex_labeled'], r['ai_messages'], ' | hand-checked' if r['hand_checked'] else ''))
-            A('      text:    ' + r['text'])
-            A('      archive: ' + r['archive'])
+            A('      text:    %s | bytes=%d' % (r['text'], r['text_bytes']))
+            A('      archive: %s | bytes=%d' % (r['archive'], r['archive_bytes']))
     A('')
     A('NEXT: %s%s' % (SITE, part_names[0]))
     A('END OF TOPIC FILE. NOTICE: ' + t['notice'])
@@ -454,20 +475,22 @@ def topic_files(t):
              'ROWS_IN_THIS_PART: %d' % len(chunk),
              'ROWS_TOTAL: %d' % len(rows),
              'NOTICE: ' + t['notice'],
-             'Fields: ID | start date | AI | title | messages | Alex own words | Alex-labeled | AI messages | hand-checked | structured text | archive page',
+             'Fields: ID | start date | AI | title | messages | Alex own words | Alex-labeled | AI messages | hand-checked | structured text | bytes of that file | archive page | bytes of that page',
+             'Sizes let you budget fetches. Conversation files of %d bytes or more can be read in pieces: %sparts/INDEX.txt' % (STRUCTURED_PARTS_BYTES, SITE),
              'NEXT: ' + (SITE + part_names[i + 1] if i + 1 < nparts else 'none (last part). Directory: %ssubject-map/INDEX.txt' % SITE),
              '']
         for r in chunk:
-            P.append('%s | %s | %s | %s | messages=%d | alex_own=%d | alex_labeled=%d | ai=%d | checked=%s | %s | %s'
+            P.append('%s | %s | %s | %s | messages=%d | alex_own=%d | alex_labeled=%d | ai=%d | checked=%s | %s | bytes=%d | %s | bytes=%d'
                      % (r['id'], r['date'], r['ai'], r['title'].replace('|', '/'), r['messages'], r['alex_own_words'],
-                        r['alex_labeled'], r['ai_messages'], 'yes' if r['hand_checked'] else 'no', r['text'], r['archive']))
+                        r['alex_labeled'], r['ai_messages'], 'yes' if r['hand_checked'] else 'no', r['text'], r['text_bytes'],
+                        r['archive'], r['archive_bytes']))
         P.append('')
         P.append('END OF PART %d of %d.' % (i + 1, nparts))
         files[name] = '\n'.join(P) + '\n'
     return files
 
 
-def index_file(topics, placed, n_excerpts):
+def index_file(topics, placed, n_excerpts, sizes):
     L = ['SUBJECT MAP - DIRECTORY',
          'NOTICE: derived index, generated by keyword matching (some topics also hand-reviewed); originals unchanged. Dates are conversation start dates.',
          'Last updated: %s' % LAST_UPDATED,
@@ -477,11 +500,12 @@ def index_file(topics, placed, n_excerpts):
          'It lists where words and phrases appear. It does not interpret what they mean, and it does not change any conversation.',
          'Every number comes from tools/build_subject_map.py run on the repository files and on tools/subject-map/overrides.json.',
          '',
-         'TOPICS (key | label | method | conversations | matching messages | Alex own words messages | topic file)']
+         'TOPICS (key | label | method | conversations | matching messages | Alex own words messages | topic file | bytes of that file)']
     for t in topics:
         tt = t['totals']
-        L.append('  %s | %s | %s | %d | %d | %d | %ssubject-map/%s.txt'
-                 % (t['key'], t['label'], t['method'], tt['conversations'], tt['messages'], tt['alex_own_words'], SITE, t['key']))
+        L.append('  %s | %s | %s | %d | %d | %d | %ssubject-map/%s.txt | bytes=%d'
+                 % (t['key'], t['label'], t['method'], tt['conversations'], tt['messages'], tt['alex_own_words'], SITE, t['key'],
+                    sizes['subject-map/%s.txt' % t['key']]))
     L += ['',
           'METHODS',
           '  keyword                  matches found by the rule shown in the topic file, with listed exclusions.',
@@ -502,6 +526,8 @@ def index_file(topics, placed, n_excerpts):
           'FILES',
           '  Each topic: subject-map/<key>.txt (summary, first mentions, top lists) then subject-map/<key>-list-NNN.txt (every conversation).',
           '  Each file names NEXT. Files are kept under 460 lines; a short file is not the end of the list.',
+          '  "| bytes=N" after a link is the size of the file it points to, so you can budget your fetches.',
+          '  Conversation files of %d bytes or more have a parts list for HTTP Range reads: %sparts/INDEX.txt' % (STRUCTURED_PARTS_BYTES, SITE),
           '  People: %ssubject-map.html (static, no JavaScript)' % SITE,
           '  Machine-readable: %ssubject-map.json' % SITE,
           '  Corrections with reasons: %s%s' % (SITE, OVERRIDES),
@@ -582,9 +608,11 @@ def build():
     excerpts, owned, placed = load_own_words(convs)
     ov = load_overrides()
     topics = [build_topic(spec, ov.get('topics', {}).get(spec['key'], {}), convs, excerpts, owned) for spec in TOPICS]
-    files = {'subject-map/INDEX.txt': index_file(topics, placed, len(excerpts))}
+    files = {}
     for t in topics:
         files.update(topic_files(t))
+    sizes = dict((rel, len(text.encode('utf-8'))) for rel, text in files.items())
+    files['subject-map/INDEX.txt'] = index_file(topics, placed, len(excerpts), sizes)
     files['subject-map.html'] = html_page(topics)
     data = dict(
         title='Subject map', notice='derived index, generated by keyword matching (some topics also hand-reviewed); originals unchanged. Dates are conversation start dates.',

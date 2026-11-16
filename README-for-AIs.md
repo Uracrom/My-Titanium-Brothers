@@ -31,6 +31,24 @@ Also small and static:
 - Alex's own words only (a conservative selection, chronological): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html (2.8 MB)
 - Subject map, a derived index of where 8 subjects (Zero, Time, Music, Memory, Love, Geometry, Origin, "Titanium Brothers") appear for each AI: https://uracrom.github.io/My-Titanium-Brothers/subject-map/INDEX.txt (also https://uracrom.github.io/My-Titanium-Brothers/subject-map.html and https://uracrom.github.io/My-Titanium-Brothers/subject-map.json)
 
+## File sizes: budget your fetches
+
+Conversation links in the subject map (subject-map/*.txt) and every row of the structured index (structured/index/INDEX-*.txt) are followed by "| bytes=N", the size of the file the link points to, so you can budget your fetches. Most conversation files are small, but some are very large, for example DEEPSEEK-001 (610 messages, about 1.2 MB). Read those in pieces with HTTP Range requests: every conversation file of 250 KB or more has a parts list with byte ranges of about 100 KB (its index row names it). All parts lists: https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt (see "Reading a big file in pieces" below).
+
+## AIs in this archive
+
+Date of Alex's first conversation with each AI, oldest first (conversation start dates from structured/MANIFEST.txt, also in archive-manifest.json; ChatGPT and ChatGPT (WhatsApp) are separate collections):
+
+- 2024-07-01 | Claude | CLAUDE-001
+- 2024-12-19 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-001
+- 2025-05-15 | Copilot | COPILOT-001
+- 2025-06-16 | Grok | GROK-001
+- 2025-08-11 | ChatGPT | CHATGPT-001
+- 2026-02-11 | Gemini | GEMINI-001
+- 2026-10-17 | DeepSeek | DEEPSEEK-001
+
+In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time.
+
 ## Entries and logical conversations
 
 The archive has **1367 entries**. Some long chats were saved as several entries titled "Part N of M". Joined back together, they are **1220 logical conversations** with **25992 messages**. Alex is the only human speaker.
@@ -132,9 +150,9 @@ These are large. If your reader has a length limit, use the short index, the num
 
 ### Reading a big file in pieces
 
-Every published text file of 900 KB or more (the files above, the full-text pages, and a few others) has a parts list: https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt
+Every published text file of 900 KB or more (the files above, the full-text pages, and a few others), and every structured conversation file of 250 KB or more, has a parts list: https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt
 
-1. Open the file's parts list. It gives BYTES, LINES, SHA256, an END-OF-FILE MARKER (the last non-empty line), and parts of about 500 KB that each start at the beginning of a line and end at a line break.
+1. Open the file's parts list. It gives BYTES, LINES, SHA256, an END-OF-FILE MARKER (the last non-empty line), and parts of about 500 KB (about 100 KB for structured conversation files) that each start at the beginning of a line and end at a line break.
 2. Ask for one part at a time with an HTTP Range header, END inclusive: Range: bytes=START-END (for example curl -r 0-499944 https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt). GitHub Pages and raw.githubusercontent.com both answer 206 Partial Content with exactly those bytes.
 3. Check each part against its SHA256 if you can.
 4. A complete read has BYTES bytes, LINES line breaks, and ends with the END-OF-FILE MARKER line. If your copy is shorter, it was cut: count the bytes you have (N) and ask for Range: bytes=N- , or continue from the START_BYTE of the first part you did not get completely.

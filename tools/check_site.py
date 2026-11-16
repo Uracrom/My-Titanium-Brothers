@@ -700,6 +700,100 @@ class Checker(object):
                             self.error('%s gives %s:%s* for "%s", but the index line does not list it.' % (rel, cid, seq, word))
         self.ok('Checked %d worked search examples in the guides against the index.' % checked)
 
+    def check_listed_sizes(self):
+        """'<link> | bytes=N' in the subject map and structured indexes must give the linked file's real size,
+        and every conversation link there must carry a size (so AIs can budget fetches)."""
+        sys.path.insert(0, os.path.join(ROOT, 'tools'))
+        from build_large_file_parts import STRUCTURED_LARGE_BYTES, parts_name
+        size_re = re.compile(r'(\S+) \| bytes=(\d+)')
+        conv_link_re = re.compile(r'(?:https://uracrom\.github\.io/My-Titanium-Brothers/)?(structured/(?:chatgpt|chatgpt-whatsapp|claude|copilot|deepseek|gemini|grok)/[A-Z-]+-\d{3}\.txt)(?: \| bytes=(\d+))?')
+        sources = sorted(
+            os.path.relpath(path, ROOT).replace(os.sep, '/')
+            for pattern in ('subject-map/*.txt', 'structured/index/INDEX-*.txt')
+            for path in glob.glob(os.path.join(ROOT, pattern))
+        ) + ['structured/INDEX.txt', 'structured/MANIFEST.txt']
+        checked = 0
+        start = len(self.errors)
+        for rel in sources:
+            is_index = rel.startswith('structured/index/')
+            for line in read_text(rel).splitlines():
+                for target, stated in size_re.findall(line):
+                    target = target.split('#', 1)[0]
+                    if target.startswith('http'):
+                        kind, path, _fragment = self.resolve_site_path(target)
+                        if kind != 'internal':
+                            self.error('%s gives a size for a link outside this repository: %s' % (rel, target))
+                            continue
+                    else:
+                        path = target
+                    actual = file_size(path)
+                    checked += 1
+                    if actual is None:
+                        self.error('%s gives bytes=%s for %s, and that file is missing.' % (rel, stated, path))
+                    elif actual != int(stated):
+                        self.error('%s gives bytes=%s for %s; the file is %d bytes. Rerun the builders.' % (rel, stated, path, actual))
+                for path, stated in conv_link_re.findall(line):
+                    if not stated:
+                        self.error('%s links to %s without its size (| bytes=N).' % (rel, path))
+                if is_index and ' | bytes=' in line:
+                    path = line.split(' | ')[5]
+                    size = file_size(path) or 0
+                    expected = parts_name(path)
+                    if size >= STRUCTURED_LARGE_BYTES:
+                        if ('parts list: ' + expected) not in line:
+                            self.error('%s: %s is %d bytes but its row does not name %s.' % (rel, path, size, expected))
+                        elif file_size(expected) is None:
+                            self.error('%s names %s, which is missing. Run: python3 tools/build_large_file_parts.py' % (rel, expected))
+                    elif 'parts list: ' in line:
+                        self.error('%s names a parts list for %s, which is under %d bytes.' % (rel, path, STRUCTURED_LARGE_BYTES))
+        rows = 0
+        for rel in glob.glob(os.path.join(ROOT, 'structured', 'index', 'INDEX-*.txt')):
+            for line in read_text(os.path.relpath(rel, ROOT)).splitlines():
+                if re.match(r'^[A-Z-]+-\d{3} \| ', line):
+                    rows += 1
+                    if ' | bytes=' not in line:
+                        self.error('A structured index row has no size: %s' % line[:80])
+        if len(self.errors) == start:
+            self.ok('Checked %d listed file sizes in the subject map and structured indexes (%d index rows); every '
+                    'conversation link has its size, and every conversation file of %d bytes or more names its parts list.'
+                    % (checked, rows, STRUCTURED_LARGE_BYTES))
+
+    def check_first_conversation_dates(self):
+        """The first-conversation date per AI in the guides must match the structured index."""
+        first = {}
+        for path in sorted(glob.glob(os.path.join(ROOT, 'structured', 'index', 'INDEX-*.txt'))):
+            for line in read_text(os.path.relpath(path, ROOT)).splitlines():
+                bits = line.split(' | ')
+                if len(bits) > 6 and re.match(r'^[A-Z-]+-\d{3}$', bits[0]) and re.match(r'^\d{4}-\d{2}-\d{2}$', bits[2]):
+                    cid, name, date = bits[:3]
+                    if name not in first or (date, cid) < first[name]:
+                        first[name] = (date, cid)
+        expected = sorted((d, n, c) for n, (d, c) in first.items())
+        expected = [(d, n, c) for d, n, c in sorted(expected, key=lambda x: (x[0], x[1]))]
+        if not expected:
+            self.error('No conversation rows found in structured/index/.')
+            return
+        row_re = re.compile(r'^(?:- |  )?(\d{4}-\d{2}-\d{2}) \| (.+?) \| ([A-Z]+(?:-[A-Z]+)*-\d{3})$')
+        start = len(self.errors)
+        for rel, heading in (('ai.txt', '## AIs in this archive'), ('README-for-AIs.md', '## AIs in this archive'),
+                             ('structured/MANIFEST.txt', 'First conversation with each AI')):
+            text = read_text(rel)
+            if heading not in text:
+                self.error('%s has no "%s" list of first conversation dates.' % (rel, heading))
+                continue
+            section = text.split(heading, 1)[1].split('\n## ', 1)[0]
+            found = [m.groups() for m in map(row_re.match, section.splitlines()) if m]
+            if found != expected:
+                self.error('%s lists first conversation dates %s; the structured index gives %s.'
+                           % (rel, '; '.join(' '.join(x) for x in found), '; '.join(' '.join(x) for x in expected)))
+        data = json.loads(read_text('archive-manifest.json')).get('structured_archive', {})
+        listed = [(x.get('date'), x.get('ai'), x.get('conversation')) for x in data.get('first_conversation_by_ai') or []]
+        if listed != expected:
+            self.error('archive-manifest.json structured_archive.first_conversation_by_ai does not match the structured index.')
+        if len(self.errors) == start:
+            self.ok('First conversation dates for %d AIs agree in ai.txt, README-for-AIs.md, structured/MANIFEST.txt and '
+                    'archive-manifest.json with the structured index.' % len(expected))
+
     def check_large_file_parts(self):
         """The parts lists must describe the large files exactly as they are now."""
         sys.path.insert(0, os.path.join(ROOT, 'tools'))
@@ -1035,6 +1129,8 @@ def main():
     checker.check_stated_sha256()
     checker.check_search_index(rebuild='--skip-search-rebuild' not in sys.argv)
     checker.check_search_examples()
+    checker.check_listed_sizes()
+    checker.check_first_conversation_dates()
     checker.check_large_file_parts()
     checker.report(measured)
     return 1 if checker.errors else 0
