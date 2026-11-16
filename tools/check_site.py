@@ -54,12 +54,20 @@ LINK_FILES = (
     'structured/INDEX.txt',
     'subject-map.html',
     'subject-map.json',
+    'search/README.txt',
+    'parts/INDEX.txt',
 )
 
 # The subject map (derived index) is rebuilt by tools/build_subject_map.py.
 SUBJECT_MAP_JSON = 'subject-map.json'
 SUBJECT_MAP_MAX_LINES = 460
 NEXT_RE = re.compile(r'^NEXT:\s+(\S+)', re.M)
+
+# The search index (derived) is rebuilt by tools/build_search_index.py, and the
+# large-file parts lists by tools/build_large_file_parts.py.
+SEARCH_MAX_BYTES = 250000
+SEARCH_MAX_LINES = 400
+SHA_RE = re.compile(r'SHA-256 ([0-9a-f]{64})\b')
 
 
 def read_text(rel):
@@ -143,6 +151,12 @@ def article_and_page_counts():
             with open(os.path.join(ROOT, name), encoding='utf-8') as handle:
                 pieces[key] += handle.read().count('<article ')
     return pieces, pages
+
+
+def sha256_of(rel):
+    import hashlib
+    with open(os.path.join(ROOT, rel), 'rb') as handle:
+        return hashlib.sha256(handle.read()).hexdigest()
 
 
 def file_size(rel):
@@ -484,6 +498,14 @@ class Checker(object):
 
         for item in data.get('large_files') or []:
             self._check_one_size('archive-manifest.json large_files', item.get('url'), item.get('bytes'))
+            if item.get('sha256'):
+                kind, rel, _fragment = self.resolve_site_path(item.get('url', ''))
+                if kind == 'internal' and file_size(rel) is not None and sha256_of(rel) != item['sha256']:
+                    self.error('archive-manifest.json large_files gives a SHA-256 for %s that does not match the file.' % rel)
+            if item.get('parts_list'):
+                kind, rel, _fragment = self.resolve_site_path(item['parts_list'])
+                if kind != 'internal' or file_size(rel) is None:
+                    self.error('archive-manifest.json large_files names a missing parts list: %s' % item['parts_list'])
 
     def _check_one_size(self, source, url, stated):
         if not url or stated is None:
@@ -539,6 +561,130 @@ class Checker(object):
             self.ok('Checked %d exact byte figures stated next to repository files.' % len(seen))
         else:
             self.warn('No exact byte figures were found next to repository URLs in the guide files.')
+
+    def check_stated_sha256(self):
+        """'SHA-256 <hex>' next to a repository URL (other than a parts list) must match that file."""
+        checked = 0
+        for rel in ('ai.txt', 'llms.txt', 'archive.txt', 'README-for-AIs.md'):
+            for line in read_text(rel).splitlines():
+                for match in SHA_RE.finditer(line):
+                    targets = []
+                    for url in URL_RE.findall(line):
+                        kind, path, _fragment = self.resolve_site_path(strip_url_tail(url))
+                        if kind == 'internal' and not path.startswith('parts/'):
+                            targets.append(path)
+                    if len(targets) != 1:
+                        self.error('%s states a SHA-256 on a line without exactly one repository file URL: %s' % (rel, line[:120]))
+                        continue
+                    checked += 1
+                    if file_size(targets[0]) is None:
+                        self.error('%s gives a SHA-256 for %s, and that file is missing.' % (rel, targets[0]))
+                    elif sha256_of(targets[0]) != match.group(1):
+                        self.error('%s gives a SHA-256 for %s that does not match the file. Update it (see parts/INDEX.txt).'
+                                   % (rel, targets[0]))
+        self.ok('Checked %d SHA-256 checksums stated next to repository files.' % checked)
+
+    # ------------------------------------------------------------ search index
+    def check_search_index(self, rebuild=True):
+        """Check the derived search index: listed files, size and line limits, NEXT chain, manifest, rebuild."""
+        if not os.path.isfile(os.path.join(ROOT, 'search', 'SHARDS.txt')):
+            self.error('search/SHARDS.txt is missing.')
+            return
+        start = len(self.errors)
+        listed = []
+        keys = {}
+        for line in read_text('search/SHARDS.txt').splitlines():
+            parts = line.split(' | ')
+            if len(parts) == 6 and parts[0].startswith('search/terms/'):
+                listed.append(parts[0])
+                for key in parts[1].split(' '):
+                    if key in keys:
+                        self.error('search/SHARDS.txt lists the key %s twice.' % key)
+                    keys[key] = parts[0]
+                actual = file_size(parts[0])
+                if actual is None:
+                    self.error('search/SHARDS.txt lists %s, and that file is missing.' % parts[0])
+                elif str(actual) != parts[5]:
+                    self.error('search/SHARDS.txt says %s is %s bytes; the file is %d bytes.' % (parts[0], parts[5], actual))
+        folder = os.path.join(ROOT, 'search', 'terms')
+        on_disk = set('search/terms/' + n for n in os.listdir(folder)) if os.path.isdir(folder) else set()
+        for rel in sorted(on_disk - set(listed)):
+            self.error('%s is not listed in search/SHARDS.txt.' % rel)
+        words = 0
+        for rel in listed:
+            if rel not in on_disk:
+                continue
+            text = read_text(rel)
+            size = len(text.encode('utf-8'))
+            lines = text.count('\n')
+            if size > SEARCH_MAX_BYTES or lines > SEARCH_MAX_LINES:
+                self.error('%s has %d bytes and %d lines; terms files must stay under %d bytes and %d lines.'
+                           % (rel, size, lines, SEARCH_MAX_BYTES, SEARCH_MAX_LINES))
+            words += sum(1 for l in text.split('\n')[5:] if l)
+        # NEXT chain from the first terms file reaches every listed file once.
+        seen = []
+        rel = listed[0] if listed else None
+        while rel and len(seen) <= len(listed):
+            seen.append(rel)
+            found = NEXT_RE.search(read_text(rel)) if rel in on_disk else None
+            if not found:
+                self.error('%s has no NEXT line.' % rel)
+                break
+            if found.group(1) == 'none':
+                break
+            kind, rel, _frag = self.resolve_site_path(found.group(1))
+            if kind != 'internal':
+                break
+        if seen != listed:
+            self.error('The NEXT chain of the search terms files does not visit the files in SHARDS.txt order.')
+        try:
+            info = json.loads(read_text('search/index.json'))
+            manifest = json.loads(read_text('archive-manifest.json')).get('search_index') or {}
+        except (OSError, ValueError) as exc:
+            self.error('search/index.json or archive-manifest.json could not be read: %s' % exc)
+            return
+        counts = info.get('counts', {})
+        if counts.get('words') != words:
+            self.error('search/index.json says %s words; the terms files have %d.' % (counts.get('words'), words))
+        for field, key in (('words', 'words'), ('terms_files', 'shards'), ('messages_indexed', 'messages'),
+                           ('conversations_indexed', 'conversations')):
+            if manifest.get(field) != counts.get(key):
+                self.error('archive-manifest.json search_index %s is %s; search/index.json says %s.'
+                           % (field, manifest.get(field), counts.get(key)))
+        if len(self.errors) == start:
+            self.ok('Search index: %d terms files, %d words; every file is listed, under %d bytes and %d lines, and on the NEXT chain.'
+                    % (len(listed), words, SEARCH_MAX_BYTES, SEARCH_MAX_LINES))
+        if not rebuild:
+            self.warn('The search index was not compared with a fresh build (--skip-search-rebuild).')
+            return
+        sys.path.insert(0, os.path.join(ROOT, 'tools'))
+        try:
+            import build_search_index
+            fresh = build_search_index.build()
+            stale = build_search_index.stale_files(fresh)
+        except Exception as exc:  # report, do not crash the whole check
+            self.error('tools/build_search_index.py failed: %s' % exc)
+            return
+        for rel in stale:
+            self.error('%s differs from a fresh build. Run: python3 tools/build_search_index.py' % rel)
+        if not stale:
+            self.ok('The search index equals a fresh run of tools/build_search_index.py (%d files).' % len(fresh))
+
+    def check_large_file_parts(self):
+        """The parts lists must describe the large files exactly as they are now."""
+        sys.path.insert(0, os.path.join(ROOT, 'tools'))
+        try:
+            import build_large_file_parts
+            fresh, descs = build_large_file_parts.build()
+            stale = build_large_file_parts.stale_files(fresh)
+        except Exception as exc:
+            self.error('tools/build_large_file_parts.py failed: %s' % exc)
+            return
+        for rel in stale:
+            self.error('%s differs from a fresh build. Run: python3 tools/build_large_file_parts.py' % rel)
+        if not stale:
+            self.ok('The large-file parts lists equal a fresh run of tools/build_large_file_parts.py (%d large files, %d parts).'
+                    % (len(descs), sum(len(d['parts']) for d in descs)))
 
     def check_index_pages(self, entries):
         missing_parts = 0
@@ -778,6 +924,9 @@ def main():
     checker.check_links()
     checker.check_index_pages(entries)
     checker.check_subject_map(rebuild='--skip-subject-map-rebuild' not in sys.argv)
+    checker.check_stated_sha256()
+    checker.check_search_index(rebuild='--skip-search-rebuild' not in sys.argv)
+    checker.check_large_file_parts()
     checker.report(measured)
     return 1 if checker.errors else 0
 
