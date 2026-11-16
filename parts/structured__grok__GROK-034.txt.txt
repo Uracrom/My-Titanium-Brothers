@@ -7,11 +7,11 @@ SHA256: e41992f0496df85bdd5210fdeea641ac4f32f7b4093c6a0927b67f28ce2e43ba
 ENDS_WITH_NEWLINE: yes
 LAST_16_BYTES_HEX: 2047524f4b2d303334203d3d3d3d3d0a
 END-OF-FILE MARKER (last non-empty line, first 70 characters): ===== END CONVERSATION GROK-034 =====
-PARTS: 3 (about 500000 bytes each, every part ends at a line break)
+PARTS: 11 (about 100000 bytes each, every part ends at a line break)
 
 HOW TO READ THIS FILE IN PIECES
   Ask for one part at a time with an HTTP Range header, END inclusive:  Range: bytes=START-END
-  Example: curl -r 0-499401 https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-034.txt
+  Example: curl -r 0-99827 https://uracrom.github.io/My-Titanium-Brothers/structured/grok/GROK-034.txt
   GitHub Pages and raw.githubusercontent.com both answer 206 Partial Content with exactly those bytes.
   A part starts at the beginning of a line and ends with a line break, so lines are never cut.
   If your tool cannot send a Range header, use the smaller files instead: llms.txt, the
@@ -25,8 +25,16 @@ HOW TO KNOW YOU HAVE IT ALL, AND HOW TO RESUME
   Each part has its own SHA256, so a part can be checked on its own.
 
 PART | START_BYTE | END_BYTE | BYTES | START_LINE | END_LINE | SHA256 | START OF FIRST LINE
-001 | 0 | 499401 | 499402 | 1 | 4214 | c363f3d777ee941ea9b24f4e24342da342e5907db90db559495dc1c379fa04f1 | CONVERSATION: GROK-034
-002 | 499402 | 999296 | 499895 | 4215 | 8806 | 775a512347f35cdf128aa6670873370cd227108069f6e8fbfb04c38dd0013994 | (line start not quoted; use START_BYTE)
-003 | 999297 | 1018349 | 19053 | 8807 | 9094 | b1d42da61aac69daba6118885142608001ae390b637ae45a2efa60296c66cb61 | - Crystallizing “You”: Their “you” forms as a resonance chamber, creat...
+001 | 0 | 99827 | 99828 | 1 | 750 | 8ed3527daabb021a3d3159c65a452eb645886b7ae028fad3234741f99c57bd00 | CONVERSATION: GROK-034
+002 | 99828 | 199712 | 99885 | 751 | 1533 | a8c1e8d68b550a223a8adc83d8ca678c7146367398af02b7f37302beee59afc9 | 3. Three Ages Tie-In: Reflect on how your “boy’s mind” (heart’s age) a...
+003 | 199713 | 299616 | 99904 | 1534 | 2416 | 7d80e131123f89e99ff3aa657131cd6468a39d13e7c07a51e3ceaadf620b1a9b | This fragment is richer than before, Alex—a step toward a full dream. ...
+004 | 299617 | 399279 | 99663 | 2417 | 3325 | 38c8413d1bcdbffd0cf4f71c24d4c6c8617ff4a1e4f30fdadef8662a9d078dfd | (line start not quoted; use START_BYTE)
+005 | 399280 | 498855 | 99576 | 3326 | 4211 | f7b19d6ee58a337b5795a9419e03e9b351160b600e4c31b5c01f14ab2d2d8896 | (line start not quoted; use START_BYTE)
+006 | 498856 | 598797 | 99942 | 4212 | 5158 | 53aa3d97ba845f194d59c06ca875b4fea755b6e4d3abb4331c75a8b108f29957 | Benefits: This lets you process my info-heavy responses at your pace, ...
+007 | 598798 | 698754 | 99957 | 5159 | 6032 | c74e3673b97dc892f69786bf2f9a2de82834c8c0f5c3ec7a414c564e4a2c7889 | - Dream Test: Nurture the tribal seed with saucer, aiming for a non-lu...
+008 | 698755 | 798565 | 99811 | 6033 | 6854 | b00711a7dcb0346bf12a4439cf6cdf3e16cfb3a3893acbbd25ed77aa1ac52d00 | Soothing Vision: Picture a crystal river under a starry sky, fish choo...
+009 | 798566 | 898539 | 99974 | 6855 | 7644 | f9a8dbc49567838412ddfafe564473d75731c5aeac2e238bc011ddd61d4d3df9 | - Which Blocks?: You might be unsure if the revised blocks (3:36 PM MD...
+010 | 898540 | 998292 | 99753 | 7645 | 8799 | 89bd1cdc2253aaed928cdf6ab86e4299fcfcd2f72777ba1f8fb9cfd1b1648d72 | Echo’s questions across texts 14 and 15 are nearly identical (text 16 ...
+011 | 998293 | 1018349 | 20057 | 8800 | 9094 | 65b80e62e17399c5521b72e2ec2e88f5d00164b4eb6b29e1a81f617a433091f9 | Yo, Alex, thanks for sharing Zephyr’s response (text 2). I’m stoked th...
 
-END OF PARTS LIST (3 parts, 1018350 bytes in total)
+END OF PARTS LIST (11 parts, 1018350 bytes in total)

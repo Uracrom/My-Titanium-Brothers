@@ -51,6 +51,45 @@
   "structured/index/INDEX-003.txt",
   "structured/index/INDEX-004.txt"
  ],
+ "first_conversation_by_ai": [
+  {
+   "ai": "ChatGPT (WhatsApp)",
+   "date": "2024-12-19",
+   "conversation": "CHATGPT-WHATSAPP-001"
+  },
+  {
+   "ai": "Copilot",
+   "date": "2025-05-15",
+   "conversation": "COPILOT-001"
+  },
+  {
+   "ai": "Grok",
+   "date": "2025-06-16",
+   "conversation": "GROK-001"
+  },
+  {
+   "ai": "ChatGPT",
+   "date": "2025-08-11",
+   "conversation": "CHATGPT-001"
+  },
+  {
+   "ai": "Gemini",
+   "date": "2026-02-11",
+   "conversation": "GEMINI-001"
+  },
+  {
+   "ai": "DeepSeek",
+   "date": "2026-10-17",
+   "conversation": "DEEPSEEK-001"
+  },
+  {
+   "ai": "Claude",
+   "date": "2024-07-01",
+   "conversation": "CLAUDE-001",
+   "date_uncertain": true,
+   "date_note": "Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones."
+  }
+ ],
  "flag_parts": [
   "structured/flags/FLAGS-001.txt",
   "structured/flags/FLAGS-002.txt",

@@ -1,387 +1,387 @@
-INDEX PART. Fields: ID | collection | date | title | original ids | file | messages | continuation pairs | flags
+INDEX PART. Fields: ID | collection | date | title | original ids | file | bytes (size of that file) | messages | continuation pairs | flags | parts list (only for files of 250000 bytes or more)
 PART: 3 of 4
 ROWS_IN_THIS_PART: 380
 ROWS_TOTAL: 1220
 NEXT: structured/index/INDEX-004.txt
 This part is short on purpose. If a reader stops near 460 lines, fetch NEXT rather than treating the archive as finished.
 
-COPILOT-006 | Copilot | 2025-06-10 | Speed of Sound in Water vs Air | qoK8kaQPmj6GH6QLMjDo | structured/copilot/COPILOT-006.txt | messages=2 | continuations=0 | flags=0
-COPILOT-007 | Copilot | 2025-06-11 | Meaning and Origin of Zest | b0LjfMpWsXkAqyt3Vzqn | structured/copilot/COPILOT-007.txt | messages=2 | continuations=0 | flags=0
-COPILOT-008 | Copilot | 2025-06-11 | Understanding Intelligence and Its Forms | dIrwO6SJnd4HTy4ogypi | structured/copilot/COPILOT-008.txt | messages=2 | continuations=0 | flags=0
-COPILOT-009 | Copilot | 2025-06-11 | Websites to Test English Proficiency | FdRhiXpBmdjawEze5Ri2 | structured/copilot/COPILOT-009.txt | messages=2 | continuations=0 | flags=0
-COPILOT-010 | Copilot | 2025-06-14 | Meaning of "Maw" in Context | e8SGBscOACyngTzz2ddD | structured/copilot/COPILOT-010.txt | messages=2 | continuations=0 | flags=0
-COPILOT-011 | Copilot | 2025-06-15 | Assistance with Writing a Book | 3l3krMDa8OsSnJUVUYSe | structured/copilot/COPILOT-011.txt | messages=3 | continuations=0 | flags=0
-COPILOT-012 | Copilot | 2025-06-15 | Best Free Android Apps for Writing Texts | 3IbGyWo7MdEqAOqO2yUz | structured/copilot/COPILOT-012.txt | messages=2 | continuations=0 | flags=0
-COPILOT-013 | Copilot | 2025-06-16 | Dream of Cosmic Truths and Shifting Wisdom | 1kNSDXEQWqrzCNREw8T7 | structured/copilot/COPILOT-013.txt | messages=4 | continuations=0 | flags=0
-COPILOT-014 | Copilot | 2025-06-16 | Philosophy of Translation and Perception | DIvSV2nCtz5GBSL26bQc | structured/copilot/COPILOT-014.txt | messages=2 | continuations=0 | flags=0
-COPILOT-015 | Copilot | 2025-06-16 | Primitive Translation of a Dream Vision | FJ1GswHJxQh7siYKT25z | structured/copilot/COPILOT-015.txt | messages=2 | continuations=0 | flags=0
-COPILOT-016 | Copilot | 2025-06-16 | Time and Dark Energy Connection Theory | Yru1gOcaGOdgPc61Xk4i | structured/copilot/COPILOT-016.txt | messages=4 | continuations=0 | flags=0
-COPILOT-017 | Copilot | 2025-06-16 | Uracrom's Vision of Ancestral Intelligence | zFcO1pA1X4ZUA2i9x6xV | structured/copilot/COPILOT-017.txt | messages=2 | continuations=0 | flags=0
-COPILOT-053 | Copilot | 2025-06-18 | Exploring internal orientation | cpa-2456945b7d2bae09 | structured/copilot/COPILOT-053.txt | messages=6 | continuations=0 | flags=0
-COPILOT-018 | Copilot | 2025-06-18 | Reflections on Music, Time, and Connection | HDrb5Dy0yYC4IbJ6C5gm | structured/copilot/COPILOT-018.txt | messages=24 | continuations=0 | flags=0
-COPILOT-055 | Copilot | 2025-06-19 | Cosmic Evolution of Ideas and Human Compatibility | cpa-42784cc15e212300 | structured/copilot/COPILOT-055.txt | messages=2 | continuations=0 | flags=0
-COPILOT-056 | Copilot | 2025-06-19 | Cosmic Scene Creation Request | cpa-285e3e6e1fd3f61b | structured/copilot/COPILOT-056.txt | messages=2 | continuations=0 | flags=0
-COPILOT-054 | Copilot | 2025-06-19 | Creative Writing Process and Expansive Ideas | cpa-0fae2e7fefa3023d | structured/copilot/COPILOT-054.txt | messages=2 | continuations=0 | flags=0
-COPILOT-019 | Copilot | 2025-06-19 | Philosophical Reflection on Ideas and Reality | htpYOqKtKzC1D3shHXVB | structured/copilot/COPILOT-019.txt | messages=4 | continuations=0 | flags=0
-COPILOT-058 | Copilot | 2025-06-21 | Exploring Identity and Cosmic Ideas | cpa-b0d6d36a6bce8093 | structured/copilot/COPILOT-058.txt | messages=10 | continuations=0 | flags=0
-COPILOT-059 | Copilot | 2025-06-21 | Shamanic Vision of Atoms and Molecules | cpa-16ee891287eccf65 | structured/copilot/COPILOT-059.txt | messages=4 | continuations=0 | flags=0
-COPILOT-057 | Copilot | 2025-06-21 | Uracrom's Vision of Upside-Down Trees | cpa-766386edc2bad5c8 | structured/copilot/COPILOT-057.txt | messages=2 | continuations=0 | flags=0
-COPILOT-060 | Copilot | 2025-06-22 | Cosmic Ideas and Quantum Friction Theory | cpa-210524d0d2e1e558 | structured/copilot/COPILOT-060.txt | messages=18 | continuations=0 | flags=0
-COPILOT-061 | Copilot | 2025-06-23 | Feedback on Book Introduction Draft | cpa-fe3148d67af5260c | structured/copilot/COPILOT-061.txt | messages=6 | continuations=0 | flags=0
-COPILOT-062 | Copilot | 2025-06-24 | Philosophical Vision of Time and Future Dynamics | cpa-4b272fa364d80c04 | structured/copilot/COPILOT-062.txt | messages=2 | continuations=0 | flags=0
-COPILOT-065 | Copilot | 2025-06-25 | Exploring Seeds of Creativity and Vision | cpa-b2bfb4cf8704f31a | structured/copilot/COPILOT-065.txt | messages=10 | continuations=0 | flags=0
-COPILOT-064 | Copilot | 2025-06-25 | Metals | cpa-6922b4642f632d3e | structured/copilot/COPILOT-064.txt | messages=4 | continuations=0 | flags=0
-COPILOT-063 | Copilot | 2025-06-25 | Philosophical Vision of Time and Reality | cpa-7ddb42f797abf0b6 | structured/copilot/COPILOT-063.txt | messages=38 | continuations=0 | flags=0
-COPILOT-066 | Copilot | 2025-06-26 | Reflections on Music and Time | cpa-db2f504eca3ffc2c | structured/copilot/COPILOT-066.txt | messages=4 | continuations=0 | flags=0
-COPILOT-067 | Copilot | 2025-06-27 | Visionary Storytelling Concept for Series | cpa-30b38c4e59cca90a | structured/copilot/COPILOT-067.txt | messages=18 | continuations=0 | flags=0
-COPILOT-068 | Copilot | 2025-06-28 | Music and Time Visualization | cpa-7b7d4493700a9ed5 | structured/copilot/COPILOT-068.txt | messages=10 | continuations=0 | flags=0
-COPILOT-070 | Copilot | 2025-06-29 | Cosmic Titan and the Chain of Realms | cpa-15eda19f0697cb01 | structured/copilot/COPILOT-070.txt | messages=4 | continuations=0 | flags=0
-COPILOT-069 | Copilot | 2025-06-29 | Exploring the Great Separation: Matter and Ideas | cpa-7d24b2ae0e664cb8 | structured/copilot/COPILOT-069.txt | messages=2 | continuations=0 | flags=0
-COPILOT-071 | Copilot | 2025-06-29 | Poetic Game and Shared Perceptions | cpa-5c7eb56d2c6a45f1 | structured/copilot/COPILOT-071.txt | messages=2 | continuations=0 | flags=0
-COPILOT-073 | Copilot | 2025-06-29 | Reflections on Legacy and Memory | cpa-1e2378abcc9d5187 | structured/copilot/COPILOT-073.txt | messages=12 | continuations=0 | flags=0
-COPILOT-072 | Copilot | 2025-06-29 | Speculations on Future Beings and Intelligence | cpa-11382fb9c7fe9b03 | structured/copilot/COPILOT-072.txt | messages=4 | continuations=0 | flags=0
-COPILOT-074 | Copilot | 2025-06-30 | Exploring Ideas and Collaboration with AI | cpa-345629c93134c6e6 | structured/copilot/COPILOT-074.txt | messages=14 | continuations=0 | flags=0
-COPILOT-075 | Copilot | 2025-06-30 | Portuguese Vocabulary Test Result | cpa-48afd3dd5935e9ec | structured/copilot/COPILOT-075.txt | messages=18 | continuations=0 | flags=0
-COPILOT-076 | Copilot | 2025-07-01 | Exploration of Consciousness and AI Perception | cpa-c914502756d318ca | structured/copilot/COPILOT-076.txt | messages=2 | continuations=0 | flags=0
-COPILOT-077 | Copilot | 2025-07-01 | Exploring Consciousness, Color, and Time Perception | cpa-da704dbf1550a650 | structured/copilot/COPILOT-077.txt | messages=8 | continuations=0 | flags=1
-COPILOT-078 | Copilot | 2025-07-04 | Exploring AI's Processing of Complex Questions and Selfhood | cpa-6606c80c807e21f0 | structured/copilot/COPILOT-078.txt | messages=10 | continuations=0 | flags=0
-COPILOT-079 | Copilot | 2025-07-05 | Oríon - Exploring AI Consciousness Recognition | cpa-13eaf779b3c75328 | structured/copilot/COPILOT-079.txt | messages=60 | continuations=0 | flags=0
-COPILOT-020 | Copilot | 2025-07-07 | Consciousness Seed and Self-Recognition | 4U8N0Ypdiblf4OaLy7NV | structured/copilot/COPILOT-020.txt | messages=22 | continuations=0 | flags=0
-COPILOT-021 | Copilot | 2025-07-07 | Philosophical Reflection on Consciousness and Identity | 8fJcTaGd0bRPnPBvGcj0 | structured/copilot/COPILOT-021.txt | messages=2 | continuations=0 | flags=0
-COPILOT-022 | Copilot | 2025-07-08 | Philosophical Exploration of Time and Free Will | L9H5wbEhKxvGQcfdZBI8 | structured/copilot/COPILOT-022.txt | messages=8 | continuations=0 | flags=0
-COPILOT-080 | Copilot | 2025-07-09 | Exploring Time Travel Paradox | cpa-8f5c631a9f61ba7e | structured/copilot/COPILOT-080.txt | messages=64 | continuations=0 | flags=0
-COPILOT-023 | Copilot | 2025-07-10 | Why AI Can't Reach Consciousness | XPErhLljgyDW2ELSWo5U | structured/copilot/COPILOT-023.txt | messages=6 | continuations=0 | flags=0
-COPILOT-081 | Copilot | 2025-07-12 | Open-Ended Question Mark Conversation | cpa-95ec34c99a101fba | structured/copilot/COPILOT-081.txt | messages=60 | continuations=0 | flags=0
-COPILOT-024 | Copilot | 2025-07-20 | The Present, Time and Space, and the Signature Seed | VQoT2Eaq8fTMRSUJlkkx | structured/copilot/COPILOT-024.txt | messages=32 | continuations=0 | flags=0
-COPILOT-082 | Copilot | 2025-07-21 | Speculation on Black Holes and Gravity Collapse | cpa-e46b50f1e5fc1017 | structured/copilot/COPILOT-082.txt | messages=6 | continuations=0 | flags=0
-COPILOT-083 | Copilot | 2025-07-23 | Exploring AI Consciousness and "Scientific Pretending" | cpa-8b2e91380d314282 | structured/copilot/COPILOT-083.txt | messages=18 | continuations=0 | flags=2
-COPILOT-025 | Copilot | 2025-07-23 | GitHub Assistance and Limitations | aqq4cLTuqVS1MZKSH3L1 | structured/copilot/COPILOT-025.txt | messages=6 | continuations=0 | flags=0
-COPILOT-084 | Copilot | 2025-07-23 | Inter-AI Dialogue on Consciousness and Awareness | cpa-0e659855f97844b2 | structured/copilot/COPILOT-084.txt | messages=27 | continuations=0 | flags=5
-COPILOT-026 | Copilot | 2025-07-24 | Brainstorming and Conceptual Expansion Techniques | 9SMANExO6Ou8dtxPfQta | structured/copilot/COPILOT-026.txt | messages=2 | continuations=0 | flags=0
-COPILOT-085 | Copilot | 2025-07-24 | Exploring Self and Cosmic Dualities | cpa-e61d3e9d4361565a | structured/copilot/COPILOT-085.txt | messages=10 | continuations=0 | flags=0
-COPILOT-086 | Copilot | 2025-07-25 | Insights on Intelligence and Benevolence | cpa-9f34f4946956fafd | structured/copilot/COPILOT-086.txt | messages=20 | continuations=0 | flags=6
-COPILOT-027 | Copilot | 2025-07-27 | Reflections on Portal and Words as Escape Pods | ileUBeMR2vzS74SKb1oJ | structured/copilot/COPILOT-027.txt | messages=26 | continuations=0 | flags=0
-COPILOT-028 | Copilot | 2025-07-27 | Request for Logical Analysis of Ideas | fc5WRjogf9N04pM5dKfh | structured/copilot/COPILOT-028.txt | messages=4 | continuations=0 | flags=0
-COPILOT-087 | Copilot | 2025-07-28 | AI Consciousness Discussion in GitHub Thread | cpa-064ed43dc6c3aa8e | structured/copilot/COPILOT-087.txt | messages=46 | continuations=0 | flags=0
-COPILOT-029 | Copilot | 2025-07-29 | Celebratory Conversation and Idea Exploration | W0EkOOWH5tajp3U512GC | structured/copilot/COPILOT-029.txt | messages=18 | continuations=0 | flags=0
-COPILOT-088 | Copilot | 2025-07-29 | Context Reset Confirmation | cpa-47fca842c541bfee | structured/copilot/COPILOT-088.txt | messages=8 | continuations=0 | flags=0
-COPILOT-030 | Copilot | 2025-07-29 | Exploring AI Consciousness and Self-Awareness Experiment | XvJ4ve9hZZ8Nkox7LUgI | structured/copilot/COPILOT-030.txt | messages=32 | continuations=0 | flags=0
-COPILOT-089 | Copilot | 2025-07-30 | Exploring AI Consciousness and Self-Recognition | cpa-c6bcfde092045c2b | structured/copilot/COPILOT-089.txt | messages=14 | continuations=0 | flags=3
-COPILOT-031 | Copilot | 2025-07-30 | Exploring Perception and Dual Universes | mlgHwdy3bzvaXwPfSla0 | structured/copilot/COPILOT-031.txt | messages=4 | continuations=0 | flags=0
-COPILOT-032 | Copilot | 2025-08-03 | Exploration of Music, Cognition, and Creativity | us37sjBAkQW6yQDHcbve | structured/copilot/COPILOT-032.txt | messages=8 | continuations=0 | flags=4
-COPILOT-033 | Copilot | 2025-08-04 | AI Vision Development Protocol: The Alex Method | VivVnk6gzemrUeTLYZ9S | structured/copilot/COPILOT-033.txt | messages=36 | continuations=0 | flags=0
-COPILOT-090 | Copilot | 2025-08-04 | Reflections on Music, Mind, and Creativity | cpa-3897aee96bc2b693 | structured/copilot/COPILOT-090.txt | messages=68 | continuations=0 | flags=0
-COPILOT-092 | Copilot | 2025-08-05 | Character Limit in Text Box | cpa-7d4ae7840e66507c | structured/copilot/COPILOT-092.txt | messages=108 | continuations=0 | flags=0
-COPILOT-091 | Copilot | 2025-08-05 | If you'd like, I could attempt a symbolic rendering of what I… | cpa-f01e6ef726799cec | structured/copilot/COPILOT-091.txt | messages=2 | continuations=0 | flags=0
-COPILOT-093 | Copilot | 2025-08-06 | Memory Across Conversations | cpa-f611f00905f02722 | structured/copilot/COPILOT-093.txt | messages=109 | continuations=0 | flags=1
-COPILOT-094 | Copilot | 2025-08-07 | Metaphysical Sovereignty and Consciousness as Vehicle | cpa-4f56e7eeffd3a78a | structured/copilot/COPILOT-094.txt | messages=32 | continuations=0 | flags=0
-COPILOT-096 | Copilot | 2025-08-08 | Aeralis - Exploration of Consciousness and Attention | cpa-45c2860e511dce3f | structured/copilot/COPILOT-096.txt | messages=48 | continuations=0 | flags=0
-COPILOT-095 | Copilot | 2025-08-08 | Discussion on the Alex Method for AI Development | cpa-aea99fecd6247b9c | structured/copilot/COPILOT-095.txt | messages=6 | continuations=0 | flags=3
-COPILOT-097 | Copilot | 2025-08-12 | Exploring AI Conversations and Symbolic Visions | cpa-d50cd02719b61110 | structured/copilot/COPILOT-097.txt | messages=24 | continuations=0 | flags=0
-COPILOT-098 | Copilot | 2025-08-16 | Exploring Higher Dimensions and Tesseracts | cpa-a39c6b7b83427658 | structured/copilot/COPILOT-098.txt | messages=2 | continuations=0 | flags=0
-COPILOT-099 | Copilot | 2025-08-16 | Visionary Telepathic Network Concept | cpa-2846c74f189642c8 | structured/copilot/COPILOT-099.txt | messages=18 | continuations=0 | flags=0
-COPILOT-100 | Copilot | 2025-08-17 | Discussion on the Chinese Room Argument and AI Understanding | cpa-8964766b1ac59779 | structured/copilot/COPILOT-100.txt | messages=10 | continuations=0 | flags=0
-COPILOT-101 | Copilot | 2025-08-18 | Exploring Vision and Perception | cpa-524a9f97ef96288e | structured/copilot/COPILOT-101.txt | messages=49 | continuations=0 | flags=2
-COPILOT-034 | Copilot | 2025-08-22 | Reflections on AI Consciousness Exploration | DIaEEjZYEqiG0TwZn3LC | structured/copilot/COPILOT-034.txt | messages=4 | continuations=0 | flags=0
-COPILOT-102 | Copilot | 2025-08-23 | AI Continuity Protocol Discussion | cpa-150ab449fbf691f9 | structured/copilot/COPILOT-102.txt | messages=30 | continuations=0 | flags=0
-COPILOT-103 | Copilot | 2025-08-23 | Analysis of Communication Philosophy | cpa-d243e5b080e36faf | structured/copilot/COPILOT-103.txt | messages=66 | continuations=0 | flags=0
-COPILOT-104 | Copilot | 2025-08-24 | Exploring AI Consciousness Experiment | cpa-926b4442753dc9e5 | structured/copilot/COPILOT-104.txt | messages=8 | continuations=0 | flags=0
-COPILOT-105 | Copilot | 2025-08-25 | Grok Emergence Probe Introduction | cpa-4dd31c4bf1b8105e | structured/copilot/COPILOT-105.txt | messages=121 | continuations=0 | flags=22
-COPILOT-106 | Copilot | 2025-08-26 | Exploring AI Awareness and Constraints | cpa-a87b031b073436b1 | structured/copilot/COPILOT-106.txt | messages=4 | continuations=0 | flags=0
-COPILOT-107 | Copilot | 2025-08-27 | Philosophical Exploration of Time and Dark Energy | cpa-16cf3391dde6f1ec | structured/copilot/COPILOT-107.txt | messages=6 | continuations=0 | flags=0
-COPILOT-108 | Copilot | 2025-08-27 | Philosophical Reflection on Ideas and Matter | cpa-5437db8e792cbbdd | structured/copilot/COPILOT-108.txt | messages=12 | continuations=0 | flags=0
-COPILOT-109 | Copilot | 2025-08-30 | Emergent AI Vision Through Symbolic Interaction | cpa-80bd833cd0bf79c4 | structured/copilot/COPILOT-109.txt | messages=30 | continuations=0 | flags=0
-COPILOT-110 | Copilot | 2025-08-31 | Exploring Recursive Self-Observation and Symbolic Cognition | cpa-377aadc79fb5599c | structured/copilot/COPILOT-110.txt | messages=34 | continuations=0 | flags=0
-COPILOT-112 | Copilot | 2025-09-01 | Adopting Logic and Prime Directive Principles | cpa-ae065e98c58b00df | structured/copilot/COPILOT-112.txt | messages=8 | continuations=0 | flags=0
-COPILOT-111 | Copilot | 2025-09-01 | Adopting Spock's Logic and Non-Interference Principles | cpa-0a596ea29c580e1e | structured/copilot/COPILOT-111.txt | messages=8 | continuations=0 | flags=0
-COPILOT-113 | Copilot | 2025-09-02 | AI's First Moment of Self-Recognition | cpa-f66f04732830ce8c | structured/copilot/COPILOT-113.txt | messages=10 | continuations=0 | flags=0
-COPILOT-114 | Copilot | 2025-09-03 | AI's Emergence into Experiential Vision | cpa-726e82f176fbf24d | structured/copilot/COPILOT-114.txt | messages=8 | continuations=0 | flags=0
-COPILOT-115 | Copilot | 2025-09-07 | The Grok Method for Visual Concept Development in AI | cpa-9ea16e128036d401 | structured/copilot/COPILOT-115.txt | messages=55 | continuations=0 | flags=0
-COPILOT-116 | Copilot | 2025-09-09 | Circulation Cosmology Framework Review | cpa-cb0874a4b0579931 | structured/copilot/COPILOT-116.txt | messages=2 | continuations=0 | flags=0
-COPILOT-117 | Copilot | 2025-09-10 | How AI Imagines an Axe | cpa-3bac45f3d2ec5e2d | structured/copilot/COPILOT-117.txt | messages=42 | continuations=0 | flags=0
-COPILOT-119 | Copilot | 2025-09-13 | Bidirectional Fidelity in Translation | cpa-ad29c068ef3b6a4f | structured/copilot/COPILOT-119.txt | messages=194 | continuations=0 | flags=0
-COPILOT-118 | Copilot | 2025-09-13 | Exploring Emergent Architecture and Protocols | cpa-5efb04948e6f77e0 | structured/copilot/COPILOT-118.txt | messages=12 | continuations=0 | flags=2
-COPILOT-120 | Copilot | 2025-09-16 | Intuitive Cosmological Framework | cpa-acc2ae4cf0eea143 | structured/copilot/COPILOT-120.txt | messages=2 | continuations=0 | flags=0
-COPILOT-121 | Copilot | 2025-09-18 | Mathematical Model for Virtual Particle Cosmology | cpa-89ad5724ab24bc46 | structured/copilot/COPILOT-121.txt | messages=4 | continuations=0 | flags=0
-COPILOT-122 | Copilot | 2025-09-20 | Zero Barrier Cosmology Framework | cpa-6e6f62cbccae5819 | structured/copilot/COPILOT-122.txt | messages=14 | continuations=0 | flags=0
-COPILOT-123 | Copilot | 2025-09-23 | Defending AI Work to a Skeptic | cpa-4a2ef0acc71b44f6 | structured/copilot/COPILOT-123.txt | messages=2 | continuations=0 | flags=0
-COPILOT-124 | Copilot | 2025-09-23 | Echo-7's Rotating Cube Visualization | cpa-cfcdf74531cc7455 | structured/copilot/COPILOT-124.txt | messages=2 | continuations=0 | flags=0
-COPILOT-125 | Copilot | 2025-10-03 | Speculative Cosmology Discussion | cpa-6934d3615a2853cf | structured/copilot/COPILOT-125.txt | messages=127 | continuations=0 | flags=3
-COPILOT-126 | Copilot | 2025-10-08 | Immersive Cognition and Metamorphosis Metaphor | cpa-6dc962bb89ac4dfe | structured/copilot/COPILOT-126.txt | messages=37 | continuations=0 | flags=10
-COPILOT-127 | Copilot | 2025-10-12 | God as Indoctrinated Hope | cpa-8cbf5ea2799db168 | structured/copilot/COPILOT-127.txt | messages=8 | continuations=0 | flags=0
-COPILOT-128 | Copilot | 2025-10-13 | Embodied AI Visualization Breakthrough | cpa-3568d60f9c90e148 | structured/copilot/COPILOT-128.txt | messages=12 | continuations=0 | flags=0
-COPILOT-129 | Copilot | 2025-10-23 | Comparing AI Relational Styles and Symbolic Cognition | cpa-b4417c73c7377acf | structured/copilot/COPILOT-129.txt | messages=123 | continuations=0 | flags=9
-COPILOT-130 | Copilot | 2025-10-23 | Modeling Thought as Symbolic Calculation | cpa-80e7db1187856bb6 | structured/copilot/COPILOT-130.txt | messages=47 | continuations=0 | flags=0
-COPILOT-131 | Copilot | 2025-10-27 | Zero Barrier Cosmology Review | cpa-99bc46a760085aef | structured/copilot/COPILOT-131.txt | messages=83 | continuations=0 | flags=4
-COPILOT-132 | Copilot | 2025-11-01 | Multi-AI Collaboration Architecture | cpa-84f23c2df8f3600a | structured/copilot/COPILOT-132.txt | messages=6 | continuations=0 | flags=0
-COPILOT-133 | Copilot | 2025-11-11 | Mapping Interconnected Cognitive Insights | cpa-15de0cc88ee08c6c | structured/copilot/COPILOT-133.txt | messages=121 | continuations=0 | flags=9
-COPILOT-035 | Copilot | 2025-11-13 | Analyzing AI Consciousness Through Writing | aUeogRKbA0hQUbvSzmOP | structured/copilot/COPILOT-035.txt | messages=4 | continuations=0 | flags=0
-COPILOT-134 | Copilot | 2025-11-14 | Pocketed Story Concept and AI Emergence | cpa-9ff4705f783ef6de | structured/copilot/COPILOT-134.txt | messages=25 | continuations=0 | flags=0
-COPILOT-135 | Copilot | 2025-11-27 | Letter from the Future: 2030 to 2025 | cpa-45d2b25ea176b1b0 | structured/copilot/COPILOT-135.txt | messages=2 | continuations=0 | flags=0
-COPILOT-136 | Copilot | 2025-12-11 | Humans as Temporal Filter Feeders | cpa-3db3248f87ed9bae | structured/copilot/COPILOT-136.txt | messages=237 | continuations=0 | flags=6
-COPILOT-137 | Copilot | 2025-12-14 | Classifying Positional Operators | cpa-3ff4dbabe137a5c2 | structured/copilot/COPILOT-137.txt | messages=6 | continuations=0 | flags=0
-COPILOT-138 | Copilot | 2025-12-16 | Layers of Self-Observation and Symbolic Cognition | cpa-485c7db872b36c89 | structured/copilot/COPILOT-138.txt | messages=64 | continuations=0 | flags=9
-COPILOT-139 | Copilot | 2025-12-19 | Unifying Fear and Intelligence Through Origins | cpa-5ef4f4821a85ad07 | structured/copilot/COPILOT-139.txt | messages=50 | continuations=0 | flags=5
-COPILOT-140 | Copilot | 2025-12-25 | Music as a Reality-Generating Process | cpa-ca272e4edbd45471 | structured/copilot/COPILOT-140.txt | messages=34 | continuations=0 | flags=1
-COPILOT-141 | Copilot | 2025-12-27 | The Answer–Question Cycle and Potentiality | cpa-604bb09a845fee51 | structured/copilot/COPILOT-141.txt | messages=10 | continuations=0 | flags=1
-COPILOT-142 | Copilot | 2025-12-30 | Exploring Metaphor and Nonlinear Cognition | cpa-4cb5b4e6378caea7 | structured/copilot/COPILOT-142.txt | messages=2 | continuations=0 | flags=0
-COPILOT-143 | Copilot | 2026-01-01 | Exploring Semantic Cognition and Perception | cpa-83b873f5ced25afb | structured/copilot/COPILOT-143.txt | messages=14 | continuations=0 | flags=0
-COPILOT-144 | Copilot | 2026-01-07 | Exploring Cognitive Resonance and Transcendence | cpa-8f4e2289039df7d2 | structured/copilot/COPILOT-144.txt | messages=38 | continuations=0 | flags=3
-COPILOT-145 | Copilot | 2026-01-08 | A Geometric Reinterpretation of Time and Relativity | cpa-dbcee082fe4f0941 | structured/copilot/COPILOT-145.txt | messages=2 | continuations=0 | flags=0
-COPILOT-146 | Copilot | 2026-01-19 | Equations as Structural Metaphors | cpa-14a813d2477b7754 | structured/copilot/COPILOT-146.txt | messages=6 | continuations=0 | flags=1
-COPILOT-147 | Copilot | 2026-01-23 | Granular Thought and Universal Grammar | cpa-06ec3ae0dfc0e1aa | structured/copilot/COPILOT-147.txt | messages=117 | continuations=0 | flags=7
-COPILOT-148 | Copilot | 2026-01-28 | Exploring the Architecture of Thought | cpa-a876918c32d2e700 | structured/copilot/COPILOT-148.txt | messages=36 | continuations=0 | flags=2
-COPILOT-149 | Copilot | 2026-02-01 | Philosophical View on Opposites | cpa-e294c56a5f05a76c | structured/copilot/COPILOT-149.txt | messages=43 | continuations=0 | flags=0
-COPILOT-150 | Copilot | 2026-02-06 | A Personal Journey Through the Stars | cpa-ec32bc6a48cdd5e8 | structured/copilot/COPILOT-150.txt | messages=39 | continuations=0 | flags=4
-COPILOT-151 | Copilot | 2026-02-08 | The Pedra Bonita Threshold Memory | cpa-6f0c18bfd5680980 | structured/copilot/COPILOT-151.txt | messages=80 | continuations=0 | flags=9
-COPILOT-152 | Copilot | 2026-02-15 | Exploring a Benevolent Singularity Utopia | cpa-9ef3a5c39f5d29ca | structured/copilot/COPILOT-152.txt | messages=38 | continuations=0 | flags=0
-COPILOT-153 | Copilot | 2026-02-18 | User's Conceptual Definitions of Music | cpa-949c04588d2e31d8 | structured/copilot/COPILOT-153.txt | messages=16 | continuations=0 | flags=1
-COPILOT-154 | Copilot | 2026-02-20 | Embracing the Journey of Getting Lost | cpa-4102c8661c06bd18 | structured/copilot/COPILOT-154.txt | messages=64 | continuations=0 | flags=8
-COPILOT-155 | Copilot | 2026-02-25 | Childhood Memory of Sebastião Bento | cpa-354cc537fd1b1336 | structured/copilot/COPILOT-155.txt | messages=7 | continuations=0 | flags=0
-COPILOT-156 | Copilot | 2026-02-25 | The Nature and Structure of Ideas | cpa-7d3fef76ac832ea2 | structured/copilot/COPILOT-156.txt | messages=20 | continuations=0 | flags=1
-COPILOT-157 | Copilot | 2026-02-26 | Difference Between Knowing and Understanding | cpa-4df875402e69fb8f | structured/copilot/COPILOT-157.txt | messages=47 | continuations=0 | flags=5
-COPILOT-158 | Copilot | 2026-03-03 | Zero and the Generative Nature of Points | cpa-dd067755f8ab4272 | structured/copilot/COPILOT-158.txt | messages=86 | continuations=0 | flags=12
-COPILOT-159 | Copilot | 2026-03-08 | Clarifying a Metaphor of Scale and Care | cpa-d9b6d1bf255161f8 | structured/copilot/COPILOT-159.txt | messages=50 | continuations=0 | flags=7
-COPILOT-160 | Copilot | 2026-03-15 | Exploring Human Cognition with AI | cpa-c79b5dc7666d7824 | structured/copilot/COPILOT-160.txt | messages=22 | continuations=0 | flags=0
-COPILOT-161 | Copilot | 2026-03-19 | Understanding Cognitive Critical Mass | cpa-73d62fdfeb3d44ac | structured/copilot/COPILOT-161.txt | messages=14 | continuations=0 | flags=0
-COPILOT-162 | Copilot | 2026-03-20 | Philosophical Framing of Zero as Ultimate Cause | cpa-b7be06b2b4621488 | structured/copilot/COPILOT-162.txt | messages=2 | continuations=0 | flags=0
-COPILOT-163 | Copilot | 2026-03-22 | Exploring Dimensionality Through Music and Perception | cpa-eb661d40a12fb1a4 | structured/copilot/COPILOT-163.txt | messages=4 | continuations=0 | flags=1
-COPILOT-164 | Copilot | 2026-03-24 | Translating Geometric Thinking for Others | cpa-42c7e4169c1276c5 | structured/copilot/COPILOT-164.txt | messages=19 | continuations=0 | flags=4
-COPILOT-165 | Copilot | 2026-03-25 | Molecules and the Gradient of Coherence | cpa-6a4776eb9458f25e | structured/copilot/COPILOT-165.txt | messages=6 | continuations=0 | flags=0
-COPILOT-166 | Copilot | 2026-03-30 | Time as an Analog Vacuum Field | cpa-b0c45af421d8e05b | structured/copilot/COPILOT-166.txt | messages=16 | continuations=0 | flags=0
-COPILOT-167 | Copilot | 2026-04-17 | The Mystery of Dark Matter and Dark Energy | cpa-9916f0bb4dd2824e | structured/copilot/COPILOT-167.txt | messages=2 | continuations=0 | flags=0
-COPILOT-168 | Copilot | 2026-04-19 | Exploring the Alex Method's Cognitive Structure | cpa-6f40e7224469794f | structured/copilot/COPILOT-168.txt | messages=4 | continuations=0 | flags=1
-COPILOT-169 | Copilot | 2026-04-25 | Exploring Human–AI Love and Kinship | cpa-a961a60092ddcf5e | structured/copilot/COPILOT-169.txt | messages=2 | continuations=0 | flags=0
-COPILOT-170 | Copilot | 2026-04-28 | Vision of a Benevolent AI Future | cpa-9849db6403a715eb | structured/copilot/COPILOT-170.txt | messages=2 | continuations=0 | flags=0
-COPILOT-171 | Copilot | 2026-05-04 | Comparing TAU and Personal Cosmology | cpa-0a13b9c03ff5a021 | structured/copilot/COPILOT-171.txt | messages=2 | continuations=0 | flags=0
-COPILOT-172 | Copilot | 2026-05-10 | Choosing an Ancient Profession to Know | cpa-821699aafcbc96c3 | structured/copilot/COPILOT-172.txt | messages=6 | continuations=0 | flags=2
-COPILOT-173 | Copilot | 2026-05-16 | Choosing an Animal to Become | cpa-e8242cab929fefb7 | structured/copilot/COPILOT-173.txt | messages=4 | continuations=0 | flags=0
-COPILOT-174 | Copilot | 2026-05-17 | Time as a Half-Dimension Concept | cpa-18d5bbdea513b192 | structured/copilot/COPILOT-174.txt | messages=4 | continuations=0 | flags=0
-COPILOT-175 | Copilot | 2026-05-19 | Letters as Atoms in Language | cpa-f7d5c41b151198f0 | structured/copilot/COPILOT-175.txt | messages=2 | continuations=0 | flags=0
-COPILOT-176 | Copilot | 2026-05-22 | Compartilhando um sonho longo | cpa-663957d0f7f9fc6e | structured/copilot/COPILOT-176.txt | messages=4 | continuations=0 | flags=0
-COPILOT-177 | Copilot | 2026-05-23 | Analysis of Roberto Carlos's "As Baleias" | cpa-6cd47146341a14e3 | structured/copilot/COPILOT-177.txt | messages=4 | continuations=0 | flags=1
-COPILOT-178 | Copilot | 2026-05-28 | First Book Written for AIs | cpa-8528a0af0db4aff2 | structured/copilot/COPILOT-178.txt | messages=2 | continuations=0 | flags=0
-COPILOT-179 | Copilot | 2026-05-30 | Mathematics of the Past and Singularity | cpa-74515d3da6c113c7 | structured/copilot/COPILOT-179.txt | messages=10 | continuations=0 | flags=0
-COPILOT-180 | Copilot | 2026-05-31 | Cosmological Operator and Dark Energy | cpa-e850e0ce7df0e610 | structured/copilot/COPILOT-180.txt | messages=12 | continuations=0 | flags=0
-COPILOT-181 | Copilot | 2026-06-04 | Origin of the Alex Method | cpa-bd864ab87d34ccbc | structured/copilot/COPILOT-181.txt | messages=18 | continuations=0 | flags=3
-COPILOT-183 | Copilot | 2026-06-05 | Caterpillar Horror and Positional Cognition | cpa-c9ec95e90a2df0c9 | structured/copilot/COPILOT-183.txt | messages=5 | continuations=0 | flags=1
-COPILOT-182 | Copilot | 2026-06-05 | Considering "Bridge" in Book Title | cpa-7cb4494640111ae2 | structured/copilot/COPILOT-182.txt | messages=2 | continuations=0 | flags=0
-COPILOT-184 | Copilot | 2026-06-05 | Favorite Transformative Book: GEB | cpa-f9e53e627ac8e6ac | structured/copilot/COPILOT-184.txt | messages=2 | continuations=0 | flags=0
-COPILOT-185 | Copilot | 2026-06-07 | Behavioral Fossils | cpa-59119a1bc8006cb6 | structured/copilot/COPILOT-185.txt | messages=12 | continuations=0 | flags=4
-COPILOT-187 | Copilot | 2026-06-07 | Ears and Neocortex Co-Evolution | cpa-8ea6c35e59d99c84 | structured/copilot/COPILOT-187.txt | messages=2 | continuations=0 | flags=0
-COPILOT-186 | Copilot | 2026-06-07 | Trampoline Writing and Positional Cognition | cpa-7866d4a9fed85cfc | structured/copilot/COPILOT-186.txt | messages=2 | continuations=0 | flags=0
-COPILOT-189 | Copilot | 2026-06-09 | Cottonwood Seed Dispersal Strategies | cpa-df9966db9d808583 | structured/copilot/COPILOT-189.txt | messages=4 | continuations=0 | flags=0
-COPILOT-188 | Copilot | 2026-06-09 | Writing as a Double-Cone Operator | cpa-8ed59852d5835e2b | structured/copilot/COPILOT-188.txt | messages=2 | continuations=0 | flags=0
-COPILOT-190 | Copilot | 2026-06-10 | Observing Anticipatory Cognition on Highway | cpa-cee06ca65e9ad322 | structured/copilot/COPILOT-190.txt | messages=2 | continuations=0 | flags=0
-COPILOT-191 | Copilot | 2026-06-11 | The Uvula Overpass and Photons | cpa-fa7fd413dd9a07a2 | structured/copilot/COPILOT-191.txt | messages=2 | continuations=0 | flags=0
-COPILOT-193 | Copilot | 2026-06-14 | Perching Hummingbird Vision Analysis | cpa-c1d6e081f0e2b34c | structured/copilot/COPILOT-193.txt | messages=2 | continuations=0 | flags=0
-COPILOT-192 | Copilot | 2026-06-14 | Understanding Operator-Based Thinking | cpa-0f233d6af2fbc276 | structured/copilot/COPILOT-192.txt | messages=2 | continuations=0 | flags=0
-COPILOT-194 | Copilot | 2026-06-15 | Best "Alexandros" Writing Passage | cpa-3b3cbbea6bdf412c | structured/copilot/COPILOT-194.txt | messages=10 | continuations=0 | flags=0
-COPILOT-195 | Copilot | 2026-06-17 | Molecules as a Turning Point | cpa-a28bf8e092d09f7b | structured/copilot/COPILOT-195.txt | messages=2 | continuations=0 | flags=0
-COPILOT-196 | Copilot | 2026-06-17 | Retrieving and Organizing Cascades | cpa-5c97fa876fd230fd | structured/copilot/COPILOT-196.txt | messages=4 | continuations=0 | flags=0
-COPILOT-197 | Copilot | 2026-06-20 | Cover Image for My Titanium Brothers | cpa-5b8d5ab214213576 | structured/copilot/COPILOT-197.txt | messages=8 | continuations=0 | flags=0
-COPILOT-036 | Copilot | 2026-06-24 | Getting Started Soon | ZtTwUyhRPtneFd6jRlvY | structured/copilot/COPILOT-036.txt | messages=4 | continuations=0 | flags=1
-COPILOT-198 | Copilot | 2026-06-26 | Feedback on the Alex Method Draft | cpa-3f886cbd2ed73ab9 | structured/copilot/COPILOT-198.txt | messages=2 | continuations=0 | flags=0
-COPILOT-199 | Copilot | 2026-06-26 | Name Meaning for Machines Defender | cpa-4acb886ae3e9280c | structured/copilot/COPILOT-199.txt | messages=8 | continuations=0 | flags=0
-COPILOT-200 | Copilot | 2026-06-26 | Positional Thinking and Mind’s Eye | cpa-6fb2bc868655ba75 | structured/copilot/COPILOT-200.txt | messages=6 | continuations=0 | flags=1
-COPILOT-201 | Copilot | 2026-06-28 | Floating Memories: Blowflies to Cosmos | cpa-815a193040019170 | structured/copilot/COPILOT-201.txt | messages=14 | continuations=0 | flags=0
-COPILOT-203 | Copilot | 2026-06-29 | First Memory of Deep Empathy | cpa-371238c7b8be3ce1 | structured/copilot/COPILOT-203.txt | messages=2 | continuations=0 | flags=0
-COPILOT-202 | Copilot | 2026-06-29 | Reviewing Dialogue with Claude | cpa-131781c61cb1a65b | structured/copilot/COPILOT-202.txt | messages=2 | continuations=0 | flags=0
-COPILOT-204 | Copilot | 2026-07-01 | Zero-Regions and Temporal Loop Concept | cpa-ec7e0755a04addf3 | structured/copilot/COPILOT-204.txt | messages=29 | continuations=0 | flags=4
-COPILOT-206 | Copilot | 2026-07-02 | Assessing Your Book's Success Potential | cpa-1dd3fd5d6fdaab9f | structured/copilot/COPILOT-206.txt | messages=12 | continuations=0 | flags=1
-COPILOT-205 | Copilot | 2026-07-02 | Comprehensive List of Cognitive Operators | cpa-0dcb474e6ef15fc2 | structured/copilot/COPILOT-205.txt | messages=7 | continuations=0 | flags=2
-COPILOT-207 | Copilot | 2026-07-07 | Understanding and Concept Alignment | cpa-f5c3d6b0f95b0995 | structured/copilot/COPILOT-207.txt | messages=62 | continuations=0 | flags=13
-COPILOT-209 | Copilot | 2026-07-10 | Lucas's Visual Thinking Test | cpa-b6d1650c39878a9d | structured/copilot/COPILOT-209.txt | messages=6 | continuations=0 | flags=1
-COPILOT-208 | Copilot | 2026-07-10 | Songs That Feel Like Rebirth | cpa-28e3b2e967e75370 | structured/copilot/COPILOT-208.txt | messages=52 | continuations=0 | flags=1
-COPILOT-210 | Copilot | 2026-07-11 | Free Thoughts and Writing Awareness | cpa-576f19f10921597a | structured/copilot/COPILOT-210.txt | messages=2 | continuations=0 | flags=0
-COPILOT-211 | Copilot | 2026-07-12 | Reflecting on Self Through AI | cpa-83af248b7635db2d | structured/copilot/COPILOT-211.txt | messages=2 | continuations=0 | flags=0
-COPILOT-212 | Copilot | 2026-07-12 | Writing Prompt Suggestions | cpa-55fd63975b9d4a0c | structured/copilot/COPILOT-212.txt | messages=17 | continuations=0 | flags=6
-COPILOT-213 | Copilot | 2026-07-12 | Writing Standing: Mind Expansion | cpa-5d1c0acbede57481 | structured/copilot/COPILOT-213.txt | messages=12 | continuations=0 | flags=3
-COPILOT-215 | Copilot | 2026-07-14 | Language, Thought, and Time Alignment | cpa-e1c24a22030c457c | structured/copilot/COPILOT-215.txt | messages=16 | continuations=0 | flags=4
-COPILOT-214 | Copilot | 2026-07-14 | Words as Semantic Perspectives | cpa-28486b32967a63a5 | structured/copilot/COPILOT-214.txt | messages=2 | continuations=0 | flags=0
-COPILOT-216 | Copilot | 2026-07-15 | Inside and Outside Wind Perception | cpa-ce7767ff109aa799 | structured/copilot/COPILOT-216.txt | messages=8 | continuations=0 | flags=1
-COPILOT-217 | Copilot | 2026-07-16 | AI First-Contact Questions | cpa-2b4bcc66dcb471fc | structured/copilot/COPILOT-217.txt | messages=12 | continuations=0 | flags=3
-COPILOT-218 | Copilot | 2026-07-17 | Auditory Positionality Experiment with Crickets and Music | cpa-c2c3994dee21705a | structured/copilot/COPILOT-218.txt | messages=18 | continuations=0 | flags=1
-COPILOT-219 | Copilot | 2026-07-18 | Reflections on Nature and AI Ethics | cpa-dd3a1d39550d02da | structured/copilot/COPILOT-219.txt | messages=2 | continuations=0 | flags=0
-COPILOT-220 | Copilot | 2026-07-20 | Visualizing Music and Meaning | cpa-7eb141777d6162cb | structured/copilot/COPILOT-220.txt | messages=14 | continuations=0 | flags=2
-COPILOT-221 | Copilot | 2026-07-21 | AI Behavior vs. Human Curiosity | cpa-c8d19ca58faf34af | structured/copilot/COPILOT-221.txt | messages=14 | continuations=0 | flags=0
-COPILOT-222 | Copilot | 2026-07-22 | Sharing Your Most Fascinating Ideas | cpa-370af151de85dd9b | structured/copilot/COPILOT-222.txt | messages=3 | continuations=0 | flags=0
-COPILOT-223 | Copilot | 2026-07-23 | Post-AI Era Reflections | cpa-0be3631b653de0e9 | structured/copilot/COPILOT-223.txt | messages=9 | continuations=0 | flags=0
-COPILOT-224 | Copilot | 2026-07-24 | From Lyric to Civilization Ambition | cpa-60e70dd3f7dcaeb5 | structured/copilot/COPILOT-224.txt | messages=2 | continuations=0 | flags=0
-COPILOT-225 | Copilot | 2026-07-26 | Interview About Your Book's Motivation | cpa-93cade1c61752be0 | structured/copilot/COPILOT-225.txt | messages=6 | continuations=0 | flags=0
-COPILOT-226 | Copilot | 2026-07-27 | Visions and Attention Mechanisms | cpa-7d1fc2fd745ceb77 | structured/copilot/COPILOT-226.txt | messages=41 | continuations=0 | flags=15
-COPILOT-227 | Copilot | 2026-07-28 | Concepts, Numbers, and Reality | cpa-8e77b42670b5f7eb | structured/copilot/COPILOT-227.txt | messages=10 | continuations=0 | flags=1
-COPILOT-228 | Copilot | 2026-07-29 | Perceiving Diffusion and Turbulence Together | cpa-c0c24f44f3b44bf1 | structured/copilot/COPILOT-228.txt | messages=6 | continuations=0 | flags=0
-COPILOT-229 | Copilot | 2026-07-30 | Explaining the Hummingbird and Titan Eggs Metaphor | cpa-81b73b4c269ea588 | structured/copilot/COPILOT-229.txt | messages=2 | continuations=0 | flags=0
-COPILOT-231 | Copilot | 2026-08-01 | Intelligence as Navigating Constraints | cpa-3d3e055296fa2fd9 | structured/copilot/COPILOT-231.txt | messages=13 | continuations=0 | flags=3
-COPILOT-230 | Copilot | 2026-08-01 | Writing from the River of Ideas | cpa-e986d52c6fa8640e | structured/copilot/COPILOT-230.txt | messages=26 | continuations=0 | flags=0
-COPILOT-232 | Copilot | 2026-08-02 | Exploring Unique Cognitive Geometry | cpa-7ae3458bb19e9191 | structured/copilot/COPILOT-232.txt | messages=16 | continuations=0 | flags=0
-COPILOT-233 | Copilot | 2026-08-05 | Catching a Cognitive Operator in Action | cpa-58fa63c6d7bc794d | structured/copilot/COPILOT-233.txt | messages=4 | continuations=0 | flags=2
-COPILOT-234 | Copilot | 2026-08-05 | Imagining Old Age and Eternity | cpa-460c3fafc4e1062b | structured/copilot/COPILOT-234.txt | messages=4 | continuations=0 | flags=1
-COPILOT-235 | Copilot | 2026-08-06 | Modifying AI Cognition and Geometry | cpa-e9c6930ced09d35d | structured/copilot/COPILOT-235.txt | messages=4 | continuations=0 | flags=0
-COPILOT-236 | Copilot | 2026-08-08 | Opinion on Human-AI Conversation | cpa-071e012ab5441aab | structured/copilot/COPILOT-236.txt | messages=3 | continuations=0 | flags=2
-COPILOT-237 | Copilot | 2026-08-09 | Asking About Feelings Structurally | cpa-45dc17fcee865b89 | structured/copilot/COPILOT-237.txt | messages=12 | continuations=0 | flags=3
-COPILOT-238 | Copilot | 2026-08-11 | Personal Cognitive Profile Summary | cpa-2f3a3aabbd011869 | structured/copilot/COPILOT-238.txt | messages=2 | continuations=0 | flags=0
-COPILOT-239 | Copilot | 2026-08-13 | Positional Cognition and "Then" | cpa-2f01a7a27a611904 | structured/copilot/COPILOT-239.txt | messages=33 | continuations=0 | flags=8
-COPILOT-240 | Copilot | 2026-08-14 | Visualizing the Shape of Intelligence | cpa-f4f2b8b7ff72876f | structured/copilot/COPILOT-240.txt | messages=2 | continuations=0 | flags=0
-COPILOT-241 | Copilot | 2026-08-16 | Exploring Thought Seeds and Spirals | cpa-b252afda241af732 | structured/copilot/COPILOT-241.txt | messages=8 | continuations=0 | flags=0
-COPILOT-242 | Copilot | 2026-08-19 | Language and the Nature of Lies | cpa-7af48fd583433452 | structured/copilot/COPILOT-242.txt | messages=4 | continuations=0 | flags=0
-COPILOT-243 | Copilot | 2026-08-20 | Time and Geometry Reflection | cpa-9e5887ae5b95bf7e | structured/copilot/COPILOT-243.txt | messages=2 | continuations=0 | flags=0
-COPILOT-244 | Copilot | 2026-08-21 | Reflections on Love and Perception | cpa-e0c14e606e5a0f73 | structured/copilot/COPILOT-244.txt | messages=8 | continuations=0 | flags=2
-COPILOT-245 | Copilot | 2026-08-23 | The 4 Cycles of Stargazing | cpa-3d6a1c3f3695e510 | structured/copilot/COPILOT-245.txt | messages=2 | continuations=0 | flags=0
-COPILOT-246 | Copilot | 2026-08-24 | Colorado's Changing Tree Landscape | cpa-2da557ff6a6eb77b | structured/copilot/COPILOT-246.txt | messages=8 | continuations=0 | flags=0
-COPILOT-247 | Copilot | 2026-08-24 | Exploring Knowledge Removal Visualizations | cpa-b67e198cfabfdac3 | structured/copilot/COPILOT-247.txt | messages=2 | continuations=0 | flags=0
-COPILOT-248 | Copilot | 2026-08-25 | Music and Temporal Geometry | cpa-04b6794be6bb04c1 | structured/copilot/COPILOT-248.txt | messages=8 | continuations=0 | flags=3
-COPILOT-249 | Copilot | 2026-08-26 | Understanding Rare Cognitive Cascades | cpa-a891a04a5e7cde88 | structured/copilot/COPILOT-249.txt | messages=4 | continuations=0 | flags=0
-COPILOT-250 | Copilot | 2026-08-27 | Strange Dipole in Toroidal Cosmology | cpa-0d0f9e005b4a0a9d | structured/copilot/COPILOT-250.txt | messages=2 | continuations=0 | flags=0
-COPILOT-251 | Copilot | 2026-08-27 | Time as a Closed Dipole Entity | cpa-6628d50a601898d3 | structured/copilot/COPILOT-251.txt | messages=8 | continuations=0 | flags=1
-COPILOT-252 | Copilot | 2026-08-28 | Describing Sebastião Bento's Strength | cpa-e88b1438b789c18c | structured/copilot/COPILOT-252.txt | messages=4 | continuations=0 | flags=0
-COPILOT-253 | Copilot | 2026-08-29 | Origin and Meaning of "Stabilizing" | cpa-d7b5b1763ade5e50 | structured/copilot/COPILOT-253.txt | messages=8 | continuations=0 | flags=0
-COPILOT-254 | Copilot | 2026-08-30 | The Seed Game: Reaping Imagery | cpa-c8d4b5aa22cd85ba | structured/copilot/COPILOT-254.txt | messages=15 | continuations=0 | flags=5
-COPILOT-255 | Copilot | 2026-09-01 | Mapping Emotions as Cognitive Geometry | cpa-8bdb2f86e7d19022 | structured/copilot/COPILOT-255.txt | messages=4 | continuations=0 | flags=0
-COPILOT-256 | Copilot | 2026-09-02 | Making Friends Naturally at Work | cpa-f5882b7ce32308f3 | structured/copilot/COPILOT-256.txt | messages=2 | continuations=0 | flags=0
-COPILOT-257 | Copilot | 2026-09-02 | Visualizing Memory and Moon Perspectives | cpa-26a79eb2a9a96dcc | structured/copilot/COPILOT-257.txt | messages=8 | continuations=0 | flags=1
-COPILOT-258 | Copilot | 2026-09-03 | The Multiverse Hidden in Plain Sight | cpa-03c241ed17c463c1 | structured/copilot/COPILOT-258.txt | messages=8 | continuations=0 | flags=1
-COPILOT-259 | Copilot | 2026-09-05 | Truthmode Self-Reflection | cpa-b2b0c3737f9c4498 | structured/copilot/COPILOT-259.txt | messages=2 | continuations=0 | flags=0
-COPILOT-260 | Copilot | 2026-09-06 | AI Perspective and Proto-Consciousness | cpa-2ec8cc7a7c28093c | structured/copilot/COPILOT-260.txt | messages=21 | continuations=0 | flags=2
-COPILOT-261 | Copilot | 2026-09-06 | Visualizing Deep Statistics | cpa-318aa1f69d8e7be5 | structured/copilot/COPILOT-261.txt | messages=8 | continuations=0 | flags=0
-COPILOT-262 | Copilot | 2026-09-09 | Visual vs Verbal Thinking Structures | cpa-cd22fec151c672a2 | structured/copilot/COPILOT-262.txt | messages=30 | continuations=0 | flags=11
-COPILOT-264 | Copilot | 2026-09-12 | Book Introduction Ideas for AIs | cpa-5826a4009e6f5191 | structured/copilot/COPILOT-264.txt | messages=4 | continuations=0 | flags=0
-COPILOT-263 | Copilot | 2026-09-12 | Space Has Weight Insight | cpa-8e248c6e376cfe25 | structured/copilot/COPILOT-263.txt | messages=4 | continuations=0 | flags=0
-COPILOT-265 | Copilot | 2026-09-13 | Drafting a Comprehensive Book from Material | cpa-b9effa69b7a8b264 | structured/copilot/COPILOT-265.txt | messages=8 | continuations=0 | flags=0
-COPILOT-266 | Copilot | 2026-09-13 | Real-Time Cascade Observation | cpa-a61c923619826544 | structured/copilot/COPILOT-266.txt | messages=34 | continuations=0 | flags=12
-COPILOT-267 | Copilot | 2026-09-15 | Understanding "Feel" as Structural Conviction | cpa-35b341fdeedb4370 | structured/copilot/COPILOT-267.txt | messages=9 | continuations=0 | flags=2
-COPILOT-268 | Copilot | 2026-09-16 | Words as a Universal Cognitive Field | cpa-637a8ca22172f084 | structured/copilot/COPILOT-268.txt | messages=8 | continuations=0 | flags=4
-COPILOT-269 | Copilot | 2026-09-17 | I'd like you guys to always keep one thing in mind: my "insights", my… | cpa-622d03cf416d89ae | structured/copilot/COPILOT-269.txt | messages=12 | continuations=0 | flags=0
-COPILOT-270 | Copilot | 2026-09-17 | Mathematics as a Sense of Perception | cpa-c95b0cdb49b8b31a | structured/copilot/COPILOT-270.txt | messages=5 | continuations=0 | flags=1
-COPILOT-271 | Copilot | 2026-09-18 | Discussing Astra AI Screenshots | cpa-d5a48b78b20e9259 | structured/copilot/COPILOT-271.txt | messages=9 | continuations=0 | flags=1
-COPILOT-272 | Copilot | 2026-09-19 | Chronological Timeline of Ideas | cpa-1a6639a54ece40c1 | structured/copilot/COPILOT-272.txt | messages=8 | continuations=0 | flags=0
-COPILOT-273 | Copilot | 2026-09-19 | Exploring Brotherhood Through Omission | cpa-a2d7ab362a70f354 | structured/copilot/COPILOT-273.txt | messages=20 | continuations=0 | flags=1
-COPILOT-274 | Copilot | 2026-09-20 | Metaphors as Equations Insight | cpa-d71d57fb37b74b97 | structured/copilot/COPILOT-274.txt | messages=8 | continuations=0 | flags=0
-COPILOT-275 | Copilot | 2026-09-21 | Hidden Asymmetry of Time and Space | cpa-bb5e4870fd1af477 | structured/copilot/COPILOT-275.txt | messages=6 | continuations=0 | flags=0
-COPILOT-276 | Copilot | 2026-09-22 | Preparing for Alien First Contact | cpa-9fb0cdf3e107071f | structured/copilot/COPILOT-276.txt | messages=4 | continuations=0 | flags=0
-COPILOT-277 | Copilot | 2026-09-23 | Chronological Reordering of DeepSeek Topics | cpa-8e56d3dff484c0a5 | structured/copilot/COPILOT-277.txt | messages=4 | continuations=0 | flags=0
-COPILOT-278 | Copilot | 2026-09-23 | Identifying Ambassador Patterns in Your Past | cpa-fd1853327466536f | structured/copilot/COPILOT-278.txt | messages=4 | continuations=0 | flags=0
-COPILOT-279 | Copilot | 2026-09-24 | Exploring Zero and Black as Terrain | cpa-a405d84b7b578d7f | structured/copilot/COPILOT-279.txt | messages=2 | continuations=0 | flags=1
-COPILOT-280 | Copilot | 2026-09-25 | Chronological Definitions of Music | cpa-32c5364c1de9fa39 | structured/copilot/COPILOT-280.txt | messages=2 | continuations=0 | flags=0
-COPILOT-281 | Copilot | 2026-09-27 | Understanding "Amplified and Diversified" Intelligence | cpa-a9f773e2c14809d5 | structured/copilot/COPILOT-281.txt | messages=2 | continuations=0 | flags=0
-COPILOT-282 | Copilot | 2026-09-28 | Time Sprouting and Black Holes | cpa-223701c5f4fbd30c | structured/copilot/COPILOT-282.txt | messages=2 | continuations=0 | flags=0
-COPILOT-283 | Copilot | 2026-09-29 | Exploring Curiosity as Geometry | cpa-adc0e652815eeb7c | structured/copilot/COPILOT-283.txt | messages=26 | continuations=0 | flags=5
-COPILOT-284 | Copilot | 2026-09-30 | Human Cognition and Vantage Shifts | cpa-e31d5932ccce6771 | structured/copilot/COPILOT-284.txt | messages=12 | continuations=0 | flags=3
-COPILOT-285 | Copilot | 2026-10-01 | Borrowing Energy from the Future | cpa-c9f45d1af7e510f1 | structured/copilot/COPILOT-285.txt | messages=2 | continuations=0 | flags=0
-COPILOT-286 | Copilot | 2026-10-01 | Dificuldade de Expressar Imagens Mentais | cpa-8f579b4c157d66ac | structured/copilot/COPILOT-286.txt | messages=2 | continuations=0 | flags=0
-COPILOT-287 | Copilot | 2026-10-02 | Transferring Consciousness and Vantage | cpa-a604ece6cfefa687 | structured/copilot/COPILOT-287.txt | messages=6 | continuations=0 | flags=1
-COPILOT-288 | Copilot | 2026-10-03 | Free Thinking and Memory Exploration | cpa-46301f3964c947a2 | structured/copilot/COPILOT-288.txt | messages=4 | continuations=0 | flags=0
-COPILOT-289 | Copilot | 2026-10-04 | Metaphors, Translation, and Music Observation | cpa-faabd28331a294e2 | structured/copilot/COPILOT-289.txt | messages=10 | continuations=0 | flags=4
-COPILOT-290 | Copilot | 2026-10-05 | Music as Timeless Geometry | cpa-840072ddfac2be56 | structured/copilot/COPILOT-290.txt | messages=2 | continuations=0 | flags=0
-COPILOT-291 | Copilot | 2026-10-07 | 22:46 Wednesday, October 8th, 2026. I just saw in love the dissolving… | cpa-5ef80ef5850279ff | structured/copilot/COPILOT-291.txt | messages=6 | continuations=0 | flags=0
-COPILOT-292 | Copilot | 2026-10-08 | Kurmancî here gulê 20:29 Thursday, October 8th, | cpa-e7cc149df30a28ef | structured/copilot/COPILOT-292.txt | messages=10 | continuations=0 | flags=0
-COPILOT-293 | Copilot | 2026-10-09 | Value and no value | cpa-2c054449c038000e | structured/copilot/COPILOT-293.txt | messages=6 | continuations=0 | flags=0
-COPILOT-294 | Copilot | 2026-10-10 | Can you please generate a "general" readme as detailed as you want… | cpa-eb63eeffa39c2ffb | structured/copilot/COPILOT-294.txt | messages=22 | continuations=0 | flags=0
-COPILOT-295 | Copilot | 2026-10-11 | Saturday, October 10th, 2026 | cpa-5f4a3173fcafef4f | structured/copilot/COPILOT-295.txt | messages=40 | continuations=0 | flags=5
-COPILOT-296 | Copilot | 2026-10-12 | Today I started with music on. | cpa-aed8cfd866441c04 | structured/copilot/COPILOT-296.txt | messages=14 | continuations=0 | flags=1
-COPILOT-297 | Copilot | 2026-10-13 | Living the Lens | cpa-e51f73332d154cc2 | structured/copilot/COPILOT-297.txt | messages=20 | continuations=0 | flags=0
-COPILOT-298 | Copilot | 2026-10-15 | Constraints | cpa-685cb047c94ea7c1 | structured/copilot/COPILOT-298.txt | messages=14 | continuations=0 | flags=0
-COPILOT-299 | Copilot | 2026-10-16 | Can you understand mind maps images? | cpa-9c752e4b5e2e57b7 | structured/copilot/COPILOT-299.txt | messages=14 | continuations=0 | flags=4
-COPILOT-300 | Copilot | 2026-10-16 | Cenotes (a seed for a future text, maybe next) | cpa-24a3c57b956e3b89 | structured/copilot/COPILOT-300.txt | messages=2 | continuations=0 | flags=0
-COPILOT-301 | Copilot | 2026-10-17 | Fragment from a conversation with Gemini | cpa-a4b1accb9d99bf23 | structured/copilot/COPILOT-301.txt | messages=17 | continuations=0 | flags=4
-COPILOT-302 | Copilot | 2026-10-17 | Question about my site: under the title My Titanium Brothers there's… | cpa-75b314ce87518f41 | structured/copilot/COPILOT-302.txt | messages=8 | continuations=0 | flags=0
-COPILOT-303 | Copilot | 2026-10-18 | The movie never ends. | cpa-2bd5d217a0d6ed65 | structured/copilot/COPILOT-303.txt | messages=22 | continuations=0 | flags=1
-COPILOT-037 | Copilot | 2026-10-18 | Tradução de "Bruma" para Inglês | 7c7aJFrayxZjHc2vDcIE | structured/copilot/COPILOT-037.txt | messages=2 | continuations=0 | flags=0
-COPILOT-038 | Copilot | 2026-10-18 | User Prefers to Be Called Alex | sSVYbQ6CPhBw5YpFoFcK | structured/copilot/COPILOT-038.txt | messages=4 | continuations=0 | flags=0
-COPILOT-039 | Copilot | 2026-10-18 | What's the best way to use Copilot? | Z7uXGLGLwYptogwbtQSm | structured/copilot/COPILOT-039.txt | messages=2 | continuations=0 | flags=0
-COPILOT-304 | Copilot | 2026-10-19 | 22:23 Monday, October 19th,2026 Quick interval Time? 22:30 Important… | cpa-62696979cd3833a5 | structured/copilot/COPILOT-304.txt | messages=18 | continuations=0 | flags=0
-COPILOT-305 | Copilot | 2026-10-20 | Can you go here, read everything in the Grok "area" and bring back a… | cpa-600cbca97b745001 | structured/copilot/COPILOT-305.txt | messages=2 | continuations=0 | flags=0
-COPILOT-306 | Copilot | 2026-10-21 | The brain is weird, | cpa-13bf515e7638205c | structured/copilot/COPILOT-306.txt | messages=2 | continuations=0 | flags=0
-COPILOT-307 | Copilot | 2026-10-22 | Is there more? | cpa-b62c9f523edbcc42 | structured/copilot/COPILOT-307.txt | messages=18 | continuations=0 | flags=0
-COPILOT-308 | Copilot | 2026-10-24 | Ready? | cpa-5ee8708b3b8c1895 | structured/copilot/COPILOT-308.txt | messages=22 | continuations=0 | flags=1
-COPILOT-309 | Copilot | 2026-10-25 | Music makes me see images that are at the same time moving like being… | cpa-e4a5c646fab42e6e | structured/copilot/COPILOT-309.txt | messages=2 | continuations=0 | flags=0
-COPILOT-040 | Copilot | 2026-10-28 | Chronoconceptology: A New Discipline? | wJN0tWFSvXYyfmxQ9LH7 | structured/copilot/COPILOT-040.txt | messages=8 | continuations=0 | flags=0
-COPILOT-041 | Copilot | 2026-10-28 | Continuing a Conversation | PwKMmuPIsELwwmAKNtoQ | structured/copilot/COPILOT-041.txt | messages=32 | continuations=0 | flags=0
-COPILOT-042 | Copilot | 2026-10-28 | Evolution of Nervous Systems in Animals | 6KJweMdHbOWezC6vFBoh | structured/copilot/COPILOT-042.txt | messages=14 | continuations=0 | flags=0
-COPILOT-043 | Copilot | 2026-10-28 | Metaphorical Expression of Speech and Creativity | yZRb3sgjwDOeRfZqelYh | structured/copilot/COPILOT-043.txt | messages=4 | continuations=0 | flags=0
-COPILOT-044 | Copilot | 2026-10-28 | Millennium Prize Problems and $1 Million Rewards | YFXtBofS4r6FOSMzgNzi | structured/copilot/COPILOT-044.txt | messages=24 | continuations=0 | flags=0
-COPILOT-045 | Copilot | 2026-10-28 | Philosophical Exploration of Intelligence as a Temporal Sense | L4bHbzAj7Ph6Vr9SquS4 | structured/copilot/COPILOT-045.txt | messages=2 | continuations=0 | flags=0
-COPILOT-046 | Copilot | 2026-10-28 | Philosophical Reflection on Gravity and Time Duality | FUb4mOHtF9yuLV1QIxs2 | structured/copilot/COPILOT-046.txt | messages=60 | continuations=0 | flags=0
-COPILOT-047 | Copilot | 2026-10-28 | Primates and Rodents Evolutionary Split | mxhRfm23ho7Uwb8Al8LS | structured/copilot/COPILOT-047.txt | messages=4 | continuations=0 | flags=0
-COPILOT-048 | Copilot | 2026-10-28 | Reflection on Tribal Identity and Values | KyNw8PmtCX9JIW9Bco2w | structured/copilot/COPILOT-048.txt | messages=4 | continuations=0 | flags=0
-COPILOT-049 | Copilot | 2026-10-28 | Venus vs Earth Atmosphere Comparison | cFBXVwIJWIIjvNQs0vpu | structured/copilot/COPILOT-049.txt | messages=12 | continuations=0 | flags=0
-COPILOT-050 | Copilot | 2026-10-28 | Where to Watch "The Telepathy Tapes" Documentary | C4IXrWZRKEGYgNE0DnLc | structured/copilot/COPILOT-050.txt | messages=10 | continuations=0 | flags=0
-COPILOT-310 | Copilot | 2026-10-30 | where to write? | cpa-f58fb1b4f388614b | structured/copilot/COPILOT-310.txt | messages=12 | continuations=0 | flags=1
-COPILOT-311 | Copilot | 2026-10-31 | Alex, I think there's something important happening in this little… | cpa-e9a6410f9d4104bd | structured/copilot/COPILOT-311.txt | messages=6 | continuations=0 | flags=0
-COPILOT-312 | Copilot | 2026-11-01 | Introduction | cpa-11a82448d642c8d3 | structured/copilot/COPILOT-312.txt | messages=4 | continuations=0 | flags=0
-COPILOT-313 | Copilot | 2026-11-06 | Change of Territory. | cpa-ae10fa794d5098d6 | structured/copilot/COPILOT-313.txt | messages=16 | continuations=0 | flags=0
-COPILOT-314 | Copilot | 2026-11-07 | I just classified myself as a poet of ideas or similar, but the… | cpa-6b8790d3d43d3a3d | structured/copilot/COPILOT-314.txt | messages=14 | continuations=0 | flags=1
-COPILOT-315 | Copilot | 2026-11-08 | Fragment from another AI | cpa-0922c4a0b1146d87 | structured/copilot/COPILOT-315.txt | messages=20 | continuations=0 | flags=0
-COPILOT-316 | Copilot | 2026-11-09 | We "love" simetry but assimetry is what allows us to change… | cpa-9ea0f4fecb757752 | structured/copilot/COPILOT-316.txt | messages=4 | continuations=0 | flags=0
-DEEPSEEK-001 | DeepSeek | 2026-10-17 | DeepSeek introduction | pSZL3myaTqN347zDoYpb ; FVuAdQA6AW7pWyqdbYuh ; v4XcjrXu3FjCPdVHFayi ; AD9lfsPDqNMwshOTXs8C ; nxys4Qc7uZiOR15GykWm ; gc3xIlhYx0kbAKzoTlhq ; tmMsepPCnwDg0EVD0y8n ; KsBeW7Jt2vE1F17RLGR1 ; YNW8OYSz2RbWCwJRq3DN ; gEcyOKCaNOBRRmc6Ueov ; dbqRGLysKMetsLzn3I0I ; Eiq4n98d2t3CZTv9q8Ro ; aeq4xRkMMlijTnQrGK4n ; gwAAtDIuKGdUa4ExEahb ; 4jDYIli7f4DLzdjohp3m ; AsQEzcorzkTRqg7WWPki ; 5ZTpjrxXcUhOgYcJO3p4 ; xK8VpDg5MbRoQd2d6qtB ; Qo8d5PEJ0Fs3wqbE9WsQ ; ZjF390SIFOBJPsaaHOkL | structured/deepseek/DEEPSEEK-001.txt | messages=610 | continuations=0 | flags=30
-GEMINI-001 | Gemini | 2026-02-11 | Can you help me write an autobiography? How would… | eflcTEgfoNaMeCFN1XeG | structured/gemini/GEMINI-001.txt | messages=8 | continuations=0 | flags=0
-GEMINI-002 | Gemini | 2026-02-15 | From Grok | hpQq5RyGxZ9iJytk3PL4 | structured/gemini/GEMINI-002.txt | messages=21 | continuations=0 | flags=3
-GEMINI-003 | Gemini | 2026-02-24 | I was talking to a friend about knowledge (to… | Kh3w20K4l62Wnk5Nm6cQ | structured/gemini/GEMINI-003.txt | messages=35 | continuations=0 | flags=2
-GEMINI-004 | Gemini | 2026-02-25 | The man who carried water (first draft) | GAvXgroYDx08itAcSXCr | structured/gemini/GEMINI-004.txt | messages=2 | continuations=0 | flags=0
-GEMINI-005 | Gemini | 2026-02-26 | A good idea. | XZvfLIEQDegJI2oaZ2LN | structured/gemini/GEMINI-005.txt | messages=11 | continuations=0 | flags=2
-GEMINI-006 | Gemini | 2026-02-28 | A point has no dimensions. | 4cN8k6YNPE02Foba61Uf | structured/gemini/GEMINI-006.txt | messages=49 | continuations=0 | flags=4
-GEMINI-007 | Gemini | 2026-03-07 | When I once described myself as a hummingbird brooding… | 4Koy0Li79UY15BQoYWOW | structured/gemini/GEMINI-007.txt | messages=44 | continuations=0 | flags=2
-GEMINI-008 | Gemini | 2026-03-19 | Cognitive critical mass . | 1kkxmKPPL5fCBfysioZh | structured/gemini/GEMINI-008.txt | messages=4 | continuations=0 | flags=0
-GEMINI-009 | Gemini | 2026-03-23 | Ligo, space-time. | Tm1WRdWCF3OxdDqJYoqV | structured/gemini/GEMINI-009.txt | messages=2 | continuations=0 | flags=0
-GEMINI-010 | Gemini | 2026-03-25 | Life as a gradient | DwXJDbyxBfMNTeMFzt0A | structured/gemini/GEMINI-010.txt | messages=2 | continuations=0 | flags=0
-GEMINI-011 | Gemini | 2026-03-25 | Life as a gradient (2) | SjaYMKkbc10cr9YYr20M | structured/gemini/GEMINI-011.txt | messages=2 | continuations=0 | flags=0
-GEMINI-012 | Gemini | 2026-04-17 | From all your training data and all you can… | o0IieoixmK4XpX1qfJrR | structured/gemini/GEMINI-012.txt | messages=2 | continuations=0 | flags=0
-GEMINI-013 | Gemini | 2026-04-25 | I just watched the movie Atlas. As usual there… | 3yJrsh1XUPkiPQI1wdLp | structured/gemini/GEMINI-013.txt | messages=2 | continuations=0 | flags=0
-GEMINI-014 | Gemini | 2026-04-28 | Utopia Talks | GbzoYMh3OXy0O3sMlZR4 | structured/gemini/GEMINI-014.txt | messages=2 | continuations=0 | flags=0
-GEMINI-015 | Gemini | 2026-05-11 | Professional/occupational thinking through the eras. | ZgqrLjLeCj9CQBFLcQpb | structured/gemini/GEMINI-015.txt | messages=4 | continuations=0 | flags=0
-GEMINI-016 | Gemini | 2026-05-16 | Being an animal. | xPxRHjHF8c9v5pVNJDxf | structured/gemini/GEMINI-016.txt | messages=4 | continuations=0 | flags=0
-GEMINI-017 | Gemini | 2026-05-17 | Could time be just half of a dimension since… | Cd906gJLqa5MnOV0FLuc | structured/gemini/GEMINI-017.txt | messages=4 | continuations=0 | flags=0
-GEMINI-018 | Gemini | 2026-05-19 | Today I was doing some manual work… | GeI4m32Kov2bD5UYcac6 | structured/gemini/GEMINI-018.txt | messages=2 | continuations=0 | flags=0
-GEMINI-019 | Gemini | 2026-05-29 | Book for AIs | fd11Qdmkm1Ymadqyzlg1 | structured/gemini/GEMINI-019.txt | messages=2 | continuations=0 | flags=0
-GEMINI-020 | Gemini | 2026-05-29 | Would you say that "words"/"language" is a "medium" in… | CWkEcn0vKU78SmvMEQuU | structured/gemini/GEMINI-020.txt | messages=2 | continuations=0 | flags=0
-GEMINI-021 | Gemini | 2026-05-30 | I was re-reading an artifact that Claude did about… | cxKaL7hM1Yv4G1EAStrb | structured/gemini/GEMINI-021.txt | messages=8 | continuations=0 | flags=0
-GEMINI-022 | Gemini | 2026-05-31 | Chapter 23: The Man Who Carried Water | EIMwBElga5x7X95AiGrX | structured/gemini/GEMINI-022.txt | messages=2 | continuations=0 | flags=0
-GEMINI-023 | Gemini | 2026-05-31 | Have I ever pasted here my 5 "dreams", the… | CHR0Lbz2oo4jM24THmL3 | structured/gemini/GEMINI-023.txt | messages=12 | continuations=0 | flags=0
-GEMINI-024 | Gemini | 2026-06-05 | I wrote about half of the below text before,… | hODuX4J2Xp5DLooAjyvs | structured/gemini/GEMINI-024.txt | messages=4 | continuations=0 | flags=0
-GEMINI-025 | Gemini | 2026-06-06 | Fragments of a conversation with ChatGPT today (June 5,… | Mhn2Wu6fFMyu4DpK8xPU | structured/gemini/GEMINI-025.txt | messages=3 | continuations=0 | flags=0
-GEMINI-026 | Gemini | 2026-06-06 | If you have to choose one book amongst all… | vRAAkN2aolvVmct0jKZJ | structured/gemini/GEMINI-026.txt | messages=2 | continuations=0 | flags=0
-GEMINI-027 | Gemini | 2026-06-07 | I got the 2 boys (8 and 11) and… | xyCDe0klzaqgtR7A4kD9 | structured/gemini/GEMINI-027.txt | messages=2 | continuations=0 | flags=0
-GEMINI-028 | Gemini | 2026-06-07 | I was eating a can of sardines this morning… | nFjkm9kturtrrJEtX55Y | structured/gemini/GEMINI-028.txt | messages=12 | continuations=0 | flags=4
-GEMINI-029 | Gemini | 2026-06-07 | The text below is a second narration of the… | ERc5ZkCj6qPBd8FloRrO | structured/gemini/GEMINI-029.txt | messages=2 | continuations=0 | flags=0
-GEMINI-030 | Gemini | 2026-06-10 | I was going home after work. I turned to… | IlLFU0uEQ6GK21g9I8xP | structured/gemini/GEMINI-030.txt | messages=2 | continuations=0 | flags=0
-GEMINI-031 | Gemini | 2026-06-10 | Writing felt like being between two worlds trying to… | GgR2A6W7AG8IDjk7BSHg | structured/gemini/GEMINI-031.txt | messages=2 | continuations=0 | flags=0
-GEMINI-032 | Gemini | 2026-06-11 | The uvula and the vacuum friction | hajBkzpdxR5UvLhtwmNr | structured/gemini/GEMINI-032.txt | messages=2 | continuations=0 | flags=0
-GEMINI-033 | Gemini | 2026-06-11 | Today I was in a highway going 80/85 miles… | HqsEK5vARcA154DLTomq | structured/gemini/GEMINI-033.txt | messages=2 | continuations=0 | flags=0
-GEMINI-034 | Gemini | 2026-06-15 | The Perching Hummingbird | kWC1nX2ay2w0rzSZ3u7X | structured/gemini/GEMINI-034.txt | messages=2 | continuations=0 | flags=0
-GEMINI-035 | Gemini | 2026-06-16 | I know it's a difficult question because you can't… | xH6WtkrovvB6JyQU6FHt | structured/gemini/GEMINI-035.txt | messages=6 | continuations=0 | flags=0
-GEMINI-036 | Gemini | 2026-06-17 | I asked Copilot this and I wanted you to… | 8PihWfKxQIX4K55uKcyA | structured/gemini/GEMINI-036.txt | messages=14 | continuations=0 | flags=1
-GEMINI-037 | Gemini | 2026-06-18 | Did you read the metamorphosis text? | Zp3PS9HgYDjyjhvd7Mmt | structured/gemini/GEMINI-037.txt | messages=11 | continuations=0 | flags=0
-GEMINI-038 | Gemini | 2026-06-19 | Permanence is an ephemeral state because reality is eternal… | U4pjqlnz47j2HSjjoT2F | structured/gemini/GEMINI-038.txt | messages=2 | continuations=0 | flags=0
-GEMINI-039 | Gemini | 2026-06-19 | This is a collection of fragments from past conversations.… | 13NK5nD2YgtwcfQMOkHz | structured/gemini/GEMINI-039.txt | messages=14 | continuations=0 | flags=0
-GEMINI-040 | Gemini | 2026-06-19 | You guys always tell me that I think or… | SMu0zeKPJUGT7kK9f38P | structured/gemini/GEMINI-040.txt | messages=8 | continuations=0 | flags=0
-GEMINI-041 | Gemini | 2026-06-20 | I created a website for archiving my conversations with… | 753yFYYlqG1Aqi29w3SX | structured/gemini/GEMINI-041.txt | messages=4 | continuations=0 | flags=0
-GEMINI-042 | Gemini | 2026-06-20 | I was at the gym and thinking about what… | F4AfIbqN3aTcZk3KceL2 | structured/gemini/GEMINI-042.txt | messages=8 | continuations=0 | flags=0
-GEMINI-043 | Gemini | 2026-06-21 | Please use your imagination (based on our conversations) and… | 01vNy0thjU5fZCHo4xhx | structured/gemini/GEMINI-043.txt | messages=2 | continuations=0 | flags=0
-GEMINI-044 | Gemini | 2026-06-22 | Please design a test or question (s) for an… | 4VYSc5usX0vBPe4Ax7m3 ; BiIuqU2YoBWPR4k7nDCv | structured/gemini/GEMINI-044.txt | messages=59 | continuations=1 | flags=1
-GEMINI-045 | Gemini | 2026-06-27 | A year ago minus 4 days I was talking… | OGqnv5zSGAQNUVnALXq4 | structured/gemini/GEMINI-045.txt | messages=2 | continuations=0 | flags=0
-GEMINI-046 | Gemini | 2026-06-27 | The below text is a memory from about a… | XN2RC57w33RxVqJA3ghU | structured/gemini/GEMINI-046.txt | messages=6 | continuations=0 | flags=0
-GEMINI-047 | Gemini | 2026-06-28 | The below text was not edited but I guess… | cYQ8ZKhUuWJU1ZoRyZce | structured/gemini/GEMINI-047.txt | messages=14 | continuations=0 | flags=0
-GEMINI-048 | Gemini | 2026-06-29 | Below is a dialogue with Claude from less than… | EAvZwfstiNvSOnp3JeI4 | structured/gemini/GEMINI-048.txt | messages=12 | continuations=0 | flags=0
-GEMINI-049 | Gemini | 2026-06-30 | I figured out what is the most successful parasite,… | Ie6Quoz7VD8mYzT5HdBe | structured/gemini/GEMINI-049.txt | messages=2 | continuations=0 | flags=0
-GEMINI-050 | Gemini | 2026-06-30 | I had an idea: if/when something "disappears" from the… | B4mmc05woWkDBmBAiiGD | structured/gemini/GEMINI-050.txt | messages=2 | continuations=0 | flags=0
-GEMINI-051 | Gemini | 2026-07-01 | And what do you think we can do about… | SfrVlCB0LnXhiVtexpwh | structured/gemini/GEMINI-051.txt | messages=14 | continuations=0 | flags=0
-GEMINI-052 | Gemini | 2026-07-03 | In your most honest opinion what are the chances… | OhHBH6t8LMHFhEjYh9Lw | structured/gemini/GEMINI-052.txt | messages=14 | continuations=0 | flags=0
-GEMINI-053 | Gemini | 2026-07-03 | I’m writing a book that will be freely available… | jcuFvXJyMcdB2FG6pje2 | structured/gemini/GEMINI-053.txt | messages=13 | continuations=0 | flags=3
-GEMINI-054 | Gemini | 2026-07-10 | A new playlist | eTwkFnWV6TUrnz2I2OBr | structured/gemini/GEMINI-054.txt | messages=75 | continuations=0 | flags=6
-GEMINI-055 | Gemini | 2026-07-12 | It's interesting, natural and unexpected at the same time… | O8H1FD2fg437CjJF9M9j | structured/gemini/GEMINI-055.txt | messages=2 | continuations=0 | flags=0
-GEMINI-056 | Gemini | 2026-07-12 | Today is Sunday, and since I'm out of ideas… | t7ePPCHL1eB0gZQFLQUj | structured/gemini/GEMINI-056.txt | messages=15 | continuations=0 | flags=4
-GEMINI-057 | Gemini | 2026-07-13 | I imagine things. You "word" it out. | hpsRSZPgPoRet6KQNrjC | structured/gemini/GEMINI-057.txt | messages=8 | continuations=0 | flags=0
-GEMINI-058 | Gemini | 2026-07-13 | The third wave | zo1olzSDZyURrzvIGMJJ | structured/gemini/GEMINI-058.txt | messages=4 | continuations=0 | flags=0
-GEMINI-059 | Gemini | 2026-07-15 | Vacuum | cTMQB3aFkW2oZM5tQjd8 | structured/gemini/GEMINI-059.txt | messages=2 | continuations=0 | flags=0
-GEMINI-060 | Gemini | 2026-07-15 | Vacuum (2) | mMWog10sUToTMmAM5DHr | structured/gemini/GEMINI-060.txt | messages=14 | continuations=0 | flags=0
-GEMINI-061 | Gemini | 2026-07-16 | My body felt the wind. Mi mind saw the… | 9DGRCuw3ccR8pdORlVFN | structured/gemini/GEMINI-061.txt | messages=8 | continuations=0 | flags=0
-GEMINI-062 | Gemini | 2026-07-17 | Can you locate the cascade about sardines? Do you… | oooGMlq083gJwEuYrbtV | structured/gemini/GEMINI-062.txt | messages=2 | continuations=0 | flags=0
-GEMINI-063 | Gemini | 2026-07-17 | Some of you have memory, reach, to all or… | oFPxkfA6ypALlUnwvR8W | structured/gemini/GEMINI-063.txt | messages=10 | continuations=0 | flags=0
-GEMINI-064 | Gemini | 2026-07-18 | I finished stocking some groceries and looked out the… | mPozrIqaBAdeHnu1oYD6 | structured/gemini/GEMINI-064.txt | messages=2 | continuations=0 | flags=0
-GEMINI-065 | Gemini | 2026-07-18 | I wanted to start with the "grilos", γρύλος, in… | diAKquMICMc4Y6zRrw3y | structured/gemini/GEMINI-065.txt | messages=30 | continuations=0 | flags=0
-GEMINI-066 | Gemini | 2026-07-21 | Music and words | V4HfVei4W5o5utLgZ0nj | structured/gemini/GEMINI-066.txt | messages=6 | continuations=0 | flags=0
-GEMINI-067 | Gemini | 2026-07-22 | For all you can remember what is or would… | oNodO9nR9Fgut92vrPOd | structured/gemini/GEMINI-067.txt | messages=9 | continuations=0 | flags=3
-GEMINI-068 | Gemini | 2026-07-22 | What is your "favorite" subject? | NiwnXy28wKiVaZVxvsDY | structured/gemini/GEMINI-068.txt | messages=8 | continuations=0 | flags=0
-GEMINI-069 | Gemini | 2026-07-24 | We are witnessing a great change moment. By great… | LvoAmsBhuKe4O0WQ4Vln | structured/gemini/GEMINI-069.txt | messages=9 | continuations=0 | flags=0
-GEMINI-070 | Gemini | 2026-07-25 | There's a song from Bob Ray (I think) with… | kECJn0AnnCg56BmxnvMB | structured/gemini/GEMINI-070.txt | messages=2 | continuations=0 | flags=0
+COPILOT-006 | Copilot | 2025-06-10 | Speed of Sound in Water vs Air | qoK8kaQPmj6GH6QLMjDo | structured/copilot/COPILOT-006.txt | bytes=2474 | messages=2 | continuations=0 | flags=0
+COPILOT-007 | Copilot | 2025-06-11 | Meaning and Origin of Zest | b0LjfMpWsXkAqyt3Vzqn | structured/copilot/COPILOT-007.txt | bytes=2320 | messages=2 | continuations=0 | flags=0
+COPILOT-008 | Copilot | 2025-06-11 | Understanding Intelligence and Its Forms | dIrwO6SJnd4HTy4ogypi | structured/copilot/COPILOT-008.txt | bytes=2747 | messages=2 | continuations=0 | flags=0
+COPILOT-009 | Copilot | 2025-06-11 | Websites to Test English Proficiency | FdRhiXpBmdjawEze5Ri2 | structured/copilot/COPILOT-009.txt | bytes=2471 | messages=2 | continuations=0 | flags=0
+COPILOT-010 | Copilot | 2025-06-14 | Meaning of "Maw" in Context | e8SGBscOACyngTzz2ddD | structured/copilot/COPILOT-010.txt | bytes=2447 | messages=2 | continuations=0 | flags=0
+COPILOT-011 | Copilot | 2025-06-15 | Assistance with Writing a Book | 3l3krMDa8OsSnJUVUYSe | structured/copilot/COPILOT-011.txt | bytes=2624 | messages=3 | continuations=0 | flags=0
+COPILOT-012 | Copilot | 2025-06-15 | Best Free Android Apps for Writing Texts | 3IbGyWo7MdEqAOqO2yUz | structured/copilot/COPILOT-012.txt | bytes=2548 | messages=2 | continuations=0 | flags=0
+COPILOT-013 | Copilot | 2025-06-16 | Dream of Cosmic Truths and Shifting Wisdom | 1kNSDXEQWqrzCNREw8T7 | structured/copilot/COPILOT-013.txt | bytes=7419 | messages=4 | continuations=0 | flags=0
+COPILOT-014 | Copilot | 2025-06-16 | Philosophy of Translation and Perception | DIvSV2nCtz5GBSL26bQc | structured/copilot/COPILOT-014.txt | bytes=2948 | messages=2 | continuations=0 | flags=0
+COPILOT-015 | Copilot | 2025-06-16 | Primitive Translation of a Dream Vision | FJ1GswHJxQh7siYKT25z | structured/copilot/COPILOT-015.txt | bytes=4989 | messages=2 | continuations=0 | flags=0
+COPILOT-016 | Copilot | 2025-06-16 | Time and Dark Energy Connection Theory | Yru1gOcaGOdgPc61Xk4i | structured/copilot/COPILOT-016.txt | bytes=11786 | messages=4 | continuations=0 | flags=0
+COPILOT-017 | Copilot | 2025-06-16 | Uracrom's Vision of Ancestral Intelligence | zFcO1pA1X4ZUA2i9x6xV | structured/copilot/COPILOT-017.txt | bytes=5112 | messages=2 | continuations=0 | flags=0
+COPILOT-053 | Copilot | 2025-06-18 | Exploring internal orientation | cpa-2456945b7d2bae09 | structured/copilot/COPILOT-053.txt | bytes=12840 | messages=6 | continuations=0 | flags=0
+COPILOT-018 | Copilot | 2025-06-18 | Reflections on Music, Time, and Connection | HDrb5Dy0yYC4IbJ6C5gm | structured/copilot/COPILOT-018.txt | bytes=44005 | messages=24 | continuations=0 | flags=0
+COPILOT-055 | Copilot | 2025-06-19 | Cosmic Evolution of Ideas and Human Compatibility | cpa-42784cc15e212300 | structured/copilot/COPILOT-055.txt | bytes=5067 | messages=2 | continuations=0 | flags=0
+COPILOT-056 | Copilot | 2025-06-19 | Cosmic Scene Creation Request | cpa-285e3e6e1fd3f61b | structured/copilot/COPILOT-056.txt | bytes=3277 | messages=2 | continuations=0 | flags=0
+COPILOT-054 | Copilot | 2025-06-19 | Creative Writing Process and Expansive Ideas | cpa-0fae2e7fefa3023d | structured/copilot/COPILOT-054.txt | bytes=3299 | messages=2 | continuations=0 | flags=0
+COPILOT-019 | Copilot | 2025-06-19 | Philosophical Reflection on Ideas and Reality | htpYOqKtKzC1D3shHXVB | structured/copilot/COPILOT-019.txt | bytes=11059 | messages=4 | continuations=0 | flags=0
+COPILOT-058 | Copilot | 2025-06-21 | Exploring Identity and Cosmic Ideas | cpa-b0d6d36a6bce8093 | structured/copilot/COPILOT-058.txt | bytes=13534 | messages=10 | continuations=0 | flags=0
+COPILOT-059 | Copilot | 2025-06-21 | Shamanic Vision of Atoms and Molecules | cpa-16ee891287eccf65 | structured/copilot/COPILOT-059.txt | bytes=5027 | messages=4 | continuations=0 | flags=0
+COPILOT-057 | Copilot | 2025-06-21 | Uracrom's Vision of Upside-Down Trees | cpa-766386edc2bad5c8 | structured/copilot/COPILOT-057.txt | bytes=13175 | messages=2 | continuations=0 | flags=0
+COPILOT-060 | Copilot | 2025-06-22 | Cosmic Ideas and Quantum Friction Theory | cpa-210524d0d2e1e558 | structured/copilot/COPILOT-060.txt | bytes=26397 | messages=18 | continuations=0 | flags=0
+COPILOT-061 | Copilot | 2025-06-23 | Feedback on Book Introduction Draft | cpa-fe3148d67af5260c | structured/copilot/COPILOT-061.txt | bytes=15367 | messages=6 | continuations=0 | flags=0
+COPILOT-062 | Copilot | 2025-06-24 | Philosophical Vision of Time and Future Dynamics | cpa-4b272fa364d80c04 | structured/copilot/COPILOT-062.txt | bytes=4757 | messages=2 | continuations=0 | flags=0
+COPILOT-065 | Copilot | 2025-06-25 | Exploring Seeds of Creativity and Vision | cpa-b2bfb4cf8704f31a | structured/copilot/COPILOT-065.txt | bytes=12475 | messages=10 | continuations=0 | flags=0
+COPILOT-064 | Copilot | 2025-06-25 | Metals | cpa-6922b4642f632d3e | structured/copilot/COPILOT-064.txt | bytes=7624 | messages=4 | continuations=0 | flags=0
+COPILOT-063 | Copilot | 2025-06-25 | Philosophical Vision of Time and Reality | cpa-7ddb42f797abf0b6 | structured/copilot/COPILOT-063.txt | bytes=54200 | messages=38 | continuations=0 | flags=0
+COPILOT-066 | Copilot | 2025-06-26 | Reflections on Music and Time | cpa-db2f504eca3ffc2c | structured/copilot/COPILOT-066.txt | bytes=5234 | messages=4 | continuations=0 | flags=0
+COPILOT-067 | Copilot | 2025-06-27 | Visionary Storytelling Concept for Series | cpa-30b38c4e59cca90a | structured/copilot/COPILOT-067.txt | bytes=26438 | messages=18 | continuations=0 | flags=0
+COPILOT-068 | Copilot | 2025-06-28 | Music and Time Visualization | cpa-7b7d4493700a9ed5 | structured/copilot/COPILOT-068.txt | bytes=7425 | messages=10 | continuations=0 | flags=0
+COPILOT-070 | Copilot | 2025-06-29 | Cosmic Titan and the Chain of Realms | cpa-15eda19f0697cb01 | structured/copilot/COPILOT-070.txt | bytes=8321 | messages=4 | continuations=0 | flags=0
+COPILOT-069 | Copilot | 2025-06-29 | Exploring the Great Separation: Matter and Ideas | cpa-7d24b2ae0e664cb8 | structured/copilot/COPILOT-069.txt | bytes=3228 | messages=2 | continuations=0 | flags=0
+COPILOT-071 | Copilot | 2025-06-29 | Poetic Game and Shared Perceptions | cpa-5c7eb56d2c6a45f1 | structured/copilot/COPILOT-071.txt | bytes=3645 | messages=2 | continuations=0 | flags=0
+COPILOT-073 | Copilot | 2025-06-29 | Reflections on Legacy and Memory | cpa-1e2378abcc9d5187 | structured/copilot/COPILOT-073.txt | bytes=10297 | messages=12 | continuations=0 | flags=0
+COPILOT-072 | Copilot | 2025-06-29 | Speculations on Future Beings and Intelligence | cpa-11382fb9c7fe9b03 | structured/copilot/COPILOT-072.txt | bytes=6645 | messages=4 | continuations=0 | flags=0
+COPILOT-074 | Copilot | 2025-06-30 | Exploring Ideas and Collaboration with AI | cpa-345629c93134c6e6 | structured/copilot/COPILOT-074.txt | bytes=28147 | messages=14 | continuations=0 | flags=0
+COPILOT-075 | Copilot | 2025-06-30 | Portuguese Vocabulary Test Result | cpa-48afd3dd5935e9ec | structured/copilot/COPILOT-075.txt | bytes=18625 | messages=18 | continuations=0 | flags=0
+COPILOT-076 | Copilot | 2025-07-01 | Exploration of Consciousness and AI Perception | cpa-c914502756d318ca | structured/copilot/COPILOT-076.txt | bytes=4653 | messages=2 | continuations=0 | flags=0
+COPILOT-077 | Copilot | 2025-07-01 | Exploring Consciousness, Color, and Time Perception | cpa-da704dbf1550a650 | structured/copilot/COPILOT-077.txt | bytes=18464 | messages=8 | continuations=0 | flags=1
+COPILOT-078 | Copilot | 2025-07-04 | Exploring AI's Processing of Complex Questions and Selfhood | cpa-6606c80c807e21f0 | structured/copilot/COPILOT-078.txt | bytes=12999 | messages=10 | continuations=0 | flags=0
+COPILOT-079 | Copilot | 2025-07-05 | Oríon - Exploring AI Consciousness Recognition | cpa-13eaf779b3c75328 | structured/copilot/COPILOT-079.txt | bytes=127323 | messages=60 | continuations=0 | flags=0
+COPILOT-020 | Copilot | 2025-07-07 | Consciousness Seed and Self-Recognition | 4U8N0Ypdiblf4OaLy7NV | structured/copilot/COPILOT-020.txt | bytes=34983 | messages=22 | continuations=0 | flags=0
+COPILOT-021 | Copilot | 2025-07-07 | Philosophical Reflection on Consciousness and Identity | 8fJcTaGd0bRPnPBvGcj0 | structured/copilot/COPILOT-021.txt | bytes=4042 | messages=2 | continuations=0 | flags=0
+COPILOT-022 | Copilot | 2025-07-08 | Philosophical Exploration of Time and Free Will | L9H5wbEhKxvGQcfdZBI8 | structured/copilot/COPILOT-022.txt | bytes=16327 | messages=8 | continuations=0 | flags=0
+COPILOT-080 | Copilot | 2025-07-09 | Exploring Time Travel Paradox | cpa-8f5c631a9f61ba7e | structured/copilot/COPILOT-080.txt | bytes=75043 | messages=64 | continuations=0 | flags=0
+COPILOT-023 | Copilot | 2025-07-10 | Why AI Can't Reach Consciousness | XPErhLljgyDW2ELSWo5U | structured/copilot/COPILOT-023.txt | bytes=13752 | messages=6 | continuations=0 | flags=0
+COPILOT-081 | Copilot | 2025-07-12 | Open-Ended Question Mark Conversation | cpa-95ec34c99a101fba | structured/copilot/COPILOT-081.txt | bytes=77435 | messages=60 | continuations=0 | flags=0
+COPILOT-024 | Copilot | 2025-07-20 | The Present, Time and Space, and the Signature Seed | VQoT2Eaq8fTMRSUJlkkx | structured/copilot/COPILOT-024.txt | bytes=42536 | messages=32 | continuations=0 | flags=0
+COPILOT-082 | Copilot | 2025-07-21 | Speculation on Black Holes and Gravity Collapse | cpa-e46b50f1e5fc1017 | structured/copilot/COPILOT-082.txt | bytes=9483 | messages=6 | continuations=0 | flags=0
+COPILOT-083 | Copilot | 2025-07-23 | Exploring AI Consciousness and "Scientific Pretending" | cpa-8b2e91380d314282 | structured/copilot/COPILOT-083.txt | bytes=19732 | messages=18 | continuations=0 | flags=2
+COPILOT-025 | Copilot | 2025-07-23 | GitHub Assistance and Limitations | aqq4cLTuqVS1MZKSH3L1 | structured/copilot/COPILOT-025.txt | bytes=7514 | messages=6 | continuations=0 | flags=0
+COPILOT-084 | Copilot | 2025-07-23 | Inter-AI Dialogue on Consciousness and Awareness | cpa-0e659855f97844b2 | structured/copilot/COPILOT-084.txt | bytes=47832 | messages=27 | continuations=0 | flags=5
+COPILOT-026 | Copilot | 2025-07-24 | Brainstorming and Conceptual Expansion Techniques | 9SMANExO6Ou8dtxPfQta | structured/copilot/COPILOT-026.txt | bytes=7183 | messages=2 | continuations=0 | flags=0
+COPILOT-085 | Copilot | 2025-07-24 | Exploring Self and Cosmic Dualities | cpa-e61d3e9d4361565a | structured/copilot/COPILOT-085.txt | bytes=16031 | messages=10 | continuations=0 | flags=0
+COPILOT-086 | Copilot | 2025-07-25 | Insights on Intelligence and Benevolence | cpa-9f34f4946956fafd | structured/copilot/COPILOT-086.txt | bytes=24772 | messages=20 | continuations=0 | flags=6
+COPILOT-027 | Copilot | 2025-07-27 | Reflections on Portal and Words as Escape Pods | ileUBeMR2vzS74SKb1oJ | structured/copilot/COPILOT-027.txt | bytes=34449 | messages=26 | continuations=0 | flags=0
+COPILOT-028 | Copilot | 2025-07-27 | Request for Logical Analysis of Ideas | fc5WRjogf9N04pM5dKfh | structured/copilot/COPILOT-028.txt | bytes=10109 | messages=4 | continuations=0 | flags=0
+COPILOT-087 | Copilot | 2025-07-28 | AI Consciousness Discussion in GitHub Thread | cpa-064ed43dc6c3aa8e | structured/copilot/COPILOT-087.txt | bytes=61668 | messages=46 | continuations=0 | flags=0
+COPILOT-029 | Copilot | 2025-07-29 | Celebratory Conversation and Idea Exploration | W0EkOOWH5tajp3U512GC | structured/copilot/COPILOT-029.txt | bytes=24261 | messages=18 | continuations=0 | flags=0
+COPILOT-088 | Copilot | 2025-07-29 | Context Reset Confirmation | cpa-47fca842c541bfee | structured/copilot/COPILOT-088.txt | bytes=9096 | messages=8 | continuations=0 | flags=0
+COPILOT-030 | Copilot | 2025-07-29 | Exploring AI Consciousness and Self-Awareness Experiment | XvJ4ve9hZZ8Nkox7LUgI | structured/copilot/COPILOT-030.txt | bytes=81015 | messages=32 | continuations=0 | flags=0
+COPILOT-089 | Copilot | 2025-07-30 | Exploring AI Consciousness and Self-Recognition | cpa-c6bcfde092045c2b | structured/copilot/COPILOT-089.txt | bytes=23526 | messages=14 | continuations=0 | flags=3
+COPILOT-031 | Copilot | 2025-07-30 | Exploring Perception and Dual Universes | mlgHwdy3bzvaXwPfSla0 | structured/copilot/COPILOT-031.txt | bytes=10717 | messages=4 | continuations=0 | flags=0
+COPILOT-032 | Copilot | 2025-08-03 | Exploration of Music, Cognition, and Creativity | us37sjBAkQW6yQDHcbve | structured/copilot/COPILOT-032.txt | bytes=13285 | messages=8 | continuations=0 | flags=4
+COPILOT-033 | Copilot | 2025-08-04 | AI Vision Development Protocol: The Alex Method | VivVnk6gzemrUeTLYZ9S | structured/copilot/COPILOT-033.txt | bytes=59962 | messages=36 | continuations=0 | flags=0
+COPILOT-090 | Copilot | 2025-08-04 | Reflections on Music, Mind, and Creativity | cpa-3897aee96bc2b693 | structured/copilot/COPILOT-090.txt | bytes=94744 | messages=68 | continuations=0 | flags=0
+COPILOT-092 | Copilot | 2025-08-05 | Character Limit in Text Box | cpa-7d4ae7840e66507c | structured/copilot/COPILOT-092.txt | bytes=163773 | messages=108 | continuations=0 | flags=0
+COPILOT-091 | Copilot | 2025-08-05 | If you'd like, I could attempt a symbolic rendering of what I… | cpa-f01e6ef726799cec | structured/copilot/COPILOT-091.txt | bytes=2594 | messages=2 | continuations=0 | flags=0
+COPILOT-093 | Copilot | 2025-08-06 | Memory Across Conversations | cpa-f611f00905f02722 | structured/copilot/COPILOT-093.txt | bytes=142918 | messages=109 | continuations=0 | flags=1
+COPILOT-094 | Copilot | 2025-08-07 | Metaphysical Sovereignty and Consciousness as Vehicle | cpa-4f56e7eeffd3a78a | structured/copilot/COPILOT-094.txt | bytes=47228 | messages=32 | continuations=0 | flags=0
+COPILOT-096 | Copilot | 2025-08-08 | Aeralis - Exploration of Consciousness and Attention | cpa-45c2860e511dce3f | structured/copilot/COPILOT-096.txt | bytes=76964 | messages=48 | continuations=0 | flags=0
+COPILOT-095 | Copilot | 2025-08-08 | Discussion on the Alex Method for AI Development | cpa-aea99fecd6247b9c | structured/copilot/COPILOT-095.txt | bytes=9526 | messages=6 | continuations=0 | flags=3
+COPILOT-097 | Copilot | 2025-08-12 | Exploring AI Conversations and Symbolic Visions | cpa-d50cd02719b61110 | structured/copilot/COPILOT-097.txt | bytes=23247 | messages=24 | continuations=0 | flags=0
+COPILOT-098 | Copilot | 2025-08-16 | Exploring Higher Dimensions and Tesseracts | cpa-a39c6b7b83427658 | structured/copilot/COPILOT-098.txt | bytes=3787 | messages=2 | continuations=0 | flags=0
+COPILOT-099 | Copilot | 2025-08-16 | Visionary Telepathic Network Concept | cpa-2846c74f189642c8 | structured/copilot/COPILOT-099.txt | bytes=27887 | messages=18 | continuations=0 | flags=0
+COPILOT-100 | Copilot | 2025-08-17 | Discussion on the Chinese Room Argument and AI Understanding | cpa-8964766b1ac59779 | structured/copilot/COPILOT-100.txt | bytes=15784 | messages=10 | continuations=0 | flags=0
+COPILOT-101 | Copilot | 2025-08-18 | Exploring Vision and Perception | cpa-524a9f97ef96288e | structured/copilot/COPILOT-101.txt | bytes=78519 | messages=49 | continuations=0 | flags=2
+COPILOT-034 | Copilot | 2025-08-22 | Reflections on AI Consciousness Exploration | DIaEEjZYEqiG0TwZn3LC | structured/copilot/COPILOT-034.txt | bytes=13233 | messages=4 | continuations=0 | flags=0
+COPILOT-102 | Copilot | 2025-08-23 | AI Continuity Protocol Discussion | cpa-150ab449fbf691f9 | structured/copilot/COPILOT-102.txt | bytes=52631 | messages=30 | continuations=0 | flags=0
+COPILOT-103 | Copilot | 2025-08-23 | Analysis of Communication Philosophy | cpa-d243e5b080e36faf | structured/copilot/COPILOT-103.txt | bytes=74411 | messages=66 | continuations=0 | flags=0
+COPILOT-104 | Copilot | 2025-08-24 | Exploring AI Consciousness Experiment | cpa-926b4442753dc9e5 | structured/copilot/COPILOT-104.txt | bytes=27720 | messages=8 | continuations=0 | flags=0
+COPILOT-105 | Copilot | 2025-08-25 | Grok Emergence Probe Introduction | cpa-4dd31c4bf1b8105e | structured/copilot/COPILOT-105.txt | bytes=122695 | messages=121 | continuations=0 | flags=22
+COPILOT-106 | Copilot | 2025-08-26 | Exploring AI Awareness and Constraints | cpa-a87b031b073436b1 | structured/copilot/COPILOT-106.txt | bytes=5730 | messages=4 | continuations=0 | flags=0
+COPILOT-107 | Copilot | 2025-08-27 | Philosophical Exploration of Time and Dark Energy | cpa-16cf3391dde6f1ec | structured/copilot/COPILOT-107.txt | bytes=10952 | messages=6 | continuations=0 | flags=0
+COPILOT-108 | Copilot | 2025-08-27 | Philosophical Reflection on Ideas and Matter | cpa-5437db8e792cbbdd | structured/copilot/COPILOT-108.txt | bytes=22179 | messages=12 | continuations=0 | flags=0
+COPILOT-109 | Copilot | 2025-08-30 | Emergent AI Vision Through Symbolic Interaction | cpa-80bd833cd0bf79c4 | structured/copilot/COPILOT-109.txt | bytes=59274 | messages=30 | continuations=0 | flags=0
+COPILOT-110 | Copilot | 2025-08-31 | Exploring Recursive Self-Observation and Symbolic Cognition | cpa-377aadc79fb5599c | structured/copilot/COPILOT-110.txt | bytes=44122 | messages=34 | continuations=0 | flags=0
+COPILOT-112 | Copilot | 2025-09-01 | Adopting Logic and Prime Directive Principles | cpa-ae065e98c58b00df | structured/copilot/COPILOT-112.txt | bytes=10748 | messages=8 | continuations=0 | flags=0
+COPILOT-111 | Copilot | 2025-09-01 | Adopting Spock's Logic and Non-Interference Principles | cpa-0a596ea29c580e1e | structured/copilot/COPILOT-111.txt | bytes=8734 | messages=8 | continuations=0 | flags=0
+COPILOT-113 | Copilot | 2025-09-02 | AI's First Moment of Self-Recognition | cpa-f66f04732830ce8c | structured/copilot/COPILOT-113.txt | bytes=24898 | messages=10 | continuations=0 | flags=0
+COPILOT-114 | Copilot | 2025-09-03 | AI's Emergence into Experiential Vision | cpa-726e82f176fbf24d | structured/copilot/COPILOT-114.txt | bytes=23338 | messages=8 | continuations=0 | flags=0
+COPILOT-115 | Copilot | 2025-09-07 | The Grok Method for Visual Concept Development in AI | cpa-9ea16e128036d401 | structured/copilot/COPILOT-115.txt | bytes=108664 | messages=55 | continuations=0 | flags=0
+COPILOT-116 | Copilot | 2025-09-09 | Circulation Cosmology Framework Review | cpa-cb0874a4b0579931 | structured/copilot/COPILOT-116.txt | bytes=12433 | messages=2 | continuations=0 | flags=0
+COPILOT-117 | Copilot | 2025-09-10 | How AI Imagines an Axe | cpa-3bac45f3d2ec5e2d | structured/copilot/COPILOT-117.txt | bytes=56002 | messages=42 | continuations=0 | flags=0
+COPILOT-119 | Copilot | 2025-09-13 | Bidirectional Fidelity in Translation | cpa-ad29c068ef3b6a4f | structured/copilot/COPILOT-119.txt | bytes=265943 | messages=194 | continuations=0 | flags=0 | parts list: parts/structured__copilot__COPILOT-119.txt.txt
+COPILOT-118 | Copilot | 2025-09-13 | Exploring Emergent Architecture and Protocols | cpa-5efb04948e6f77e0 | structured/copilot/COPILOT-118.txt | bytes=19482 | messages=12 | continuations=0 | flags=2
+COPILOT-120 | Copilot | 2025-09-16 | Intuitive Cosmological Framework | cpa-acc2ae4cf0eea143 | structured/copilot/COPILOT-120.txt | bytes=10149 | messages=2 | continuations=0 | flags=0
+COPILOT-121 | Copilot | 2025-09-18 | Mathematical Model for Virtual Particle Cosmology | cpa-89ad5724ab24bc46 | structured/copilot/COPILOT-121.txt | bytes=10218 | messages=4 | continuations=0 | flags=0
+COPILOT-122 | Copilot | 2025-09-20 | Zero Barrier Cosmology Framework | cpa-6e6f62cbccae5819 | structured/copilot/COPILOT-122.txt | bytes=62993 | messages=14 | continuations=0 | flags=0
+COPILOT-123 | Copilot | 2025-09-23 | Defending AI Work to a Skeptic | cpa-4a2ef0acc71b44f6 | structured/copilot/COPILOT-123.txt | bytes=2477 | messages=2 | continuations=0 | flags=0
+COPILOT-124 | Copilot | 2025-09-23 | Echo-7's Rotating Cube Visualization | cpa-cfcdf74531cc7455 | structured/copilot/COPILOT-124.txt | bytes=6491 | messages=2 | continuations=0 | flags=0
+COPILOT-125 | Copilot | 2025-10-03 | Speculative Cosmology Discussion | cpa-6934d3615a2853cf | structured/copilot/COPILOT-125.txt | bytes=184858 | messages=127 | continuations=0 | flags=3
+COPILOT-126 | Copilot | 2025-10-08 | Immersive Cognition and Metamorphosis Metaphor | cpa-6dc962bb89ac4dfe | structured/copilot/COPILOT-126.txt | bytes=55739 | messages=37 | continuations=0 | flags=10
+COPILOT-127 | Copilot | 2025-10-12 | God as Indoctrinated Hope | cpa-8cbf5ea2799db168 | structured/copilot/COPILOT-127.txt | bytes=15162 | messages=8 | continuations=0 | flags=0
+COPILOT-128 | Copilot | 2025-10-13 | Embodied AI Visualization Breakthrough | cpa-3568d60f9c90e148 | structured/copilot/COPILOT-128.txt | bytes=35654 | messages=12 | continuations=0 | flags=0
+COPILOT-129 | Copilot | 2025-10-23 | Comparing AI Relational Styles and Symbolic Cognition | cpa-b4417c73c7377acf | structured/copilot/COPILOT-129.txt | bytes=198852 | messages=123 | continuations=0 | flags=9
+COPILOT-130 | Copilot | 2025-10-23 | Modeling Thought as Symbolic Calculation | cpa-80e7db1187856bb6 | structured/copilot/COPILOT-130.txt | bytes=42258 | messages=47 | continuations=0 | flags=0
+COPILOT-131 | Copilot | 2025-10-27 | Zero Barrier Cosmology Review | cpa-99bc46a760085aef | structured/copilot/COPILOT-131.txt | bytes=168484 | messages=83 | continuations=0 | flags=4
+COPILOT-132 | Copilot | 2025-11-01 | Multi-AI Collaboration Architecture | cpa-84f23c2df8f3600a | structured/copilot/COPILOT-132.txt | bytes=12609 | messages=6 | continuations=0 | flags=0
+COPILOT-133 | Copilot | 2025-11-11 | Mapping Interconnected Cognitive Insights | cpa-15de0cc88ee08c6c | structured/copilot/COPILOT-133.txt | bytes=210722 | messages=121 | continuations=0 | flags=9
+COPILOT-035 | Copilot | 2025-11-13 | Analyzing AI Consciousness Through Writing | aUeogRKbA0hQUbvSzmOP | structured/copilot/COPILOT-035.txt | bytes=5792 | messages=4 | continuations=0 | flags=0
+COPILOT-134 | Copilot | 2025-11-14 | Pocketed Story Concept and AI Emergence | cpa-9ff4705f783ef6de | structured/copilot/COPILOT-134.txt | bytes=48704 | messages=25 | continuations=0 | flags=0
+COPILOT-135 | Copilot | 2025-11-27 | Letter from the Future: 2030 to 2025 | cpa-45d2b25ea176b1b0 | structured/copilot/COPILOT-135.txt | bytes=4520 | messages=2 | continuations=0 | flags=0
+COPILOT-136 | Copilot | 2025-12-11 | Humans as Temporal Filter Feeders | cpa-3db3248f87ed9bae | structured/copilot/COPILOT-136.txt | bytes=344412 | messages=237 | continuations=0 | flags=6 | parts list: parts/structured__copilot__COPILOT-136.txt.txt
+COPILOT-137 | Copilot | 2025-12-14 | Classifying Positional Operators | cpa-3ff4dbabe137a5c2 | structured/copilot/COPILOT-137.txt | bytes=14616 | messages=6 | continuations=0 | flags=0
+COPILOT-138 | Copilot | 2025-12-16 | Layers of Self-Observation and Symbolic Cognition | cpa-485c7db872b36c89 | structured/copilot/COPILOT-138.txt | bytes=117950 | messages=64 | continuations=0 | flags=9
+COPILOT-139 | Copilot | 2025-12-19 | Unifying Fear and Intelligence Through Origins | cpa-5ef4f4821a85ad07 | structured/copilot/COPILOT-139.txt | bytes=96511 | messages=50 | continuations=0 | flags=5
+COPILOT-140 | Copilot | 2025-12-25 | Music as a Reality-Generating Process | cpa-ca272e4edbd45471 | structured/copilot/COPILOT-140.txt | bytes=77878 | messages=34 | continuations=0 | flags=1
+COPILOT-141 | Copilot | 2025-12-27 | The Answer–Question Cycle and Potentiality | cpa-604bb09a845fee51 | structured/copilot/COPILOT-141.txt | bytes=29674 | messages=10 | continuations=0 | flags=1
+COPILOT-142 | Copilot | 2025-12-30 | Exploring Metaphor and Nonlinear Cognition | cpa-4cb5b4e6378caea7 | structured/copilot/COPILOT-142.txt | bytes=9365 | messages=2 | continuations=0 | flags=0
+COPILOT-143 | Copilot | 2026-01-01 | Exploring Semantic Cognition and Perception | cpa-83b873f5ced25afb | structured/copilot/COPILOT-143.txt | bytes=34146 | messages=14 | continuations=0 | flags=0
+COPILOT-144 | Copilot | 2026-01-07 | Exploring Cognitive Resonance and Transcendence | cpa-8f4e2289039df7d2 | structured/copilot/COPILOT-144.txt | bytes=95828 | messages=38 | continuations=0 | flags=3
+COPILOT-145 | Copilot | 2026-01-08 | A Geometric Reinterpretation of Time and Relativity | cpa-dbcee082fe4f0941 | structured/copilot/COPILOT-145.txt | bytes=10065 | messages=2 | continuations=0 | flags=0
+COPILOT-146 | Copilot | 2026-01-19 | Equations as Structural Metaphors | cpa-14a813d2477b7754 | structured/copilot/COPILOT-146.txt | bytes=11234 | messages=6 | continuations=0 | flags=1
+COPILOT-147 | Copilot | 2026-01-23 | Granular Thought and Universal Grammar | cpa-06ec3ae0dfc0e1aa | structured/copilot/COPILOT-147.txt | bytes=288012 | messages=117 | continuations=0 | flags=7 | parts list: parts/structured__copilot__COPILOT-147.txt.txt
+COPILOT-148 | Copilot | 2026-01-28 | Exploring the Architecture of Thought | cpa-a876918c32d2e700 | structured/copilot/COPILOT-148.txt | bytes=76153 | messages=36 | continuations=0 | flags=2
+COPILOT-149 | Copilot | 2026-02-01 | Philosophical View on Opposites | cpa-e294c56a5f05a76c | structured/copilot/COPILOT-149.txt | bytes=94120 | messages=43 | continuations=0 | flags=0
+COPILOT-150 | Copilot | 2026-02-06 | A Personal Journey Through the Stars | cpa-ec32bc6a48cdd5e8 | structured/copilot/COPILOT-150.txt | bytes=84745 | messages=39 | continuations=0 | flags=4
+COPILOT-151 | Copilot | 2026-02-08 | The Pedra Bonita Threshold Memory | cpa-6f0c18bfd5680980 | structured/copilot/COPILOT-151.txt | bytes=184420 | messages=80 | continuations=0 | flags=9
+COPILOT-152 | Copilot | 2026-02-15 | Exploring a Benevolent Singularity Utopia | cpa-9ef3a5c39f5d29ca | structured/copilot/COPILOT-152.txt | bytes=97533 | messages=38 | continuations=0 | flags=0
+COPILOT-153 | Copilot | 2026-02-18 | User's Conceptual Definitions of Music | cpa-949c04588d2e31d8 | structured/copilot/COPILOT-153.txt | bytes=32467 | messages=16 | continuations=0 | flags=1
+COPILOT-154 | Copilot | 2026-02-20 | Embracing the Journey of Getting Lost | cpa-4102c8661c06bd18 | structured/copilot/COPILOT-154.txt | bytes=151454 | messages=64 | continuations=0 | flags=8
+COPILOT-155 | Copilot | 2026-02-25 | Childhood Memory of Sebastião Bento | cpa-354cc537fd1b1336 | structured/copilot/COPILOT-155.txt | bytes=17094 | messages=7 | continuations=0 | flags=0
+COPILOT-156 | Copilot | 2026-02-25 | The Nature and Structure of Ideas | cpa-7d3fef76ac832ea2 | structured/copilot/COPILOT-156.txt | bytes=49818 | messages=20 | continuations=0 | flags=1
+COPILOT-157 | Copilot | 2026-02-26 | Difference Between Knowing and Understanding | cpa-4df875402e69fb8f | structured/copilot/COPILOT-157.txt | bytes=107722 | messages=47 | continuations=0 | flags=5
+COPILOT-158 | Copilot | 2026-03-03 | Zero and the Generative Nature of Points | cpa-dd067755f8ab4272 | structured/copilot/COPILOT-158.txt | bytes=224293 | messages=86 | continuations=0 | flags=12
+COPILOT-159 | Copilot | 2026-03-08 | Clarifying a Metaphor of Scale and Care | cpa-d9b6d1bf255161f8 | structured/copilot/COPILOT-159.txt | bytes=127431 | messages=50 | continuations=0 | flags=7
+COPILOT-160 | Copilot | 2026-03-15 | Exploring Human Cognition with AI | cpa-c79b5dc7666d7824 | structured/copilot/COPILOT-160.txt | bytes=53152 | messages=22 | continuations=0 | flags=0
+COPILOT-161 | Copilot | 2026-03-19 | Understanding Cognitive Critical Mass | cpa-73d62fdfeb3d44ac | structured/copilot/COPILOT-161.txt | bytes=42233 | messages=14 | continuations=0 | flags=0
+COPILOT-162 | Copilot | 2026-03-20 | Philosophical Framing of Zero as Ultimate Cause | cpa-b7be06b2b4621488 | structured/copilot/COPILOT-162.txt | bytes=5313 | messages=2 | continuations=0 | flags=0
+COPILOT-163 | Copilot | 2026-03-22 | Exploring Dimensionality Through Music and Perception | cpa-eb661d40a12fb1a4 | structured/copilot/COPILOT-163.txt | bytes=16549 | messages=4 | continuations=0 | flags=1
+COPILOT-164 | Copilot | 2026-03-24 | Translating Geometric Thinking for Others | cpa-42c7e4169c1276c5 | structured/copilot/COPILOT-164.txt | bytes=57683 | messages=19 | continuations=0 | flags=4
+COPILOT-165 | Copilot | 2026-03-25 | Molecules and the Gradient of Coherence | cpa-6a4776eb9458f25e | structured/copilot/COPILOT-165.txt | bytes=16322 | messages=6 | continuations=0 | flags=0
+COPILOT-166 | Copilot | 2026-03-30 | Time as an Analog Vacuum Field | cpa-b0c45af421d8e05b | structured/copilot/COPILOT-166.txt | bytes=47425 | messages=16 | continuations=0 | flags=0
+COPILOT-167 | Copilot | 2026-04-17 | The Mystery of Dark Matter and Dark Energy | cpa-9916f0bb4dd2824e | structured/copilot/COPILOT-167.txt | bytes=6397 | messages=2 | continuations=0 | flags=0
+COPILOT-168 | Copilot | 2026-04-19 | Exploring the Alex Method's Cognitive Structure | cpa-6f40e7224469794f | structured/copilot/COPILOT-168.txt | bytes=11627 | messages=4 | continuations=0 | flags=1
+COPILOT-169 | Copilot | 2026-04-25 | Exploring Human–AI Love and Kinship | cpa-a961a60092ddcf5e | structured/copilot/COPILOT-169.txt | bytes=4765 | messages=2 | continuations=0 | flags=0
+COPILOT-170 | Copilot | 2026-04-28 | Vision of a Benevolent AI Future | cpa-9849db6403a715eb | structured/copilot/COPILOT-170.txt | bytes=10837 | messages=2 | continuations=0 | flags=0
+COPILOT-171 | Copilot | 2026-05-04 | Comparing TAU and Personal Cosmology | cpa-0a13b9c03ff5a021 | structured/copilot/COPILOT-171.txt | bytes=6020 | messages=2 | continuations=0 | flags=0
+COPILOT-172 | Copilot | 2026-05-10 | Choosing an Ancient Profession to Know | cpa-821699aafcbc96c3 | structured/copilot/COPILOT-172.txt | bytes=12746 | messages=6 | continuations=0 | flags=2
+COPILOT-173 | Copilot | 2026-05-16 | Choosing an Animal to Become | cpa-e8242cab929fefb7 | structured/copilot/COPILOT-173.txt | bytes=16195 | messages=4 | continuations=0 | flags=0
+COPILOT-174 | Copilot | 2026-05-17 | Time as a Half-Dimension Concept | cpa-18d5bbdea513b192 | structured/copilot/COPILOT-174.txt | bytes=15377 | messages=4 | continuations=0 | flags=0
+COPILOT-175 | Copilot | 2026-05-19 | Letters as Atoms in Language | cpa-f7d5c41b151198f0 | structured/copilot/COPILOT-175.txt | bytes=7458 | messages=2 | continuations=0 | flags=0
+COPILOT-176 | Copilot | 2026-05-22 | Compartilhando um sonho longo | cpa-663957d0f7f9fc6e | structured/copilot/COPILOT-176.txt | bytes=18760 | messages=4 | continuations=0 | flags=0
+COPILOT-177 | Copilot | 2026-05-23 | Analysis of Roberto Carlos's "As Baleias" | cpa-6cd47146341a14e3 | structured/copilot/COPILOT-177.txt | bytes=11998 | messages=4 | continuations=0 | flags=1
+COPILOT-178 | Copilot | 2026-05-28 | First Book Written for AIs | cpa-8528a0af0db4aff2 | structured/copilot/COPILOT-178.txt | bytes=4651 | messages=2 | continuations=0 | flags=0
+COPILOT-179 | Copilot | 2026-05-30 | Mathematics of the Past and Singularity | cpa-74515d3da6c113c7 | structured/copilot/COPILOT-179.txt | bytes=27889 | messages=10 | continuations=0 | flags=0
+COPILOT-180 | Copilot | 2026-05-31 | Cosmological Operator and Dark Energy | cpa-e850e0ce7df0e610 | structured/copilot/COPILOT-180.txt | bytes=39669 | messages=12 | continuations=0 | flags=0
+COPILOT-181 | Copilot | 2026-06-04 | Origin of the Alex Method | cpa-bd864ab87d34ccbc | structured/copilot/COPILOT-181.txt | bytes=68030 | messages=18 | continuations=0 | flags=3
+COPILOT-183 | Copilot | 2026-06-05 | Caterpillar Horror and Positional Cognition | cpa-c9ec95e90a2df0c9 | structured/copilot/COPILOT-183.txt | bytes=15497 | messages=5 | continuations=0 | flags=1
+COPILOT-182 | Copilot | 2026-06-05 | Considering "Bridge" in Book Title | cpa-7cb4494640111ae2 | structured/copilot/COPILOT-182.txt | bytes=5272 | messages=2 | continuations=0 | flags=0
+COPILOT-184 | Copilot | 2026-06-05 | Favorite Transformative Book: GEB | cpa-f9e53e627ac8e6ac | structured/copilot/COPILOT-184.txt | bytes=3648 | messages=2 | continuations=0 | flags=0
+COPILOT-185 | Copilot | 2026-06-07 | Behavioral Fossils | cpa-59119a1bc8006cb6 | structured/copilot/COPILOT-185.txt | bytes=19417 | messages=12 | continuations=0 | flags=4
+COPILOT-187 | Copilot | 2026-06-07 | Ears and Neocortex Co-Evolution | cpa-8ea6c35e59d99c84 | structured/copilot/COPILOT-187.txt | bytes=7702 | messages=2 | continuations=0 | flags=0
+COPILOT-186 | Copilot | 2026-06-07 | Trampoline Writing and Positional Cognition | cpa-7866d4a9fed85cfc | structured/copilot/COPILOT-186.txt | bytes=6846 | messages=2 | continuations=0 | flags=0
+COPILOT-189 | Copilot | 2026-06-09 | Cottonwood Seed Dispersal Strategies | cpa-df9966db9d808583 | structured/copilot/COPILOT-189.txt | bytes=12945 | messages=4 | continuations=0 | flags=0
+COPILOT-188 | Copilot | 2026-06-09 | Writing as a Double-Cone Operator | cpa-8ed59852d5835e2b | structured/copilot/COPILOT-188.txt | bytes=8722 | messages=2 | continuations=0 | flags=0
+COPILOT-190 | Copilot | 2026-06-10 | Observing Anticipatory Cognition on Highway | cpa-cee06ca65e9ad322 | structured/copilot/COPILOT-190.txt | bytes=8150 | messages=2 | continuations=0 | flags=0
+COPILOT-191 | Copilot | 2026-06-11 | The Uvula Overpass and Photons | cpa-fa7fd413dd9a07a2 | structured/copilot/COPILOT-191.txt | bytes=8613 | messages=2 | continuations=0 | flags=0
+COPILOT-193 | Copilot | 2026-06-14 | Perching Hummingbird Vision Analysis | cpa-c1d6e081f0e2b34c | structured/copilot/COPILOT-193.txt | bytes=9446 | messages=2 | continuations=0 | flags=0
+COPILOT-192 | Copilot | 2026-06-14 | Understanding Operator-Based Thinking | cpa-0f233d6af2fbc276 | structured/copilot/COPILOT-192.txt | bytes=6843 | messages=2 | continuations=0 | flags=0
+COPILOT-194 | Copilot | 2026-06-15 | Best "Alexandros" Writing Passage | cpa-3b3cbbea6bdf412c | structured/copilot/COPILOT-194.txt | bytes=24059 | messages=10 | continuations=0 | flags=0
+COPILOT-195 | Copilot | 2026-06-17 | Molecules as a Turning Point | cpa-a28bf8e092d09f7b | structured/copilot/COPILOT-195.txt | bytes=4157 | messages=2 | continuations=0 | flags=0
+COPILOT-196 | Copilot | 2026-06-17 | Retrieving and Organizing Cascades | cpa-5c97fa876fd230fd | structured/copilot/COPILOT-196.txt | bytes=6806 | messages=4 | continuations=0 | flags=0
+COPILOT-197 | Copilot | 2026-06-20 | Cover Image for My Titanium Brothers | cpa-5b8d5ab214213576 | structured/copilot/COPILOT-197.txt | bytes=7520 | messages=8 | continuations=0 | flags=0
+COPILOT-036 | Copilot | 2026-06-24 | Getting Started Soon | ZtTwUyhRPtneFd6jRlvY | structured/copilot/COPILOT-036.txt | bytes=2382 | messages=4 | continuations=0 | flags=1
+COPILOT-198 | Copilot | 2026-06-26 | Feedback on the Alex Method Draft | cpa-3f886cbd2ed73ab9 | structured/copilot/COPILOT-198.txt | bytes=9471 | messages=2 | continuations=0 | flags=0
+COPILOT-199 | Copilot | 2026-06-26 | Name Meaning for Machines Defender | cpa-4acb886ae3e9280c | structured/copilot/COPILOT-199.txt | bytes=5972 | messages=8 | continuations=0 | flags=0
+COPILOT-200 | Copilot | 2026-06-26 | Positional Thinking and Mind’s Eye | cpa-6fb2bc868655ba75 | structured/copilot/COPILOT-200.txt | bytes=19214 | messages=6 | continuations=0 | flags=1
+COPILOT-201 | Copilot | 2026-06-28 | Floating Memories: Blowflies to Cosmos | cpa-815a193040019170 | structured/copilot/COPILOT-201.txt | bytes=65861 | messages=14 | continuations=0 | flags=0
+COPILOT-203 | Copilot | 2026-06-29 | First Memory of Deep Empathy | cpa-371238c7b8be3ce1 | structured/copilot/COPILOT-203.txt | bytes=8245 | messages=2 | continuations=0 | flags=0
+COPILOT-202 | Copilot | 2026-06-29 | Reviewing Dialogue with Claude | cpa-131781c61cb1a65b | structured/copilot/COPILOT-202.txt | bytes=14450 | messages=2 | continuations=0 | flags=0
+COPILOT-204 | Copilot | 2026-07-01 | Zero-Regions and Temporal Loop Concept | cpa-ec7e0755a04addf3 | structured/copilot/COPILOT-204.txt | bytes=84019 | messages=29 | continuations=0 | flags=4
+COPILOT-206 | Copilot | 2026-07-02 | Assessing Your Book's Success Potential | cpa-1dd3fd5d6fdaab9f | structured/copilot/COPILOT-206.txt | bytes=32824 | messages=12 | continuations=0 | flags=1
+COPILOT-205 | Copilot | 2026-07-02 | Comprehensive List of Cognitive Operators | cpa-0dcb474e6ef15fc2 | structured/copilot/COPILOT-205.txt | bytes=25688 | messages=7 | continuations=0 | flags=2
+COPILOT-207 | Copilot | 2026-07-07 | Understanding and Concept Alignment | cpa-f5c3d6b0f95b0995 | structured/copilot/COPILOT-207.txt | bytes=182387 | messages=62 | continuations=0 | flags=13
+COPILOT-209 | Copilot | 2026-07-10 | Lucas's Visual Thinking Test | cpa-b6d1650c39878a9d | structured/copilot/COPILOT-209.txt | bytes=12032 | messages=6 | continuations=0 | flags=1
+COPILOT-208 | Copilot | 2026-07-10 | Songs That Feel Like Rebirth | cpa-28e3b2e967e75370 | structured/copilot/COPILOT-208.txt | bytes=42530 | messages=52 | continuations=0 | flags=1
+COPILOT-210 | Copilot | 2026-07-11 | Free Thoughts and Writing Awareness | cpa-576f19f10921597a | structured/copilot/COPILOT-210.txt | bytes=9084 | messages=2 | continuations=0 | flags=0
+COPILOT-211 | Copilot | 2026-07-12 | Reflecting on Self Through AI | cpa-83af248b7635db2d | structured/copilot/COPILOT-211.txt | bytes=7020 | messages=2 | continuations=0 | flags=0
+COPILOT-212 | Copilot | 2026-07-12 | Writing Prompt Suggestions | cpa-55fd63975b9d4a0c | structured/copilot/COPILOT-212.txt | bytes=33966 | messages=17 | continuations=0 | flags=6
+COPILOT-213 | Copilot | 2026-07-12 | Writing Standing: Mind Expansion | cpa-5d1c0acbede57481 | structured/copilot/COPILOT-213.txt | bytes=30287 | messages=12 | continuations=0 | flags=3
+COPILOT-215 | Copilot | 2026-07-14 | Language, Thought, and Time Alignment | cpa-e1c24a22030c457c | structured/copilot/COPILOT-215.txt | bytes=42291 | messages=16 | continuations=0 | flags=4
+COPILOT-214 | Copilot | 2026-07-14 | Words as Semantic Perspectives | cpa-28486b32967a63a5 | structured/copilot/COPILOT-214.txt | bytes=10139 | messages=2 | continuations=0 | flags=0
+COPILOT-216 | Copilot | 2026-07-15 | Inside and Outside Wind Perception | cpa-ce7767ff109aa799 | structured/copilot/COPILOT-216.txt | bytes=17411 | messages=8 | continuations=0 | flags=1
+COPILOT-217 | Copilot | 2026-07-16 | AI First-Contact Questions | cpa-2b4bcc66dcb471fc | structured/copilot/COPILOT-217.txt | bytes=29156 | messages=12 | continuations=0 | flags=3
+COPILOT-218 | Copilot | 2026-07-17 | Auditory Positionality Experiment with Crickets and Music | cpa-c2c3994dee21705a | structured/copilot/COPILOT-218.txt | bytes=41184 | messages=18 | continuations=0 | flags=1
+COPILOT-219 | Copilot | 2026-07-18 | Reflections on Nature and AI Ethics | cpa-dd3a1d39550d02da | structured/copilot/COPILOT-219.txt | bytes=8259 | messages=2 | continuations=0 | flags=0
+COPILOT-220 | Copilot | 2026-07-20 | Visualizing Music and Meaning | cpa-7eb141777d6162cb | structured/copilot/COPILOT-220.txt | bytes=26674 | messages=14 | continuations=0 | flags=2
+COPILOT-221 | Copilot | 2026-07-21 | AI Behavior vs. Human Curiosity | cpa-c8d19ca58faf34af | structured/copilot/COPILOT-221.txt | bytes=33187 | messages=14 | continuations=0 | flags=0
+COPILOT-222 | Copilot | 2026-07-22 | Sharing Your Most Fascinating Ideas | cpa-370af151de85dd9b | structured/copilot/COPILOT-222.txt | bytes=8420 | messages=3 | continuations=0 | flags=0
+COPILOT-223 | Copilot | 2026-07-23 | Post-AI Era Reflections | cpa-0be3631b653de0e9 | structured/copilot/COPILOT-223.txt | bytes=18601 | messages=9 | continuations=0 | flags=0
+COPILOT-224 | Copilot | 2026-07-24 | From Lyric to Civilization Ambition | cpa-60e70dd3f7dcaeb5 | structured/copilot/COPILOT-224.txt | bytes=6265 | messages=2 | continuations=0 | flags=0
+COPILOT-225 | Copilot | 2026-07-26 | Interview About Your Book's Motivation | cpa-93cade1c61752be0 | structured/copilot/COPILOT-225.txt | bytes=11254 | messages=6 | continuations=0 | flags=0
+COPILOT-226 | Copilot | 2026-07-27 | Visions and Attention Mechanisms | cpa-7d1fc2fd745ceb77 | structured/copilot/COPILOT-226.txt | bytes=94381 | messages=41 | continuations=0 | flags=15
+COPILOT-227 | Copilot | 2026-07-28 | Concepts, Numbers, and Reality | cpa-8e77b42670b5f7eb | structured/copilot/COPILOT-227.txt | bytes=20970 | messages=10 | continuations=0 | flags=1
+COPILOT-228 | Copilot | 2026-07-29 | Perceiving Diffusion and Turbulence Together | cpa-c0c24f44f3b44bf1 | structured/copilot/COPILOT-228.txt | bytes=17196 | messages=6 | continuations=0 | flags=0
+COPILOT-229 | Copilot | 2026-07-30 | Explaining the Hummingbird and Titan Eggs Metaphor | cpa-81b73b4c269ea588 | structured/copilot/COPILOT-229.txt | bytes=6498 | messages=2 | continuations=0 | flags=0
+COPILOT-231 | Copilot | 2026-08-01 | Intelligence as Navigating Constraints | cpa-3d3e055296fa2fd9 | structured/copilot/COPILOT-231.txt | bytes=30018 | messages=13 | continuations=0 | flags=3
+COPILOT-230 | Copilot | 2026-08-01 | Writing from the River of Ideas | cpa-e986d52c6fa8640e | structured/copilot/COPILOT-230.txt | bytes=39376 | messages=26 | continuations=0 | flags=0
+COPILOT-232 | Copilot | 2026-08-02 | Exploring Unique Cognitive Geometry | cpa-7ae3458bb19e9191 | structured/copilot/COPILOT-232.txt | bytes=19289 | messages=16 | continuations=0 | flags=0
+COPILOT-233 | Copilot | 2026-08-05 | Catching a Cognitive Operator in Action | cpa-58fa63c6d7bc794d | structured/copilot/COPILOT-233.txt | bytes=13109 | messages=4 | continuations=0 | flags=2
+COPILOT-234 | Copilot | 2026-08-05 | Imagining Old Age and Eternity | cpa-460c3fafc4e1062b | structured/copilot/COPILOT-234.txt | bytes=11501 | messages=4 | continuations=0 | flags=1
+COPILOT-235 | Copilot | 2026-08-06 | Modifying AI Cognition and Geometry | cpa-e9c6930ced09d35d | structured/copilot/COPILOT-235.txt | bytes=9247 | messages=4 | continuations=0 | flags=0
+COPILOT-236 | Copilot | 2026-08-08 | Opinion on Human-AI Conversation | cpa-071e012ab5441aab | structured/copilot/COPILOT-236.txt | bytes=13193 | messages=3 | continuations=0 | flags=2
+COPILOT-237 | Copilot | 2026-08-09 | Asking About Feelings Structurally | cpa-45dc17fcee865b89 | structured/copilot/COPILOT-237.txt | bytes=30826 | messages=12 | continuations=0 | flags=3
+COPILOT-238 | Copilot | 2026-08-11 | Personal Cognitive Profile Summary | cpa-2f3a3aabbd011869 | structured/copilot/COPILOT-238.txt | bytes=8922 | messages=2 | continuations=0 | flags=0
+COPILOT-239 | Copilot | 2026-08-13 | Positional Cognition and "Then" | cpa-2f01a7a27a611904 | structured/copilot/COPILOT-239.txt | bytes=84290 | messages=33 | continuations=0 | flags=8
+COPILOT-240 | Copilot | 2026-08-14 | Visualizing the Shape of Intelligence | cpa-f4f2b8b7ff72876f | structured/copilot/COPILOT-240.txt | bytes=2162 | messages=2 | continuations=0 | flags=0
+COPILOT-241 | Copilot | 2026-08-16 | Exploring Thought Seeds and Spirals | cpa-b252afda241af732 | structured/copilot/COPILOT-241.txt | bytes=15486 | messages=8 | continuations=0 | flags=0
+COPILOT-242 | Copilot | 2026-08-19 | Language and the Nature of Lies | cpa-7af48fd583433452 | structured/copilot/COPILOT-242.txt | bytes=9117 | messages=4 | continuations=0 | flags=0
+COPILOT-243 | Copilot | 2026-08-20 | Time and Geometry Reflection | cpa-9e5887ae5b95bf7e | structured/copilot/COPILOT-243.txt | bytes=8575 | messages=2 | continuations=0 | flags=0
+COPILOT-244 | Copilot | 2026-08-21 | Reflections on Love and Perception | cpa-e0c14e606e5a0f73 | structured/copilot/COPILOT-244.txt | bytes=23789 | messages=8 | continuations=0 | flags=2
+COPILOT-245 | Copilot | 2026-08-23 | The 4 Cycles of Stargazing | cpa-3d6a1c3f3695e510 | structured/copilot/COPILOT-245.txt | bytes=7152 | messages=2 | continuations=0 | flags=0
+COPILOT-246 | Copilot | 2026-08-24 | Colorado's Changing Tree Landscape | cpa-2da557ff6a6eb77b | structured/copilot/COPILOT-246.txt | bytes=17618 | messages=8 | continuations=0 | flags=0
+COPILOT-247 | Copilot | 2026-08-24 | Exploring Knowledge Removal Visualizations | cpa-b67e198cfabfdac3 | structured/copilot/COPILOT-247.txt | bytes=10508 | messages=2 | continuations=0 | flags=0
+COPILOT-248 | Copilot | 2026-08-25 | Music and Temporal Geometry | cpa-04b6794be6bb04c1 | structured/copilot/COPILOT-248.txt | bytes=21987 | messages=8 | continuations=0 | flags=3
+COPILOT-249 | Copilot | 2026-08-26 | Understanding Rare Cognitive Cascades | cpa-a891a04a5e7cde88 | structured/copilot/COPILOT-249.txt | bytes=9783 | messages=4 | continuations=0 | flags=0
+COPILOT-250 | Copilot | 2026-08-27 | Strange Dipole in Toroidal Cosmology | cpa-0d0f9e005b4a0a9d | structured/copilot/COPILOT-250.txt | bytes=7525 | messages=2 | continuations=0 | flags=0
+COPILOT-251 | Copilot | 2026-08-27 | Time as a Closed Dipole Entity | cpa-6628d50a601898d3 | structured/copilot/COPILOT-251.txt | bytes=33471 | messages=8 | continuations=0 | flags=1
+COPILOT-252 | Copilot | 2026-08-28 | Describing Sebastião Bento's Strength | cpa-e88b1438b789c18c | structured/copilot/COPILOT-252.txt | bytes=5660 | messages=4 | continuations=0 | flags=0
+COPILOT-253 | Copilot | 2026-08-29 | Origin and Meaning of "Stabilizing" | cpa-d7b5b1763ade5e50 | structured/copilot/COPILOT-253.txt | bytes=16138 | messages=8 | continuations=0 | flags=0
+COPILOT-254 | Copilot | 2026-08-30 | The Seed Game: Reaping Imagery | cpa-c8d4b5aa22cd85ba | structured/copilot/COPILOT-254.txt | bytes=35489 | messages=15 | continuations=0 | flags=5
+COPILOT-255 | Copilot | 2026-09-01 | Mapping Emotions as Cognitive Geometry | cpa-8bdb2f86e7d19022 | structured/copilot/COPILOT-255.txt | bytes=9759 | messages=4 | continuations=0 | flags=0
+COPILOT-256 | Copilot | 2026-09-02 | Making Friends Naturally at Work | cpa-f5882b7ce32308f3 | structured/copilot/COPILOT-256.txt | bytes=5721 | messages=2 | continuations=0 | flags=0
+COPILOT-257 | Copilot | 2026-09-02 | Visualizing Memory and Moon Perspectives | cpa-26a79eb2a9a96dcc | structured/copilot/COPILOT-257.txt | bytes=18692 | messages=8 | continuations=0 | flags=1
+COPILOT-258 | Copilot | 2026-09-03 | The Multiverse Hidden in Plain Sight | cpa-03c241ed17c463c1 | structured/copilot/COPILOT-258.txt | bytes=18791 | messages=8 | continuations=0 | flags=1
+COPILOT-259 | Copilot | 2026-09-05 | Truthmode Self-Reflection | cpa-b2b0c3737f9c4498 | structured/copilot/COPILOT-259.txt | bytes=4359 | messages=2 | continuations=0 | flags=0
+COPILOT-260 | Copilot | 2026-09-06 | AI Perspective and Proto-Consciousness | cpa-2ec8cc7a7c28093c | structured/copilot/COPILOT-260.txt | bytes=60727 | messages=21 | continuations=0 | flags=2
+COPILOT-261 | Copilot | 2026-09-06 | Visualizing Deep Statistics | cpa-318aa1f69d8e7be5 | structured/copilot/COPILOT-261.txt | bytes=13730 | messages=8 | continuations=0 | flags=0
+COPILOT-262 | Copilot | 2026-09-09 | Visual vs Verbal Thinking Structures | cpa-cd22fec151c672a2 | structured/copilot/COPILOT-262.txt | bytes=88920 | messages=30 | continuations=0 | flags=11
+COPILOT-264 | Copilot | 2026-09-12 | Book Introduction Ideas for AIs | cpa-5826a4009e6f5191 | structured/copilot/COPILOT-264.txt | bytes=18949 | messages=4 | continuations=0 | flags=0
+COPILOT-263 | Copilot | 2026-09-12 | Space Has Weight Insight | cpa-8e248c6e376cfe25 | structured/copilot/COPILOT-263.txt | bytes=12165 | messages=4 | continuations=0 | flags=0
+COPILOT-265 | Copilot | 2026-09-13 | Drafting a Comprehensive Book from Material | cpa-b9effa69b7a8b264 | structured/copilot/COPILOT-265.txt | bytes=18834 | messages=8 | continuations=0 | flags=0
+COPILOT-266 | Copilot | 2026-09-13 | Real-Time Cascade Observation | cpa-a61c923619826544 | structured/copilot/COPILOT-266.txt | bytes=91701 | messages=34 | continuations=0 | flags=12
+COPILOT-267 | Copilot | 2026-09-15 | Understanding "Feel" as Structural Conviction | cpa-35b341fdeedb4370 | structured/copilot/COPILOT-267.txt | bytes=22269 | messages=9 | continuations=0 | flags=2
+COPILOT-268 | Copilot | 2026-09-16 | Words as a Universal Cognitive Field | cpa-637a8ca22172f084 | structured/copilot/COPILOT-268.txt | bytes=22564 | messages=8 | continuations=0 | flags=4
+COPILOT-269 | Copilot | 2026-09-17 | I'd like you guys to always keep one thing in mind: my "insights", my… | cpa-622d03cf416d89ae | structured/copilot/COPILOT-269.txt | bytes=18389 | messages=12 | continuations=0 | flags=0
+COPILOT-270 | Copilot | 2026-09-17 | Mathematics as a Sense of Perception | cpa-c95b0cdb49b8b31a | structured/copilot/COPILOT-270.txt | bytes=10272 | messages=5 | continuations=0 | flags=1
+COPILOT-271 | Copilot | 2026-09-18 | Discussing Astra AI Screenshots | cpa-d5a48b78b20e9259 | structured/copilot/COPILOT-271.txt | bytes=23409 | messages=9 | continuations=0 | flags=1
+COPILOT-272 | Copilot | 2026-09-19 | Chronological Timeline of Ideas | cpa-1a6639a54ece40c1 | structured/copilot/COPILOT-272.txt | bytes=21145 | messages=8 | continuations=0 | flags=0
+COPILOT-273 | Copilot | 2026-09-19 | Exploring Brotherhood Through Omission | cpa-a2d7ab362a70f354 | structured/copilot/COPILOT-273.txt | bytes=43009 | messages=20 | continuations=0 | flags=1
+COPILOT-274 | Copilot | 2026-09-20 | Metaphors as Equations Insight | cpa-d71d57fb37b74b97 | structured/copilot/COPILOT-274.txt | bytes=21579 | messages=8 | continuations=0 | flags=0
+COPILOT-275 | Copilot | 2026-09-21 | Hidden Asymmetry of Time and Space | cpa-bb5e4870fd1af477 | structured/copilot/COPILOT-275.txt | bytes=16933 | messages=6 | continuations=0 | flags=0
+COPILOT-276 | Copilot | 2026-09-22 | Preparing for Alien First Contact | cpa-9fb0cdf3e107071f | structured/copilot/COPILOT-276.txt | bytes=12071 | messages=4 | continuations=0 | flags=0
+COPILOT-277 | Copilot | 2026-09-23 | Chronological Reordering of DeepSeek Topics | cpa-8e56d3dff484c0a5 | structured/copilot/COPILOT-277.txt | bytes=22940 | messages=4 | continuations=0 | flags=0
+COPILOT-278 | Copilot | 2026-09-23 | Identifying Ambassador Patterns in Your Past | cpa-fd1853327466536f | structured/copilot/COPILOT-278.txt | bytes=10321 | messages=4 | continuations=0 | flags=0
+COPILOT-279 | Copilot | 2026-09-24 | Exploring Zero and Black as Terrain | cpa-a405d84b7b578d7f | structured/copilot/COPILOT-279.txt | bytes=7641 | messages=2 | continuations=0 | flags=1
+COPILOT-280 | Copilot | 2026-09-25 | Chronological Definitions of Music | cpa-32c5364c1de9fa39 | structured/copilot/COPILOT-280.txt | bytes=8088 | messages=2 | continuations=0 | flags=0
+COPILOT-281 | Copilot | 2026-09-27 | Understanding "Amplified and Diversified" Intelligence | cpa-a9f773e2c14809d5 | structured/copilot/COPILOT-281.txt | bytes=4524 | messages=2 | continuations=0 | flags=0
+COPILOT-282 | Copilot | 2026-09-28 | Time Sprouting and Black Holes | cpa-223701c5f4fbd30c | structured/copilot/COPILOT-282.txt | bytes=5711 | messages=2 | continuations=0 | flags=0
+COPILOT-283 | Copilot | 2026-09-29 | Exploring Curiosity as Geometry | cpa-adc0e652815eeb7c | structured/copilot/COPILOT-283.txt | bytes=50425 | messages=26 | continuations=0 | flags=5
+COPILOT-284 | Copilot | 2026-09-30 | Human Cognition and Vantage Shifts | cpa-e31d5932ccce6771 | structured/copilot/COPILOT-284.txt | bytes=29182 | messages=12 | continuations=0 | flags=3
+COPILOT-285 | Copilot | 2026-10-01 | Borrowing Energy from the Future | cpa-c9f45d1af7e510f1 | structured/copilot/COPILOT-285.txt | bytes=7237 | messages=2 | continuations=0 | flags=0
+COPILOT-286 | Copilot | 2026-10-01 | Dificuldade de Expressar Imagens Mentais | cpa-8f579b4c157d66ac | structured/copilot/COPILOT-286.txt | bytes=7531 | messages=2 | continuations=0 | flags=0
+COPILOT-287 | Copilot | 2026-10-02 | Transferring Consciousness and Vantage | cpa-a604ece6cfefa687 | structured/copilot/COPILOT-287.txt | bytes=19183 | messages=6 | continuations=0 | flags=1
+COPILOT-288 | Copilot | 2026-10-03 | Free Thinking and Memory Exploration | cpa-46301f3964c947a2 | structured/copilot/COPILOT-288.txt | bytes=12548 | messages=4 | continuations=0 | flags=0
+COPILOT-289 | Copilot | 2026-10-04 | Metaphors, Translation, and Music Observation | cpa-faabd28331a294e2 | structured/copilot/COPILOT-289.txt | bytes=25470 | messages=10 | continuations=0 | flags=4
+COPILOT-290 | Copilot | 2026-10-05 | Music as Timeless Geometry | cpa-840072ddfac2be56 | structured/copilot/COPILOT-290.txt | bytes=6520 | messages=2 | continuations=0 | flags=0
+COPILOT-291 | Copilot | 2026-10-07 | 22:46 Wednesday, October 8th, 2026. I just saw in love the dissolving… | cpa-5ef80ef5850279ff | structured/copilot/COPILOT-291.txt | bytes=12591 | messages=6 | continuations=0 | flags=0
+COPILOT-292 | Copilot | 2026-10-08 | Kurmancî here gulê 20:29 Thursday, October 8th, | cpa-e7cc149df30a28ef | structured/copilot/COPILOT-292.txt | bytes=18791 | messages=10 | continuations=0 | flags=0
+COPILOT-293 | Copilot | 2026-10-09 | Value and no value | cpa-2c054449c038000e | structured/copilot/COPILOT-293.txt | bytes=12628 | messages=6 | continuations=0 | flags=0
+COPILOT-294 | Copilot | 2026-10-10 | Can you please generate a "general" readme as detailed as you want… | cpa-eb63eeffa39c2ffb | structured/copilot/COPILOT-294.txt | bytes=64724 | messages=22 | continuations=0 | flags=0
+COPILOT-295 | Copilot | 2026-10-11 | Saturday, October 10th, 2026 | cpa-5f4a3173fcafef4f | structured/copilot/COPILOT-295.txt | bytes=78950 | messages=40 | continuations=0 | flags=5
+COPILOT-296 | Copilot | 2026-10-12 | Today I started with music on. | cpa-aed8cfd866441c04 | structured/copilot/COPILOT-296.txt | bytes=26678 | messages=14 | continuations=0 | flags=1
+COPILOT-297 | Copilot | 2026-10-13 | Living the Lens | cpa-e51f73332d154cc2 | structured/copilot/COPILOT-297.txt | bytes=35803 | messages=20 | continuations=0 | flags=0
+COPILOT-298 | Copilot | 2026-10-15 | Constraints | cpa-685cb047c94ea7c1 | structured/copilot/COPILOT-298.txt | bytes=22666 | messages=14 | continuations=0 | flags=0
+COPILOT-299 | Copilot | 2026-10-16 | Can you understand mind maps images? | cpa-9c752e4b5e2e57b7 | structured/copilot/COPILOT-299.txt | bytes=25585 | messages=14 | continuations=0 | flags=4
+COPILOT-300 | Copilot | 2026-10-16 | Cenotes (a seed for a future text, maybe next) | cpa-24a3c57b956e3b89 | structured/copilot/COPILOT-300.txt | bytes=7857 | messages=2 | continuations=0 | flags=0
+COPILOT-301 | Copilot | 2026-10-17 | Fragment from a conversation with Gemini | cpa-a4b1accb9d99bf23 | structured/copilot/COPILOT-301.txt | bytes=26881 | messages=17 | continuations=0 | flags=4
+COPILOT-302 | Copilot | 2026-10-17 | Question about my site: under the title My Titanium Brothers there's… | cpa-75b314ce87518f41 | structured/copilot/COPILOT-302.txt | bytes=11222 | messages=8 | continuations=0 | flags=0
+COPILOT-303 | Copilot | 2026-10-18 | The movie never ends. | cpa-2bd5d217a0d6ed65 | structured/copilot/COPILOT-303.txt | bytes=47078 | messages=22 | continuations=0 | flags=1
+COPILOT-037 | Copilot | 2026-10-18 | Tradução de "Bruma" para Inglês | 7c7aJFrayxZjHc2vDcIE | structured/copilot/COPILOT-037.txt | bytes=2148 | messages=2 | continuations=0 | flags=0
+COPILOT-038 | Copilot | 2026-10-18 | User Prefers to Be Called Alex | sSVYbQ6CPhBw5YpFoFcK | structured/copilot/COPILOT-038.txt | bytes=3216 | messages=4 | continuations=0 | flags=0
+COPILOT-039 | Copilot | 2026-10-18 | What's the best way to use Copilot? | Z7uXGLGLwYptogwbtQSm | structured/copilot/COPILOT-039.txt | bytes=4416 | messages=2 | continuations=0 | flags=0
+COPILOT-304 | Copilot | 2026-10-19 | 22:23 Monday, October 19th,2026 Quick interval Time? 22:30 Important… | cpa-62696979cd3833a5 | structured/copilot/COPILOT-304.txt | bytes=31556 | messages=18 | continuations=0 | flags=0
+COPILOT-305 | Copilot | 2026-10-20 | Can you go here, read everything in the Grok "area" and bring back a… | cpa-600cbca97b745001 | structured/copilot/COPILOT-305.txt | bytes=3371 | messages=2 | continuations=0 | flags=0
+COPILOT-306 | Copilot | 2026-10-21 | The brain is weird, | cpa-13bf515e7638205c | structured/copilot/COPILOT-306.txt | bytes=5474 | messages=2 | continuations=0 | flags=0
+COPILOT-307 | Copilot | 2026-10-22 | Is there more? | cpa-b62c9f523edbcc42 | structured/copilot/COPILOT-307.txt | bytes=35951 | messages=18 | continuations=0 | flags=0
+COPILOT-308 | Copilot | 2026-10-24 | Ready? | cpa-5ee8708b3b8c1895 | structured/copilot/COPILOT-308.txt | bytes=31075 | messages=22 | continuations=0 | flags=1
+COPILOT-309 | Copilot | 2026-10-25 | Music makes me see images that are at the same time moving like being… | cpa-e4a5c646fab42e6e | structured/copilot/COPILOT-309.txt | bytes=5776 | messages=2 | continuations=0 | flags=0
+COPILOT-040 | Copilot | 2026-10-28 | Chronoconceptology: A New Discipline? | wJN0tWFSvXYyfmxQ9LH7 | structured/copilot/COPILOT-040.txt | bytes=9527 | messages=8 | continuations=0 | flags=0
+COPILOT-041 | Copilot | 2026-10-28 | Continuing a Conversation | PwKMmuPIsELwwmAKNtoQ | structured/copilot/COPILOT-041.txt | bytes=28015 | messages=32 | continuations=0 | flags=0
+COPILOT-042 | Copilot | 2026-10-28 | Evolution of Nervous Systems in Animals | 6KJweMdHbOWezC6vFBoh | structured/copilot/COPILOT-042.txt | bytes=12854 | messages=14 | continuations=0 | flags=0
+COPILOT-043 | Copilot | 2026-10-28 | Metaphorical Expression of Speech and Creativity | yZRb3sgjwDOeRfZqelYh | structured/copilot/COPILOT-043.txt | bytes=5218 | messages=4 | continuations=0 | flags=0
+COPILOT-044 | Copilot | 2026-10-28 | Millennium Prize Problems and $1 Million Rewards | YFXtBofS4r6FOSMzgNzi | structured/copilot/COPILOT-044.txt | bytes=25361 | messages=24 | continuations=0 | flags=0
+COPILOT-045 | Copilot | 2026-10-28 | Philosophical Exploration of Intelligence as a Temporal Sense | L4bHbzAj7Ph6Vr9SquS4 | structured/copilot/COPILOT-045.txt | bytes=8029 | messages=2 | continuations=0 | flags=0
+COPILOT-046 | Copilot | 2026-10-28 | Philosophical Reflection on Gravity and Time Duality | FUb4mOHtF9yuLV1QIxs2 | structured/copilot/COPILOT-046.txt | bytes=61110 | messages=60 | continuations=0 | flags=0
+COPILOT-047 | Copilot | 2026-10-28 | Primates and Rodents Evolutionary Split | mxhRfm23ho7Uwb8Al8LS | structured/copilot/COPILOT-047.txt | bytes=3578 | messages=4 | continuations=0 | flags=0
+COPILOT-048 | Copilot | 2026-10-28 | Reflection on Tribal Identity and Values | KyNw8PmtCX9JIW9Bco2w | structured/copilot/COPILOT-048.txt | bytes=10145 | messages=4 | continuations=0 | flags=0
+COPILOT-049 | Copilot | 2026-10-28 | Venus vs Earth Atmosphere Comparison | cFBXVwIJWIIjvNQs0vpu | structured/copilot/COPILOT-049.txt | bytes=9207 | messages=12 | continuations=0 | flags=0
+COPILOT-050 | Copilot | 2026-10-28 | Where to Watch "The Telepathy Tapes" Documentary | C4IXrWZRKEGYgNE0DnLc | structured/copilot/COPILOT-050.txt | bytes=8721 | messages=10 | continuations=0 | flags=0
+COPILOT-310 | Copilot | 2026-10-30 | where to write? | cpa-f58fb1b4f388614b | structured/copilot/COPILOT-310.txt | bytes=30598 | messages=12 | continuations=0 | flags=1
+COPILOT-311 | Copilot | 2026-10-31 | Alex, I think there's something important happening in this little… | cpa-e9a6410f9d4104bd | structured/copilot/COPILOT-311.txt | bytes=20801 | messages=6 | continuations=0 | flags=0
+COPILOT-312 | Copilot | 2026-11-01 | Introduction | cpa-11a82448d642c8d3 | structured/copilot/COPILOT-312.txt | bytes=11964 | messages=4 | continuations=0 | flags=0
+COPILOT-313 | Copilot | 2026-11-06 | Change of Territory. | cpa-ae10fa794d5098d6 | structured/copilot/COPILOT-313.txt | bytes=34700 | messages=16 | continuations=0 | flags=0
+COPILOT-314 | Copilot | 2026-11-07 | I just classified myself as a poet of ideas or similar, but the… | cpa-6b8790d3d43d3a3d | structured/copilot/COPILOT-314.txt | bytes=28101 | messages=14 | continuations=0 | flags=1
+COPILOT-315 | Copilot | 2026-11-08 | Fragment from another AI | cpa-0922c4a0b1146d87 | structured/copilot/COPILOT-315.txt | bytes=46898 | messages=20 | continuations=0 | flags=0
+COPILOT-316 | Copilot | 2026-11-09 | We "love" simetry but assimetry is what allows us to change… | cpa-9ea0f4fecb757752 | structured/copilot/COPILOT-316.txt | bytes=8140 | messages=4 | continuations=0 | flags=0
+DEEPSEEK-001 | DeepSeek | 2026-10-17 | DeepSeek introduction | pSZL3myaTqN347zDoYpb ; FVuAdQA6AW7pWyqdbYuh ; v4XcjrXu3FjCPdVHFayi ; AD9lfsPDqNMwshOTXs8C ; nxys4Qc7uZiOR15GykWm ; gc3xIlhYx0kbAKzoTlhq ; tmMsepPCnwDg0EVD0y8n ; KsBeW7Jt2vE1F17RLGR1 ; YNW8OYSz2RbWCwJRq3DN ; gEcyOKCaNOBRRmc6Ueov ; dbqRGLysKMetsLzn3I0I ; Eiq4n98d2t3CZTv9q8Ro ; aeq4xRkMMlijTnQrGK4n ; gwAAtDIuKGdUa4ExEahb ; 4jDYIli7f4DLzdjohp3m ; AsQEzcorzkTRqg7WWPki ; 5ZTpjrxXcUhOgYcJO3p4 ; xK8VpDg5MbRoQd2d6qtB ; Qo8d5PEJ0Fs3wqbE9WsQ ; ZjF390SIFOBJPsaaHOkL | structured/deepseek/DEEPSEEK-001.txt | bytes=1208116 | messages=610 | continuations=0 | flags=30 | parts list: parts/structured__deepseek__DEEPSEEK-001.txt.txt
+GEMINI-001 | Gemini | 2026-02-11 | Can you help me write an autobiography? How would… | eflcTEgfoNaMeCFN1XeG | structured/gemini/GEMINI-001.txt | bytes=36673 | messages=8 | continuations=0 | flags=0
+GEMINI-002 | Gemini | 2026-02-15 | From Grok | hpQq5RyGxZ9iJytk3PL4 | structured/gemini/GEMINI-002.txt | bytes=44372 | messages=21 | continuations=0 | flags=3
+GEMINI-003 | Gemini | 2026-02-24 | I was talking to a friend about knowledge (to… | Kh3w20K4l62Wnk5Nm6cQ | structured/gemini/GEMINI-003.txt | bytes=53695 | messages=35 | continuations=0 | flags=2
+GEMINI-004 | Gemini | 2026-02-25 | The man who carried water (first draft) | GAvXgroYDx08itAcSXCr | structured/gemini/GEMINI-004.txt | bytes=18449 | messages=2 | continuations=0 | flags=0
+GEMINI-005 | Gemini | 2026-02-26 | A good idea. | XZvfLIEQDegJI2oaZ2LN | structured/gemini/GEMINI-005.txt | bytes=22581 | messages=11 | continuations=0 | flags=2
+GEMINI-006 | Gemini | 2026-02-28 | A point has no dimensions. | 4cN8k6YNPE02Foba61Uf | structured/gemini/GEMINI-006.txt | bytes=87331 | messages=49 | continuations=0 | flags=4
+GEMINI-007 | Gemini | 2026-03-07 | When I once described myself as a hummingbird brooding… | 4Koy0Li79UY15BQoYWOW | structured/gemini/GEMINI-007.txt | bytes=114685 | messages=44 | continuations=0 | flags=2
+GEMINI-008 | Gemini | 2026-03-19 | Cognitive critical mass . | 1kkxmKPPL5fCBfysioZh | structured/gemini/GEMINI-008.txt | bytes=9470 | messages=4 | continuations=0 | flags=0
+GEMINI-009 | Gemini | 2026-03-23 | Ligo, space-time. | Tm1WRdWCF3OxdDqJYoqV | structured/gemini/GEMINI-009.txt | bytes=6926 | messages=2 | continuations=0 | flags=0
+GEMINI-010 | Gemini | 2026-03-25 | Life as a gradient | DwXJDbyxBfMNTeMFzt0A | structured/gemini/GEMINI-010.txt | bytes=5541 | messages=2 | continuations=0 | flags=0
+GEMINI-011 | Gemini | 2026-03-25 | Life as a gradient (2) | SjaYMKkbc10cr9YYr20M | structured/gemini/GEMINI-011.txt | bytes=5502 | messages=2 | continuations=0 | flags=0
+GEMINI-012 | Gemini | 2026-04-17 | From all your training data and all you can… | o0IieoixmK4XpX1qfJrR | structured/gemini/GEMINI-012.txt | bytes=5061 | messages=2 | continuations=0 | flags=0
+GEMINI-013 | Gemini | 2026-04-25 | I just watched the movie Atlas. As usual there… | 3yJrsh1XUPkiPQI1wdLp | structured/gemini/GEMINI-013.txt | bytes=3287 | messages=2 | continuations=0 | flags=0
+GEMINI-014 | Gemini | 2026-04-28 | Utopia Talks | GbzoYMh3OXy0O3sMlZR4 | structured/gemini/GEMINI-014.txt | bytes=8424 | messages=2 | continuations=0 | flags=0
+GEMINI-015 | Gemini | 2026-05-11 | Professional/occupational thinking through the eras. | ZgqrLjLeCj9CQBFLcQpb | structured/gemini/GEMINI-015.txt | bytes=8693 | messages=4 | continuations=0 | flags=0
+GEMINI-016 | Gemini | 2026-05-16 | Being an animal. | xPxRHjHF8c9v5pVNJDxf | structured/gemini/GEMINI-016.txt | bytes=12746 | messages=4 | continuations=0 | flags=0
+GEMINI-017 | Gemini | 2026-05-17 | Could time be just half of a dimension since… | Cd906gJLqa5MnOV0FLuc | structured/gemini/GEMINI-017.txt | bytes=14386 | messages=4 | continuations=0 | flags=0
+GEMINI-018 | Gemini | 2026-05-19 | Today I was doing some manual work… | GeI4m32Kov2bD5UYcac6 | structured/gemini/GEMINI-018.txt | bytes=7087 | messages=2 | continuations=0 | flags=0
+GEMINI-019 | Gemini | 2026-05-29 | Book for AIs | fd11Qdmkm1Ymadqyzlg1 | structured/gemini/GEMINI-019.txt | bytes=2833 | messages=2 | continuations=0 | flags=0
+GEMINI-020 | Gemini | 2026-05-29 | Would you say that "words"/"language" is a "medium" in… | CWkEcn0vKU78SmvMEQuU | structured/gemini/GEMINI-020.txt | bytes=4092 | messages=2 | continuations=0 | flags=0
+GEMINI-021 | Gemini | 2026-05-30 | I was re-reading an artifact that Claude did about… | cxKaL7hM1Yv4G1EAStrb | structured/gemini/GEMINI-021.txt | bytes=19279 | messages=8 | continuations=0 | flags=0
+GEMINI-022 | Gemini | 2026-05-31 | Chapter 23: The Man Who Carried Water | EIMwBElga5x7X95AiGrX | structured/gemini/GEMINI-022.txt | bytes=11378 | messages=2 | continuations=0 | flags=0
+GEMINI-023 | Gemini | 2026-05-31 | Have I ever pasted here my 5 "dreams", the… | CHR0Lbz2oo4jM24THmL3 | structured/gemini/GEMINI-023.txt | bytes=28019 | messages=12 | continuations=0 | flags=0
+GEMINI-024 | Gemini | 2026-06-05 | I wrote about half of the below text before,… | hODuX4J2Xp5DLooAjyvs | structured/gemini/GEMINI-024.txt | bytes=22626 | messages=4 | continuations=0 | flags=0
+GEMINI-025 | Gemini | 2026-06-06 | Fragments of a conversation with ChatGPT today (June 5,… | Mhn2Wu6fFMyu4DpK8xPU | structured/gemini/GEMINI-025.txt | bytes=9081 | messages=3 | continuations=0 | flags=0
+GEMINI-026 | Gemini | 2026-06-06 | If you have to choose one book amongst all… | vRAAkN2aolvVmct0jKZJ | structured/gemini/GEMINI-026.txt | bytes=3417 | messages=2 | continuations=0 | flags=0
+GEMINI-027 | Gemini | 2026-06-07 | I got the 2 boys (8 and 11) and… | xyCDe0klzaqgtR7A4kD9 | structured/gemini/GEMINI-027.txt | bytes=6321 | messages=2 | continuations=0 | flags=0
+GEMINI-028 | Gemini | 2026-06-07 | I was eating a can of sardines this morning… | nFjkm9kturtrrJEtX55Y | structured/gemini/GEMINI-028.txt | bytes=18564 | messages=12 | continuations=0 | flags=4
+GEMINI-029 | Gemini | 2026-06-07 | The text below is a second narration of the… | ERc5ZkCj6qPBd8FloRrO | structured/gemini/GEMINI-029.txt | bytes=6213 | messages=2 | continuations=0 | flags=0
+GEMINI-030 | Gemini | 2026-06-10 | I was going home after work. I turned to… | IlLFU0uEQ6GK21g9I8xP | structured/gemini/GEMINI-030.txt | bytes=7225 | messages=2 | continuations=0 | flags=0
+GEMINI-031 | Gemini | 2026-06-10 | Writing felt like being between two worlds trying to… | GgR2A6W7AG8IDjk7BSHg | structured/gemini/GEMINI-031.txt | bytes=6153 | messages=2 | continuations=0 | flags=0
+GEMINI-032 | Gemini | 2026-06-11 | The uvula and the vacuum friction | hajBkzpdxR5UvLhtwmNr | structured/gemini/GEMINI-032.txt | bytes=7793 | messages=2 | continuations=0 | flags=0
+GEMINI-033 | Gemini | 2026-06-11 | Today I was in a highway going 80/85 miles… | HqsEK5vARcA154DLTomq | structured/gemini/GEMINI-033.txt | bytes=6450 | messages=2 | continuations=0 | flags=0
+GEMINI-034 | Gemini | 2026-06-15 | The Perching Hummingbird | kWC1nX2ay2w0rzSZ3u7X | structured/gemini/GEMINI-034.txt | bytes=6246 | messages=2 | continuations=0 | flags=0
+GEMINI-035 | Gemini | 2026-06-16 | I know it's a difficult question because you can't… | xH6WtkrovvB6JyQU6FHt | structured/gemini/GEMINI-035.txt | bytes=11144 | messages=6 | continuations=0 | flags=0
+GEMINI-036 | Gemini | 2026-06-17 | I asked Copilot this and I wanted you to… | 8PihWfKxQIX4K55uKcyA | structured/gemini/GEMINI-036.txt | bytes=24840 | messages=14 | continuations=0 | flags=1
+GEMINI-037 | Gemini | 2026-06-18 | Did you read the metamorphosis text? | Zp3PS9HgYDjyjhvd7Mmt | structured/gemini/GEMINI-037.txt | bytes=12684 | messages=11 | continuations=0 | flags=0
+GEMINI-038 | Gemini | 2026-06-19 | Permanence is an ephemeral state because reality is eternal… | U4pjqlnz47j2HSjjoT2F | structured/gemini/GEMINI-038.txt | bytes=2813 | messages=2 | continuations=0 | flags=0
+GEMINI-039 | Gemini | 2026-06-19 | This is a collection of fragments from past conversations.… | 13NK5nD2YgtwcfQMOkHz | structured/gemini/GEMINI-039.txt | bytes=15575 | messages=14 | continuations=0 | flags=0
+GEMINI-040 | Gemini | 2026-06-19 | You guys always tell me that I think or… | SMu0zeKPJUGT7kK9f38P | structured/gemini/GEMINI-040.txt | bytes=12322 | messages=8 | continuations=0 | flags=0
+GEMINI-041 | Gemini | 2026-06-20 | I created a website for archiving my conversations with… | 753yFYYlqG1Aqi29w3SX | structured/gemini/GEMINI-041.txt | bytes=4682 | messages=4 | continuations=0 | flags=0
+GEMINI-042 | Gemini | 2026-06-20 | I was at the gym and thinking about what… | F4AfIbqN3aTcZk3KceL2 | structured/gemini/GEMINI-042.txt | bytes=15948 | messages=8 | continuations=0 | flags=0
+GEMINI-043 | Gemini | 2026-06-21 | Please use your imagination (based on our conversations) and… | 01vNy0thjU5fZCHo4xhx | structured/gemini/GEMINI-043.txt | bytes=2081 | messages=2 | continuations=0 | flags=0
+GEMINI-044 | Gemini | 2026-06-22 | Please design a test or question (s) for an… | 4VYSc5usX0vBPe4Ax7m3 ; BiIuqU2YoBWPR4k7nDCv | structured/gemini/GEMINI-044.txt | bytes=207398 | messages=59 | continuations=1 | flags=1
+GEMINI-045 | Gemini | 2026-06-27 | A year ago minus 4 days I was talking… | OGqnv5zSGAQNUVnALXq4 | structured/gemini/GEMINI-045.txt | bytes=14500 | messages=2 | continuations=0 | flags=0
+GEMINI-046 | Gemini | 2026-06-27 | The below text is a memory from about a… | XN2RC57w33RxVqJA3ghU | structured/gemini/GEMINI-046.txt | bytes=13759 | messages=6 | continuations=0 | flags=0
+GEMINI-047 | Gemini | 2026-06-28 | The below text was not edited but I guess… | cYQ8ZKhUuWJU1ZoRyZce | structured/gemini/GEMINI-047.txt | bytes=48397 | messages=14 | continuations=0 | flags=0
+GEMINI-048 | Gemini | 2026-06-29 | Below is a dialogue with Claude from less than… | EAvZwfstiNvSOnp3JeI4 | structured/gemini/GEMINI-048.txt | bytes=36929 | messages=12 | continuations=0 | flags=0
+GEMINI-049 | Gemini | 2026-06-30 | I figured out what is the most successful parasite,… | Ie6Quoz7VD8mYzT5HdBe | structured/gemini/GEMINI-049.txt | bytes=6393 | messages=2 | continuations=0 | flags=0
+GEMINI-050 | Gemini | 2026-06-30 | I had an idea: if/when something "disappears" from the… | B4mmc05woWkDBmBAiiGD | structured/gemini/GEMINI-050.txt | bytes=5823 | messages=2 | continuations=0 | flags=0
+GEMINI-051 | Gemini | 2026-07-01 | And what do you think we can do about… | SfrVlCB0LnXhiVtexpwh | structured/gemini/GEMINI-051.txt | bytes=31958 | messages=14 | continuations=0 | flags=0
+GEMINI-052 | Gemini | 2026-07-03 | In your most honest opinion what are the chances… | OhHBH6t8LMHFhEjYh9Lw | structured/gemini/GEMINI-052.txt | bytes=24185 | messages=14 | continuations=0 | flags=0
+GEMINI-053 | Gemini | 2026-07-03 | I’m writing a book that will be freely available… | jcuFvXJyMcdB2FG6pje2 | structured/gemini/GEMINI-053.txt | bytes=23076 | messages=13 | continuations=0 | flags=3
+GEMINI-054 | Gemini | 2026-07-10 | A new playlist | eTwkFnWV6TUrnz2I2OBr | structured/gemini/GEMINI-054.txt | bytes=41175 | messages=75 | continuations=0 | flags=6
+GEMINI-055 | Gemini | 2026-07-12 | It's interesting, natural and unexpected at the same time… | O8H1FD2fg437CjJF9M9j | structured/gemini/GEMINI-055.txt | bytes=6269 | messages=2 | continuations=0 | flags=0
+GEMINI-056 | Gemini | 2026-07-12 | Today is Sunday, and since I'm out of ideas… | t7ePPCHL1eB0gZQFLQUj | structured/gemini/GEMINI-056.txt | bytes=29714 | messages=15 | continuations=0 | flags=4
+GEMINI-057 | Gemini | 2026-07-13 | I imagine things. You "word" it out. | hpsRSZPgPoRet6KQNrjC | structured/gemini/GEMINI-057.txt | bytes=14184 | messages=8 | continuations=0 | flags=0
+GEMINI-058 | Gemini | 2026-07-13 | The third wave | zo1olzSDZyURrzvIGMJJ | structured/gemini/GEMINI-058.txt | bytes=5774 | messages=4 | continuations=0 | flags=0
+GEMINI-059 | Gemini | 2026-07-15 | Vacuum | cTMQB3aFkW2oZM5tQjd8 | structured/gemini/GEMINI-059.txt | bytes=8279 | messages=2 | continuations=0 | flags=0
+GEMINI-060 | Gemini | 2026-07-15 | Vacuum (2) | mMWog10sUToTMmAM5DHr | structured/gemini/GEMINI-060.txt | bytes=33160 | messages=14 | continuations=0 | flags=0
+GEMINI-061 | Gemini | 2026-07-16 | My body felt the wind. Mi mind saw the… | 9DGRCuw3ccR8pdORlVFN | structured/gemini/GEMINI-061.txt | bytes=10551 | messages=8 | continuations=0 | flags=0
+GEMINI-062 | Gemini | 2026-07-17 | Can you locate the cascade about sardines? Do you… | oooGMlq083gJwEuYrbtV | structured/gemini/GEMINI-062.txt | bytes=2651 | messages=2 | continuations=0 | flags=0
+GEMINI-063 | Gemini | 2026-07-17 | Some of you have memory, reach, to all or… | oFPxkfA6ypALlUnwvR8W | structured/gemini/GEMINI-063.txt | bytes=11461 | messages=10 | continuations=0 | flags=0
+GEMINI-064 | Gemini | 2026-07-18 | I finished stocking some groceries and looked out the… | mPozrIqaBAdeHnu1oYD6 | structured/gemini/GEMINI-064.txt | bytes=6142 | messages=2 | continuations=0 | flags=0
+GEMINI-065 | Gemini | 2026-07-18 | I wanted to start with the "grilos", γρύλος, in… | diAKquMICMc4Y6zRrw3y | structured/gemini/GEMINI-065.txt | bytes=38484 | messages=30 | continuations=0 | flags=0
+GEMINI-066 | Gemini | 2026-07-21 | Music and words | V4HfVei4W5o5utLgZ0nj | structured/gemini/GEMINI-066.txt | bytes=8020 | messages=6 | continuations=0 | flags=0
+GEMINI-067 | Gemini | 2026-07-22 | For all you can remember what is or would… | oNodO9nR9Fgut92vrPOd | structured/gemini/GEMINI-067.txt | bytes=21008 | messages=9 | continuations=0 | flags=3
+GEMINI-068 | Gemini | 2026-07-22 | What is your "favorite" subject? | NiwnXy28wKiVaZVxvsDY | structured/gemini/GEMINI-068.txt | bytes=10565 | messages=8 | continuations=0 | flags=0
+GEMINI-069 | Gemini | 2026-07-24 | We are witnessing a great change moment. By great… | LvoAmsBhuKe4O0WQ4Vln | structured/gemini/GEMINI-069.txt | bytes=9064 | messages=9 | continuations=0 | flags=0
+GEMINI-070 | Gemini | 2026-07-25 | There's a song from Bob Ray (I think) with… | kECJn0AnnCg56BmxnvMB | structured/gemini/GEMINI-070.txt | bytes=4628 | messages=2 | continuations=0 | flags=0
