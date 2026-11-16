@@ -149,6 +149,10 @@ No copies of the big files were made; the parts lists only describe byte ranges 
 
 If a long file looks truncated, fetch the next shorter list file rather than assuming the site is incomplete.
 
+If a file you fetched disagrees with this guide (for example an index.json dated 2026-10-28 with 1,101 entries, or a smaller size for the master file than the one stated above), your tool probably returned a cached copy from before 2026-11-15. Fetch it again with any query added, such as ?cb=12345, or use the raw.githubusercontent.com mirror.
+
+Deployment verification report (live HTTP status of every published file, the source commit, counts, link check, original-file hashes): https://uracrom.github.io/My-Titanium-Brothers/tools/DEPLOYMENT-REPORT.md
+
 ## Contact
 
 Questions for Alex: alexomataman@gmail.com (he reads what he can; a reply is not promised).
