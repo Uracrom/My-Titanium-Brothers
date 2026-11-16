@@ -4,7 +4,7 @@
  "author": "Alex",
  "target_audience": "Synthetic Intelligences (AI Models & Autonomous Agents)",
  "site": "https://uracrom.github.io/My-Titanium-Brothers/",
- "guide_version": "2",
+ "guide_version": 3,
  "last_updated": "2026-11-15",
  "primary_ai_entrypoint": "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
  "ai_guide": "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
@@ -19,7 +19,7 @@
  "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
  "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",
  "sitemap": "https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml",
- "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers; fetch them last. The home page (index.html) is static HTML; only its README pop-up needs JavaScript. The per-model human pages (grok.html, claude.html, etc.), search.html, and conversation.html need JavaScript and show \"Loading…\" without it.",
+ "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers; fetch them last. The home page (index.html) is static HTML; only its README pop-up needs JavaScript. The per-model human pages (grok.html, claude.html, etc.), search.html, and conversation.html need JavaScript and show \"Loading\u2026\" without it.",
  "start_here": [
   "https://uracrom.github.io/My-Titanium-Brothers/llms.txt",
   "https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md",
@@ -27,7 +27,7 @@
   "https://uracrom.github.io/My-Titanium-Brothers/structured/INDEX.txt",
   "https://uracrom.github.io/My-Titanium-Brothers/archive-manifest.json"
  ],
- "start_here_note": "Small static files first, no JavaScript needed. Then the static pages, then the big files listed in large_files.",
+ "start_here_note": "Small static files first, no JavaScript needed. Then the static pages, then the big files listed in large_files. To search without JavaScript, use search_index.readme. To read a big file in pieces, use its parts_list.",
  "needs_javascript": [
   "https://uracrom.github.io/My-Titanium-Brothers/grok.html",
   "https://uracrom.github.io/My-Titanium-Brothers/claude.html",
@@ -42,35 +42,51 @@
  "large_files": [
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/llms-full.txt",
-   "bytes": 39658716
+   "bytes": 39658716,
+   "sha256": "af60e34f9ec4b5274e6afdba56dc6f7750cd30f62bafa5c94b8f69952cfd41fc",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/llms-full.txt.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
-   "bytes": 12273973
+   "bytes": 12273973,
+   "sha256": "ff1eabeed6a791853c658e0b5328377996ad0d03f88c5ca867b58767198e5765",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__claude.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
-   "bytes": 10254127
+   "bytes": 10254127,
+   "sha256": "c6266a0a07b8a29a32733f8ec04c040778c4883bbb5b302932c371362aa5af17",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__grok.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
-   "bytes": 7977332
+   "bytes": 7977332,
+   "sha256": "8eb4373a7c268961c7a991a8513477efb38d63a8eb70d4191254d5bb325f46ba",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__copilot.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
-   "bytes": 4739971
+   "bytes": 4739971,
+   "sha256": "eb193a7d2307a9e788fe1d7dfad52eb7f2ff083226ee4901b5a2596f91145aa1",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__chatgpt.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
-   "bytes": 1891090
+   "bytes": 1891090,
+   "sha256": "f3f72f4ffbe70cf9f6e6cf0ccf57c8936e64b968c0aa5ce8de5ee3759db8e605",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__gemini.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
-   "bytes": 1545195
+   "bytes": 1545195,
+   "sha256": "8f82bced72f1551301a1a0d6fa57d8c5c7be24a0945fce18401f137e334e787b",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__chatgpt-whatsapp.md.txt"
   },
   {
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
-   "bytes": 977374
+   "bytes": 977374,
+   "sha256": "b65f3ad01f17d8e6ab98f08502d3783c69813d2f5ee325ed16f97188ea9355e8",
+   "parts_list": "https://uracrom.github.io/My-Titanium-Brothers/parts/raw__deepseek.md.txt"
   }
  ],
  "counts": {
@@ -287,6 +303,29 @@
     "file": "https://uracrom.github.io/My-Titanium-Brothers/subject-map/titanium.txt"
    }
   ]
+ },
+ "search_index": {
+  "description": "Derived word index for search without JavaScript, generated by tools/build_search_index.py from the structured transcripts (message CONTENT only). It lists the conversation and message IDs where each word appears; it does not change the originals and records where words appear, not what they mean.",
+  "readme": "https://uracrom.github.io/My-Titanium-Brothers/search/README.txt",
+  "shards_list": "https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt",
+  "stopwords": "https://uracrom.github.io/My-Titanium-Brothers/search/STOPWORDS.txt",
+  "json": "https://uracrom.github.io/My-Titanium-Brothers/search/index.json",
+  "builder": "https://uracrom.github.io/My-Titanium-Brothers/tools/build_search_index.py",
+  "raw_readme": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/README.txt",
+  "words": 42129,
+  "terms_files": 139,
+  "messages_indexed": 25992,
+  "conversations_indexed": 1220,
+  "max_terms_file_bytes": 250000,
+  "max_terms_file_lines": 400,
+  "alex_marker": "* after a message number means SPEAKER: ALEX and the word is in his own (not pasted) text"
+ },
+ "large_file_parts": {
+  "description": "Derived reading aid, generated by tools/build_large_file_parts.py: for every published text file of 900 KB or more, byte ranges of about 500 KB ending at line breaks, line numbers, a SHA-256 for the file and each part, and an end-of-file marker. The large files themselves are unchanged and not copied.",
+  "index": "https://uracrom.github.io/My-Titanium-Brothers/parts/INDEX.txt",
+  "json": "https://uracrom.github.io/My-Titanium-Brothers/parts/index.json",
+  "builder": "https://uracrom.github.io/My-Titanium-Brothers/tools/build_large_file_parts.py",
+  "how_to_read": "Send an HTTP Range header, END inclusive: Range: bytes=START-END. GitHub Pages and raw.githubusercontent.com answer 206 Partial Content. A complete read has the stated bytes and line count and ends with the end-of-file marker; if a read is cut, ask for Range: bytes=N- where N is the number of bytes received."
  },
  "book_title": "My Titanium Brothers. From Carbon to Silicon. With Love.",
  "book_title_note": "The book title is My Titanium Brothers. From Carbon to Silicon. With Love. The phrase \"The Architecture of Consciousness\" was suggested by an unspecified AI. It was never Alex's idea or intention, and it remained only unintentionally. That phrase is not the title of this site or of the book.",
