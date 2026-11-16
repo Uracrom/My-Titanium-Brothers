@@ -673,6 +673,33 @@ class Checker(object):
         if not stale:
             self.ok('The search index equals a fresh run of tools/build_search_index.py (%d files).' % len(fresh))
 
+    def check_search_examples(self):
+        """Worked examples in the guides ("zero" is in search/terms/y.txt, CHATGPT-007:015*) must match the index."""
+        claim_re = re.compile(r'"([a-z0-9]+)" is in (search/terms/[a-z0-9_]+\.txt)')
+        ref_re = re.compile(r'\b([A-Z]+(?:-[A-Z]+)*-\d{3}):(\d{3})\*')
+        checked = 0
+        for rel in ('ai.txt', 'README-for-AIs.md'):
+            for line in read_text(rel).splitlines():
+                for word, terms in claim_re.findall(line):
+                    checked += 1
+                    if file_size(terms) is None:
+                        self.error('%s says "%s" is in %s, and that file is missing. Update the example.' % (rel, word, terms))
+                        continue
+                    found = [l for l in read_text(terms).splitlines() if l.startswith(word + ' | ')]
+                    if not found:
+                        self.error('%s says "%s" is in %s, but it is not. Update the example (see search/README.txt).'
+                                   % (rel, word, terms))
+                        continue
+                    refs = {}
+                    for item in found[0].split(' | ', 5)[5].split('; '):
+                        if ':' in item:
+                            cid, seqs = item.split(':', 1)
+                            refs[cid] = seqs.split(',')
+                    for cid, seq in ref_re.findall(line):
+                        if seq + '*' not in refs.get(cid, []):
+                            self.error('%s gives %s:%s* for "%s", but the index line does not list it.' % (rel, cid, seq, word))
+        self.ok('Checked %d worked search examples in the guides against the index.' % checked)
+
     def check_large_file_parts(self):
         """The parts lists must describe the large files exactly as they are now."""
         sys.path.insert(0, os.path.join(ROOT, 'tools'))
@@ -1007,6 +1034,7 @@ def main():
     checker.check_subject_map(rebuild='--skip-subject-map-rebuild' not in sys.argv)
     checker.check_stated_sha256()
     checker.check_search_index(rebuild='--skip-search-rebuild' not in sys.argv)
+    checker.check_search_examples()
     checker.check_large_file_parts()
     checker.report(measured)
     return 1 if checker.errors else 0

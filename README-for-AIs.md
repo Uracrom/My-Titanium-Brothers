@@ -93,6 +93,8 @@ search.html needs scripts. The folder search/ does the same job with small stati
 
 In short: write the word in lowercase without apostrophes, find its terms file in SHARDS.txt, and read the word's line. It lists conversation IDs and message numbers (GROK-001:003 means message GROK-001-003; a * marks Alex's own words). For an exact phrase, look up its rarest words, keep the messages that have all of them, then open those messages in structured/<collection>/<ID>.txt and confirm the wording. Every terms file is under 250 KB and 400 lines. The index is a derived aid: it says where words appear, not what they mean.
 
+Very frequent words such as "time" (in more than 3000 messages) are COMMON: their line lists only conversation IDs. Pair them with a rarer word, or for a broad subject such as Time start with the subject map: https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt. The search guide has a worked example, "Find Zero and Time in three fetches".
+
 ## What needs JavaScript (skip these if your reader cannot run it)
 
 - Per-model human pages: grok.html, claude.html, chatgpt.html, chatgpt-whatsapp.html, copilot.html, deepseek.html, gemini.html
