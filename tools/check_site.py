@@ -492,8 +492,11 @@ class Checker(object):
             self._expect('archive-manifest.json %s' % name, 'messages', row.get('messages'), messages_by_key[key])
             self._expect('archive-manifest.json %s' % name, 'HTML article pieces', row.get('html_article_pieces'), pieces[key])
             self._expect('archive-manifest.json %s' % name, 'numbered part pages', row.get('numbered_part_pages'), pages[key])
-            # The older "conversations" field is the piece count, kept on purpose.
-            self._expect('archive-manifest.json %s' % name, 'raw section count (conversations field)', row.get('conversations'), pieces[key])
+            # The old "conversations" field held the piece count and was removed on 2026-11-15
+            # because the name was misleading. html_article_pieces (checked above) is the explicit field.
+            if 'conversations' in row:
+                self.error('archive-manifest.json raw_transcripts %s has a "conversations" field again; '
+                           'use html_article_pieces, archive_entries or logical_conversations.' % name)
             self._check_one_size('archive-manifest.json raw_transcripts %s' % name, row.get('url'), row.get('bytes'))
 
         for item in data.get('large_files') or []:
@@ -685,6 +688,82 @@ class Checker(object):
         if not stale:
             self.ok('The large-file parts lists equal a fresh run of tools/build_large_file_parts.py (%d large files, %d parts).'
                     % (len(descs), sum(len(d['parts']) for d in descs)))
+
+    def check_index_ids(self, entries):
+        """index.json must list exactly the archive entries that the structured transcripts were built from."""
+        from collections import Counter
+        index_ids = Counter(str(entry.get('id')) for entry in entries)
+        dupes = sorted(k for k, v in index_ids.items() if v > 1)
+        if dupes:
+            self.error('index.json repeats entry ids: %s' % ', '.join(dupes[:10]))
+        structured_ids = set()
+        by_collection = defaultdict(int)
+        for key, _name in MODELS:
+            folder = os.path.join(ROOT, 'structured', key)
+            if not os.path.isdir(folder):
+                continue
+            for name in os.listdir(folder):
+                if not name.endswith('.txt'):
+                    continue
+                with open(os.path.join(folder, name), encoding='utf-8') as handle:
+                    for line in handle:
+                        if line.startswith('ORIGINAL_IDS: '):
+                            for item in line[len('ORIGINAL_IDS: '):].strip().split(' | '):
+                                structured_ids.add(item.strip())
+                                by_collection[key] += 1
+                            break
+        missing = sorted(set(index_ids) - structured_ids)
+        extra = sorted(structured_ids - set(index_ids))
+        if missing:
+            self.error('%d index.json entries are not in any structured transcript, e.g. %s' % (len(missing), ', '.join(missing[:5])))
+        if extra:
+            self.error('%d structured ORIGINAL_IDS are not in index.json, e.g. %s' % (len(extra), ', '.join(extra[:5])))
+        index_by_collection = Counter(entry.get('collection') for entry in entries)
+        for key, _name in MODELS:
+            if index_by_collection.get(key, 0) != by_collection.get(key, 0):
+                self.error('index.json has %d %s entries; the structured transcripts name %d.'
+                           % (index_by_collection.get(key, 0), key, by_collection.get(key, 0)))
+        if not dupes and not missing and not extra:
+            self.ok('index.json lists exactly the %d entry ids named in the structured transcripts (ORIGINAL_IDS), per collection.'
+                    % len(index_ids))
+
+    def check_discovery_sync(self):
+        """The discovery files must describe the same current entry points, size, and JavaScript rules."""
+        start = len(self.errors)
+        sources = ('ai.txt', 'README-for-AIs.md', 'llms.txt', 'archive-manifest.json', 'index.html')
+        must = ('llms-full.txt', 'structured/INDEX.txt', 'subject-map/INDEX.txt', 'search/README.txt', 'parts/INDEX.txt')
+        texts = dict((rel, read_text(rel)) for rel in sources)
+        for rel, text in texts.items():
+            for needle in must:
+                if needle not in text:
+                    self.error('%s does not mention %s, which the other discovery files describe.' % (rel, needle))
+        size = file_size('llms-full.txt')
+        expected = '%.1f MB' % (size / 1e6)
+        mb_re = re.compile(r'about (\d+(?:\.\d+)?) MB')
+        for rel in ('ai.txt', 'README-for-AIs.md', 'llms.txt', 'archive.txt', 'index.html'):
+            for line in read_text(rel).splitlines():
+                if 'llms-full' in line or 'Master' in line:
+                    for found in mb_re.findall(line):
+                        if '%s MB' % found != expected:
+                            self.error('%s gives the master file as about %s MB; it is %s (%d bytes).'
+                                       % (rel, found, expected, size))
+        static_phrases = {
+            'ai.txt': 'The home page itself is static HTML',
+            'README-for-AIs.md': 'It is static HTML',
+            'llms.txt': 'Home page (static HTML; only its README pop-up needs JavaScript)',
+            'archive-manifest.json': 'The home page (index.html) is static HTML',
+        }
+        for rel, phrase in static_phrases.items():
+            if phrase not in texts[rel]:
+                self.error('%s no longer says the home page is static HTML (expected: %s).' % (rel, phrase))
+        bad_js = re.compile(r'(?i)(home ?page|index\.html)[^.\n]{0,40}\b(requires|needs) (javascript|scripts)\b(?![^.\n]{0,10}pop-up)')
+        for rel, text in texts.items():
+            for line in text.splitlines():
+                if bad_js.search(line) and 'pop-up' not in line:
+                    self.error('%s says the home page needs JavaScript: %s' % (rel, line.strip()[:120]))
+        if len(self.errors) == start:
+            self.ok('Discovery files agree: each names the master file, structured index, subject map, search and parts lists; '
+                    'the master file is about %s everywhere; all say the home page is static HTML.' % expected)
 
     def check_index_pages(self, entries):
         missing_parts = 0
@@ -923,6 +1002,8 @@ def main():
     checker.check_stated_byte_phrases()
     checker.check_links()
     checker.check_index_pages(entries)
+    checker.check_index_ids(entries)
+    checker.check_discovery_sync()
     checker.check_subject_map(rebuild='--skip-subject-map-rebuild' not in sys.argv)
     checker.check_stated_sha256()
     checker.check_search_index(rebuild='--skip-search-rebuild' not in sys.argv)

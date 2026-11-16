@@ -23,8 +23,10 @@ None.
 - Measured from the files: 1367 entries, 1220 logical conversations, 25992 messages in 1220 structured conversation files.
 - llms.txt and archive.txt are the same file, byte for byte.
 - Checked 32 exact byte figures stated next to repository files.
-- Checked internal links in 55 guide, sitemap, and list files (16567 internal targets).
+- Checked internal links in 55 guide, sitemap, and list files (16570 internal targets).
 - Every index.json entry has at least one part URL, and each part file and anchor is present.
+- index.json lists exactly the 1367 entry ids named in the structured transcripts (ORIGINAL_IDS), per collection.
+- Discovery files agree: each names the master file, structured index, subject map, search and parts lists; the master file is about 39.7 MB everywhere; all say the home page is static HTML.
 - Subject map: 24 files, 8 topics; line limits, NEXT chains, counts, IDs and 63 quotes agree.
 - The subject map files equal a fresh run of tools/build_subject_map.py (24 files).
 - Checked 32 SHA-256 checksums stated next to repository files.

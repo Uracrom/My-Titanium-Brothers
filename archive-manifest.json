@@ -111,7 +111,6 @@
    "key": "grok",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/grok.md",
    "format": "text/markdown",
-   "conversations": 468,
    "bytes": 10254127,
    "archive_entries": 274,
    "logical_conversations": 213,
@@ -124,7 +123,6 @@
    "key": "claude",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/claude.md",
    "format": "text/markdown",
-   "conversations": 498,
    "bytes": 12273973,
    "archive_entries": 255,
    "logical_conversations": 197,
@@ -137,7 +135,6 @@
    "key": "chatgpt",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt.md",
    "format": "text/markdown",
-   "conversations": 254,
    "bytes": 4739971,
    "archive_entries": 192,
    "logical_conversations": 185,
@@ -150,7 +147,6 @@
    "key": "chatgpt-whatsapp",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/chatgpt-whatsapp.md",
    "format": "text/markdown",
-   "conversations": 167,
    "bytes": 1545195,
    "archive_entries": 159,
    "logical_conversations": 158,
@@ -163,7 +159,6 @@
    "key": "copilot",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/copilot.md",
    "format": "text/markdown",
-   "conversations": 512,
    "bytes": 7977332,
    "archive_entries": 316,
    "logical_conversations": 316,
@@ -176,7 +171,6 @@
    "key": "deepseek",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/deepseek.md",
    "format": "text/markdown",
-   "conversations": 40,
    "bytes": 977374,
    "archive_entries": 20,
    "logical_conversations": 1,
@@ -189,7 +183,6 @@
    "key": "gemini",
    "url": "https://uracrom.github.io/My-Titanium-Brothers/raw/gemini.md",
    "format": "text/markdown",
-   "conversations": 166,
    "bytes": 1891090,
    "archive_entries": 151,
    "logical_conversations": 150,
@@ -198,8 +191,9 @@
    "numbered_part_pages": 64
   }
  ],
- "raw_transcripts_note": "In raw_transcripts, the field \"conversations\" is kept for older readers. It counts the ## sections in that raw file, which are HTML article pieces (2105 in total), not conversations. Use archive_entries or logical_conversations instead.",
+ "raw_transcripts_note": "Each raw_transcripts row counts the same file in several ways: archive_entries (saved entries), logical_conversations (\"Part N of M\" entries joined), messages, html_article_pieces (the ## sections in that raw file, 2105 in total) and numbered_part_pages. Older versions of this manifest also had a field named \"conversations\" in each row; it held the html_article_pieces number, not a conversation count, so it was removed on 2026-11-15. Use archive_entries or logical_conversations for conversations.",
  "conversation_count": 1367,
+ "conversation_count_note": "conversation_count is kept for older readers. It equals counts.archive_entries (saved entries), not logical conversations; see counts.logical_conversations.",
  "structured_archive": {
   "description": "Plain-text structured transcripts parsed from original HTML articles. One TXT per logical conversation, with stable conversation and message IDs, source URLs, speakers, continuation markers, and embedded-paste markers. Original conversation HTML is unchanged.",
   "speaker_rule": "Alex is the only human. Any other genuine speaker label is AI. A name inside a sentence is not a boundary. Unlabeled text is UNKNOWN, not Alex. Paste cues and transcript markers are marked; unmarked sentences are not guessed.",
@@ -343,5 +337,6 @@
   "html": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.html",
   "markdown": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.md",
   "text": "https://uracrom.github.io/My-Titanium-Brothers/introduction-by-ai.txt"
- }
+ },
+ "deployment_report": "https://uracrom.github.io/My-Titanium-Brothers/tools/DEPLOYMENT-REPORT.md"
 }
