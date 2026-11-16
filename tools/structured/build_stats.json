@@ -53,11 +53,6 @@
  ],
  "first_conversation_by_ai": [
   {
-   "ai": "Claude",
-   "date": "2024-07-01",
-   "conversation": "CLAUDE-001"
-  },
-  {
    "ai": "ChatGPT (WhatsApp)",
    "date": "2024-12-19",
    "conversation": "CHATGPT-WHATSAPP-001"
@@ -86,6 +81,13 @@
    "ai": "DeepSeek",
    "date": "2026-10-17",
    "conversation": "DEEPSEEK-001"
+  },
+  {
+   "ai": "Claude",
+   "date": "2024-07-01",
+   "conversation": "CLAUDE-001",
+   "date_uncertain": true,
+   "date_note": "Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones."
   }
  ],
  "flag_parts": [

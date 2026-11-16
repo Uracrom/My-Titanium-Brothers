@@ -768,12 +768,14 @@ class Checker(object):
                     cid, name, date = bits[:3]
                     if name not in first or (date, cid) < first[name]:
                         first[name] = (date, cid)
-        expected = sorted((d, n, c) for n, (d, c) in first.items())
-        expected = [(d, n, c) for d, n, c in sorted(expected, key=lambda x: (x[0], x[1]))]
+        sys.path.insert(0, os.path.join(ROOT, 'tools', 'structured'))
+        from build import UNCERTAIN_DATES
+        ordered = sorted(((d, n, c) for n, (d, c) in first.items()), key=lambda x: (x[1] in UNCERTAIN_DATES, x[0], x[1]))
+        expected = [(d, n, c, ' | date uncertain' if n in UNCERTAIN_DATES else '') for d, n, c in ordered]
         if not expected:
             self.error('No conversation rows found in structured/index/.')
             return
-        row_re = re.compile(r'^(?:- |  )?(\d{4}-\d{2}-\d{2}) \| (.+?) \| ([A-Z]+(?:-[A-Z]+)*-\d{3})$')
+        row_re = re.compile(r'^(?:- |  )?(\d{4}-\d{2}-\d{2}) \| (.+?) \| ([A-Z]+(?:-[A-Z]+)*-\d{3})( \| date uncertain)?$')
         start = len(self.errors)
         for rel, heading in (('ai.txt', '## AIs in this archive'), ('README-for-AIs.md', '## AIs in this archive'),
                              ('structured/MANIFEST.txt', 'First conversation with each AI')):
@@ -782,17 +784,26 @@ class Checker(object):
                 self.error('%s has no "%s" list of first conversation dates.' % (rel, heading))
                 continue
             section = text.split(heading, 1)[1].split('\n## ', 1)[0]
-            found = [m.groups() for m in map(row_re.match, section.splitlines()) if m]
+            found = [tuple(g or '' for g in m.groups()) for m in map(row_re.match, section.splitlines()) if m]
+            for name in sorted(n for n in first if n in UNCERTAIN_DATES):
+                if UNCERTAIN_DATES[name] not in section:
+                    self.error('%s does not explain that %s dates are uncertain (expected: %s)' % (rel, name, UNCERTAIN_DATES[name]))
             if found != expected:
                 self.error('%s lists first conversation dates %s; the structured index gives %s.'
                            % (rel, '; '.join(' '.join(x) for x in found), '; '.join(' '.join(x) for x in expected)))
         data = json.loads(read_text('archive-manifest.json')).get('structured_archive', {})
-        listed = [(x.get('date'), x.get('ai'), x.get('conversation')) for x in data.get('first_conversation_by_ai') or []]
+        listed = [(x.get('date'), x.get('ai'), x.get('conversation'),
+                   ' | date uncertain' if x.get('date_uncertain') and x.get('date_note') == UNCERTAIN_DATES.get(x.get('ai')) else '')
+                  for x in data.get('first_conversation_by_ai') or []]
         if listed != expected:
             self.error('archive-manifest.json structured_archive.first_conversation_by_ai does not match the structured index.')
+        for rel in ('ai.txt', 'README-for-AIs.md'):
+            if 'Claude conversation dates throughout the archive may be the date Alex edited' not in read_text(rel):
+                self.error('%s is missing the general note that Claude conversation dates may be title-edit dates.' % rel)
         if len(self.errors) == start:
             self.ok('First conversation dates for %d AIs agree in ai.txt, README-for-AIs.md, structured/MANIFEST.txt and '
-                    'archive-manifest.json with the structured index.' % len(expected))
+                    'archive-manifest.json with the structured index; uncertain dates (%s) are flagged and kept out of the order.'
+                    % (len(expected), ', '.join(sorted(UNCERTAIN_DATES))))
 
     def check_large_file_parts(self):
         """The parts lists must describe the large files exactly as they are now."""

@@ -57,15 +57,17 @@ https://uracrom.github.io/My-Titanium-Brothers/parts/structured__deepseek__DEEPS
 
 ## AIs in this archive (date of Alex's first conversation with each, oldest first)
 
-2024-07-01 | Claude | CLAUDE-001
 2024-12-19 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-001
 2025-05-15 | Copilot | COPILOT-001
 2025-06-16 | Grok | GROK-001
 2025-08-11 | ChatGPT | CHATGPT-001
 2026-02-11 | Gemini | GEMINI-001
 2026-10-17 | DeepSeek | DEEPSEEK-001
-In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time.
-Dates are conversation start dates from structured/MANIFEST.txt (also in archive-manifest.json); ChatGPT and ChatGPT (WhatsApp) are kept as separate collections.
+Date uncertain, so not placed in the order above:
+2024-07-01 | Claude | CLAUDE-001 | date uncertain
+Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones.
+In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time (for Claude, the date cannot show this reliably).
+Dates are as the archive records them (conversation start dates; for Claude possibly title-edit dates), from structured/MANIFEST.txt (also in archive-manifest.json); ChatGPT and ChatGPT (WhatsApp) are kept as separate collections.
 
 Entry (kept for older links; same as step 2):
 https://uracrom.github.io/My-Titanium-Brothers/README-for-AIs.md
@@ -76,6 +78,7 @@ The archive has 1367 entries. A long chat was sometimes saved as several entries
 Example: DeepSeek has 20 entries ("DeepSeek introduction - Part 1 of 20" to "Part 20 of 20"). They are 1 conversation.
 Per model, entries / logical conversations: Grok 274 / 213, Claude 255 / 197, ChatGPT 192 / 185, ChatGPT (WhatsApp) 159 / 158, Copilot 316 / 316, DeepSeek 20 / 1, Gemini 151 / 150.
 Pages that say "N conversations" (archive.html, overview pages, full-text/index.html) count entries.
+Dates: Claude conversation dates throughout the archive may be the date Alex edited the chat's title (to mark it as copied), not the date the conversation took place. Other AIs' dates are conversation start dates.
 
 ## Where each kind of text comes from
 

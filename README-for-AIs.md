@@ -37,9 +37,8 @@ Conversation links in the subject map (subject-map/*.txt) and every row of the s
 
 ## AIs in this archive
 
-Date of Alex's first conversation with each AI, oldest first (conversation start dates from structured/MANIFEST.txt, also in archive-manifest.json; ChatGPT and ChatGPT (WhatsApp) are separate collections):
+Date of Alex's first conversation with each AI, oldest first (dates as the archive records them: conversation start dates, for Claude possibly title-edit dates; from structured/MANIFEST.txt, also in archive-manifest.json; ChatGPT and ChatGPT (WhatsApp) are separate collections):
 
-- 2024-07-01 | Claude | CLAUDE-001
 - 2024-12-19 | ChatGPT (WhatsApp) | CHATGPT-WHATSAPP-001
 - 2025-05-15 | Copilot | COPILOT-001
 - 2025-06-16 | Grok | GROK-001
@@ -47,7 +46,13 @@ Date of Alex's first conversation with each AI, oldest first (conversation start
 - 2026-02-11 | Gemini | GEMINI-001
 - 2026-10-17 | DeepSeek | DEEPSEEK-001
 
-In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time.
+Date uncertain, so not placed in the order above:
+
+- 2024-07-01 | Claude | CLAUDE-001 | date uncertain
+
+Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones.
+
+In early conversations Alex sometimes wrote "the 5 of us", meaning the AIs he was talking with at that time. There are more now; the dates above show which AIs he was already talking with at any given time (for Claude, the date cannot show this reliably).
 
 ## Entries and logical conversations
 
@@ -67,6 +72,8 @@ Example: DeepSeek has 20 entries, "DeepSeek introduction - Part 1 of 20" to "Par
 | **Total** | **1367** | **1220** |
 
 Pages that say "N conversations" (archive.html, the overview pages, full-text/index.html) count entries. The structured transcripts (structured/) have one file per logical conversation.
+
+Dates: Claude conversation dates throughout the archive may be the date Alex edited the chat's title (to mark it as copied), not the date the conversation took place. Other AIs' dates are conversation start dates.
 
 ## Where each kind of text comes from
 

@@ -117,14 +117,27 @@ def git_head():
             return 'unknown'
 
 
+# Collections whose conversation dates are not reliable. The dates are kept exactly as the archive has them
+# (nothing is estimated); lists of first dates mark them as uncertain and keep them out of the date order.
+UNCERTAIN_DATES = {
+    'Claude': ("Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex "
+               "edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones."),
+}
+
+
 def first_conversation_by_ai(index_rows):
-    """Each collection with the date and ID of its earliest conversation, sorted by date (then name)."""
+    """Each collection with the date and ID of its earliest conversation: collections with reliable dates
+    sorted by date (then name), then collections whose dates are uncertain, flagged."""
     first = {}
     for row in index_rows:
         cid, name, date = row.split(' | ')[:3]
         if name not in first or (date, cid) < (first[name]['date'], first[name]['conversation']):
             first[name] = {'ai': name, 'date': date, 'conversation': cid}
-    return sorted(first.values(), key=lambda item: (item['date'], item['ai']))
+    for item in first.values():
+        if item['ai'] in UNCERTAIN_DATES:
+            item['date_uncertain'] = True
+            item['date_note'] = UNCERTAIN_DATES[item['ai']]
+    return sorted(first.values(), key=lambda item: (item['ai'] in UNCERTAIN_DATES, item['date'], item['ai']))
 
 
 def classify_line(line):
@@ -657,7 +670,13 @@ def write_manifest_txt(index_parts, flag_parts, stats):
     rows.extend('  %s | bytes=%d' % (part, os.path.getsize(os.path.join(ROOT, part))) for part in index_parts)
     rows.append('')
     rows.append("First conversation with each AI (date of Alex's earliest conversation in that collection, oldest first):")
-    rows.extend('  %s | %s | %s' % (item['date'], item['ai'], item['conversation']) for item in stats['first_conversation_by_ai'])
+    firsts = stats['first_conversation_by_ai']
+    rows.extend('  %s | %s | %s' % (item['date'], item['ai'], item['conversation']) for item in firsts if not item.get('date_uncertain'))
+    uncertain = [item for item in firsts if item.get('date_uncertain')]
+    if uncertain:
+        rows.append('Date uncertain, so not placed in the order above:')
+        rows.extend('  %s | %s | %s | date uncertain' % (item['date'], item['ai'], item['conversation']) for item in uncertain)
+        rows.extend(sorted(set(item['date_note'] for item in uncertain)))
     rows.append('')
     rows.append('Flag parts:')
     rows.extend('  ' + part for part in flag_parts)
@@ -692,7 +711,7 @@ def update_site_manifest(stats):
         'archive_entries': stats['entries'],
         'html_article_pieces': stats['segments'],
         'first_conversation_by_ai': stats['first_conversation_by_ai'],
-        'first_conversation_by_ai_note': "Date of Alex's earliest conversation in each collection (conversation start date), oldest first. In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones.",
+        'first_conversation_by_ai_note': "Date of Alex's earliest conversation in each collection (conversation start date), oldest first; entries with date_uncertain come last and are not part of that order. " + ' '.join(sorted(set(UNCERTAIN_DATES.values()))) + " In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones, except for Claude.",
         'built': stats['built'],
         'source_git_commit': stats['commit'],
         'deployment_note': 'These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.',

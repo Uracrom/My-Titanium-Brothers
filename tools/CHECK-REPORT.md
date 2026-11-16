@@ -34,7 +34,7 @@ None.
 - The search index equals a fresh run of tools/build_search_index.py (143 files).
 - Checked 2 worked search examples in the guides against the index.
 - Checked 8624 listed file sizes in the subject map and structured indexes (1220 index rows); every conversation link has its size, and every conversation file of 250000 bytes or more names its parts list.
-- First conversation dates for 7 AIs agree in ai.txt, README-for-AIs.md, structured/MANIFEST.txt and archive-manifest.json with the structured index.
+- First conversation dates for 7 AIs agree in ai.txt, README-for-AIs.md, structured/MANIFEST.txt and archive-manifest.json with the structured index; uncertain dates (Claude) are flagged and kept out of the order.
 - The large-file parts lists equal a fresh run of tools/build_large_file_parts.py (54 large files, 394 parts).
 
 Approximate sizes such as "about 39.7 MB" or "about 3 KB" are notes, not exact byte claims, so they were not compared.

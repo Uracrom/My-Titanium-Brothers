@@ -213,11 +213,6 @@
   "html_article_pieces": 2105,
   "first_conversation_by_ai": [
    {
-    "ai": "Claude",
-    "date": "2024-07-01",
-    "conversation": "CLAUDE-001"
-   },
-   {
     "ai": "ChatGPT (WhatsApp)",
     "date": "2024-12-19",
     "conversation": "CHATGPT-WHATSAPP-001"
@@ -246,9 +241,16 @@
     "ai": "DeepSeek",
     "date": "2026-10-17",
     "conversation": "DEEPSEEK-001"
+   },
+   {
+    "ai": "Claude",
+    "date": "2024-07-01",
+    "conversation": "CLAUDE-001",
+    "date_uncertain": true,
+    "date_note": "Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones."
    }
   ],
-  "first_conversation_by_ai_note": "Date of Alex's earliest conversation in each collection (conversation start date), oldest first. In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones.",
+  "first_conversation_by_ai_note": "Date of Alex's earliest conversation in each collection (conversation start date), oldest first; entries with date_uncertain come last and are not part of that order. Claude dates are unreliable: Claude changes a conversation's date when its title is edited, and Alex edited titles to mark copied chats, so the dates shown for Claude may be later or earlier than the real ones. In early conversations Alex sometimes wrote 'the 5 of us', meaning the AIs he was talking with at that time; there are more now, and these dates show which ones, except for Claude.",
   "built": "2026-11-15",
   "source_git_commit": "21df0907fb198104ea83ea891096d8b370510fa6",
   "deployment_note": "These paths are tracked in git. GitHub Pages publishes them only after a successful Pages deployment. The 2026-11-06 deployment of commit a2df396 timed out while syncing files, so the Pages copies 404d while raw.githubusercontent.com already served that commit. Do not describe a Pages URL as live until a public fetch succeeds.",
