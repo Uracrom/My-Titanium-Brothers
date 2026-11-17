@@ -23,7 +23,7 @@ None.
 - Measured from the files: 1367 entries, 1220 logical conversations, 25992 messages in 1220 structured conversation files.
 - llms.txt and archive.txt are the same file, byte for byte.
 - Checked 36 exact byte figures stated next to repository files.
-- Checked internal links in 55 guide, sitemap, and list files (16633 internal targets).
+- Checked internal links in 55 guide, sitemap, and list files (16636 internal targets).
 - Every index.json entry has at least one part URL, and each part file and anchor is present.
 - index.json lists exactly the 1367 entry ids named in the structured transcripts (ORIGINAL_IDS), per collection.
 - Discovery files agree: each names the master file, structured index, subject map, search and parts lists; the master file is about 39.7 MB everywhere; all say the home page is static HTML.
