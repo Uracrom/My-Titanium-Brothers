@@ -67,6 +67,11 @@ NEXT_RE = re.compile(r'^NEXT:\s+(\S+)', re.M)
 # large-file parts lists by tools/build_large_file_parts.py.
 SEARCH_MAX_BYTES = 250000
 SEARCH_MAX_LINES = 400
+# No line in any search file may be longer than this (one giant line can fill a reader's budget
+# and hide the words after it). Long reference lists live in search/common/ and search/long/.
+SEARCH_MAX_LINE_CHARS = 2000
+SEARCH_LIST_DIRS = ('search/common', 'search/long')
+SEE_RE = re.compile(r'^SEE (search/(?:common|long)/[a-z0-9_-]+\.txt) \(bytes=(\d+)\)$')
 SHA_RE = re.compile(r'SHA-256 ([0-9a-f]{64})\b')
 
 
@@ -657,6 +662,7 @@ class Checker(object):
         if len(self.errors) == start:
             self.ok('Search index: %d terms files, %d words; every file is listed, under %d bytes and %d lines, and on the NEXT chain.'
                     % (len(listed), words, SEARCH_MAX_BYTES, SEARCH_MAX_LINES))
+        self.check_search_lists(listed, on_disk)
         if not rebuild:
             self.warn('The search index was not compared with a fresh build (--skip-search-rebuild).')
             return
@@ -672,6 +678,77 @@ class Checker(object):
             self.error('%s differs from a fresh build. Run: python3 tools/build_search_index.py' % rel)
         if not stale:
             self.ok('The search index equals a fresh run of tools/build_search_index.py (%d files).' % len(fresh))
+
+    def check_search_lists(self, listed, on_disk):
+        """Line length limit in every search file; every SEE pointer resolves, with the right size."""
+        start = len(self.errors)
+        long_lines = 0
+        files = 0
+        for base, _dirs, names in os.walk(os.path.join(ROOT, 'search')):
+            for name in sorted(names):
+                rel = os.path.relpath(os.path.join(base, name), ROOT).replace(os.sep, '/')
+                files += 1
+                for number, line in enumerate(read_text(rel).split('\n'), 1):
+                    if len(line) > SEARCH_MAX_LINE_CHARS:
+                        long_lines += 1
+                        if long_lines <= 20:
+                            self.error('%s line %d has %d characters; search lines must stay at or under %d.'
+                                       % (rel, number, len(line), SEARCH_MAX_LINE_CHARS))
+        if long_lines > 20:
+            self.error('%d search lines in all are over %d characters.' % (long_lines, SEARCH_MAX_LINE_CHARS))
+        pointed = {}
+        common_words = 0
+        for rel in listed:
+            if rel not in on_disk:
+                continue
+            for line in read_text(rel).split('\n')[5:]:
+                if not line:
+                    continue
+                fields = line.split(' | ', 5)
+                if len(fields) != 6:
+                    self.error('%s has a line without 6 fields: %s' % (rel, line[:80]))
+                    continue
+                if fields[4] == 'COMMON':
+                    common_words += 1
+                if not fields[5].startswith('SEE '):
+                    if fields[4] == 'COMMON':
+                        self.error('%s: the COMMON word "%s" has no SEE pointer to search/common/.' % (rel, fields[0]))
+                    continue
+                match = SEE_RE.match(fields[5])
+                if not match:
+                    self.error('%s: the SEE field of "%s" is malformed: %s' % (rel, fields[0], fields[5][:80]))
+                    continue
+                target, stated = match.group(1), int(match.group(2))
+                if fields[4] == 'COMMON' and not target.startswith('search/common/'):
+                    self.error('%s: the COMMON word "%s" points outside search/common/.' % (rel, fields[0]))
+                if target in pointed:
+                    self.error('%s is named by two words, "%s" and "%s".' % (target, pointed[target], fields[0]))
+                pointed[target] = fields[0]
+                actual = file_size(target)
+                if actual is None:
+                    self.error('%s: "%s" points to %s, and that file is missing.' % (rel, fields[0], target))
+                    continue
+                if actual != stated:
+                    self.error('%s: "%s" says %s is %d bytes; the file is %d bytes.' % (rel, fields[0], target, stated, actual))
+                text = read_text(target)
+                head = text.split('\n', 2)[1] if text.count('\n') >= 2 else ''
+                expected = 'WORD: %s | %s messages | ' % (fields[0], fields[1])
+                if not head.startswith(expected) or not head.endswith('| ' + fields[4]):
+                    self.error('%s does not describe the word "%s" (%s messages, %s) as its terms line does.'
+                               % (target, fields[0], fields[1], fields[4]))
+                if '\nEND OF LIST for "%s"' % fields[0] not in text:
+                    self.error('%s has no END OF LIST line for "%s".' % (target, fields[0]))
+        on_disk_lists = set()
+        for folder in SEARCH_LIST_DIRS:
+            path = os.path.join(ROOT, folder)
+            if os.path.isdir(path):
+                on_disk_lists.update('%s/%s' % (folder, n) for n in os.listdir(path))
+        for rel in sorted(on_disk_lists - set(pointed)):
+            self.error('%s is not named by any terms file line.' % rel)
+        if len(self.errors) == start:
+            self.ok('Search lines: %d search files, no line over %d characters; %d SEE pointers (%d COMMON words, all in '
+                    'search/common/) each resolve to a list file of the stated size, and every list file is named once.'
+                    % (files, SEARCH_MAX_LINE_CHARS, len(pointed), common_words))
 
     def check_search_examples(self):
         """Worked examples in the guides ("zero" is in search/terms/y.txt, CHATGPT-007:015*) must match the index."""
@@ -691,10 +768,26 @@ class Checker(object):
                                    % (rel, word, terms))
                         continue
                     refs = {}
-                    for item in found[0].split(' | ', 5)[5].split('; '):
+                    field = found[0].split(' | ', 5)[5]
+                    match = SEE_RE.match(field)
+                    if match:
+                        if file_size(match.group(1)) is None:
+                            self.error('%s: "%s" points to %s, and that file is missing.' % (terms, word, match.group(1)))
+                            continue
+                        body = read_text(match.group(1)).split('\n')
+                        start = next((i for i, l in enumerate(body) if l.startswith('REFERENCES (')), len(body))
+                        kept = []
+                        for l in body[start + 1:]:
+                            if l.startswith('END OF LIST'):
+                                break
+                            kept.append(l)
+                        items = ' '.join(kept).split('; ')
+                    else:
+                        items = field.split('; ')
+                    for item in items:
                         if ':' in item:
                             cid, seqs = item.split(':', 1)
-                            refs[cid] = seqs.split(',')
+                            refs.setdefault(cid, []).extend(seqs.split(','))
                     for cid, seq in ref_re.findall(line):
                         if seq + '*' not in refs.get(cid, []):
                             self.error('%s gives %s:%s* for "%s", but the index line does not list it.' % (rel, cid, seq, word))

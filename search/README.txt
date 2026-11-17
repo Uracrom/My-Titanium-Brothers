@@ -6,29 +6,38 @@ WHAT THIS IS FOR
 search.html needs JavaScript. This folder does the same job with small static text files, so an
 AI reader that can only fetch URLs can search every conversation with every AI (Grok, Claude,
 ChatGPT, ChatGPT (WhatsApp), Copilot, DeepSeek, Gemini) in a few fetches:
-  1. this README (once), 2. search/SHARDS.txt (once), 3. one terms file per word,
-  4. the structured transcript files the terms file names, to read or confirm the text.
+  1. this README (once), 2. search/SHARDS.txt (once), 3. one terms file per word (plus the
+  word's list file in search/long/ or search/common/ if its line says SEE), 4. the structured
+  transcript files the references name, to read or confirm the text.
 Every result is a stable conversation ID and message ID from structured/ (see structured/README.txt).
 
 FOR VERY FREQUENT WORDS SUCH AS "time": READ THIS FIRST
-  Words found in more than 3000 messages are COMMON. "time" is in 7497 messages, so its line lists
+  Words found in more than 3000 messages are COMMON. "time" is in 7497 messages, so its list gives
   only conversation IDs, not message numbers. Pair such a word with a rarer word from the passage
   you want (see EXACT-PHRASE SEARCH below), or, for a broad subject such as Time, start with the
   subject map, a derived index of 8 subjects: https://uracrom.github.io/My-Titanium-Brothers/subject-map/INDEX.txt
 
-EXAMPLE: FIND ZERO AND TIME IN THREE FETCHES (real data from this build)
+LONG REFERENCE LISTS LIVE IN THEIR OWN FILES
+  No line in a terms file is longer than 2000 characters. When a word's references do not fit on its
+  line, the line ends with "SEE search/long/<word>.txt (bytes=N)", or, for a COMMON word,
+  "SEE search/common/<word>.txt (bytes=N)". That file holds the full list, wrapped over short lines,
+  and N is its exact size, so you can decide before you fetch it.
+
+EXAMPLE: FIND ZERO AND TIME IN FOUR FETCHES (real data from this build)
   Fetch 1: https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt
-    "zero" -> shard key "zero_" -> longest listed key "z" -> search/terms/y.txt (keys: y z)
-    "time" -> shard key "time_" -> longest listed key "ti" -> search/terms/thr.txt
-  Fetch 2: https://uracrom.github.io/My-Titanium-Brothers/search/terms/y.txt, the line that starts with "zero | ":
-    zero | 2076 | 479 | 372 | MESSAGES | CHATGPT-007:015*,016,018,029*; ...
+    "zero" -> shard key "zero_" -> longest listed key "z" -> search/terms/z.txt (keys: z)
+    "time" -> shard key "time_" -> longest listed key "ti" -> search/terms/ti.txt
+  Fetch 2: https://uracrom.github.io/My-Titanium-Brothers/search/terms/z.txt, the line that starts with "zero | ":
+    zero | 2076 | 479 | 372 | MESSAGES | SEE search/long/zero.txt (bytes=14313)
     = 2076 messages in 372 conversations; in 479 of them the word is in Alex's own text (marked *).
+  Fetch 3: https://uracrom.github.io/My-Titanium-Brothers/search/long/zero.txt (the full list for "zero"), whose references begin:
+    CHATGPT-007:015*,016,018,029*; ...
     CHATGPT-007:015* means message CHATGPT-007-015, and Alex wrote it.
-  Fetch 3: https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-007.txt
+  Fetch 4: https://uracrom.github.io/My-Titanium-Brothers/structured/chatgpt/CHATGPT-007.txt
     then find the line "----- BEGIN MESSAGE CHATGPT-007-015 -----" and read to "----- END MESSAGE CHATGPT-007-015 -----".
-  Time: in https://uracrom.github.io/My-Titanium-Brothers/search/terms/thr.txt the line starts
-    time | 7497 | 2349 | 990 | COMMON | CHATGPT-002(5); CHATGPT-003(24); CHATGPT-004(15); ...
-    = 7497 messages in 990 conversations, COMMON: it lists only conversation IDs with a count of messages, no message numbers.
+  Time: in https://uracrom.github.io/My-Titanium-Brothers/search/terms/ti.txt the line is
+    time | 7497 | 2349 | 990 | COMMON | SEE search/common/time.txt (bytes=16990)
+    = 7497 messages in 990 conversations, COMMON: its list gives only conversation IDs with a count of messages, no message numbers.
     So for Time as a subject, fetch https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt instead. It is a derived
     index (keyword matching + hand review) of messages that talk about time itself, with Alex's first
     mention to each AI and links to the exact messages in structured/.
@@ -38,8 +47,11 @@ WHAT WAS INDEXED
   25992 messages in 1220 logical conversations (every file in structured/<collection>/).
   Only the CONTENT of each message is indexed, including pasted (embedded) material.
   Headers, titles, speaker labels and web addresses are not indexed.
-  42129 distinct words, 2279787 word-in-message references, 139 terms files.
-  Largest terms file: 249311 bytes. Every terms file is under 250000 bytes and 400 lines.
+  42129 distinct words, 2279787 word-in-message references, 133 terms files.
+  Largest terms file: 84199 bytes. Every terms file is under 250000 bytes and 400 lines.
+  61 list files in search/common/ (COMMON words) and 3255 in search/long/ (other
+  words with long reference lists); the largest is 23471 bytes.
+  No line in any search file is longer than 2000 characters.
 
 HOW WORDS ARE WRITTEN IN THE INDEX
   - Lowercase. "Zero" and "zero" are the same word.
@@ -65,15 +77,24 @@ HOW TO FIND THE TERMS FILE FOR A WORD
      Words in non-Latin scripts (Greek, Chinese, ...) all have keys that start with _.
   4. In the terms file, find the line that starts with your word followed by " | ".
      Lines are sorted by shard key. No line means the word is not in any message.
+  5. If the line ends with "SEE search/common/<word>.txt (bytes=N)" or "SEE search/long/<word>.txt
+     (bytes=N)", fetch that file (N bytes) for the word's full reference list.
 
 LINE FORMAT IN A TERMS FILE
   word | messages | Alex-own-words messages | conversations | MESSAGES or COMMON | references
+  The references are written on the line itself only when they fit in 1500 characters. Otherwise the
+  last field is "SEE <list file> (bytes=N)": search/long/<word>.txt for MESSAGES words, search/common/<word>.txt
+  for COMMON words (always). A list file has a 5-line header, then the same references separated by "; ",
+  wrapped over lines of about 1000 characters (a line ending in ";" continues on the next line), then
+  "END OF LIST". A conversation with very many matches can appear in two references in a row; read both.
+  A word that is not plain a-z/0-9 has a list file named by its shard key plus a short code, as the
+  SEE field says; always use the name in the SEE field.
   MESSAGES references:  CONVERSATION-ID:NNN,NNN*,NNN; CONVERSATION-ID:NNN
     The message ID is CONVERSATION-ID + "-" + NNN. Example: GROK-001:003* means message GROK-001-003.
     * means the message is Alex's (SPEAKER: ALEX) and the word is in his own text, not only in
     material he pasted from another AI. No * means an AI message, an unlabeled message, or a
     pasted part.
-  COMMON references (words in more than 3000 messages): CONVERSATION-ID(number of messages).
+  COMMON references (words in more than 3000 messages, in search/common/): CONVERSATION-ID(number of messages).
     Message numbers are not listed for these. Pair the word with a rarer word, or open the
     conversation and search inside it. COMMON words in this build: 61.
   Real example from this build (search/terms/va.txt):
@@ -126,3 +147,5 @@ FILES
   search/STOPWORDS.txt  words left out
   search/index.json     the same information as JSON, with every terms file URL
   search/terms/*.txt    the terms files. Each starts with a 5-line header and names NEXT.
+  search/common/*.txt   full reference lists of COMMON words (named by the SEE field of the word's line)
+  search/long/*.txt     full reference lists of other words with long lists (named by the SEE field)

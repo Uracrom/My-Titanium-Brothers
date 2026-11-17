@@ -10,16 +10,23 @@
  "deliberate_exclusions": "A small number of words are deliberately excluded at the author's request (see tools/build_search_index.py). This is separate from the stopwords.",
  "shard_key_rule": "remove accents, lowercase, remove apostrophes, replace every character outside a-z and 0-9 with _, append _; the terms file is the FILE whose KEYS contain the longest prefix of this shard key",
  "line_format": "word | messages | Alex-own-words messages | conversations | MESSAGES or COMMON | CONVERSATION-ID:NNN,NNN*; ...",
+ "list_files": "When the last field is \"SEE search/common/<word>.txt (bytes=N)\" or \"SEE search/long/<word>.txt (bytes=N)\", the full reference list is in that file, wrapped over several lines. COMMON words always use search/common/.",
+ "common_dir": "https://uracrom.github.io/My-Titanium-Brothers/search/common/",
+ "long_dir": "https://uracrom.github.io/My-Titanium-Brothers/search/long/",
+ "max_line_chars": 2000,
  "common_limit": 3000,
  "counts": {
   "words": 42129,
-  "shards": 139,
+  "shards": 133,
   "messages": 25992,
   "conversations": 1220,
   "references": 2279787,
   "common": 61,
-  "largest_shard_bytes": 249311,
-  "total_shard_bytes": 22792606
+  "common_list_files": 61,
+  "long_list_files": 3255,
+  "largest_shard_bytes": 84199,
+  "total_shard_bytes": 7429110,
+  "largest_list_bytes": 23471
  },
  "shards": [
   {
@@ -30,7 +37,7 @@
    "first": "00000000000465",
    "last": "0xffffff",
    "terms": 128,
-   "bytes": 19765,
+   "bytes": 15477,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/0.txt"
   },
   {
@@ -41,7 +48,7 @@
    "first": "100000",
    "last": "1x1x1",
    "terms": 391,
-   "bytes": 74460,
+   "bytes": 27405,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/1.txt"
   },
   {
@@ -53,7 +60,7 @@
    "first": "2000",
    "last": "3xl",
    "terms": 361,
-   "bytes": 109524,
+   "bytes": 30057,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/2.txt"
   },
   {
@@ -65,7 +72,7 @@
    "first": "4000",
    "last": "5x",
    "terms": 279,
-   "bytes": 50756,
+   "bytes": 36971,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/4.txt"
   },
   {
@@ -78,7 +85,7 @@
    "first": "600",
    "last": "8the",
    "terms": 337,
-   "bytes": 28427,
+   "bytes": 26682,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/6.txt"
   },
   {
@@ -102,7 +109,7 @@
    "first": "9000",
    "last": "abysses",
    "terms": 391,
-   "bytes": 100295,
+   "bytes": 45206,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/9.txt"
   },
   {
@@ -113,7 +120,7 @@
    "first": "ac35b6",
    "last": "acutely",
    "terms": 295,
-   "bytes": 192982,
+   "bytes": 62595,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ac.txt"
   },
   {
@@ -128,7 +135,7 @@
    "first": "ad029a",
    "last": "ahn",
    "terms": 394,
-   "bytes": 163312,
+   "bytes": 78771,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ad.txt"
   },
   {
@@ -142,7 +149,7 @@
    "first": "ai1",
    "last": "always",
    "terms": 315,
-   "bytes": 241682,
+   "bytes": 49049,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ai.txt"
   },
   {
@@ -153,7 +160,7 @@
    "first": "ama",
    "last": "amygdala",
    "terms": 134,
-   "bytes": 36107,
+   "bytes": 24308,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/am.txt"
   },
   {
@@ -165,7 +172,7 @@
    "first": "ana",
    "last": "aother",
    "terms": 370,
-   "bytes": 205869,
+   "bytes": 63810,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/an.txt"
   },
   {
@@ -177,7 +184,7 @@
    "first": "apagá",
    "last": "aquire",
    "terms": 241,
-   "bytes": 111629,
+   "bytes": 38230,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ap.txt"
   },
   {
@@ -188,7 +195,7 @@
    "first": "ar",
    "last": "arxiv",
    "terms": 252,
-   "bytes": 177016,
+   "bytes": 43186,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ar.txt"
   },
   {
@@ -200,7 +207,7 @@
    "first": "às",
    "last": "atypical",
    "terms": 385,
-   "bytes": 176229,
+   "bytes": 79580,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/as.txt"
   },
   {
@@ -226,7 +233,7 @@
    "first": "audacious",
    "last": "b9eaee",
    "terms": 309,
-   "bytes": 122478,
+   "bytes": 49618,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/au.txt"
   },
   {
@@ -234,49 +241,27 @@
     "ba",
     "bb",
     "bc",
-    "bd",
-    "be4",
-    "be5",
-    "be6",
-    "be8",
-    "bea",
-    "bec",
-    "bed"
+    "bd"
    ],
    "file": "search/terms/ba.txt",
    "first": "ba1968",
-   "last": "bedtime",
-   "terms": 389,
-   "bytes": 216530,
+   "last": "bdc5dc",
+   "terms": 328,
+   "bytes": 48298,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ba.txt"
   },
   {
    "keys": [
-    "bee",
-    "bef",
-    "beg",
-    "beh",
-    "bei",
-    "bek",
-    "bel",
-    "bem",
-    "ben",
-    "beq",
-    "ber",
-    "bes",
-    "bet",
-    "bew",
-    "bey",
-    "bez",
+    "be",
     "bf",
     "bh"
    ],
-   "file": "search/terms/bee.txt",
-   "first": "bee",
+   "file": "search/terms/be.txt",
+   "first": "be4e89",
    "last": "bhs",
-   "terms": 195,
-   "bytes": 166279,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/bee.txt"
+   "terms": 256,
+   "bytes": 46197,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/be.txt"
   },
   {
    "keys": [
@@ -288,7 +273,7 @@
    "first": "bi",
    "last": "blushes",
    "terms": 365,
-   "bytes": 148864,
+   "bytes": 64984,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/bi.txt"
   },
   {
@@ -300,7 +285,7 @@
    "first": "bo",
    "last": "bpx",
    "terms": 242,
-   "bytes": 109333,
+   "bytes": 43812,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/bo.txt"
   },
   {
@@ -313,7 +298,7 @@
    "first": "br",
    "last": "btn",
    "terms": 259,
-   "bytes": 154644,
+   "bytes": 49506,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/br.txt"
   },
   {
@@ -347,7 +332,7 @@
    "first": "bubble",
    "last": "calvinos",
    "terms": 361,
-   "bytes": 137724,
+   "bytes": 52488,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/bu.txt"
   },
   {
@@ -364,7 +349,7 @@
    "first": "cam",
    "last": "cattails",
    "terms": 391,
-   "bytes": 195624,
+   "bytes": 68120,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cam.txt"
   },
   {
@@ -384,7 +369,7 @@
    "first": "caucasus",
    "last": "chaves",
    "terms": 338,
-   "bytes": 203362,
+   "bytes": 61969,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cau.txt"
   },
   {
@@ -402,7 +387,7 @@
    "first": "cheap",
    "last": "cker",
    "terms": 379,
-   "bytes": 129965,
+   "bytes": 56845,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/che.txt"
   },
   {
@@ -423,7 +408,7 @@
    "first": "cl₀",
    "last": "coffin",
    "terms": 391,
-   "bytes": 211810,
+   "bytes": 71357,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cl.txt"
   },
   {
@@ -446,7 +431,7 @@
    "first": "cog",
    "last": "comoving",
    "terms": 341,
-   "bytes": 221822,
+   "bytes": 63007,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cog.txt"
   },
   {
@@ -461,7 +446,7 @@
    "first": "comp",
    "last": "concussive",
    "terms": 388,
-   "bytes": 241970,
+   "bytes": 74311,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/comp.txt"
   },
   {
@@ -482,7 +467,7 @@
    "first": "condé",
    "last": "conrads",
    "terms": 252,
-   "bytes": 113579,
+   "bytes": 41669,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cond.txt"
   },
   {
@@ -493,7 +478,7 @@
    "first": "cons",
    "last": "consumptive",
    "terms": 210,
-   "bytes": 127659,
+   "bytes": 36713,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cons.txt"
   },
   {
@@ -502,19 +487,19 @@
     "conu",
     "conv",
     "conw",
-    "coo"
+    "coo",
+    "cop",
+    "coq"
    ],
    "file": "search/terms/cont.txt",
    "first": "conta",
-   "last": "coords",
-   "terms": 330,
-   "bytes": 244851,
+   "last": "coqueiros",
+   "terms": 364,
+   "bytes": 78333,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cont.txt"
   },
   {
    "keys": [
-    "cop",
-    "coq",
     "cor",
     "cos",
     "cot",
@@ -526,12 +511,12 @@
     "cp",
     "cq"
    ],
-   "file": "search/terms/cop.txt",
-   "first": "cop",
+   "file": "search/terms/cor.txt",
+   "first": "cor",
    "last": "cqg",
-   "terms": 341,
-   "bytes": 157226,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cop.txt"
+   "terms": 307,
+   "bytes": 55520,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cor.txt"
   },
   {
    "keys": [
@@ -543,7 +528,7 @@
    "first": "crabs",
    "last": "ctx",
    "terms": 316,
-   "bytes": 163700,
+   "bytes": 53830,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cr.txt"
   },
   {
@@ -570,7 +555,7 @@
    "first": "cub",
    "last": "dτ",
    "terms": 268,
-   "bytes": 119488,
+   "bytes": 36231,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/cu.txt"
   },
   {
@@ -592,7 +577,7 @@
    "first": "da2a6d",
    "last": "deere",
    "terms": 387,
-   "bytes": 190966,
+   "bytes": 72347,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/da.txt"
   },
   {
@@ -611,7 +596,7 @@
    "first": "def",
    "last": "deontological",
    "terms": 338,
-   "bytes": 129838,
+   "bytes": 62847,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/def.txt"
   },
   {
@@ -624,7 +609,7 @@
    "first": "depart",
    "last": "desynchronized",
    "terms": 356,
-   "bytes": 166878,
+   "bytes": 56773,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/dep.txt"
   },
   {
@@ -651,7 +636,7 @@
    "first": "detach",
    "last": "dilution",
    "terms": 364,
-   "bytes": 187485,
+   "bytes": 70301,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/det.txt"
   },
   {
@@ -681,7 +666,7 @@
    "first": "dim",
    "last": "disorients",
    "terms": 360,
-   "bytes": 191759,
+   "bytes": 67512,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/dim.txt"
   },
   {
@@ -704,7 +689,7 @@
    "first": "disparamos",
    "last": "dnye",
    "terms": 306,
-   "bytes": 131724,
+   "bytes": 60221,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/disp.txt"
   },
   {
@@ -719,7 +704,7 @@
    "first": "doable",
    "last": "dtype",
    "terms": 362,
-   "bytes": 160667,
+   "bytes": 73799,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/do.txt"
   },
   {
@@ -751,7 +736,7 @@
    "first": "dual",
    "last": "efts",
    "terms": 392,
-   "bytes": 176608,
+   "bytes": 61515,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/du.txt"
   },
   {
@@ -767,7 +752,7 @@
    "first": "egalitarian",
    "last": "elytra",
    "terms": 198,
-   "bytes": 88409,
+   "bytes": 37154,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/eg.txt"
   },
   {
@@ -785,7 +770,7 @@
    "first": "em",
    "last": "enfrentemos",
    "terms": 369,
-   "bytes": 222273,
+   "bytes": 65236,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/em.txt"
   },
   {
@@ -813,7 +798,7 @@
    "first": "engage",
    "last": "equuleus",
    "terms": 372,
-   "bytes": 191082,
+   "bytes": 61294,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/eng.txt"
   },
   {
@@ -825,7 +810,7 @@
    "first": "er",
    "last": "estupefatos",
    "terms": 367,
-   "bytes": 84795,
+   "bytes": 48835,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/er.txt"
   },
   {
@@ -834,48 +819,38 @@
     "eu",
     "ev",
     "ex_",
-    "exa"
+    "exa",
+    "exc",
+    "exe",
+    "exf",
+    "exh"
    ],
    "file": "search/terms/et.txt",
    "first": "et",
-   "last": "exaustivo",
-   "terms": 243,
-   "bytes": 246388,
+   "last": "exhilaration",
+   "terms": 380,
+   "bytes": 69186,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/et.txt"
   },
   {
    "keys": [
-    "exc",
-    "exe",
-    "exf",
-    "exh",
     "exi",
-    "exo"
-   ],
-   "file": "search/terms/exc.txt",
-   "first": "excavate",
-   "last": "exotics",
-   "terms": 184,
-   "bytes": 123031,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/exc.txt"
-  },
-  {
-   "keys": [
+    "exo",
     "exp",
-    "exq"
-   ],
-   "file": "search/terms/exp.txt",
-   "first": "exp",
-   "last": "exquisitely",
-   "terms": 217,
-   "bytes": 240749,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/exp.txt"
-  },
-  {
-   "keys": [
+    "exq",
     "ext",
     "exu",
-    "ey",
+    "ey"
+   ],
+   "file": "search/terms/exi.txt",
+   "first": "exibit",
+   "last": "eyewitness",
+   "terms": 391,
+   "bytes": 73150,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/exi.txt"
+  },
+  {
+   "keys": [
     "f0",
     "f1",
     "f2",
@@ -885,28 +860,18 @@
     "f6",
     "f7",
     "f8",
-    "f9"
-   ],
-   "file": "search/terms/ext.txt",
-   "first": "extant",
-   "last": "f9e5d7",
-   "terms": 161,
-   "bytes": 87594,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ext.txt"
-  },
-  {
-   "keys": [
+    "f9",
     "fa",
     "fb",
     "fc",
     "fd"
    ],
-   "file": "search/terms/fa.txt",
-   "first": "fa3c9c",
+   "file": "search/terms/f0.txt",
+   "first": "f00d62",
    "last": "fd246824",
-   "terms": 311,
-   "bytes": 154746,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fa.txt"
+   "terms": 345,
+   "bytes": 61351,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/f0.txt"
   },
   {
    "keys": [
@@ -918,7 +883,7 @@
    "first": "fe07",
    "last": "fhis",
    "terms": 179,
-   "bytes": 108893,
+   "bytes": 28196,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fe.txt"
   },
   {
@@ -929,109 +894,81 @@
    "first": "fi",
    "last": "fizzling",
    "terms": 290,
-   "bytes": 195967,
+   "bytes": 49118,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fi.txt"
   },
   {
    "keys": [
     "fl",
-    "fm",
-    "fo_",
-    "foa",
-    "foc",
-    "fod",
-    "foe",
-    "fof",
-    "fog",
-    "foi",
-    "fol",
-    "fom",
-    "fon",
-    "foo",
-    "foq"
+    "fm"
    ],
    "file": "search/terms/fl.txt",
    "first": "fl",
-   "last": "foque",
-   "terms": 378,
-   "bytes": 194387,
+   "last": "fmri",
+   "terms": 277,
+   "bytes": 60677,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fl.txt"
   },
   {
    "keys": [
-    "for",
-    "fos",
-    "fot",
-    "fou",
-    "fov",
-    "fow",
+    "fo",
     "fp",
     "fq"
    ],
-   "file": "search/terms/for.txt",
-   "first": "for26",
+   "file": "search/terms/fo.txt",
+   "first": "fo",
    "last": "fqxi",
-   "terms": 252,
-   "bytes": 186113,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/for.txt"
+   "terms": 353,
+   "bytes": 66263,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fo.txt"
   },
   {
    "keys": [
     "fr",
     "fs",
-    "ft"
+    "ft",
+    "fu",
+    "fx",
+    "g2",
+    "g_"
    ],
    "file": "search/terms/fr.txt",
    "first": "fr",
-   "last": "ftp",
-   "terms": 230,
-   "bytes": 153217,
+   "last": "gμν",
+   "terms": 384,
+   "bytes": 65710,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fr.txt"
   },
   {
    "keys": [
-    "fu",
-    "fx",
-    "g2",
-    "g_",
     "ga",
-    "gb"
-   ],
-   "file": "search/terms/fu.txt",
-   "first": "fu",
-   "last": "gb",
-   "terms": 302,
-   "bytes": 169164,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/fu.txt"
-  },
-  {
-   "keys": [
+    "gb",
     "ge",
     "gf",
-    "gh",
-    "gi"
+    "gh"
    ],
-   "file": "search/terms/ge.txt",
-   "first": "ge",
-   "last": "giz",
-   "terms": 301,
-   "bytes": 227592,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ge.txt"
+   "file": "search/terms/ga.txt",
+   "first": "ga0zs",
+   "last": "ghz",
+   "terms": 388,
+   "bytes": 64532,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ga.txt"
   },
   {
    "keys": [
+    "gi",
     "gl",
     "gm",
     "gn",
     "go",
     "gp"
    ],
-   "file": "search/terms/gl.txt",
-   "first": "glacial",
+   "file": "search/terms/gi.txt",
+   "first": "giant",
    "last": "gpus",
-   "terms": 222,
-   "bytes": 129425,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/gl.txt"
+   "terms": 283,
+   "bytes": 47119,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/gi.txt"
   },
   {
    "keys": [
@@ -1042,7 +979,7 @@
    "first": "gr",
    "last": "gtx",
    "terms": 319,
-   "bytes": 170747,
+   "bytes": 61290,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/gr.txt"
   },
   {
@@ -1063,7 +1000,7 @@
    "first": "guanting",
    "last": "h5",
    "terms": 104,
-   "bytes": 42662,
+   "bytes": 17301,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/gu.txt"
   },
   {
@@ -1076,7 +1013,7 @@
    "first": "ha",
    "last": "hd",
    "terms": 304,
-   "bytes": 125534,
+   "bytes": 57047,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ha.txt"
   },
   {
@@ -1091,7 +1028,7 @@
    "first": "hé",
    "last": "hmmmmmmmm",
    "terms": 369,
-   "bytes": 187903,
+   "bytes": 64389,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/he.txt"
   },
   {
@@ -1108,7 +1045,7 @@
    "first": "ho",
    "last": "hvac",
    "terms": 370,
-   "bytes": 198275,
+   "bytes": 73352,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ho.txt"
   },
   {
@@ -1135,7 +1072,7 @@
    "first": "hybernate",
    "last": "ilya",
    "terms": 285,
-   "bytes": 113706,
+   "bytes": 44298,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/hy.txt"
   },
   {
@@ -1148,7 +1085,7 @@
    "first": "imaculada",
    "last": "inboxes",
    "terms": 343,
-   "bytes": 201050,
+   "bytes": 65586,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/im.txt"
   },
   {
@@ -1161,7 +1098,7 @@
    "first": "inc",
    "last": "inextricably",
    "terms": 333,
-   "bytes": 116990,
+   "bytes": 61020,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/inc.txt"
   },
   {
@@ -1182,7 +1119,7 @@
    "first": "infall",
    "last": "inquisitive",
    "terms": 279,
-   "bytes": 127244,
+   "bytes": 53109,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/inf.txt"
   },
   {
@@ -1195,7 +1132,7 @@
    "first": "ins",
    "last": "intangible",
    "terms": 174,
-   "bytes": 134329,
+   "bytes": 37290,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ins.txt"
   },
   {
@@ -1211,7 +1148,7 @@
    "first": "inte",
    "last": "intp",
    "terms": 354,
-   "bytes": 233859,
+   "bytes": 68650,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/inte.txt"
   },
   {
@@ -1237,7 +1174,7 @@
    "first": "intra",
    "last": "izes",
    "terms": 388,
-   "bytes": 166488,
+   "bytes": 84199,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/intr.txt"
   },
   {
@@ -1248,7 +1185,7 @@
    "first": "já",
    "last": "jwst",
    "terms": 282,
-   "bytes": 71962,
+   "bytes": 43227,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/j.txt"
   },
   {
@@ -1263,7 +1200,7 @@
    "first": "k1",
    "last": "l4",
    "terms": 275,
-   "bytes": 150798,
+   "bytes": 37985,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/k.txt"
   },
   {
@@ -1276,55 +1213,36 @@
    "first": "la",
    "last": "ldm",
    "terms": 229,
-   "bytes": 160802,
+   "bytes": 47363,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/la.txt"
   },
   {
    "keys": [
     "le",
     "lg",
-    "lh",
-    "li_",
-    "lia",
-    "lib",
-    "lic",
-    "lid",
-    "lie",
-    "lif",
-    "lig",
-    "lik",
-    "lil"
+    "lh"
    ],
    "file": "search/terms/le.txt",
    "first": "le1",
-   "last": "lily",
-   "terms": 377,
-   "bytes": 241654,
+   "last": "lhe",
+   "terms": 253,
+   "bytes": 41169,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/le.txt"
   },
   {
    "keys": [
-    "lim",
-    "lin",
-    "lio",
-    "lip",
-    "liq",
-    "lir",
-    "lis",
-    "lit",
-    "liv",
-    "liz",
+    "li",
     "lj",
     "ll",
     "lm",
     "ln"
    ],
-   "file": "search/terms/lim.txt",
-   "first": "lim",
+   "file": "search/terms/li.txt",
+   "first": "li",
    "last": "ln",
-   "terms": 188,
-   "bytes": 169567,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/lim.txt"
+   "terms": 312,
+   "bytes": 55304,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/li.txt"
   },
   {
    "keys": [
@@ -1342,19 +1260,19 @@
     "m4",
     "m8",
     "ma_",
-    "mac"
+    "mac",
+    "mad",
+    "mae"
    ],
    "file": "search/terms/lo.txt",
    "first": "lo",
-   "last": "macrostate",
-   "terms": 381,
-   "bytes": 248959,
+   "last": "maestro",
+   "terms": 391,
+   "bytes": 63416,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/lo.txt"
   },
   {
    "keys": [
-    "mad",
-    "mae",
     "mag",
     "mah",
     "mai",
@@ -1368,12 +1286,12 @@
     "maq",
     "mar"
    ],
-   "file": "search/terms/mad.txt",
-   "first": "mad",
+   "file": "search/terms/mag.txt",
+   "first": "mag",
    "last": "marys",
-   "terms": 378,
-   "bytes": 238410,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mad.txt"
+   "terms": 368,
+   "bytes": 66054,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mag.txt"
   },
   {
    "keys": [
@@ -1387,44 +1305,28 @@
     "maz",
     "mb",
     "mc",
-    "md",
-    "mea"
+    "md"
    ],
    "file": "search/terms/mas.txt",
    "first": "mas",
-   "last": "meaty",
-   "terms": 214,
-   "bytes": 232158,
+   "last": "mdt",
+   "terms": 181,
+   "bytes": 35191,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mas.txt"
   },
   {
    "keys": [
-    "mec",
-    "med",
-    "mee",
-    "meg",
-    "mei",
-    "mek",
-    "mel",
-    "mem",
-    "men",
-    "meq",
-    "mer",
-    "mes"
+    "me"
    ],
-   "file": "search/terms/mec.txt",
-   "first": "mecânica",
-   "last": "mestra",
-   "terms": 269,
-   "bytes": 172581,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mec.txt"
+   "file": "search/terms/me.txt",
+   "first": "mea",
+   "last": "mexico",
+   "terms": 394,
+   "bytes": 70332,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/me.txt"
   },
   {
    "keys": [
-    "met",
-    "meu",
-    "mev",
-    "mex",
     "mg",
     "mi_",
     "mic",
@@ -1437,18 +1339,18 @@
     "mim",
     "min",
     "mio",
-    "mir"
+    "mir",
+    "mis"
    ],
-   "file": "search/terms/met.txt",
-   "first": "met",
-   "last": "mirrors",
-   "terms": 330,
-   "bytes": 201416,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/met.txt"
+   "file": "search/terms/mg.txt",
+   "first": "mgm",
+   "last": "misusing",
+   "terms": 383,
+   "bytes": 63244,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mg.txt"
   },
   {
    "keys": [
-    "mis",
     "mit",
     "mix",
     "mk",
@@ -1463,22 +1365,22 @@
     "moe",
     "moi",
     "mol",
-    "mom"
-   ],
-   "file": "search/terms/mis.txt",
-   "first": "mis",
-   "last": "moms",
-   "terms": 319,
-   "bytes": 153337,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mis.txt"
-  },
-  {
-   "keys": [
+    "mom",
     "mon",
     "moo",
     "mop",
     "mor",
-    "mos",
+    "mos"
+   ],
+   "file": "search/terms/mit.txt",
+   "first": "mit",
+   "last": "mostrou",
+   "terms": 370,
+   "bytes": 60542,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mit.txt"
+  },
+  {
+   "keys": [
     "mot",
     "mou",
     "mov",
@@ -1486,17 +1388,7 @@
     "mp",
     "mr",
     "ms",
-    "mt"
-   ],
-   "file": "search/terms/mon.txt",
-   "first": "monad",
-   "last": "mtp",
-   "terms": 308,
-   "bytes": 131125,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mon.txt"
-  },
-  {
-   "keys": [
+    "mt",
     "mu",
     "mv",
     "my",
@@ -1506,12 +1398,12 @@
     "n4",
     "n5"
    ],
-   "file": "search/terms/mu.txt",
-   "first": "mu",
+   "file": "search/terms/mot.txt",
+   "first": "mote",
    "last": "n5",
-   "terms": 245,
-   "bytes": 123917,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mu.txt"
+   "terms": 357,
+   "bytes": 58935,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/mot.txt"
   },
   {
    "keys": [
@@ -1523,7 +1415,7 @@
    "first": "na",
    "last": "ndo",
    "terms": 196,
-   "bytes": 123992,
+   "bytes": 30945,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/na.txt"
   },
   {
@@ -1541,7 +1433,7 @@
    "first": "ne",
    "last": "nns",
    "terms": 320,
-   "bytes": 186484,
+   "bytes": 52669,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ne.txt"
   },
   {
@@ -1565,7 +1457,7 @@
    "first": "nó",
    "last": "oaths",
    "terms": 341,
-   "bytes": 174669,
+   "bytes": 58201,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/no.txt"
   },
   {
@@ -1588,7 +1480,7 @@
    "first": "obedience",
    "last": "onward",
    "terms": 388,
-   "bytes": 243067,
+   "bytes": 62119,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ob.txt"
   },
   {
@@ -1603,7 +1495,7 @@
    "first": "oo",
    "last": "otter",
    "terms": 351,
-   "bytes": 236841,
+   "bytes": 65552,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/oo.txt"
   },
   {
@@ -1623,7 +1515,7 @@
    "first": "ou",
    "last": "pádua",
    "terms": 387,
-   "bytes": 101975,
+   "bytes": 56252,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ou.txt"
   },
   {
@@ -1642,7 +1534,7 @@
    "first": "paga",
    "last": "pasture",
    "terms": 389,
-   "bytes": 195269,
+   "bytes": 70895,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pag.txt"
   },
   {
@@ -1676,7 +1568,7 @@
    "first": "patagonia",
    "last": "pequenos",
    "terms": 259,
-   "bytes": 111017,
+   "bytes": 45602,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pat.txt"
   },
   {
@@ -1692,7 +1584,7 @@
    "first": "per",
    "last": "pgea7",
    "terms": 324,
-   "bytes": 192083,
+   "bytes": 57983,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/per.txt"
   },
   {
@@ -1705,7 +1597,7 @@
    "first": "ph",
    "last": "pkg",
    "terms": 285,
-   "bytes": 175787,
+   "bytes": 54882,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ph.txt"
   },
   {
@@ -1728,7 +1620,7 @@
    "first": "pl",
    "last": "pontys",
    "terms": 390,
-   "bytes": 199100,
+   "bytes": 69670,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pl.txt"
   },
   {
@@ -1751,7 +1643,7 @@
    "first": "poof",
    "last": "prazo",
    "terms": 317,
-   "bytes": 190807,
+   "bytes": 56102,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/poo.txt"
   },
   {
@@ -1762,7 +1654,7 @@
    "first": "pre",
    "last": "preythe",
    "terms": 363,
-   "bytes": 197805,
+   "bytes": 61076,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pre.txt"
   },
   {
@@ -1788,7 +1680,7 @@
    "first": "price",
    "last": "prookes",
    "terms": 339,
-   "bytes": 239747,
+   "bytes": 71925,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pri.txt"
   },
   {
@@ -1809,7 +1701,7 @@
    "first": "prop",
    "last": "ptsd",
    "terms": 302,
-   "bytes": 132302,
+   "bytes": 56063,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/prop.txt"
   },
   {
@@ -1822,7 +1714,7 @@
    "first": "pub",
    "last": "pytorchs",
    "terms": 197,
-   "bytes": 102865,
+   "bytes": 32814,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/pu.txt"
   },
   {
@@ -1837,7 +1729,7 @@
    "first": "q₀",
    "last": "r³",
    "terms": 260,
-   "bytes": 115777,
+   "bytes": 38618,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/q.txt"
   },
   {
@@ -1845,37 +1737,27 @@
     "ra",
     "rb",
     "rc",
-    "re_"
+    "re_",
+    "rea"
    ],
    "file": "search/terms/ra.txt",
    "first": "ra",
-   "last": "rē",
-   "terms": 202,
-   "bytes": 98481,
+   "last": "reawakens",
+   "terms": 370,
+   "bytes": 72697,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ra.txt"
   },
   {
    "keys": [
-    "rea",
-    "reb"
-   ],
-   "file": "search/terms/rea.txt",
-   "first": "rea",
-   "last": "rebuttals",
-   "terms": 199,
-   "bytes": 194820,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/rea.txt"
-  },
-  {
-   "keys": [
+    "reb",
     "rec"
    ],
-   "file": "search/terms/rec.txt",
-   "first": "recalcula",
+   "file": "search/terms/reb.txt",
+   "first": "rebalance",
    "last": "recycling",
-   "terms": 306,
-   "bytes": 132557,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/rec.txt"
+   "terms": 337,
+   "bytes": 61480,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/reb.txt"
   },
   {
    "keys": [
@@ -1889,7 +1771,7 @@
    "first": "red",
    "last": "reheats",
    "terms": 358,
-   "bytes": 148750,
+   "bytes": 61474,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/red.txt"
   },
   {
@@ -1906,7 +1788,7 @@
    "first": "reidentification",
    "last": "reorients",
    "terms": 323,
-   "bytes": 186026,
+   "bytes": 68496,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/rei.txt"
   },
   {
@@ -1919,7 +1801,7 @@
    "first": "repaid",
    "last": "rerun",
    "terms": 185,
-   "bytes": 101008,
+   "bytes": 42555,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/rep.txt"
   },
   {
@@ -1932,7 +1814,7 @@
    "first": "res",
    "last": "reusing",
    "terms": 362,
-   "bytes": 198535,
+   "bytes": 78535,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/res.txt"
   },
   {
@@ -1953,7 +1835,7 @@
    "first": "reveal",
    "last": "rnas",
    "terms": 330,
-   "bytes": 167691,
+   "bytes": 66249,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/rev.txt"
   },
   {
@@ -1978,7 +1860,7 @@
    "first": "road",
    "last": "s8",
    "terms": 305,
-   "bytes": 115115,
+   "bytes": 51369,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ro.txt"
   },
   {
@@ -1989,7 +1871,7 @@
    "first": "saatchi",
    "last": "says",
    "terms": 276,
-   "bytes": 127368,
+   "bytes": 44390,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sa.txt"
   },
   {
@@ -2001,37 +1883,27 @@
     "sea",
     "seb",
     "sec",
-    "sed"
-   ],
-   "file": "search/terms/sc.txt",
-   "first": "scaffold",
-   "last": "seductive",
-   "terms": 303,
-   "bytes": 173104,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sc.txt"
-  },
-  {
-   "keys": [
+    "sed",
     "see",
     "sef",
     "seg",
     "seh",
     "sei",
-    "sej",
-    "sel",
-    "sem",
-    "sen",
-    "seo"
+    "sej"
    ],
-   "file": "search/terms/see.txt",
-   "first": "see",
-   "last": "seo",
-   "terms": 240,
-   "bytes": 231972,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/see.txt"
+   "file": "search/terms/sc.txt",
+   "first": "scaffold",
+   "last": "sejam",
+   "terms": 390,
+   "bytes": 80391,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sc.txt"
   },
   {
    "keys": [
+    "sel",
+    "sem",
+    "sen",
+    "seo",
     "sep",
     "seq",
     "ser",
@@ -2044,12 +1916,12 @@
     "sf",
     "sg"
    ],
-   "file": "search/terms/sep.txt",
-   "first": "separa",
+   "file": "search/terms/sel.txt",
+   "first": "selada",
    "last": "sgr",
-   "terms": 164,
-   "bytes": 99270,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sep.txt"
+   "terms": 317,
+   "bytes": 61823,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sel.txt"
   },
   {
    "keys": [
@@ -2059,33 +1931,33 @@
    "first": "sh2na",
    "last": "shyest",
    "terms": 278,
-   "bytes": 227006,
+   "bytes": 61325,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sh.txt"
   },
   {
    "keys": [
-    "si"
+    "si",
+    "sk"
    ],
    "file": "search/terms/si.txt",
    "first": "si",
-   "last": "sizzling",
-   "terms": 320,
-   "bytes": 228416,
+   "last": "skyward",
+   "terms": 384,
+   "bytes": 71462,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/si.txt"
   },
   {
    "keys": [
-    "sk",
     "sl",
     "sm",
     "sn"
    ],
-   "file": "search/terms/sk.txt",
-   "first": "skate",
+   "file": "search/terms/sl.txt",
+   "first": "sl",
    "last": "snug",
-   "terms": 308,
-   "bytes": 121597,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sk.txt"
+   "terms": 244,
+   "bytes": 47602,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sl.txt"
   },
   {
    "keys": [
@@ -2095,7 +1967,7 @@
    "first": "só",
    "last": "sozinhos",
    "terms": 278,
-   "bytes": 182174,
+   "bytes": 53018,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/so.txt"
   },
   {
@@ -2110,7 +1982,7 @@
    "first": "space",
    "last": "st",
    "terms": 375,
-   "bytes": 241179,
+   "bytes": 75560,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sp.txt"
   },
   {
@@ -2119,30 +1991,30 @@
     "stc",
     "ste",
     "sti",
-    "stl"
+    "stl",
+    "sto"
    ],
    "file": "search/terms/sta.txt",
    "first": "sta",
-   "last": "stll",
-   "terms": 320,
-   "bytes": 242923,
+   "last": "stove",
+   "terms": 372,
+   "bytes": 71872,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sta.txt"
   },
   {
    "keys": [
-    "sto",
     "str",
     "stu",
     "sty",
     "su_",
     "sua"
    ],
-   "file": "search/terms/sto.txt",
-   "first": "stochastic",
+   "file": "search/terms/str.txt",
+   "first": "straddle",
    "last": "suaves",
-   "terms": 283,
-   "bytes": 246231,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sto.txt"
+   "terms": 231,
+   "bytes": 54002,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/str.txt"
   },
   {
    "keys": [
@@ -2163,7 +2035,7 @@
    "first": "sub",
    "last": "suǒ",
    "terms": 321,
-   "bytes": 147523,
+   "bytes": 53952,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sub.txt"
   },
   {
@@ -2180,7 +2052,7 @@
    "first": "supabase",
    "last": "sxsw",
    "terms": 350,
-   "bytes": 145616,
+   "bytes": 67353,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sup.txt"
   },
   {
@@ -2200,7 +2072,7 @@
    "first": "sy",
    "last": "teasing",
    "terms": 371,
-   "bytes": 210060,
+   "bytes": 70207,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/sy.txt"
   },
   {
@@ -2223,47 +2095,39 @@
     "teu",
     "tev",
     "tex",
-    "tf",
-    "th_"
+    "tf"
    ],
    "file": "search/terms/tec.txt",
    "first": "tecendo",
-   "last": "th",
-   "terms": 388,
-   "bytes": 214855,
+   "last": "tfrac12",
+   "terms": 387,
+   "bytes": 69161,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/tec.txt"
   },
   {
    "keys": [
-    "tha",
-    "the",
-    "thi",
-    "tho"
+    "th"
    ],
-   "file": "search/terms/tha.txt",
-   "first": "tha",
-   "last": "thousandth",
-   "terms": 187,
-   "bytes": 205902,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/tha.txt"
+   "file": "search/terms/th.txt",
+   "first": "th",
+   "last": "thz",
+   "terms": 271,
+   "bytes": 50914,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/th.txt"
   },
   {
    "keys": [
-    "thr",
-    "thu",
-    "thy",
-    "thz",
     "ti",
     "tj",
     "tl",
     "tm"
    ],
-   "file": "search/terms/thr.txt",
-   "first": "thr",
+   "file": "search/terms/ti.txt",
+   "first": "ti",
    "last": "tms",
-   "terms": 263,
-   "bytes": 169221,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/thr.txt"
+   "terms": 180,
+   "bytes": 36763,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ti.txt"
   },
   {
    "keys": [
@@ -2276,7 +2140,7 @@
    "first": "tô",
    "last": "tr",
    "terms": 251,
-   "bytes": 168175,
+   "bytes": 35189,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/to.txt"
   },
   {
@@ -2288,7 +2152,7 @@
    "first": "trabalha",
    "last": "três",
    "terms": 388,
-   "bytes": 249311,
+   "bytes": 69374,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/tra.txt"
   },
   {
@@ -2321,7 +2185,7 @@
    "first": "tri",
    "last": "uluru",
    "terms": 387,
-   "bytes": 225387,
+   "bytes": 67990,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/tri.txt"
   },
   {
@@ -2338,7 +2202,7 @@
    "first": "um",
    "last": "unextended",
    "terms": 369,
-   "bytes": 140844,
+   "bytes": 63163,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/um.txt"
   },
   {
@@ -2361,7 +2225,7 @@
    "first": "unfailingly",
    "last": "unruh",
    "terms": 376,
-   "bytes": 152537,
+   "bytes": 69193,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/unf.txt"
   },
   {
@@ -2394,7 +2258,7 @@
    "first": "uns",
    "last": "vᵧ",
    "terms": 358,
-   "bytes": 160787,
+   "bytes": 59575,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/uns.txt"
   },
   {
@@ -2407,7 +2271,7 @@
    "first": "vá",
    "last": "vdid",
    "terms": 177,
-   "bytes": 89299,
+   "bytes": 34244,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/va.txt"
   },
   {
@@ -2419,7 +2283,7 @@
    "first": "vê",
    "last": "vfx",
    "terms": 220,
-   "bytes": 79857,
+   "bytes": 34398,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/ve.txt"
   },
   {
@@ -2439,7 +2303,7 @@
    "first": "vi",
    "last": "vtxzl",
    "terms": 393,
-   "bytes": 214222,
+   "bytes": 66114,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/vi.txt"
   },
   {
@@ -2457,7 +2321,7 @@
    "first": "vu",
    "last": "weyl",
    "terms": 328,
-   "bytes": 227856,
+   "bytes": 67708,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/vu.txt"
   },
   {
@@ -2470,7 +2334,7 @@
    "first": "wh8eas",
    "last": "wmap",
    "terms": 278,
-   "bytes": 176598,
+   "bytes": 55264,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/wh.txt"
   },
   {
@@ -2482,26 +2346,26 @@
     "wu",
     "wv",
     "wx",
-    "x"
+    "x",
+    "y"
    ],
    "file": "search/terms/wo.txt",
    "first": "wǒ",
-   "last": "xz",
-   "terms": 223,
-   "bytes": 204121,
+   "last": "yz72r",
+   "terms": 318,
+   "bytes": 56005,
    "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/wo.txt"
   },
   {
    "keys": [
-    "y",
     "z"
    ],
-   "file": "search/terms/y.txt",
-   "first": "y0",
+   "file": "search/terms/z.txt",
+   "first": "z₀",
    "last": "zyn",
-   "terms": 182,
-   "bytes": 96441,
-   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/y.txt"
+   "terms": 87,
+   "bytes": 9311,
+   "url": "https://uracrom.github.io/My-Titanium-Brothers/search/terms/z.txt"
   }
  ]
 }

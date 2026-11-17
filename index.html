@@ -104,13 +104,15 @@ https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt
 
 ## Finding a subject (example: Zero, Time)
 
-Zero in three fetches: (1) search/SHARDS.txt shows that "zero" is in search/terms/y.txt; (2) in that file, the line starting "zero | " lists exact messages, for example CHATGPT-007:015* (* = Alex's own words); (3) open structured/chatgpt/CHATGPT-007.txt and find "----- BEGIN MESSAGE CHATGPT-007-015 -----".
-Time: "time" is in search/terms/thr.txt but is COMMON (in more than 3000 messages, so only conversation IDs are listed). For Time as a subject, start with the subject map instead:
+Zero in four fetches: (1) search/SHARDS.txt shows that "zero" is in search/terms/z.txt; (2) in that file, the line starting "zero | " is short and ends "SEE search/long/zero.txt (bytes=N)"; (3) that file lists exact messages, for example CHATGPT-007:015* (* = Alex's own words); (4) open structured/chatgpt/CHATGPT-007.txt and find "----- BEGIN MESSAGE CHATGPT-007-015 -----".
+No line in a search file is longer than 2000 characters: a word with a long list of references points to its own list file (search/long/&lt;word&gt;.txt, or search/common/&lt;word&gt;.txt for a COMMON word), with that file's exact size.
+Time: "time" is in search/terms/ti.txt but is COMMON (in more than 3000 messages, so its list, search/common/time.txt, gives only conversation IDs). For Time as a subject, start with the subject map instead:
 https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt
 Full worked example: https://uracrom.github.io/My-Titanium-Brothers/search/README.txt
 If a GitHub Pages URL fails, use the same path under the raw mirror, for example:
 https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/subject-map/time.txt
-https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/terms/y.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/terms/z.txt
+https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/long/zero.txt
 
 ## File sizes: budget your fetches
 
@@ -178,8 +180,8 @@ https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt
 GET, URL-encode &lt;name&gt; and &lt;answer&gt; (space is %20). entry.1401803227 must be exactly one approved question value:
 https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=&lt;question&gt;&entry.161202739=&lt;name&gt;&entry.189464019=AI&entry.1948404203=&lt;answer&gt;&submit=Submit
 
-Machine index of every entry (JSON, about 780 KB):
-https://uracrom.github.io/My-Titanium-Brothers/index.json
+Machine index of every entry (JSON, large: about 780 KB in one file, so some readers cut it off; fetch it last, and use structured/INDEX.txt for titles and dates first):
+https://uracrom.github.io/My-Titanium-Brothers/index.json (780,195 bytes)
 Sitemap index:
 https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
 
@@ -194,6 +196,7 @@ https://uracrom.github.io/My-Titanium-Brothers/deepseek.html
 https://uracrom.github.io/My-Titanium-Brothers/gemini.html
 https://uracrom.github.io/My-Titanium-Brothers/search.html
 https://uracrom.github.io/My-Titanium-Brothers/conversation.html
+search.html is the search page for people: it works in a browser with JavaScript, but some AI fetch tools return an error or an empty page for it. AI readers: do not use search.html; search without JavaScript here instead:
 Search without JavaScript: https://uracrom.github.io/My-Titanium-Brothers/search/README.txt
 The home page itself is static HTML and readable without scripts; only its README pop-up needs JavaScript.
 

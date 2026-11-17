@@ -115,15 +115,16 @@ search.html needs scripts. The folder search/ does the same job with small stati
 - List of terms files: https://uracrom.github.io/My-Titanium-Brothers/search/SHARDS.txt
 - Words left out (stopwords): https://uracrom.github.io/My-Titanium-Brothers/search/STOPWORDS.txt
 - Same information as JSON: https://uracrom.github.io/My-Titanium-Brothers/search/index.json
+- Full reference lists of very frequent words: search/common/<word>.txt (COMMON words) and search/long/<word>.txt (other words with long lists)
 
-In short: write the word in lowercase without apostrophes, find its terms file in SHARDS.txt, and read the word's line. It lists conversation IDs and message numbers (GROK-001:003 means message GROK-001-003; a * marks Alex's own words). For an exact phrase, look up its rarest words, keep the messages that have all of them, then open those messages in structured/<collection>/<ID>.txt and confirm the wording. Every terms file is under 250 KB and 400 lines. The index is a derived aid: it says where words appear, not what they mean.
+In short: write the word in lowercase without apostrophes, find its terms file in SHARDS.txt, and read the word's line. It lists conversation IDs and message numbers (GROK-001:003 means message GROK-001-003; a * marks Alex's own words). If the word has too many references for one short line, its line ends with "SEE search/long/<word>.txt (bytes=N)" (or search/common/ for a COMMON word): fetch that file, whose exact size is N bytes. No line in a search file is longer than 2000 characters. For an exact phrase, look up its rarest words, keep the messages that have all of them, then open those messages in structured/<collection>/<ID>.txt and confirm the wording. Every terms file is under 250 KB and 400 lines. The index is a derived aid: it says where words appear, not what they mean.
 
-Very frequent words such as "time" (in more than 3000 messages) are COMMON: their line lists only conversation IDs. Pair them with a rarer word, or for a broad subject such as Time start with the subject map: https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt. The search guide has a worked example, "Find Zero and Time in three fetches".
+Very frequent words such as "time" (in more than 3000 messages) are COMMON: their list file in search/common/ gives only conversation IDs. Pair them with a rarer word, or for a broad subject such as Time start with the subject map: https://uracrom.github.io/My-Titanium-Brothers/subject-map/time.txt. The search guide has a worked example, "Find Zero and Time in four fetches".
 
 ## What needs JavaScript (skip these if your reader cannot run it)
 
 - Per-model human pages: grok.html, claude.html, chatgpt.html, chatgpt-whatsapp.html, copilot.html, deepseek.html, gemini.html
-- search.html and conversation.html (for search without scripts, use search/README.txt above)
+- search.html and conversation.html (for search without scripts, use search/README.txt above; some AI fetch tools return an error for search.html, which is expected)
 
 Those pages show "Loading…" (or an empty search box) until scripts run. That is expected. Use the static files above instead.
 
@@ -131,7 +132,7 @@ The home page (https://uracrom.github.io/My-Titanium-Brothers/) is **not** in th
 
 ## Other static entry points
 
-- Machine index (JSON, about 780 KB): https://uracrom.github.io/My-Titanium-Brothers/index.json
+- Machine index (JSON, 780,195 bytes, about 780 KB; large, so fetch it last; some readers cut it off): https://uracrom.github.io/My-Titanium-Brothers/index.json
 - Sitemap index: https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml
 
 ## Big files (fetch last)
