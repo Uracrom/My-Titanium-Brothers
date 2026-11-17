@@ -17,6 +17,8 @@
   "alex_own_words_note": "A conservative selection of Alex's own words, in chronological order."
  },
  "index_json": "https://uracrom.github.io/My-Titanium-Brothers/index.json",
+ "index_json_bytes": 780195,
+ "index_json_note": "index.json is large (about 780 KB; exact size in index_json_bytes) and some readers cut it off; fetch it last. structured/INDEX.txt lists titles and dates in small files.",
  "archive_html": "https://uracrom.github.io/My-Titanium-Brothers/archive.html",
  "sitemap": "https://uracrom.github.io/My-Titanium-Brothers/sitemap.xml",
  "note": "llms.txt and llms-*.txt are short chunked lists for readers with length limits. llms-full.txt and raw/*.md are bulk dumps for large-context readers; fetch them last. The home page (index.html) is static HTML; only its README pop-up needs JavaScript. The per-model human pages (grok.html, claude.html, etc.), search.html, and conversation.html need JavaScript and show \"Loading\u2026\" without it.",
@@ -347,11 +349,15 @@
   "builder": "https://uracrom.github.io/My-Titanium-Brothers/tools/build_search_index.py",
   "raw_readme": "https://raw.githubusercontent.com/Uracrom/My-Titanium-Brothers/main/search/README.txt",
   "words": 42129,
-  "terms_files": 139,
+  "terms_files": 133,
   "messages_indexed": 25992,
   "conversations_indexed": 1220,
   "max_terms_file_bytes": 250000,
   "max_terms_file_lines": 400,
+  "max_line_chars": 2000,
+  "list_files": "A word whose references do not fit on one short line has its own list file; its terms line ends with SEE <file> (bytes=N). COMMON words: search/common/<word>.txt (61 files). Other long lists: search/long/<word>.txt (3255 files).",
+  "common_list_example": "https://uracrom.github.io/My-Titanium-Brothers/search/common/time.txt",
+  "long_list_example": "https://uracrom.github.io/My-Titanium-Brothers/search/long/zero.txt",
   "alex_marker": "* after a message number means SPEAKER: ALEX and the word is in his own (not pasted) text"
  },
  "large_file_parts": {

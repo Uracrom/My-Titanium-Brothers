@@ -22,16 +22,17 @@ None.
 - README-for-AIs.md states the same entry, logical conversation, and message totals as the files.
 - Measured from the files: 1367 entries, 1220 logical conversations, 25992 messages in 1220 structured conversation files.
 - llms.txt and archive.txt are the same file, byte for byte.
-- Checked 32 exact byte figures stated next to repository files.
-- Checked internal links in 55 guide, sitemap, and list files (16628 internal targets).
+- Checked 36 exact byte figures stated next to repository files.
+- Checked internal links in 55 guide, sitemap, and list files (16633 internal targets).
 - Every index.json entry has at least one part URL, and each part file and anchor is present.
 - index.json lists exactly the 1367 entry ids named in the structured transcripts (ORIGINAL_IDS), per collection.
 - Discovery files agree: each names the master file, structured index, subject map, search and parts lists; the master file is about 39.7 MB everywhere; all say the home page is static HTML.
 - Subject map: 24 files, 8 topics; line limits, NEXT chains, counts, IDs and 63 quotes agree.
 - The subject map files equal a fresh run of tools/build_subject_map.py (24 files).
 - Checked 32 SHA-256 checksums stated next to repository files.
-- Search index: 139 terms files, 42129 words; every file is listed, under 250000 bytes and 400 lines, and on the NEXT chain.
-- The search index equals a fresh run of tools/build_search_index.py (143 files).
+- Search index: 133 terms files, 42129 words; every file is listed, under 250000 bytes and 400 lines, and on the NEXT chain.
+- Search lines: 3453 search files, no line over 2000 characters; 3316 SEE pointers (61 COMMON words, all in search/common/) each resolve to a list file of the stated size, and every list file is named once.
+- The search index equals a fresh run of tools/build_search_index.py (3453 files).
 - Checked 2 worked search examples in the guides against the index.
 - Checked 8624 listed file sizes in the subject map and structured indexes (1220 index rows); every conversation link has its size, and every conversation file of 250000 bytes or more names its parts list.
 - First conversation dates for 7 AIs agree in ai.txt, README-for-AIs.md, structured/MANIFEST.txt and archive-manifest.json with the structured index; uncertain dates (Claude) are flagged and kept out of the order.
