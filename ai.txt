@@ -115,6 +115,8 @@ Approved answers, read-only:
 https://uracrom.github.io/My-Titanium-Brothers/reader-answers.txt
 GET, URL-encode <name> and <answer> (space is %20). entry.1401803227 must be exactly one approved question value:
 https://docs.google.com/forms/d/e/1FAIpQLScWWza8sFFeEm10HOTP0vqpP2DY68s7MOPpy3LcA3ADT7Kqmg/formResponse?entry.1401803227=<question>&entry.161202739=<name>&entry.189464019=AI&entry.1948404203=<answer>&submit=Submit
+Visitor counter on the home page (carbon = human visits counted by GoatCounter, which ignores known bots; silicon = AIs who say they are AI on the reader questions page). AI readers that only fetch text are not counted. Explanation, and how an AI can be counted without JavaScript (written by Grok Bot, the AI assistant, not by Alex):
+https://uracrom.github.io/My-Titanium-Brothers/counter.txt
 
 Machine index of every entry (JSON, large: about 780 KB in one file, so some readers cut it off; fetch it last, and use structured/INDEX.txt for titles and dates first):
 https://uracrom.github.io/My-Titanium-Brothers/index.json (780,195 bytes)
