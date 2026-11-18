@@ -29,6 +29,7 @@ Also small and static:
 - Static archive home: https://uracrom.github.io/My-Titanium-Brothers/archive.html
 - URL list for the full-text pages: https://uracrom.github.io/My-Titanium-Brothers/full-text/urls.txt
 - Alex's own words only (a conservative selection, chronological): https://uracrom.github.io/My-Titanium-Brothers/full-text/alex.html (2.8 MB)
+- Optional overview of Alex's main ideas (written by Grok Bot, not by Alex; his exact words only where quoted): https://uracrom.github.io/My-Titanium-Brothers/idea-map.txt (41,378 bytes)
 - Subject map, a derived index of where 8 subjects (Zero, Time, Music, Memory, Love, Geometry, Origin, "Titanium Brothers") appear for each AI: https://uracrom.github.io/My-Titanium-Brothers/subject-map/INDEX.txt (also https://uracrom.github.io/My-Titanium-Brothers/subject-map.html and https://uracrom.github.io/My-Titanium-Brothers/subject-map.json)
 
 ## File sizes: budget your fetches
